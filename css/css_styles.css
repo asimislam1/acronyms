@@ -1,0 +1,197 @@
+body {
+   font-family: Trebuchet MS;
+   line-height: 1.8;
+   /* margin: 0; */
+   padding: 20px;
+   background-color: whitesmoke;
+   margin-left: 20px;
+
+   /* background-image: url(./../images/pinterest_3d789.jpg); */
+   background-color: #edf756;  /* incase image does not load */
+   background-repeat: no-repeat; /* Prevent tiling */
+   background-attachment: fixed; /* Keep image fixed during scroll */
+   background-size: cover; /* Scale to cover entire area */
+}
+
+header {
+   text-align: center;
+   background-color: black;
+   color:white;
+   padding: 1rem 0;
+}
+
+h1 {
+   font-size: 40px;
+   margin-left: 20px;
+   line-height: .1;
+}
+
+h2 {
+   font-family: Arial, Helvetica, sans-serif ;
+   font-size: 40px;
+   color: grey;
+   text-align: center;
+}
+
+h3 {
+   text-align: left;
+   margin-left: 20px;
+}
+
+
+/* remove border from fieldset tag  */
+fieldset {
+   border: none;           /* removes the border */
+   padding: 10px;          /* add inner spacing */
+   margin: 0;              /* removes outer spacing */
+   min-inline-size: auto;  /* prevents default min width in some browsers */
+   margin-left: 40px;      /* line up box with body */
+}
+
+
+/* error message class */
+.error {
+   font-family: 'Trebuchet MS';
+   font-weight: bold;
+   font-size: 16px;
+   color: red;
+}
+
+
+/* format the Choose file button */
+input[type="file"] {
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   font-size: 16px;
+   margin-left: 20px;
+}
+
+#file_info {
+   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   font-size: 16px;
+   font-weight: normal;
+}
+
+/* format the input buttons */
+input[type="text"] {
+   margin-left: 20px;
+   width: 600px;               /* Set width */
+   padding: 10px;              /* Inner space inside the input */
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   font-size:24px;             /* Text size */
+   font-weight: bold;
+   color: navy;
+   /* background-color: white; */
+   border: 1px solid white;   /* Border color */
+   border-radius: 15px;        /* Rounded corners */
+   box-sizing: border-box;     /* Ensures padding doesn't increase total width */
+}
+
+/* input[type="radio"] {
+   border-radius: 50%;
+   width: 16px;
+   height: 16px;
+   border: 2px solid #999;
+   transition: 0.2s all linear;
+   margin-left: 20px;
+   margin-top: 20px;
+   margin-right: 5px;
+   position: relative;
+   top: 10px;
+}
+
+input[type="radio"]:checked {
+   border: 20px solid black;
+}
+*/
+ 
+input[type="checkbox"] {
+   width: 16px;
+   height: 16px;
+}
+
+
+/* format the output from the search */
+#output {
+   overflow: visible;         /* add scrollbar if content exceeds limits */
+   background-color: #FAFAFA;
+   margin-left: 30px;
+   font-family: monospace; /* Ensures fixed-width font */
+   white-space: pre-wrap;  /* Preserves formatting and wraps long lines */
+   word-wrap: break-word;  /* Prevents overflow for long words */
+}
+
+#output1 {
+   max-width:  800px;      /* limit width */
+   max-height: 700px;      /* limit height */
+   overflow: auto;         /* add scrollbars if content exceeds limits */
+   background-color: #f4f4f4;
+
+   position: absolute;     /* required for left to take effect */
+   left: 20px;             /* 20px from the left edge of the page */
+   padding: 2px; 
+   padding-left: 20px;     /* left horizontal padding */
+   border: 1px solid #ccc;
+   font-family: monospace; /* Ensures fixed-width font */
+   white-space: pre-wrap;  /* Preserves formatting and wraps long lines */
+   word-wrap: break-word;  /* Prevents overflow for long words */
+}
+
+
+tribute-image {
+   display: block;
+   margin: 20px auto;
+   max-width: 300px;
+   width: 300px;
+   height: auto;
+}
+
+
+footer {
+   text-align: center;
+   margin-top: 20px;
+}
+
+
+
+inline-text {
+   display: inline; /* Keeps elements on the same line */
+}
+
+
+/*  IMAGES  */
+img {
+   vertical-align: top;
+    width: 180px;
+    height: auto;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+img:hover .filename {
+   opacity: 1;
+}
+
+
+/* Shrink image to a fixed size */
+.shrink-fixed {
+    width: 200px;   /* Set desired width */
+    height: auto;   /* Maintain aspect ratio */
+}
+
+/* Shrink image proportionally to container width */
+.shrink-responsive {
+    max-width: 25%; /* Image will be at most 50% of container width */
+    height: auto;   /* Maintain aspect ratio */
+}
+
+/* Shrink image with smooth scaling on hover */
+.shrink-hover {
+    width: 250px;
+    height: auto;
+    transition: transform 0.3s ease;
+}
+
+.shrink-hover:hover {
+    transform: scale(0.75); /* Shrinks to 80% of original size */
+}
+
