@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- <meta charset="UTF-8"> -->
+    <meta charset="ISO-8859-1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>acronyms</title>
+    <link rel="stylesheet" href="./css/css_styles.css">
+    <link rel="icon" type="image/png" href="/images/pinterest_0d52a.jpg" sizes="16x16 32x32">
+</head>
+
+
+<body>
+<h1>Acronym Search</h1>
+<br>
+
+<!-- file and search text input box -->
+<input type="file" id="fileInput" accept=".txt">
+<span id="file_info" style="font-size:16px;; font-weight: bold;" ></span><br><br>
+<input type="text" id="searchText" autocomplete="off" placeholder="string search + regex">
+<!-- <input type="text" id="regexFlags" placeholder="Flags (e.g. i, g, m)"> -->
+<br>
+
+<!-- Flags checkboxes -->
+<fieldset>
+    <!-- checkboxes -->
+    <label><input type="checkbox" id="cb_star" value="^"><span style="font-family:'Trebuchet MS'; vertical-align:auto;">  starts with</span></label>
+    <label><input type="checkbox" id="cb_case" value="i" checked><span style="font-family:'Trebuchet MS'; vertical-align:auto;">  ignore case</span></label>
+    <label><input type="checkbox" id="cb_word" value="b"><span style="font-family:'Trebuchet MS'; vertical-align:auto;">  whole word</span></label>
+    <!--  show searchText, flags and count of matches -->
+    <span id="pattern_flag"></span>
+    <span id="match_counts"></span>
+</fieldset>
+
+
+<!-- OUTPUT for function searchInFile -->
+<hr>
+<div id="output" style="background: white;">    ~~~  output window  ~~~</div>
+<hr>
+
+
+
+
+<!-- =============================================== -->
+<!-- JAVASCRIPT -->
+ <!-- =============================================== -->
+<script>
+//===============================================
+//  FILE LOAD
+//  o  read and display file in id="output"
+//  o  display number of lines and last updated
+//  o  console output with name, size, type and lines
+//===============================================
+document.getElementById("fileInput").addEventListener("change", function (event) {
+    const file = event.target.files[0];
+    const reader = new FileReader();
+
+    reader.onload = function (e) {
+        document.getElementById("output").textContent = reader.result;
+        
+        const content = e.target.result;            // file name and line count
+        const lines = content.split(/\r\n|\n|\r/);  // newline:  windows \r\n, unix \n, old mac \r
+        const date = new Date(file.lastModified);   // last modified
+        const formattedDate = date.toISOString().split('T')[0];        
+        
+        // display line count and last updated
+        document.getElementById('file_info').innerHTML = `${lines.length} acronyms, last updated:  ${formattedDate}`;
+        console.log(`-- file:  "${file.name}" with ${lines.length} lines`);
+    };
+
+    reader.readAsText(file); // read file as text with encoding = UTF-8
+
+    // display file information in console
+    console.log('file name: ', document.getElementById('fileInput').files[0].name);
+    console.log('file size: ', document.getElementById('fileInput').files[0].size, 'bytes');
+    console.log('file type: ', document.getElementById('fileInput').files[0].type);
+
+    // clear out the searchText, pattern_flag & match_counts when "Choose File" executes
+    console.log('clear searchText:  ', document.getElementById('searchText').value);
+    document.getElementById('searchText').value = "";
+    document.getElementById('pattern_flag').innerHTML = "";
+    document.getElementById('match_counts').innerHTML = "";
+});
+//===============================================
+
+
+//===============================================
+//  SEARCH FOR PATTERNS
+//  o  function searchInFile triggered by 3 EventListeners
+//  o  get searchText and Flags
+//  o  if Flags has whole word flag "b": update flags and pattern
+//  o  search pattern
+//===============================================
+//-----------------------------------------------
+//  function searchInFile, get searchText and Flags
+//-----------------------------------------------
+function searchInFile() {
+    const file      = document.getElementById('fileInput').files[0];
+    const resultDiv = document.getElementById('output');
+    let pattern     = document.getElementById('searchText').value;
+    let flags = Array.from(document.querySelectorAll('input[type="checkbox"]:checked'))
+                     .map(cb => cb.value)
+                     .join('');
+
+
+                     // display pattern and flags on webpage
+    document.getElementById('pattern_flag').innerHTML = `${pattern}/${flags}  `;
+
+    
+    // check if a text file has been selected
+    if (!file) {
+        resultDiv.textContent = "Please select a file first.";
+        return;
+    }
+
+    //  -- not needed with searchText event="input" instead of "click"
+    //  if pattern is empty, show the file content
+    //  if (!pattern) {
+    //     resultDiv.textContent = "Please enter a regex pattern.";
+    //     return;
+    // }
+
+    //  if START WORD is CHECKED, value = "^", update FLAG and PATTERN
+    //  o  flag:     remove flag value=b from flags
+    //  o  pattern:  add the "\b"s at beginning and end:  (`\\b${word}\\b`, "gi")
+    if (flags.includes("^")) {
+        flags = flags.replace(/\^/g, "");  // remove all "b" for whole word
+        pattern = pattern.replace(`${pattern}`, `\^${pattern}`);
+        console.log(`pattern & flag "^":  ${pattern}/${flags}`);
+    }
+
+    //  if WHOLE WORD is CHECKED, value = "b", update FLAG and PATTERN
+    //  o  flag:     remove flag value=b from flags
+    //  o  pattern:  add the "\b"s at beginning and end:  (`\\b${word}\\b`, "gi")
+    if (flags.includes("b")) {
+        flags = flags.replace(/b/g, "");  // remove all "b" for whole word
+        pattern = pattern.replace(`${pattern}`, `\\b${pattern}\\b`);
+        console.log(`pattern & flag "b":  ${pattern}/${flags}`);
+    }
+//-----------------------------------------------
+    
+
+//-----------------------------------------------
+//  "whole word" check
+//  o  update flags and pattern variables
+//-----------------------------------------------
+    //  search for pattern + flags
+    let regex;
+    try {
+        regex = new RegExp(pattern, flags);
+    } catch (e) {
+        resultDiv.textContent = "Invalid regex: " + e.message;
+        return;
+    }
+//-----------------------------------------------
+
+
+//-----------------------------------------------
+//  search pattern
+//-----------------------------------------------
+    const reader = new FileReader();
+    reader.onload = function(e) {
+      const content = e.target.result;
+      const lines = content.split(/\r?\n/);
+
+      let matches = [];
+      lines.forEach((line, index) => {
+        if (regex.test(line)) {
+          // matches.push(`Line ${index + 1}: ${line}`);  // show line numbers
+          matches.push(`${line}`);
+        }
+      });
+
+    //  if statement:  (name === 'true') ? 'Y' :'N';
+    resultDiv.textContent = matches.length
+        ? matches.join("\n")
+        : "No matches found."
+
+        // display number of matches
+        document.getElementById('match_counts').innerHTML = `${matches.length} matches`;
+    };
+  // };
+
+  reader.readAsText(file);
+};
+//-----------------------------------------------
+//===============================================
+
+
+//===============================================
+//  EVENT LISTENER on TEXT and CHECKBOXES
+//===============================================
+searchText.addEventListener('input', () => {searchInFile(searchText.value);});
+cb_star.addEventListener('change',   () => {searchInFile(searchText.value);});
+cb_case.addEventListener('change',   () => {searchInFile(searchText.value);});
+cb_word.addEventListener('change',   () => {searchInFile(searchText.value);});
+//===============================================
+</script>
+<!-- =============================================== -->
+
+<h3 style="text-align: center;">--- end ---</h3>
+
+
+<!--#############################################-->
+<!-- FONT FAMILY -->
+<!--#############################################-->
+<section>
+    <img src="images/pinterest_0d52a.jpg"> 
+    <img src="images/pinterest_53d97d.jpg">
+    <img src="images/pinterest_00358.jpg">
+    <img src="images/pinterest_304b7.jpg">
+</section>
+<!-- <section>
+    <h3 style="color:darkgreen">images with basic CSS coding</h3>
+    <img src="images/pinterest_41597.jpg" alt="example Image"> 
+    <img src="images/pinterest_69607.jpg" alt="example Image">
+    <img src="images/JeonJongSeo.jpg" alt="example Image">
+    <img src="images/pinterest_31795.jpg" alt="example Image"><br>
+    <h3 style="color:darkblue">images with "shrink" CSS coding</h3>
+    <img src="images/pinterest_75038.jpg" alt="example Image" class="shrink-fixed">
+    <img src="images/pinterest_00302.jpg" alt="example Image" class="shrink-responsive"> 
+    <img src="images/pinterest_00808.jpg" alt="example Image" class="shrink-hover">
+    <img src="images/pinterest_00492.jpg" alt="example Image" class="shrink-hover">
+    <figcaption>shrink-fixed, shrink-responsive, shrink-hover</figcaption>
+</section>
+<section>
+    <h1 style="color:navy">font family</h1>
+    <h3 style="font-family: 'Courier New', Courier, monospace;">Courier New, Courier, monospace</h3>
+    <h3 style="font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif">Franklin Gothic Medium, Arial Narrow, Arial, sans-serif</h3>
+    <h3 style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif">Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif</h3>
+    <h3 style="font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif">Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif</h3>
+    <h3 style="font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif">Segoe UI', Tahoma, Geneva, Verdana, sans-serif</h3>
+    <h3 style="font-family:'Times New Roman', Times, serif">Times New Roman', Times, serif</h3>
+    <h3 style="font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif">Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif</h3>
+    <h3 style="font-family:Arial, Helvetica, sans-serif">Arial, Helvetica, sans-serif</h3>
+    <h3 style="font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif">Cambria, Cochin, Georgia, Times, 'Times New Roman', serif</h3>
+    <h3 style="font-family:Georgia, 'Times New Roman', Times, serif">Georgia, 'Times New Roman', Times, serif</h3>
+    <h3 style="font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif">Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif</h3>
+    <h3 style="font-family:Verdana, Geneva, Tahoma, sans-serif">Verdana, Geneva, Tahoma, sans-serif</h3>
+    <h3 style="font-family:cursive">cursive</h3>
+    <h3 style="font-family:fantasy">fantasy</h3>
+    <h3 style="font-family:monospace">monospace</h3>
+    <h3 style="font-family:sans-serif">sans-serif</h3>
+    <h3 style="font-family:serif">serif</h3>
+    <h3 style="font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif">system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif</h3>
+</section> -->
+
+
+</body>
+</html>
