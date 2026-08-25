@@ -189,4 +189,3 @@ img:hover .filename {
 .shrink-hover:hover {
     transform: scale(0.75); /* Shrinks to 80% of original size */
 }
-
