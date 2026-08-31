@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- <meta charset="UTF-8"> -->
+    <meta charset="ISO-8859-1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>acronyms</title>
+    <link rel="stylesheet" href="./css/css_styles.css">
+    <link rel="icon" type="image/png" href="/images/pinterest_0d52a.jpg" sizes="16x16 32x32">
+</head>
+
+
+<body>
+<h1>Acronym Search</h1>
+<!-- file and search text input box -->
+<!-- <input type="file" id="fileInput" accept=".txt"> -->
+<span id="file_info" style="font-size:18px;; font-weight: bold; float: right;" ></span>
+<input type="text" id="searchText" autocomplete="off" placeholder="acronym string search + regex">
+<!-- <input type="text" id="regexFlags" placeholder="Flags (e.g. i, g, m)"> -->
+<br>
+
+<!-- Flags checkboxes -->
+<fieldset>
+    <!-- checkboxes -->
+    <label><input type="checkbox" id="cb_star" value="^"><span style="font-family:'Trebuchet MS'; vertical-align:auto;">  starts with</span></label>
+    <label><input type="checkbox" id="cb_case" value="i" checked><span style="font-family:'Trebuchet MS'; vertical-align:auto;">  ignore case</span></label>
+    <label><input type="checkbox" id="cb_word" value="b"><span style="font-family:'Trebuchet MS'; vertical-align: auto;">  whole word</span></label>
+    <!--  show searchText, flags and count of matches -->
+    <span id="pattern_flag"></span>
+    <span id="match_counts"></span>
+</fieldset>
+
+<!-- OUTPUT for function searchInFile -->
+<hr>
+<div id="output" style="background: white;">     ~~~  output window  ~~~</div>
+<hr>
+
+
+
+
+<!-- =============================================== -->
+<!-- JAVASCRIPT -->
+ <!-- =============================================== -->
+<script>
+//===============================================
+//  FILE LOAD with FETCH
+//  o  read and display file from raw URL link
+//  o  display number of lines and last updated
+//  o  console output with name, size, type and lines
+//===============================================
+var text = '';
+window.onload = function() {
+  //  get Raw URL link from GitHub, not the BLOB URL
+  const url = "https://raw.githubusercontent.com/asimislam1/acronyms/refs/heads/main/acronyms.txt";
+  const content = document.getElementById('output');
+
+  console.log('-- window.onload:  file size:  %d', text.length);
+
+
+  fetch(url)
+    .then(response => {
+      if (!response.ok) throw new Error("HTTP error " + response.status);
+      return response.text();
+    })
+    .then(text => {
+      content.textContent = text;
+
+      //  display file information in console: file name, file size, line count
+      const fileName = url.split('/').pop()
+      const filesize  = text.length.toLocaleString('en-US');
+      const lines     = text.split(/\r?\n/);
+      const lineCount = lines.length.toLocaleString('en-US')
+      
+      console.log(`file name: ${fileName}`);    
+      console.log(`-- file: ${filesize} Bytes  ${lineCount} lines`);
+      //document.getElementById('file_info').innerHTML = `${fileName}`;
+      document.getElementById('file_info').innerHTML = `${fileName}, ${lineCount} acronyms`;
+    })
+    .catch(err => {
+      content.textContent = "Error: " + err.message;
+    });
+
+    // ??? TODO - var to use here for fileName and lineCount
+};
+//===============================================
+
+
+//===============================================
+//  SEARCH FOR PATTERNS
+//  o  function searchInFile triggered by 3 EventListeners
+//  o  get searchText and Flags
+//  o  if Flags has whole word flag "b": update flags and pattern
+//  o  search pattern
+//===============================================
+//-----------------------------------------------
+//  function searchInFile, get searchText and Flags
+//-----------------------------------------------
+function searchInFile() {
+    //const file      = document.getElementById('fileInput').files[0];
+    const resultDiv = document.getElementById('output');
+    let pattern     = document.getElementById('searchText').value;
+    let flags = Array.from(document.querySelectorAll('input[type="checkbox"]:checked'))
+                     .map(cb => cb.value)
+                     .join('');
+
+
+                     // display pattern and flags on webpage
+    document.getElementById('pattern_flag').innerHTML = `${pattern}/${flags}  `;
+    console.log('resultDiv', resultDiv.textContent.length)
+
+    
+    //  if START WORD is CHECKED, value = "^", update FLAG and PATTERN
+    //  o  flag:     remove flag value=b from flags
+    //  o  pattern:  add the "\b"s at beginning and end:  (`\\b${word}\\b`, "gi")
+    if (flags.includes("^")) {
+        flags = flags.replace(/\^/g, "");  // remove all "b" for whole word
+        pattern = pattern.replace(`${pattern}`, `\^${pattern}`);
+        console.log(`pattern & flag "^":  ${pattern}/${flags}`);
+    }
+
+    //  if WHOLE WORD is CHECKED, value = "b", update FLAG and PATTERN
+    //  o  flag:     remove flag value=b from flags
+    //  o  pattern:  add the "\b"s at beginning and end:  (`\\b${word}\\b`, "gi")
+    if (flags.includes("b")) {
+        flags = flags.replace(/b/g, "");  // remove all "b" for whole word
+        pattern = pattern.replace(`${pattern}`, `\\b${pattern}\\b`);
+        console.log(`pattern & flag "b":  ${pattern}/${flags}`);
+    }
+//-----------------------------------------------
+    
+
+//-----------------------------------------------
+//  "whole word" check
+//  o  update flags and pattern variables
+//-----------------------------------------------
+    //  search for pattern + flags
+    let regex;
+    try {
+        regex = new RegExp(pattern, flags);
+        console.log(`regex:  ${pattern}/${flags}`);
+    } catch (e) {
+        resultDiv.textContent = "Invalid regex: " + e.message;
+        return;
+    }
+//-----------------------------------------------
+
+// ???  TODO - refresh "output" as searchText.value changes
+//-----------------------------------------------
+//  search pattern
+//-----------------------------------------------
+    // const reader = new FileReader();
+    //reader.onload = function(e) {
+    //   const content = e.target.result;
+      const content = resultDiv.textContent;
+      const lines = content.split(/\r?\n/);
+
+      let matches = [];
+      lines.forEach((line, index) => {
+        if (regex.test(line)) {
+          // matches.push(`Line ${index + 1}: ${line}`);  // show line numbers
+          matches.push(`${line}`);
+        }
+      });
+
+    //  if statement:  (name === 'true') ? 'Y' :'N';
+    resultDiv.textContent = matches.length
+        ? matches.join("\n")
+        : "No matches found."
+
+        // display number of matches
+        document.getElementById('match_counts').innerHTML = `${matches.length} matches`;
+    // };
+   //};
+
+//   reader.readAsText(file);
+};
+//-----------------------------------------------
+//===============================================
+
+
+//===============================================
+//  EVENT LISTENER on TEXT and CHECKBOXES
+//===============================================
+searchText.addEventListener('input', () => {searchInFile(searchText.value);});
+cb_star.addEventListener('change',   () => {searchInFile(searchText.value);});
+cb_case.addEventListener('change',   () => {searchInFile(searchText.value);});
+cb_word.addEventListener('change',   () => {searchInFile(searchText.value);});
+//===============================================
+</script>
+<!-- =============================================== -->
+
+<h3 style="text-align: center;">--- end ---</h3>
+
+</body>
+</html>
