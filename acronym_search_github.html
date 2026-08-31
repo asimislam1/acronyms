@@ -11,12 +11,10 @@
 
 
 <body>
-<h1>Acronym Search</h1>
+<h1>Acronym Search/GitHub</h1>
 <!-- file and search text input box -->
-<!-- <input type="file" id="fileInput" accept=".txt"> -->
 <span id="file_info" style="font-size:18px;; font-weight: bold; float: right;" ></span>
 <input type="text" id="searchText" autocomplete="off" placeholder="acronym string search + regex">
-<!-- <input type="text" id="regexFlags" placeholder="Flags (e.g. i, g, m)"> -->
 <br>
 
 <!-- Flags checkboxes -->
@@ -32,10 +30,11 @@
 
 <!-- OUTPUT for function searchInFile -->
 <hr>
+<!-- hidden div to hold content of acronym.txt file.  Used in searchInFile function -->
+<div id="acronyms_content" style="display: none;"></div>
+<!-- searchInFile function regex pattern output div -->
 <div id="output" style="background: white;">     ~~~  output window  ~~~</div>
 <hr>
-
-
 
 
 <!-- =============================================== -->
@@ -52,10 +51,9 @@ var text = '';
 window.onload = function() {
   //  get Raw URL link from GitHub, not the BLOB URL
   const url = "https://raw.githubusercontent.com/asimislam1/acronyms/refs/heads/main/acronyms.txt";
+  const acronym = document.getElementById('acronyms_content');   // hidden div
   const content = document.getElementById('output');
-
-  console.log('-- window.onload:  file size:  %d', text.length);
-
+  
 
   fetch(url)
     .then(response => {
@@ -63,24 +61,28 @@ window.onload = function() {
       return response.text();
     })
     .then(text => {
+      acronym.textContent = text;
       content.textContent = text;
 
-      //  display file information in console: file name, file size, line count
-      const fileName = url.split('/').pop()
-      const filesize  = text.length.toLocaleString('en-US');
+
+      //  DISPLAY FILE INFORMATION
+      const fileName  = url.split('/').pop()
+      const fileSize  = text.length.toLocaleString('en-US');
       const lines     = text.split(/\r?\n/);
       const lineCount = lines.length.toLocaleString('en-US')
-      
-      console.log(`file name: ${fileName}`);    
-      console.log(`-- file: ${filesize} Bytes  ${lineCount} lines`);
-      //document.getElementById('file_info').innerHTML = `${fileName}`;
-      document.getElementById('file_info').innerHTML = `${fileName}, ${lineCount} acronyms`;
+
+      console.log(`-- window.onload: ${fileName}|${fileSize} bytes|${lineCount} lines`);
+      console.log(`-- acronyms & content size: ${acronym.textContent.length}`);
+      document.getElementById('file_info').innerHTML = `${fileName}|${fileSize} bytes|${lineCount} acronyms`;
     })
     .catch(err => {
       content.textContent = "Error: " + err.message;
     });
 
     // ??? TODO - var to use here for fileName and lineCount
+    //  - maybe:  read, sort (case insensitive) and load acronym file into "output" div
+    //  - maybe:  lineCount should not count blank lines
+
 };
 //===============================================
 
@@ -96,7 +98,7 @@ window.onload = function() {
 //  function searchInFile, get searchText and Flags
 //-----------------------------------------------
 function searchInFile() {
-    //const file      = document.getElementById('fileInput').files[0];
+    const acronyDIV = document.getElementById('acronyms_content');
     const resultDiv = document.getElementById('output');
     let pattern     = document.getElementById('searchText').value;
     let flags = Array.from(document.querySelectorAll('input[type="checkbox"]:checked'))
@@ -104,14 +106,15 @@ function searchInFile() {
                      .join('');
 
 
-                     // display pattern and flags on webpage
+    // display pattern and flags on webpage
     document.getElementById('pattern_flag').innerHTML = `${pattern}/${flags}  `;
-    console.log('resultDiv', resultDiv.textContent.length)
+    console.log('resultDiv|acronyDIV', resultDiv.textContent.length, acronyDIV.textContent.length)
 
     
+
     //  if START WORD is CHECKED, value = "^", update FLAG and PATTERN
-    //  o  flag:     remove flag value=b from flags
-    //  o  pattern:  add the "\b"s at beginning and end:  (`\\b${word}\\b`, "gi")
+    //  o  flag:     remove flag value=^ from flags
+    //  o  pattern:  add the "^"s at beginning:  (`^{word}`, "gi")
     if (flags.includes("^")) {
         flags = flags.replace(/\^/g, "");  // remove all "b" for whole word
         pattern = pattern.replace(`${pattern}`, `\^${pattern}`);
@@ -126,14 +129,10 @@ function searchInFile() {
         pattern = pattern.replace(`${pattern}`, `\\b${pattern}\\b`);
         console.log(`pattern & flag "b":  ${pattern}/${flags}`);
     }
-//-----------------------------------------------
-    
 
-//-----------------------------------------------
-//  "whole word" check
-//  o  update flags and pattern variables
-//-----------------------------------------------
-    //  search for pattern + flags
+
+    //  UPDATE REGEX BEFORE SEARCH
+    //  o  update flags and pattern variables
     let regex;
     try {
         regex = new RegExp(pattern, flags);
@@ -148,31 +147,29 @@ function searchInFile() {
 //-----------------------------------------------
 //  search pattern
 //-----------------------------------------------
-    // const reader = new FileReader();
-    //reader.onload = function(e) {
-    //   const content = e.target.result;
-      const content = resultDiv.textContent;
-      const lines = content.split(/\r?\n/);
+    const content = acronyDIV.textContent;   // search in the hidden div
+    //const content = resultDiv.textContent;
+    const lines = content.split(/\r?\n/);
 
-      let matches = [];
-      lines.forEach((line, index) => {
-        if (regex.test(line)) {
-          // matches.push(`Line ${index + 1}: ${line}`);  // show line numbers
-          matches.push(`${line}`);
-        }
-      });
+    let matches = [];
+    lines.forEach((line, index) => {
+      if (regex.test(line)) {
+        // matches.push(`Line ${index + 1}: ${line}`);  // show line numbers
+        matches.push(`${line}`);
+      }
+  });
 
     //  if statement:  (name === 'true') ? 'Y' :'N';
     resultDiv.textContent = matches.length
         ? matches.join("\n")
-        : "No matches found."
+        : "No matches found.";
+    // display number of matches
+    document.getElementById('match_counts').innerHTML = `${matches.length} matches`;
 
-        // display number of matches
-        document.getElementById('match_counts').innerHTML = `${matches.length} matches`;
-    // };
-   //};
-
-//   reader.readAsText(file);
+    matches.length > 0
+      ? console.log(`match.length > 0  ${matches.length}`)
+      : console.log(`match.length = 0  ${matches.length}`)
+    
 };
 //-----------------------------------------------
 //===============================================
