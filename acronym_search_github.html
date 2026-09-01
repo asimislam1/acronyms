@@ -11,10 +11,11 @@
 
 
 <body>
-<h1>Acronym Search/GitHub</h1>
+<h1>Acronym Search on GitHub</h1>
 <!-- file and search text input box -->
-<span id="file_info" style="font-size:18px;; font-weight: bold; float: right;" ></span>
-<input type="text" id="searchText" autocomplete="off" placeholder="acronym string search + regex">
+<!-- <span id="file_info" style="font-size:18px;; font-weight: bold; float: right;" ></span> -->
+<span id="file_info" style="font-size:14px; padding-left: 20px;" ></span><br><hr>
+<input type="text" id="searchText" autocomplete="off" placeholder="acronym:  string+regex search">
 <br>
 
 <!-- Flags checkboxes -->
@@ -28,11 +29,11 @@
     <span id="match_counts"></span>
 </fieldset>
 
-<!-- OUTPUT for function searchInFile -->
 <hr>
-<!-- hidden div to hold content of acronym.txt file.  Used in searchInFile function -->
+<!-- HIDDEN and OUTPUT divs for searchInFile function -->
+<!-- hidden div to hold content of acronym.txt file.  Sets text to search -->
 <div id="acronyms_content" style="display: none;"></div>
-<!-- searchInFile function regex pattern output div -->
+<!-- display results of searchInFile function regex:  pattern+flag -->
 <div id="output" style="background: white;">     ~~~  output window  ~~~</div>
 <hr>
 
@@ -71,18 +72,13 @@ window.onload = function() {
       const lines     = text.split(/\r?\n/);
       const lineCount = lines.length.toLocaleString('en-US')
 
+      document.getElementById('file_info').innerHTML = `${fileName}|${fileSize} bytes|${lineCount} acronyms`;
       console.log(`-- window.onload: ${fileName}|${fileSize} bytes|${lineCount} lines`);
       console.log(`-- acronyms & content size: ${acronym.textContent.length}`);
-      document.getElementById('file_info').innerHTML = `${fileName}|${fileSize} bytes|${lineCount} acronyms`;
     })
     .catch(err => {
       content.textContent = "Error: " + err.message;
     });
-
-    // ??? TODO - var to use here for fileName and lineCount
-    //  - maybe:  read, sort (case insensitive) and load acronym file into "output" div
-    //  - maybe:  lineCount should not count blank lines
-
 };
 //===============================================
 
@@ -90,88 +86,122 @@ window.onload = function() {
 //===============================================
 //  SEARCH FOR PATTERNS
 //  o  function searchInFile triggered by 3 EventListeners
-//  o  get searchText and Flags
+//  o  load acronym file everytime from hidden div "acronyms_content"
+//  o  get pattern="searchText" and build the flag for i, ^ and \b
 //  o  if Flags has whole word flag "b": update flags and pattern
-//  o  search pattern
+//  o  search pattern and display messages on webpage and console
 //===============================================
 //-----------------------------------------------
-//  function searchInFile, get searchText and Flags
+//  function searchInFile, load acronyms, set pattern+flags and display outputs/messages
 //-----------------------------------------------
 function searchInFile() {
+    //-----------------------------------------------
+    //  SET ACRONYMS (FROM HIDDEN DIV), OUTPUT WINDOW, PATTERNS, FLAGS
+    //-----------------------------------------------
     const acronyDIV = document.getElementById('acronyms_content');
-    const resultDiv = document.getElementById('output');
+    const resultDIV = document.getElementById('output');
     let pattern     = document.getElementById('searchText').value;
     let flags = Array.from(document.querySelectorAll('input[type="checkbox"]:checked'))
                      .map(cb => cb.value)
                      .join('');
 
+    // check lengths of acronyDIV and resultDIV
+    //console.log('resultDIV|acronyDIV', resultDIV.textContent.length, acronyDIV.textContent.length)
+    //-----------------------------------------------
 
-    // display pattern and flags on webpage
-    document.getElementById('pattern_flag').innerHTML = `${pattern}/${flags}  `;
-    console.log('resultDiv|acronyDIV', resultDiv.textContent.length, acronyDIV.textContent.length)
 
-    
-
+    //-----------------------------------------------
+    //  SET PATTERN + FLAG
     //  if START WORD is CHECKED, value = "^", update FLAG and PATTERN
     //  o  flag:     remove flag value=^ from flags
     //  o  pattern:  add the "^"s at beginning:  (`^{word}`, "gi")
+    //-----------------------------------------------
+    //  if START WITH is CHECKED, value="^", update FLAG and PATTERN
+    //  o  flag:     remove flag value="^"" from flags
+    //  o  pattern:  add the "^" at beginning:  ^${pattern}
     if (flags.includes("^")) {
         flags = flags.replace(/\^/g, "");  // remove all "b" for whole word
         pattern = pattern.replace(`${pattern}`, `\^${pattern}`);
-        console.log(`pattern & flag "^":  ${pattern}/${flags}`);
     }
 
-    //  if WHOLE WORD is CHECKED, value = "b", update FLAG and PATTERN
-    //  o  flag:     remove flag value=b from flags
-    //  o  pattern:  add the "\b"s at beginning and end:  (`\\b${word}\\b`, "gi")
+    //  if WHOLE WORD is CHECKED, value="b", update FLAG and PATTERN
+    //  o  flag:     remove flag value="b" from flags
+    //  o  pattern:  add the "\b"s at beginning and end:  \b${word}\b
     if (flags.includes("b")) {
         flags = flags.replace(/b/g, "");  // remove all "b" for whole word
         pattern = pattern.replace(`${pattern}`, `\\b${pattern}\\b`);
-        console.log(`pattern & flag "b":  ${pattern}/${flags}`);
     }
 
+    //  if IGNORE CASE is CHECKED, value="i", no need to update FLAG or PATTERN
+    //  o  "i" flag is already at the correct REGEX position 
+    //  o  does not require any updates to pattern or flag
 
-    //  UPDATE REGEX BEFORE SEARCH
-    //  o  update flags and pattern variables
+
+    // display pattern and flags in the "pattern_flag" div
+    if (pattern.length > 0) {
+        if (flags.length > 0) {
+          document.getElementById('pattern_flag').innerHTML = `${pattern}/${flags}`;
+        } else {
+          document.getElementById('pattern_flag').innerHTML = `${pattern}`;
+        }     
+    } else {
+      document.getElementById('pattern_flag').innerHTML = "";
+    }
+    //-----------------------------------------------
+
+
+    //-----------------------------------------------
+    //  REGEX SEARCH CONSTRUCTOR
+    //-----------------------------------------------
     let regex;
     try {
-        regex = new RegExp(pattern, flags);
-        console.log(`regex:  ${pattern}/${flags}`);
+        regex = new RegExp(pattern, flags);   // RegExp constructor
     } catch (e) {
-        resultDiv.textContent = "Invalid regex: " + e.message;
+        resultDIV.textContent = "Invalid regex: " + e.message;
         return;
     }
-//-----------------------------------------------
 
-// ???  TODO - refresh "output" as searchText.value changes
-//-----------------------------------------------
-//  search pattern
-//-----------------------------------------------
-    const content = acronyDIV.textContent;   // search in the hidden div
-    //const content = resultDiv.textContent;
+
+    //  show patterns, flags and counts
+    console.log(`pattern|flags:  ${regex} ${pattern.length}+${flags.length}=${pattern.length + flags.length}`)
+    //-----------------------------------------------
+
+    
+    //-----------------------------------------------
+    //  SEARCH FOR PATTERN
+    //  o  apply "regex" constructor to each line
+    //  o  add all matches to "matches" array
+    //-----------------------------------------------
+    const content = acronyDIV.textContent;   // load from hidden div
     const lines = content.split(/\r?\n/);
 
-    let matches = [];
+    let matches = [];    // initialize array
     lines.forEach((line, index) => {
       if (regex.test(line)) {
-        // matches.push(`Line ${index + 1}: ${line}`);  // show line numbers
-        matches.push(`${line}`);
+        //matches.push(`Line ${index + 1}: ${line}`);  // show line numbers
+        matches.push(`${line}`);   // "push" adds elements to array, as string
       }
-  });
+    });
 
-    //  if statement:  (name === 'true') ? 'Y' :'N';
-    resultDiv.textContent = matches.length
-        ? matches.join("\n")
-        : "No matches found.";
-    // display number of matches
-    document.getElementById('match_counts').innerHTML = `${matches.length} matches`;
 
-    matches.length > 0
-      ? console.log(`match.length > 0  ${matches.length}`)
-      : console.log(`match.length = 0  ${matches.length}`)
-    
+    //  DISPLAY RESULTS OF REGEX
+    //  tab = "&emsp;"
+    if (matches.length < lines.length) {
+      resultDIV.textContent = matches.join("\n")  // output div
+      document.getElementById('match_counts').innerHTML = `&emsp;${matches.length} matches`;
+      console.log(`matches|lines: ${matches.length}<${lines.length}`)
+    } else {
+      document.getElementById('match_counts').innerHTML = "";   // no text values
+      console.log(`matches|lines: ${matches.length}=${lines.length}`)
+    }
+
+    //  DISPLAY "not found" IN "output"
+    if (pattern.length > 0 && matches.length == 0) {
+      resultDIV.textContent = `     -----  "${pattern}"  not found -----`;
+      console.log(`"${pattern}" not found, count = ${matches.length}`);
+    }
+    //-----------------------------------------------
 };
-//-----------------------------------------------
 //===============================================
 
 
@@ -184,9 +214,8 @@ cb_case.addEventListener('change',   () => {searchInFile(searchText.value);});
 cb_word.addEventListener('change',   () => {searchInFile(searchText.value);});
 //===============================================
 </script>
-<!-- =============================================== -->
+
 
 <h3 style="text-align: center;">--- end ---</h3>
-
 </body>
 </html>
