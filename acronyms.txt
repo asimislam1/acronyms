@@ -1,4 +1,3 @@
-
 %	CSS/HTML styles::  relative to parent element's size
 .arpa	Infrastructure Top-Level Domain (internet domains)
 .NET	open source computer software framework for Windows, Linux and macOS
@@ -1388,6 +1387,7 @@ EC2	Elastic Compute Cloud (AWS virtual machine service)
 ECB	Electronic Code-Book (cipher mode)
 ECC	Elliptic-Curve Cryptography (public-key cryptography)
 ECC-RAM	Error-Correcting Code RAM (RAM classification, critical systems: servers/workstations)
+ECDF	Empirical Cumulative Distribution Function plot (statistics:  cumulative distribution of data)
 ECDIS	Electronic Chart Display and Information System (location system)
 ECDSA	Elliptic Curve Digital Signature Algorithm (RFC 4754)
 ECEF	Earth-Centered, Earth-Fixed (geospatial reference system, satellite coordinate system)
@@ -2633,6 +2633,7 @@ kbps	Kilobit per second
 Kc	Ciphering Key (64-bit GSM ciphering key, TS 33.102)
 KDD	International Conference on Knowledge Discovery and Data Mining (AI, focused on data mining)
 KDDI	telecommunications operator, Japan
+KDE	Kernel Density Estimation plot (statistics:  overall shape of data distribution)
 KDF	Key Derivation Function
 KEDB	Known Error DataBase (ITIL)
 Keras	open-source Python interface library for ANN (AI)
@@ -3430,6 +3431,7 @@ NLoS	Non-Line of Sight  (tranmission by penetration)
 NLP	Natural Language Processing (AI, text/speech model)
 NLSP	Network Layer Security Protocol (ISO/IEC 11577)
 NLTK	Natural Language Tool-kit
+Nmap	Network Mapper (cybersecurity, open-source network scanning tool)
 NMF	Non-negative Matrix Factorization (AI, unsupervised ML model, clustering)
 NMM	Network Monitor Mode
 NMOS	N-channel MOSFET (uses electrons as charge carriers)
@@ -3508,6 +3510,7 @@ NSB	Network Safe Browsing (5G feature)
 NSC	Notice of Status Change (product lifecycle milestone)
 NSD	Network Service Descriptor
 NSDU	Network Service Data Unit
+NSE	Nmap Scripting Engine (cybersecurity, scripting tool for Nmap)
 NSF	National Science Foundation (US research and education agency, www.nsf.gov)
 nsfw	not safe for work (common abbreviation, contains offensive content)
 NSI	Network Service Interface
@@ -4023,6 +4026,7 @@ Presto	open-source SQL engine developed by Facebook
 PRI	ISDN Primary Rate Interface (30 B-channels and 1 D-channel)
 PRK	Photorefractive Keratectomy (corrective eye surgery)
 PRN	Pseudo-Random Noise
+PRNG	Pseudorandom Number Generators (use deterministic algorithms: appears random, but depends on seed values)
 ProSe	Proximity-based Services (TS 23.304)
 proxy	intermediary between a client and the internet (port: 8080)
 PRS	Positioning Reference Signal
@@ -4109,6 +4113,7 @@ QoE	Quality of Experience
 QoPE	Quality of Physical Experience
 QoS	Quality of Service (TS 23.107)
 QPSK	Quadrature Amplitude Shift Keying          (digital signal modulation technique)
+QQ	Quantile–Quantile Plot plot (statistics:  compare data to normal/another distribution)
 QR	Quick Response code (barcode: advanced 2D ID invented in 1994 by Denso Wave/Japan) 
 QRI	QoS Rule Identifier
 QSFP	Quad Small Form-factor Pluggable (DAC, AEC or AOC cables for high-speed networks)
@@ -4299,6 +4304,7 @@ RNA	RAN Notification Area
 RNA	Ribo-Nucleic Acid (single-strand of DNA with instructions to make proteins)
 RNAU	RAN-based Notification Area Update
 RNC	Radio Network Controller (3G UMTS)
+RND	Random
 RNIS	Radio Network Information Service
 RNL	Radio Network Layer
 RNN	Recurrent Neural Networks (AI, deep learning architecture)
@@ -5101,6 +5107,7 @@ TrCH	Transport Channel
 TRENDI	Test Requirements for Evaluating Network Ready Devices for IoT
 TrGW	Transition Gateway (IMS, TS 29.238, TS 33.210)
 tRNA	transfer Ribonucleic Acid (adaptor molecule composed of RNA)
+TRNG	True Random Number Generators (uses physical processes: thermal noise, radioactive decay, etc.)
 TRP	Transmission and Reception Point
 TRS	Tip-Ring-Sleeve (analog audio connector)
 TRX	Transceiver
@@ -5679,6 +5686,7 @@ yotta-	Y,  10 power  24	- numeric, see also "prefix"
 Yt	N5CW and TWAP interface
 YTA	you're the a**hole (slang:  reply to AITA, at fault or acted unreasonably)
 Yw	TWAP and TWIF interface
+zazz	acronym file by AsimIslam, updated 20260901
 ZB	Zettabyte	memory size, 10^21	1,180,591,620,717,411,303,424 Bytes
 ZC	Zadoff–Chu, aka"FZC", complex-valued mathematical sequence applied to digital signal
 Zephyr	JIRA's test creation, execution, management environment
@@ -5692,5 +5700,4 @@ Zookeeper	Apache distributed, open-source coordination service for distributed a
 ZPF	Zone-Based Policy Firewall
 ZTNA	Zero Trust Network Access
 ZUC	core stream cipher named after Zu Chongzhi
-zzzz	acronym file: updated 20260825 by Asim Islam
 µTP	Micro Transport Protocol
