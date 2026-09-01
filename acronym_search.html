@@ -16,9 +16,9 @@
 
 <!-- file and search text input box -->
 <input type="file" id="fileInput" accept=".txt">
-<span id="file_info" style="font-size:18px;; font-weight: bold; float: right;" ></span><br><br>
+<!-- <span id="file_info" style="font-size:18px;; font-weight: bold; float: right;" ></span> -->
+<span id="file_info" style="font-size:14px; padding-left: 20px;" ></span><br><hr>
 <input type="text" id="searchText" autocomplete="off" placeholder="acronym string search + regex">
-<!-- <input type="text" id="regexFlags" placeholder="Flags (e.g. i, g, m)"> -->
 <br>
 
 <!-- Flags checkboxes -->
@@ -33,8 +33,11 @@
 </fieldset>
 
 
-<!-- OUTPUT for function searchInFile -->
 <hr>
+<!-- HIDDEN and OUTPUT divs for searchInFile function -->
+<!-- hidden div to hold content of acronym.txt file.  Sets text to search -->
+<div id="acronyms_content" style="display: none;"></div>
+<!-- display results of searchInFile function regex:  pattern+flag -->
 <div id="output" style="background: white;">     ~~~  output window  ~~~</div>
 <hr>
 
@@ -58,22 +61,24 @@ document.getElementById("fileInput").addEventListener("change", function (event)
     reader.onload = function (e) {
         document.getElementById("output").textContent = reader.result;
         
-        const content = e.target.result;            // file name and line count
-        const lines = content.split(/\r\n|\n|\r/);  // newline:  windows \r\n, unix \n, old mac \r
-        const date = new Date(file.lastModified);   // last modified
-        const formattedDate = date.toISOString().split('T')[0];        
+        const content    = e.target.result;
+        const lines      = content.split(/\r\n|\n|\r/).length.toLocaleString('en-US');
+        const fileSize   = file.size.toLocaleString('en-US');
+        const date       = new Date(file.lastModified);
+        const formatDate = date.toISOString().split('T')[0];        
         
         // display line count and last updated
-        document.getElementById('file_info').innerHTML = `${lines.length} acronyms, last updated:  ${formattedDate}`;
-        console.log(`-- file:  "${file.name}" with ${lines.length} lines`);
+        document.getElementById('file_info').innerHTML = `${lines} acronyms|${fileSize} bytes|${formatDate}`;
+        console.log(`-- file:  ${file.name}|${lines}|${fileSize}|${formatDate}`);
     };
 
     reader.readAsText(file); // read file as text with encoding = UTF-8
 
     // display file information in console
     console.log('file name: ', document.getElementById('fileInput').files[0].name);
-    console.log('file size: ', document.getElementById('fileInput').files[0].size, 'bytes');
     console.log('file type: ', document.getElementById('fileInput').files[0].type);
+    console.log('file size: ', document.getElementById('fileInput').files[0].size, 'bytes');
+    
 
     // clear out the searchText, pattern_flag & match_counts when "Choose File" executes
     console.log('clear searchText:  ', document.getElementById('searchText').value);
@@ -87,14 +92,14 @@ document.getElementById("fileInput").addEventListener("change", function (event)
 //===============================================
 //  SEARCH FOR PATTERNS
 //  o  function searchInFile triggered by 3 EventListeners
-//  o  get searchText and Flags
-//  o  if Flags has whole word flag "b": update flags and pattern
-//  o  search pattern
+//  o  get pattern="searchText" and build the flag for i, ^ and \b
+//  o  if flags has whole word flag "b": update flags and pattern
+//  o  search pattern and display messages on webpage and console
 //===============================================
-//-----------------------------------------------
-//  function searchInFile, get searchText and Flags
-//-----------------------------------------------
 function searchInFile() {
+    //-----------------------------------------------
+    //  function searchInFile, load file, set pattern+flags and display outputs/messages
+    //-----------------------------------------------
     const file      = document.getElementById('fileInput').files[0];
     const resultDiv = document.getElementById('output');
     let pattern     = document.getElementById('searchText').value;
@@ -103,10 +108,6 @@ function searchInFile() {
                      .join('');
 
 
-                     // display pattern and flags on webpage
-    document.getElementById('pattern_flag').innerHTML = `${pattern}/${flags}  `;
-
-    
     // check if a text file has been selected
     if (!file) {
         resultDiv.textContent = "Please select a file first.";
@@ -120,9 +121,20 @@ function searchInFile() {
     //     return;
     // }
 
+    //  check inputs
+    //  console.log(`-- file open:  ${file.size}|${pattern}|${flags}|`)
+    //-----------------------------------------------
+
+
+    //-----------------------------------------------
+    //  SET PATTERN + FLAG
     //  if START WORD is CHECKED, value = "^", update FLAG and PATTERN
-    //  o  flag:     remove flag value=b from flags
-    //  o  pattern:  add the "\b"s at beginning and end:  (`\\b${word}\\b`, "gi")
+    //  o  flag:     remove flag value=^ from flags
+    //  o  pattern:  add the "^"s at beginning:  (`^{word}`, "gi")
+    //-----------------------------------------------
+    //  if START WITH is CHECKED, value="^", update FLAG and PATTERN
+    //  o  flag:     remove flag value="^"" from flags
+    //  o  pattern:  add the "^" at beginning:  ^${pattern}
     if (flags.includes("^")) {
         flags = flags.replace(/\^/g, "");  // remove all "b" for whole word
         pattern = pattern.replace(`${pattern}`, `\^${pattern}`);
@@ -137,14 +149,28 @@ function searchInFile() {
         pattern = pattern.replace(`${pattern}`, `\\b${pattern}\\b`);
         console.log(`pattern & flag "b":  ${pattern}/${flags}`);
     }
-//-----------------------------------------------
+
+    //  if IGNORE CASE is CHECKED, value="i", no need to update FLAG or PATTERN
+    //  o  "i" flag is already at the correct REGEX position 
+    //  o  does not require any updates to pattern or flag
+
+
+    // display pattern and flags in the "pattern_flag" div
+    if (pattern.length > 0) {
+        if (flags.length > 0) {
+          document.getElementById('pattern_flag').innerHTML = `${pattern}/${flags}`;
+        } else {
+          document.getElementById('pattern_flag').innerHTML = `${pattern}`;
+        }     
+    } else {
+      document.getElementById('pattern_flag').innerHTML = "";
+    }
+    //-----------------------------------------------
     
 
-//-----------------------------------------------
-//  "whole word" check
-//  o  update flags and pattern variables
-//-----------------------------------------------
-    //  search for pattern + flags
+    //-----------------------------------------------
+    //  REGEX SEARCH CONSTRUCTOR
+    //-----------------------------------------------
     let regex;
     try {
         regex = new RegExp(pattern, flags);
@@ -152,34 +178,52 @@ function searchInFile() {
         resultDiv.textContent = "Invalid regex: " + e.message;
         return;
     }
+
+    //  show patterns, flags and counts
+    console.log(`pattern|flags:  ${regex} ${pattern.length}+${flags.length}=${pattern.length + flags.length}`)
 //-----------------------------------------------
 
 
-//-----------------------------------------------
-//  search pattern
-//-----------------------------------------------
+    //-----------------------------------------------
+    //  SEARCH FOR PATTERN
+    //  o  apply "regex" constructor to each line
+    //  o  add all matches to "matches" array
+    //-----------------------------------------------
     const reader = new FileReader();
     reader.onload = function(e) {
       const content = e.target.result;
       const lines = content.split(/\r?\n/);
 
-      let matches = [];
+      let matches = [];   // initialize array
       lines.forEach((line, index) => {
         if (regex.test(line)) {
           // matches.push(`Line ${index + 1}: ${line}`);  // show line numbers
-          matches.push(`${line}`);
+          matches.push(`${line}`);   // "push" adds elements to array, as string
         }
       });
 
     //  if statement:  (name === 'true') ? 'Y' :'N';
-    resultDiv.textContent = matches.length
-        ? matches.join("\n")
-        : "No matches found."
+    // resultDiv.textContent = matches.length
+    //     ? matches.join("\n")
+    //     : "No matches found."
 
-        // display number of matches
-        document.getElementById('match_counts').innerHTML = `${matches.length} matches`;
-    };
-  // };
+    //  DISPLAY RESULTS OF REGEX
+    //  tab = "&emsp;"
+    if (matches.length < lines.length) {
+      resultDiv.textContent = matches.join("\n")  // output div
+      document.getElementById('match_counts').innerHTML = `&emsp;${matches.length} matches`;
+      console.log(`matches|lines: ${matches.length}<${lines.length}`)
+    } else {
+      document.getElementById('match_counts').innerHTML = "";   // no text values
+      console.log(`matches|lines: ${matches.length}=${lines.length}`)
+    }
+
+    //  DISPLAY "not found" IN "output"
+    if (pattern.length > 0 && matches.length == 0) {
+      resultDiv.textContent = `     -----  "${pattern}"  not found -----`;
+      console.log(`"${pattern}" not found, count = ${matches.length}`);
+    }
+   };
 
   reader.readAsText(file);
 };
