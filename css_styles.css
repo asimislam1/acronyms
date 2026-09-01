@@ -117,6 +117,10 @@ input[type="checkbox"] {
    word-wrap: break-word;  /* Prevents overflow for long words */
 }
 
+.highlight {
+   background-color: #fcba04;
+}
+
 #pattern_flag {
    padding-left: 60px; 
    color: blue;
@@ -189,3 +193,4 @@ img:hover .filename {
 .shrink-hover:hover {
     transform: scale(0.75); /* Shrinks to 80% of original size */
 }
+
