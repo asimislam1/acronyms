@@ -1,0 +1,196 @@
+body {
+   font-family: Trebuchet MS;
+   line-height: 1.8;
+   /* margin: 0; */
+   padding: 20px;
+   background-color: whitesmoke;
+   margin-left: 20px;
+
+   /* background-image: url(./../images/pinterest_a9559.jpg); */
+   background-color: #fcba04; /* incase image does not load */
+   background-repeat: no-repeat; /* Prevent tiling */
+   background-attachment: fixed; /* Keep image fixed during scroll */
+   background-size: cover; /* Scale to cover entire area */
+}
+
+header {
+   text-align: center;
+   background-color: black;
+   color:white;
+   padding: 1rem 0;
+}
+
+h1 {
+   font-size: 44px;
+   margin-left: 20px;
+   line-height: .1;
+}
+
+h2 {
+   font-family: Arial, Helvetica, sans-serif ;
+   font-size: 40px;
+   color: grey;
+   text-align: center;
+}
+
+h3 {
+   text-align: left;
+   /* margin-left: 20px; */
+   font-size: 28px;
+}
+
+hr {
+   margin-left: 20px;
+}
+
+/* error message class */
+.error {
+   font-family: 'Trebuchet MS';
+   font-weight: bold;
+   font-size: 16px;
+   color: red;
+}
+
+
+/* format the Choose file button */
+input[type="file"] {
+   font-family: 'Trebuchet MS';
+   font-size: 18px;
+   font-weight: bold;
+   margin-left: 20px;
+}
+
+#file_info {
+   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   font-size: 16px;
+   font-weight: normal;
+}
+
+/* format the input buttons */
+input[type="text"] {
+   margin-left: 20px;
+   width: 600px;               /* Set width */
+   padding: 10px;              /* Inner space inside the input */
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   font-size:24px;             /* Text size */
+   font-weight: bold;
+   /* color: navy; */
+   /* background-color: white; */
+   border: 1px solid white;  /* Border color */
+   outline: none;              /* no default "highlight border" */
+   border-radius: 15px;        /* Rounded corners */
+   box-sizing: border-box;     /* Ensures padding doesn't increase total width */
+}
+
+input::placeholder {
+   color: lightgray;
+}
+
+/* remove border from fieldset tag  */
+fieldset {
+   border: none;           /* removes the border */
+   padding: 1px;           /* add inner spacing */
+   margin: 0;              /* removes outer spacing */
+   min-inline-size: auto;  /* prevents default min width in some browsers */
+   margin-left: 40px;      /* line up box with body */
+   
+}
+
+
+input[type="checkbox"] {
+   width: 20px;
+   height: 20px;
+   vertical-align: middle;
+   font-weight: bold;
+}
+
+
+/* format the output from the search */
+#output {
+   overflow: visible;         /* add scrollbar if content exceeds limits */
+   background-color: #FAFAFA;
+   margin-left: 20px;
+   padding: 10px;
+   font-family: monospace; /* Ensures fixed-width font */
+   font-size: 14px;
+   white-space: pre-wrap;  /* Preserves formatting and wraps long lines */
+   word-wrap: break-word;  /* Prevents overflow for long words */
+}
+
+.highlight {
+   background-color: #fcba04;
+}
+
+#pattern_flag {
+   padding-left: 60px; 
+   color: blue;
+   vertical-align: middle; 
+   font-weight: bold; 
+   font-size: 24px;
+}
+
+#match_counts {
+   vertical-align: middle; 
+   font-weight: bold;
+   font-size: 24px;
+}
+
+
+tribute-image {
+   display: block;
+   margin: 20px auto;
+   max-width: 300px;
+   width: 300px;
+   height: auto;
+}
+
+
+footer {
+   text-align: center;
+   margin-top: 20px;
+}
+
+
+
+inline-text {
+   display: inline; /* Keeps elements on the same line */
+}
+
+
+/*  IMAGES  */
+img {
+   vertical-align: top;
+    width: 180px;
+    height: auto;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+img:hover .filename {
+   opacity: 1;
+}
+
+
+/* Shrink image to a fixed size */
+.shrink-fixed {
+    width: 180px;   /* Set desired width */
+    height: auto;   /* Maintain aspect ratio */
+}
+
+/* Shrink image proportionally to container width */
+.shrink-responsive {
+    max-width: 25%; /* Image will be at most 50% of container width */
+    height: auto;   /* Maintain aspect ratio */
+}
+
+/* Shrink image with smooth scaling on hover */
+.shrink-hover {
+    width: 180px;
+    height: auto;
+    transition: transform 0.3s ease;
+}
+
+.shrink-hover:hover {
+    transform: scale(0.75); /* Shrinks to 80% of original size */
+}
+
