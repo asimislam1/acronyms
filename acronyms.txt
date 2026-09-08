@@ -1342,7 +1342,7 @@ DTS	Digital Theater Systems (audio technology company, www.dts.com)
 DTX	Discontinuous Transmission
 DU	Data Unit
 DU	Distributed Unit: RLC,MAC,PHY (air/antenna-RU-DU-CU-RIC-CORE)
-DUAL	Diffusing Update Algorithm (Cisco's EIGRP FSM routing algorithm)
+DUAL	Diffusing Update Algorithm (Cisco's EIGRP FSM routing algorithm, RFC 7868)
 DUID	DHCP Unique Identifier, part of DHCPv6 ClientID
 DUT	Device Under Test
 DUV	Deep Ultraviolet Lithography (photolithography, at 193-248 nm wavelengths)
@@ -1462,7 +1462,7 @@ EFT	Electronic Funds Transfer (banking, direct deposit)
 EFTA	European Free Trade Association (trade organization, www.efta.int)
 eg	Latin: "exempli gratia",  English: "for example"
 EGNOS	European Geostationary Navigation Overlay Service
-EGP	Exterior Routing Protocol (RFC 888)
+EGP	Exterior Routing Protocol (RFC 904)
 EGPRS	E-GPRS, Enhanced General Packet Radio Service (2.75G EDGE)
 eGPU	external Graphics Processing Unit
 EHA	Ethernet Hardware Address (MAC address)
@@ -1745,6 +1745,7 @@ FLM	Field Level Management
 float		data type, primitive:     decimal numbers (3.14, -0.5)
 FLOPS	Floating-Point Operations per Second (AI, number of math operations for single pass of a model)
 FLOSS	Free/Libre and Open Source Software (source code: public & free, to study, modify and distribute)
+FLSM	Fixed-Length Subnet Masks  (all subnets have equal number of addresses)
 FLUS	Framework for Live Uplink Streaming
 flv	Flash-compatible video file (file extension)
 FM	Fault Management (NMS process)
@@ -2196,6 +2197,7 @@ ICAO	International Civil Aviation Organization (aviation, UN standards agency fo
 ICAT	Internet Categorization of Attacks Toolkit (now called "NVD")
 icb	I can't believe (common abbreviation)
 ICCID	Integrated Circuit Card Identifier (SIM serial number, ITU E.118)
+ICCP	Inter-Chassis Communication Protocol
 ICD	International Classification of Diseases (WHO health/medical tool)
 ICE	Interactive Connectivity Establishment (RFC 8445)
 ICE	US Immigration and Customs Enforcement (US federal agency)
@@ -2251,7 +2253,7 @@ IEEE	Institute of Electrical and Electronics Engineers (www.ieee.org)
 IELTS	International English Language Testing System (standardized test)
 iEN	Intelligent Edge Network
 IERS	International Earth Rotation and Reference Systems Service
-IESG	Internet Engineering Steering Group
+IESG	Internet Engineering Steering Group  (overall operations of IETF)
 IETF	Internet Engineering Task Force (www.ietf.org)
 if	interface, typically written as "i/f"
 IFFT	Inverse Fast Fourier Transform (algorithm, math)
@@ -2804,6 +2806,7 @@ LEOSAR	Low Earth Orbiting Search and Rescue
 LEP	Limited English Proficiency (area requiring multi-language alerts)
 LF	Linux Foundation (non-profit organization for Linux development, www.linuxfoundation.org)
 LF	Low Frequency		 30 kHz - 300 kHz, radio
+LFA	Loop-Free Alternate  (RFC 7761)
 LFN	Linux Foundation Networking (Linux Foundation’s open-source networking umbrella)
 LFSR	Linear Feedback Shift Register
 LGA	Land Grid Array (surface-mount packaging for integrated circuits)
@@ -3141,6 +3144,7 @@ MOBA	Multi-player Online Battle Arena (type of video game)
 MoCA	Multimedia over Coax Alliance (standards consortium, www.mocalliance.org)
 MOCN	Multiple Operator Core Network (TS 23.251)
 MoE	Mixture of Experts (AI, ML architecture that uses multiple specialized neural-netwrok experts)
+MoFRR	Multicast-only Fast Reroute  (RFC 7431)
 MOHO	Mobile Originated Hand Over
 Mohs	Mohs scale of mineral hardness (ordinal scale, by mineralogist Friedrich Mohs)
 MON	Monitor (generic)
@@ -3959,7 +3963,7 @@ PIFI	Personally Identifiable Financial Information
 Pig	Apache high level querying interface
 PII	Personally Identifiable Information
 PIL	Python Image Library
-PIM	Protocol-Independent multicast
+PIM	Protocol Independent Multicast  (RFC 7761)
 PIN	Personal Identification Number (cybersercurity, numeric code used for authentication)
 ping	TCP/IP command: check connectivity, usage: "ping <name/ip addr>"
 PIOPS	EBS Provisioned IOPS (AWS high performance cloud databases service)
@@ -4285,10 +4289,12 @@ RFC7020	Internet Numbers Registry System
 RFI	Radio Frequency Interference
 RFI	Request for Information (communication tool used in business and project management)
 RFID	Radio-Frequency Identification (product identification and tracking tag)
+RFLA	Remote Loop-Free Alternate  (RFC7916, RFC8102, RFC9855)
 RFP	Request for Proposal
 RFQ	Request for Quotation
 RFT	Regular Full-Time (full-time employee designation)
 RFT	Right First Time (business term)
+RG	Redundancy Group
 RG	Residential Gateway
 RG	Resource Grid, radio: subcarrier in frequency axis vs OFDM in time axis
 RG-LWAC	RG Level Wireline Access Characteristics
@@ -4383,6 +4389,7 @@ route print	TCP/IP command: display/modify local routing table
 RPA	Robotic Process Automation (software technology to automate digital tasks)
 RPC	Remote Procedure Call (TCP/UDP, remote execution,  port: 530)
 RPE-LTP	Regular Pulse Excitation Long Term Prediction (speech compression)
+RPF	Reverse Path Forwarding  (RFC 5496 & 7891)
 RPG	Rocket Propelled Grenade (shoulder-fired missile weapon)
 RPG	Role Playing Game (type of video game)
 rpm	revolutions per minute (metric)
@@ -4947,7 +4954,7 @@ STN-SR	Session Transfer Number for SRVCC
 Storm	Apache open-source distributed real-time computation system
 STP	Shielded Twisted Pair (twisted-pair cable)
 STP	Signal Transfer Point (SS7 SP, network node)
-STP	Spanning Tree Protocol (routing protocol, loop prevention)
+STP	Spanning Tree Protocol (routing protocol, loop prevention, RFC 7727)
 STR	Synchronous Transmit-Receive
 string		data type, composite:     sequence of characters ("Hello World")
 struct		data type, user-defined:  group of related fields
@@ -5046,7 +5053,7 @@ TCH	Traffic Channel
 Tcl	"tickle", free, high-level, interpreted programming language
 TCL	Transaction Control Language (SQL command category)
 TCO	Total Cost of Ownership = CapEx + OpEx (business metric)
-TCP	Transmission Control Protocol (transport layer, RFC 1122)
+TCP	Transmission Control Protocol (transport layer, RFC 793)
 TCP/IP	Transmission Control Protocol/Internet Protocol model (5 layers: PDNTA)
 TCP/IP command	ipconfig	-current configuration
 TCP/IP command	ping		- check connectivity, usage: ping <name/ip addr>
@@ -5097,6 +5104,7 @@ tgif	thanks God it's Friday (common abbreviation)
 thx	thanks (common abbreviation)
 TI	Texas Instruments Incorporated (US semiconductor company)
 TI	Transaction Identifier
+TI-LFA	Topology Independent Loop-Free Alternate  (RFC 9860)
 TIA	Telecommunications Industry Association (trade association information and communications, tiaonline.org)
 tia	thanks in advance (common abbreviation)
 Tier 1	first contact
@@ -5380,6 +5388,7 @@ Um	MS and BSS	2G GPRS interface
 Um	MS and BTS	2G GSM  interface
 UM	Unacknowledged Mode - Radio Link Control mode (TS 38.322)
 UMB	Ultra Mobile Broadband (4G defunct technology)
+UMH	Upstream Multicast Hop
 UML	Unified Modeling Language (visual modeling language)
 uMTC	critical Machine-Type Communications
 UMTS	Universal Mobile Telecommunications System (TS 23.101, 3G-WCDMA+GSM/GPRS)
