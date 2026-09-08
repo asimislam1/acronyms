@@ -89,11 +89,12 @@ input::placeholder {
 /* remove border from fieldset tag  */
 fieldset {
    border: none;           /* removes the border */
-   padding: 1px;           /* add inner spacing */
+   padding: 10px;           /* add inner spacing */
    margin: 0;              /* removes outer spacing */
    min-inline-size: auto;  /* prevents default min width in some browsers */
-   margin-left: 40px;      /* line up box with body */
-   
+   margin-left: 20px;      /* line up box with body */
+   font-size: 14px;
+   font-weight: bold;
 }
 
 
@@ -101,7 +102,6 @@ input[type="checkbox"] {
    width: 20px;
    height: 20px;
    vertical-align: middle;
-   font-weight: bold;
 }
 
 
@@ -112,7 +112,7 @@ input[type="checkbox"] {
    margin-left: 20px;
    padding: 10px;
    font-family: monospace; /* Ensures fixed-width font */
-   font-size: 14px;
+   font-size: 12px;
    white-space: pre-wrap;  /* Preserves formatting and wraps long lines */
    word-wrap: break-word;  /* Prevents overflow for long words */
 }
