@@ -19,17 +19,17 @@
 <!-- Flags checkboxes -->
 <fieldset>
     <!-- checkboxes -->
-    <label><input type="checkbox" id="cb_star" value="^"><span style="font-family:'Trebuchet MS'; vertical-align:auto;">  starts with</span></label>
-    <label><input type="checkbox" id="cb_case" value="i" checked><span style="font-family:'Trebuchet MS'; vertical-align:auto;">  ignore case</span></label>
-    <label><input type="checkbox" id="cb_word" value="b"><span style="font-family:'Trebuchet MS'; vertical-align: auto;">  whole word</span></label>
+    <label><input type="checkbox" id="cb_star" value="^">  starts with</label>
+    <label><input type="checkbox" id="cb_case" value="i" checked>  ignore case</label>
+    <label><input type="checkbox" id="cb_word" value="b">  whole word</label>
     <!--  show searchText, flags and count of matches -->
     <span id="pattern_flag"  style="display: none;"></span>  <!-- hide the flag box, too much info on page -->
-    <span id="match_counts" style="font-family:'Trebuchet MS';font-size:16px; padding-left: 80px; color: navy;"></span>
+    <span id="match_counts" style="font-size:14px; font-weight:normal; padding-left: 80px;"></span>
 </fieldset>
 
 <hr>
 <!-- HIDDEN and OUTPUT divs for searchInFile function -->
-<!-- hidden div to hold content of acronym.txt file.  Sets text to search -->
+<!-- hidden div to hold content of acronym.txt file.  Placeholder for text to search -->
 <div id="acronyms_content" style="display: none;"></div>
 <!-- display results of searchInFile function regex:  pattern+flag -->
 <div id="output" style="background: white;">  ~~~  acronym search results  ~~~</div>
