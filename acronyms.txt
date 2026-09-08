@@ -1422,7 +1422,8 @@ ECIA	Electronic Components Industry Association
 ECIES	Elliptic Curve Integrated Encryption Scheme
 ECLAT	Equivalence Class Clustering and bottom-up Lattice Traversal (AI, unsupervised ML model, clustering)
 ECM	EPS Connection Management
-ECMA	European Computer Manufacturers Association (standards organization, www.ecma-international.org)
+ECMA	European Computer Manufacturers Association, now "ECMA International"  (standards organization, www.ecma-international.org)
+ECMAScript	ECMA scripting language specification (ECMA-262 Standard www.ecma-international.org)
 ECMP	Equal-Cost Multi-Path (routing strategy)
 ECN	Engineering Change Notices  (formal record of change including reasons and impact)
 ECN	Explicit Congestion Notification (RFC 3168, Network Layer 3, congestion management)
@@ -1581,6 +1582,7 @@ Erlang	traffic volume per hour, number of calls x duration (telecommunication me
 ERP	EAP Re-authentication Protocol (RFC 6696)
 ERP	Enterprise Resource Planning (business software)
 ERSI	Environmental Systems Research Institute (US GIS company)
+ES6	ECMAScript 2015, 6th version (standardization of JaveScript, released in 2015)
 ESA	Enterprise Service Architecture
 ESA	European Space Agency (intergovernmental agency for space, exploration and research)
 ESAGE	Enhanced Space Alternating Generalized Expectation-Maximization
@@ -1751,6 +1753,7 @@ FMC	Fixed Mobile Convergence (BBF MR-427)
 FMIF	Fixed Mobile Inter-Working Function
 fml	f**k my life (slang:  something has gone wrong - often minor, but annoying)
 FMLA	Family and Medical Leave Act (US healthcare benefit)
+FMS	Flight Management System  (aviation, specialized computer system to automate in-flight tasks)
 FN	Fixed Network
 FN	Frame Number
 FN-BRG	Fixed Network-Broadband Residential Gateway
@@ -2534,10 +2537,12 @@ IRM	Insider Risk Management (cybersecurity, framework)
 IRP	Integration Reference Point (TR 32.828)
 IRPA	International Radiation Protection Association
 IRR	Internal Rate of Return (business metric)
+IRS	Inertial Reference System  (aviation, inertial navigation without external signals)
 IRS	Internal Revenue Service (US tax agency)
 IRTF	Internet Research Task Force
 IRTP	Internet Reliable Transaction Protocol (RFC 938)
 IRU	Indoor Radio Unit (ultra compact radio, power over LAN)
+IRU	Inertial Reference Unit  (aviation, inertial navigation without external signals)
 IS-136	TIA Interim Standard 136, 2G TDMA based digital cellular technology
 IS-856	TIA Interim Standard 856, 3G High Rate Packet Data Air Interface (cdma2000)
 IS-95	TIA Interim Standard  95, 2G CDMA based digital cellular technology (cdmaOne)
@@ -2630,6 +2635,7 @@ IXIC	Nasdaq Composite (US stock market index)
 Izi	TrGW and TrGW		IMS interface
 j/k	just kidding  (common abbreviation)
 J1	same as T1 with slight modifications.  Used in Japan
+JAMA	Journal of the American Medical Association  (medical journal, www.jamanetwork.com)
 jar	Java Archive File extension
 JAVA	OOP programming language with WORA (Oracle Corporation)
 JAVAC	Java programming language Compiler
@@ -2844,6 +2850,7 @@ LNS	Layer 2 Tunneling Protocol (L2TP) Network Server
 LOB	Large Object (information storage in databases)
 LOB	Line Of Business (business term)
 LoBF	Line of Best Fit (AI, supervised ML model)
+LOC	Localizer  (aviation, lateral guidance for runway approach)
 LoF	Loss of Frame
 logic gate	logic operations: AND, NAND, NOR, NOT, OR, XNOR, XOR
 Logstash	ETL tool for ElasticSearch (big data, ELK)
@@ -3836,6 +3843,7 @@ PAwR	Periodic Advertising with Responses (BT periodic advertisements to multiple
 PAWR	Platforms for Advanced Wireless Research (NSF initiative)
 PB	Petabyte	memory size, 10^15	1,125,899,906,842,624 Bytes
 PBCH	Physical Broadcast Channel (air interface channel)
+PBN	Performance Based Navigation  (aviation, navigation based on performance of aircraft, ICAO Doc 9613)
 PBS	Public Broadcasting Service (non-profit, educational TV channel in US)
 PBT	Pulse-Based Transmission                   (light signal modulation technique)
 PBX	Private Branch Exchange
@@ -3957,6 +3965,7 @@ ping	TCP/IP command: check connectivity, usage: "ping <name/ip addr>"
 PIOPS	EBS Provisioned IOPS (AWS high performance cloud databases service)
 pip	package manager for Python packages & modules
 PIPEDA	Personal Information Protection and Electronic Documents Act (Canada)
+PIREP	Pilot Report  (aviation,  report of actual weather conditions encountered during flight)
 PJL	Page Job Language
 PKA	Packet Capture Agent
 PKE	Public Key Enabling (certificate authority)
@@ -4348,11 +4357,13 @@ rn	right now (slang:  happening at the present moment)
 RNA	RAN Notification Area
 RNA	Ribo-Nucleic Acid (single-strand of DNA with instructions to make proteins)
 RNAU	RAN-based Notification Area Update
+RNAV	Area Navigation  (aviation, IFR method allowing flights along a desired path)
 RNC	Radio Network Controller (3G UMTS)
 RND	Random
 RNIS	Radio Network Information Service
 RNL	Radio Network Layer
 RNN	Recurrent Neural Networks (AI, deep learning architecture)
+RNP	Required Navigation Performance  (aviation, navigation specifications, ICAO Doc 8168)
 RNS	Radio Network Subsystem (3G UMTS, RNC + NodeB)
 RNSAP	Radio Network System Application Protocol (TS 25.423)
 RNTI	Radio Network Temporary Identifier (allocated by UTRAN)
@@ -5746,7 +5757,7 @@ yotta-	Y,  10 power  24	- numeric, see also "prefix"
 Yt	N5CW and TWAP interface
 YTA	you're the a**hole (slang:  reply to AITA, at fault or acted unreasonably)
 Yw	TWAP and TWIF interface
-zazz	acronym file by AsimIslam, updated 20260901
+zazz	acronym file by AsimIslam, updated 20260908
 ZB	Zettabyte	memory size, 10^21	1,180,591,620,717,411,303,424 Bytes
 ZC	Zadoff–Chu, aka"FZC", complex-valued mathematical sequence applied to digital signal
 Zephyr	JIRA's test creation, execution, management environment
