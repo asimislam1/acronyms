@@ -12,9 +12,7 @@
 
 <body>
 <h1>Acronym Search on GitHub</h1>
-<!-- file and search text input box -->
-<!-- <span id="file_info" style="font-size:18px;; font-weight: bold; float: right;" ></span> -->
-<span id="file_info" style="font-size:14px; padding-right: 40px; float: right;" ></span><br><hr>
+<br>
 <input type="text" id="searchText" autocomplete="off" placeholder="enter acronym to search">
 <br>
 
@@ -25,9 +23,8 @@
     <label><input type="checkbox" id="cb_case" value="i" checked><span style="font-family:'Trebuchet MS'; vertical-align:auto;">  ignore case</span></label>
     <label><input type="checkbox" id="cb_word" value="b"><span style="font-family:'Trebuchet MS'; vertical-align: auto;">  whole word</span></label>
     <!--  show searchText, flags and count of matches -->
-    <!-- hide the flag box, too much info on page -->
-    <span id="pattern_flag"  style="display: none;"></span>
-    <span id="match_counts" style="font-size:14px; padding-left: 80px;"></span>
+    <span id="pattern_flag"  style="display: none;"></span>  <!-- hide the flag box, too much info on page -->
+    <span id="match_counts" style="font-family:'Trebuchet MS';font-size:16px; padding-left: 80px; color: navy;"></span>
 </fieldset>
 
 <hr>
@@ -49,7 +46,7 @@
 //  o  display number of lines and last updated
 //  o  console output with name, size, type and lines
 //===============================================
-var text = '';
+//var text = '';
 window.onload = function() {
   //  get Raw URL link from GitHub, not the BLOB URL
   const url = "https://raw.githubusercontent.com/asimislam1/acronyms/refs/heads/main/acronyms.txt";
@@ -64,8 +61,7 @@ window.onload = function() {
     })
     .then(text => {
       acronym.textContent = text;
-      //content.textContent = text;  // do not load acronyms at start
-
+      //content.textContent = "";  // do not load acronyms at start
 
       //  DISPLAY FILE INFORMATION
       const fileName  = url.split('/').pop()
@@ -74,16 +70,42 @@ window.onload = function() {
       const lineCount = lines.length.toLocaleString('en-US')
 
       //  don't show name, size
-      document.getElementById('file_info').innerHTML = `${fileName}|${fileSize} bytes|${lineCount} acronyms`;
+      //document.getElementById('file_info').innerHTML = `${fileName}|${fileSize} bytes|${lineCount} acronyms`;
       //  show lines and owner
-      document.getElementById('file_info').innerHTML = `${lineCount} acronyms|Asim Islam`;
+      document.getElementById('file_info').innerHTML = `${lineCount} acronyms|AsimIslam`;
       console.log(`-- window.onload: ${fileName}|${fileSize} bytes|${lineCount} lines`);
-      console.log(`-- acronyms & content size: ${acronym.textContent.length}`);
+
+      //  show rndCount number of random acronyms in "output window"
+      document.getElementById('output').innerHTML = `${getRandomUniqueLines(lines)}`
+      console.log(`-- window.onload, getRandomUniqueLines:\n${getRandomUniqueLines(lines)}`)
     })
+
+
     .catch(err => {
       content.textContent = "Error: " + err.message;
     });
 };
+//===============================================
+
+
+//===============================================
+//  get random lines for "output" window
+//===============================================
+const rndCount = 11;   // global var, number of random lines
+
+function getRandomUniqueLines(lines) {
+    // Fisher–Yates shuffle (no duplicates, unbiased)
+    for (let i = lines.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [lines[i], lines[j]] = [lines[j], lines[i]];
+  }
+
+  //  "unshift":  append to beginning of array
+  lines.unshift(`\t~~~  displaying some random acronyms ~~~`);
+  //console.log(`getRandomUniqueLines:\n${lines.slice(0, rndCount).join("\n")}`);
+
+  return lines.slice(0, rndCount).join("\n");  // return random lines
+}
 //===============================================
 
 
@@ -193,12 +215,16 @@ function searchInFile() {
     //  tab = "&emsp;"
     if (matches.length < lines.length) {
       resultDIV.textContent = matches.join("\n")  // output div
-      document.getElementById('match_counts').innerHTML = `&emsp;${matches.length} matches`;
+      document.getElementById('match_counts').innerHTML = `&emsp;match count:  ${matches.length}`;
       console.log(`matches|lines: ${matches.length}<${lines.length}`)
     } else {
-      resultDIV.textContent = "  ~~~  acronym search results  ~~~"
-      document.getElementById('match_counts').innerHTML = "";   // no text values
+      //  no value in "match_counts"
+      document.getElementById('match_counts').innerHTML = "";   // no matches
       console.log(`matches|lines: ${matches.length}=${lines.length}`)
+
+      //  show rndCount number of random acronyms in "output window"
+      resultDIV.textContent =  `${getRandomUniqueLines(lines)}`
+      console.log(`-random- ${getRandomUniqueLines(lines)}`)
     }
 
     //  DISPLAY "not found" IN "output"
@@ -222,6 +248,7 @@ cb_word.addEventListener('change',   () => {searchInFile(searchText.value);});
 </script>
 
 
-<h3 style="text-align: center;">--- end ---</h3>
+<!-- <h3 style="text-align: center;">------</h3> -->
+<span id="file_info" style="font-size:12px; padding-right: 40px; float: right;" ></span>
 </body>
 </html>
