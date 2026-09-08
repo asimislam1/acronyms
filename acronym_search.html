@@ -18,15 +18,15 @@
 <input type="file" id="fileInput" accept=".txt">
 <!-- <span id="file_info" style="font-size:18px;; font-weight: bold; float: right;" ></span> -->
 <span id="file_info" style="font-size:14px; padding-left: 20px;" ></span><br><hr>
-<input type="text" id="searchText" autocomplete="off" placeholder="acronym string search + regex">
+<input type="text" id="searchText" autocomplete="off" placeholder="acronym search w/regex">
 <br>
 
 <!-- Flags checkboxes -->
 <fieldset>
     <!-- checkboxes -->
-    <label><input type="checkbox" id="cb_star" value="^"><span style="font-family:'Trebuchet MS'; vertical-align:auto;">  starts with</span></label>
-    <label><input type="checkbox" id="cb_case" value="i" checked><span style="font-family:'Trebuchet MS'; vertical-align:auto;">  ignore case</span></label>
-    <label><input type="checkbox" id="cb_word" value="b"><span style="font-family:'Trebuchet MS'; vertical-align: auto;">  whole word</span></label>
+    <label><input type="checkbox" id="cb_star" value="^">  starts with</label>
+    <label><input type="checkbox" id="cb_case" value="i" checked>  ignore case</label>
+    <label><input type="checkbox" id="cb_word" value="b">  whole word</label>
     <!--  show searchText, flags and count of matches -->
     <span id="pattern_flag"></span>
     <span id="match_counts"></span>
@@ -35,12 +35,11 @@
 
 <hr>
 <!-- HIDDEN and OUTPUT divs for searchInFile function -->
-<!-- hidden div to hold content of acronym.txt file.  Sets text to search -->
+<!-- hidden div to hold content of acronym.txt file.  Placeholder for text to search  -->
 <div id="acronyms_content" style="display: none;"></div>
 <!-- display results of searchInFile function regex:  pattern+flag -->
 <div id="output" style="background: white;">     ~~~  output window  ~~~</div>
 <hr>
-
 
 
 
@@ -62,14 +61,19 @@ document.getElementById("fileInput").addEventListener("change", function (event)
         document.getElementById("output").textContent = reader.result;
         
         const content    = e.target.result;
-        const lines      = content.split(/\r\n|\n|\r/).length.toLocaleString('en-US');
+        const lines      = content.split(/\r?\n/);
+        const lineCount  = lines.length.toLocaleString('en-US');
         const fileSize   = file.size.toLocaleString('en-US');
         const date       = new Date(file.lastModified);
         const formatDate = date.toISOString().split('T')[0];        
         
         // display line count and last updated
-        document.getElementById('file_info').innerHTML = `${lines} acronyms|${fileSize} bytes|${formatDate}`;
-        console.log(`-- file:  ${file.name}|${lines}|${fileSize}|${formatDate}`);
+        document.getElementById('file_info').innerHTML = `${lineCount} acronyms|${fileSize} bytes|${formatDate}`;
+        console.log(`-- file:  ${file.name}|${lineCount}|${fileSize}|${formatDate}`);
+
+        //  show rndCount number of random acronyms in "output window"
+        document.getElementById('output').innerHTML = `${getRandomUniqueLines(lines)}`
+        console.log(`-- window.onload, getRandomUniqueLines:\n${getRandomUniqueLines(lines)}`)
     };
 
     reader.readAsText(file); // read file as text with encoding = UTF-8
@@ -86,6 +90,27 @@ document.getElementById("fileInput").addEventListener("change", function (event)
     document.getElementById('pattern_flag').innerHTML = "";
     document.getElementById('match_counts').innerHTML = "";
 });
+//===============================================
+
+
+//===============================================
+//  get random lines for "output" window
+//===============================================
+const rndCount = 21;   // global var, number of random lines
+
+function getRandomUniqueLines(lines) {
+    // FisherâYates shuffle (no duplicates, unbiased)
+    for (let i = lines.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [lines[i], lines[j]] = [lines[j], lines[i]];
+  }
+
+  //  "unshift":  append to beginning of array
+  lines.unshift(`\t~~~  displaying some random acronyms ~~~`);
+  //console.log(`getRandomUniqueLines:\n${lines.slice(0, rndCount).join("\n")}`);
+
+  return lines.slice(0, rndCount).join("\n");  // return random lines
+}
 //===============================================
 
 
@@ -202,20 +227,22 @@ function searchInFile() {
         }
       });
 
-    //  if statement:  (name === 'true') ? 'Y' :'N';
-    // resultDiv.textContent = matches.length
-    //     ? matches.join("\n")
-    //     : "No matches found."
 
     //  DISPLAY RESULTS OF REGEX
     //  tab = "&emsp;"
     if (matches.length < lines.length) {
       resultDiv.textContent = matches.join("\n")  // output div
-      document.getElementById('match_counts').innerHTML = `&emsp;${matches.length} matches`;
+      document.getElementById('match_counts').innerHTML = `&emsp;match count:  ${matches.length}`;
       console.log(`matches|lines: ${matches.length}<${lines.length}`)
     } else {
+      //  no value in "match_counts"
       document.getElementById('match_counts').innerHTML = "";   // no text values
-      console.log(`matches|lines: ${matches.length}=${lines.length}`)
+      console.log(`matches|lines: ${matches.length}=${lines.length}`);
+
+      //  show rndCount number of random acronyms in "output window"
+      document.getElementById('output').innerHTML = `${getRandomUniqueLines(lines)}`;
+      //resultDIV.textContent =  `${getRandomUniqueLines(lines)}`;  // works with URL
+      console.log(`-random- ${getRandomUniqueLines(lines)}`);
     }
 
     //  DISPLAY "not found" IN "output"
