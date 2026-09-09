@@ -1831,6 +1831,7 @@ FSM	Forward Short Message
 FSO	Free-Space Optical (wireless Line Of Sight optical communication)
 FSS	Fixed Satellite Services
 FTA	Free Trade Agreement
+FTAM	File Transfer, Access and Management
 FTC	Federal Trade Commission (US antitrust agency)
 ftfy	fixed that for you (common abbreviation)
 FTM	Frame Tunnelling Mode (3GPP TS 27.001, TS 29.007)
@@ -3640,6 +3641,7 @@ NVMA	Non-Uniform Memory Access
 NVMe	Non-volatile Memory Express (hard-disk interface)
 NVP	Network Voice Protocol
 NVRAM	Non-Volatile Random-Access Memory  (memory:  retains data even when power is off)
+NVT	Network Virtual Terminal  (log-in and interact with remote host on local terminal)
 NW	Network
 NW-TT	Network-Side TSN Translator (TS 24.519)
 NWDAF	Network Data Analytics Function (5G network functions)
@@ -3799,7 +3801,7 @@ OSDL	Open Source Development Labs (non-profit technology consortium, obsolete, 2
 OSF	Open Software Foundation (Open Group, www.opengroup.org)
 OSG	Open Source Group
 OSHA	Occupational Safety and Health Administration (US agency)
-OSI	Open Systems Interconnection model (7 layers: PDNTSPA)
+OSI	Open Systems Interconnection model (7 layers: "PDNTSPA")
 OSI	Other System Information, SIB2-SIB9 (5G NR system information: MSI, RMSI, OSI)
 OSI L1	Physical Layer	     - medium:	      BIT:     hub, repeater, modem, cables - ethernet, USB, ATM
 OSI L2	Data Link Layer	     - switching:     FRAME:   switch, bridge - ethernet, PPP
@@ -5083,7 +5085,7 @@ TCL	Transaction Control Language (SQL command category)
 TCN	Topology Change Notification
 TCO	Total Cost of Ownership = CapEx + OpEx (business metric)
 TCP	Transmission Control Protocol (transport layer, RFC 793)
-TCP/IP	Transmission Control Protocol/Internet Protocol model (5 layers: PDNTA)
+TCP/IP	Transmission Control Protocol/Internet Protocol model (5 layers: "PDNTA")
 TCP/IP command	ipconfig	-current configuration
 TCP/IP command	ping		- check connectivity, usage: ping <name/ip addr>
 TCP/IP command	route print	- display/modify local routing table
