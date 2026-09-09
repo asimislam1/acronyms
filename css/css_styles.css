@@ -92,19 +92,34 @@ fieldset {
    font-size: 14px;
    font-weight: bold;
    border: none;           /* removes the border */
-   padding: 10px;           /* add inner spacing */
+   padding: 10px;          /* add inner spacing */
    margin: 0;              /* removes outer spacing */
    min-inline-size: auto;  /* prevents default min width in some browsers */
    margin-left: 20px;      /* line up box with body */  
-   vertical-align:middle;
 }
 
 
 input[type="checkbox"] {
-   width: 20px;
-   height: 20px;
+   width:  20px;             /*  width x height of box */
+   height: 20px;             /*  width x height of box */
+   vertical-align: middle;   /*  align text vertically centered */
 }
 
+
+#pattern_flag {
+   padding-left: 60px; 
+   color: blue;
+   vertical-align: middle; 
+   font-weight: bold; 
+   font-size: 24px;
+}
+
+#match_counts {
+   font-size: 14px;
+   padding: 10px;
+   vertical-align: middle; 
+   color:navy;
+}
 
 /* format the output from the search */
 #output {
@@ -122,19 +137,7 @@ input[type="checkbox"] {
    background-color: #fcba04;
 }
 
-#pattern_flag {
-   padding-left: 60px; 
-   color: blue;
-   vertical-align: middle; 
-   font-weight: bold; 
-   font-size: 24px;
-}
 
-#match_counts {
-   vertical-align: middle; 
-   font-weight: bold;
-   font-size: 24px;
-}
 
 
 tribute-image {
