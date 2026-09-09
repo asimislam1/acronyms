@@ -191,6 +191,18 @@ ACLU	American Civil Liberties Union, nonprofit organization (www.aclu.org)
 ACS	Access Control System
 ACTA	Administrative Council for Terminal Attachments
 AD	Active Directory (MicroSoft management service for users, computers, network, etc.)
+AD	Administrative Distance  (0-255 values routers use to rank routing, lower is better)
+AD	Administrative Distance:    0	Connected	(most trusted)
+AD	Administrative Distance:    1	Static	
+AD	Administrative Distance:   20	eBGP	
+AD	Administrative Distance:   90	EIGRP  (internal)
+AD	Administrative Distance:  100	IGRP
+AD	Administrative Distance:  110	OSPF
+AD	Administrative Distance:  115	IS-IS
+AD	Administrative Distance:  120	RIP
+AD	Administrative Distance:  170	EIGRP  (external)
+AD	Administrative Distance:  200	iBGP
+AD	Administrative Distance:  255	unusable
 AD	Latin: "Anno Domini", English: "in the year of our Lord", events after birth of Christ
 ad hoc	Latin: "to this",  English: "for this purpose", "as-needed"
 Ada	structured, statically typed, object-oriented high-level programming language
@@ -519,6 +531,7 @@ BIA	Business Impact Analysis (part of company contingency plan)
 BIC	Business Identifier Code, or SWIFT (banking)
 BICC	Bearer Independent Call Control (ITU Q.1901)
 BICN	Bearer Independent circuit-switched Core Network (TS 23.205)
+BID	Bridge Identifier
 BIG-IP	F5 Product: traffic manager, firewall, policy, DNS
 BIN	Binary numbering system,      base 2: 0-1       (BIN, TER, OCT, DEC, HEX)
 BIND	Berkeley Internet Name Domain
@@ -556,7 +569,7 @@ BOOTP	Bootstrap Protocol (UDP, port: 67-server & 68-client)
 boujee	luxurious, high-class, pretentious (slang:  fancy, luxurious, stylish or high-class)
 BPaaS	Business Process as a Service
 BPCF	Broadband Policy Control Framework (BBF TR-134)
-BPDU	Bridge Protocol Data Units
+BPDU	Bridge Protocol Data Units  (network frame in STP routing protocol)
 BPF	Berkeley Packet Filter (kernel mechanism for network filtering and monitoring, see eBPF)
 bps	bits  per second (see also "prefix")
 Bps	bytes per second
@@ -628,6 +641,7 @@ CAiEP	Chartered AI Engineering Professional (certification, ARTiBA AI technical 
 CAL	Cloud Abstraction Layer
 CALEA	Communications Assistance for Law Enforcement Act (1994, US "Digital Telephony Act")
 CAM	Computer-Aided Manufacturing
+CAM	Content Addressable Memory table  (MAC address table, hardware-based lookup table)
 CAMA	Centralized Automated Message Accounting
 CAMEL	Customized Applications for Mobile network Enhanced Logic (TS 23.078)
 CAMM	Compression Attached Memory Module DIMM (RAM classification, memory module, small profile, Dell)
@@ -742,6 +756,7 @@ cdmaOne	IS-95, 2G CDMA-based digital cellular technology (TIA IS-95)
 CDN	Content Delivery Network (geographically distributed network of servers)
 CDO	Chief Data Officer (executive position)
 CDO	Chief Diversity Officer (executive position)
+CDP	Cisco Discovery Protocol  (Cisco:  proprietary data link layer protocol)
 CDP	Cisco Discovery Protocol (Cisco proprietary)
 CDPD	Cellular Digital Packet Data
 CDR	Charging Data Record  (same as UDR, billing/usage, TS 32.295)
@@ -1003,6 +1018,7 @@ CSDPS	Coordinated Scheduling and Dynamic Point Selection
 CSF	Channel State Feedback
 CSFB	Circuit Switched Fall-Back (TS 23.272)
 CSG	Closed Subscriber Group
+CSG	Content Services Gateway  (Cisco:  high-speed processing module for billing & traffic)
 CSGN	Cellular-IoT Serving Gateway Node
 CSI	CAMEL Subscription Information (subscriber CAMEL information in HLR)
 CSI	Continual Service Improvement (ITIL process)
@@ -1029,7 +1045,7 @@ CSRsp	Create Session Response
 CSS	Cascading Style Sheets (web page design language, W3C specification)
 CSSOM	CSS Object Model (APIs for manipulating CSS with JavaScript)
 CST	US Central  Standard Time, UTC-6 (2nd SUN in NOV to 1st SUN in MAR)
-CSU	Channel Service Unit
+CSU	Channel Service Unit  (digital interface device, manages connection to networks)
 csv	Comma Separated Values (file extension)
 CT	Computerized Tomography (medical scan, X-Ray technology)
 CT	Cordless Telephony
@@ -1326,7 +1342,7 @@ DSS	Dynamic Spectrum Sharing
 DSS1	Digital Subscriber signaling System No. 1 (ITU-T I.411)
 DSSS	Direct-Sequence Spread Spectrum            (spread-spectrum modulation technique)
 DSSS	Dual SIM Single Standby
-DSU	Data Service Unit
+DSU	Data Service Unit  (digital interface device, converts signals between networks)
 DT	Decision Tree (AI, supervised ML model)
 DT	Deutsche Telekom (German mobile operator)
 DT	Digital Transformation (business term)
@@ -1397,6 +1413,7 @@ EB	Exabyte		memory size, 10^18	1,152,921,504,606,846,976 Bytes
 EBA	European Banking Authority
 EBCDIC	Extended Binary Coded Decimal Interchange Code (IBM, encoding for digital systems, common)
 EBG	Economic Board Groningen
+eBGP	external Border Gateway Protocol  (routing protocol between ASs, AD=20)
 EBI	EPS Bearer Identity
 EBITDA	Earnings Before Interest, Taxes, Depreciation and Amortization (business metric)
 EBM	Event Based Monitoring
@@ -1475,7 +1492,7 @@ EIA	EPS Integrity Algorithm
 eICIC	enhanced Inter-Cell Interference Coordination
 EID	Electronic Invoicing Data (GSMA spec TD.72)
 EIDE	Enhanced Integrated Drive Electronics (hard-disk interface)
-EIGRP	Enhanced Interior Gateway Routing Protocol (network layer, routing protocol, RFC 7868)
+EIGRP	Enhanced Interior Gateway Routing Protocol (network layer, routing protocol, RFC 7868, AD=90/170)
 eIMTA	enhanced Interference Management and Traffic Adaptation
 EIN	Employer Identification Number, aka TIN, unique IRS number for business
 EIOPA	European Insurance and Occupational Pensions Authority
@@ -1794,6 +1811,7 @@ FR1	Frequency Range 1:    450 MHz - 7.125 GHz  (TS 38.104, 5G non-mmWave)
 FR2	Frequency Range 2:  24.25 GHz -  52.6 GHz  (TS 38.104, 5G mmWave)
 FRA	Future Radio Access
 frak	sanitized F-word from Battlestar Galactica TV series
+FRAM	Ferroelectric RAM  (memory:  uses ferroelectric layer to store data)
 frame	layer 2 PDU, L2 data link
 FRER	Frame Replication and Elimination for Reliability
 FRMCS	Future Railway Mobile Communication System (TR 23.796)
@@ -2183,6 +2201,7 @@ IATA	International Air Transport Association (aviation standards)
 IBAN	International Bank Account Number, 34-digits (banking)
 IBCF	Interconnection Border Control Functions (IMS, TS 29.238)
 IBFD	In-Band Full Duplex
+iBGP	internal Border Gateway Protocol  (routing protocol to exchange information within an AS, AD=200)
 ibid	Latin: "ibidem",  English: "in the same place"
 IBM	International Business Machines (US technology company)
 IBMDOS.COM	contains hardware-independent parts of operating system
@@ -2264,7 +2283,7 @@ IFTASK	DPDK Internal Forwarder (software I/O operations for VPC-DI)
 IGD	Internet Gateway Device
 IGMP	Internet Group Management Protocol (network layer, multicast management, RFC 1112)
 IGP	Interior Routing Protocol
-IGRP	Interior Gateway Routing Protocol
+IGRP	Interior Gateway Routing Protocol  (AD=100)
 IGSO	Inclined Geosynchronous Orbit (satellite orbit)
 IIot	Industrial Internet of Things (industrial usage)
 iirc	if i recall correctly  (common abbreviation)
@@ -2478,6 +2497,7 @@ IOGP	International Association of Oil & Gas Producers
 IOPS	input/output operations per second (storage devices performance measurement)
 IOPS	Isolated Operation for Public Safety
 iOS	Apple's mobile Operating System (formerly "iPhone Operating System")
+IOS	Internetwork Operating System  (Cisco:  proprietary network operating system)
 IoT	Internet of Things (consumer and commercial usage)
 IOWN	Innovative Optical and Wireless Network
 IP	Intellectual Property (copyrights, patents, trademarks, trade secrets, etc.)
@@ -2533,7 +2553,9 @@ IR.95	SIP-SDP Inter-IMS NNI Profile (GSMA)
 IRA	International Reference Alphabet (ITU T.50)
 IRAT	Inter-Radio Access Technology
 IRATCC	Inter-Radio Access Technology Cell Change
+IRAU	Inter SGSN Routing Area Update  (GPRS procedure)
 IRC	Internet Relay Chat (instant messaging, chat)
+IrDA	Infrared Data Association  (standards organization, www.irda.org)
 irl	in real life  (slang:  offline events, happening outside the digital world)
 IRM	Insider Risk Management (cybersecurity, framework)
 IRP	Integration Reference Point (TR 32.828)
@@ -2548,7 +2570,7 @@ IRU	Inertial Reference Unit  (aviation, inertial navigation without external sig
 IS-136	TIA Interim Standard 136, 2G TDMA based digital cellular technology
 IS-856	TIA Interim Standard 856, 3G High Rate Packet Data Air Interface (cdma2000)
 IS-95	TIA Interim Standard  95, 2G CDMA based digital cellular technology (cdmaOne)
-IS-IS	Intermediate System to Intermediate System (routing protocol, RFC 1142 & 1195)
+IS-IS	Intermediate System to Intermediate System (routing protocol, RFC 1142 & 1195, AD=115)
 ISA	Instruction Set Architecture (computer chip architecture)
 ISAC	Information Sharing and Analysis Center
 ISAC	Integrated Sensing and Communication
@@ -3183,6 +3205,7 @@ Mr	AS and MRFC (session control)		IMS interface
 Mr	CSCF and MRFC		IMS interface
 MR	Mixed Reality (hybrid reality: digital/real objects coexist/interact in real-time)
 MR-DC	Multi-Radio Dual Connectivity
+MRAM	Magnetoresistive RAM  (memory:  uses magnetic storage to store data)
 MRAP	Mine-Resistant Ambush Protected (US military vehicle)
 MRB	Media Resource Broker
 MRE	Meal, Ready to Eat (shelf-stable, self-contained, pre-cooked meal)
@@ -3240,6 +3263,7 @@ MSSP	Managed Security Service Providers
 MSSQL	Microsoft SQL Server (port: 1433)
 MST	Multiple Spanning Tree (routing protocol)
 MST	US Mountain Standard Time, UTC-7 (2nd SUN in NOV to 1st SUN in MAR)
+MSTP	Multiple Spanning Tree Protocol  (IEEE 802.1s)
 MSU	Message Signal Units (ISUP)
 MT	Message Type in SWIFT financial messages (legacy format, see also MX)
 MT	Message XML in SWIFT financial messages (ISO20022, see also legacy MT)
@@ -3281,6 +3305,7 @@ mvp	most valuable player (common abbreviation)
 MVUE	Minimum-Variance Unbiased Estimator (statistics, evaluation metric)
 Mw	CSCF and CSCF		IMS interface
 MW	MicroWave
+MWAM	Multiprocessor WAN Application Module  (Cisco:  IOS application module)
 MWC	Mobile World Congress (trade show organized by GSMA)
 MWD	Message Waiting Data, HLR flag for SMS
 MWN	Municipal Wireless Network (type of MAN network)
@@ -3614,6 +3639,7 @@ nvm	never mind  (common abbreviation)
 NVMA	Non-Uniform Memory Access
 NVMe	Non-volatile Memory Express (hard-disk interface)
 NVP	Network Voice Protocol
+NVRAM	Non-Volatile Random-Access Memory  (memory:  retains data even when power is off)
 NW	Network
 NW-TT	Network-Side TSN Translator (TS 24.519)
 NWDAF	Network Data Analytics Function (5G network functions)
@@ -3786,7 +3812,7 @@ OSINT	Open Source Intelligence (any public information, www.osint.org)
 OSM	Open Source Management and Orchestration (MANO)
 OSOC	Universal Service Ordering Code
 OSP	Open Stack Platform
-OSPF	Open Shortest Path First (network layer, interior gateway routing, RFC 2328)
+OSPF	Open Shortest Path First (network layer, interior gateway routing, RFC 2328, AD=110)
 OSS	Open Source Software
 OSS	Operation and Support Subsystem
 OSWG	Oversight Work Group
@@ -4142,6 +4168,7 @@ PVFS	Parallel Virtual File System
 PVG	PTCRB Validation Group
 PVN	Private Virtual Network (TR 22.821, 5G LAN)
 PVST	Per-VLAN Spanning Tree
+PVST+	Per-VLAN Spanning Tree Plus  (Cisco:  enhancement to STP routing protocol, IEEE 802.1D)
 PVTP	Per-VLAN Trunking Protocol (routing protocol)
 PWB	Printed Wiring Board  (flat laminate board with etched wiring.  aka PCB)
 PWE	Pseudo-Wire Emulation
@@ -4316,7 +4343,7 @@ RIM	Remote Interference Mitigation
 RINGS	Resilient and Intelligent NextG Systems
 RIP	Request in Progress
 RIP	Rest in Peace (common abbreviation)
-RIP	Routing Information Protocol (UDP, Layer 5, RFC 1058 & 1723, port: 520)
+RIP	Routing Information Protocol (UDP, Layer 5, RFC 1058 & 1723, port: 520, AD=120)
 RIPE NCC	Réseaux IP Européens Network Coordination Centre (ICANN RIR)
 RIR	Regional Internet Registry (organization managing internet number resources)
 RISC	Reduced Instruction Set Computer (ISA classification)
@@ -4397,6 +4424,7 @@ RPM	RPM Package Manager (recursive acronym, "Red Hat Package Manager")
 RPO	Recovery Point Objective (cybersecurity)
 RPSF	Reduced Power SubFrame (improves performance in macrocells)
 RPU	Revenue per User (business metric)
+RPVST+	Rapid Per VLAN Spanning Tree Plus  (Cisco:  enhancement to STP routing protocol, IEEE 802.1w)
 RQA	Reflective QoS Attribute
 RQI	Reflective QoS Identifier
 RR	Radio Resource (procedure)
@@ -4428,7 +4456,7 @@ RSS	Residual Sum of Squares (statistics, metric)
 RSSI	Received Signal Strength Indication (signal power, dBm, 2G, 3G and LTE)
 RST	ReSeT (TCP/IP message)
 RSTD	Reference Signal Time Difference
-RSTP	Rapid Spanning Tree Protocol (routing protocol)
+RSTP	Rapid Spanning Tree Protocol (routing protocol, IEEE 802.1w)
 RSU	Road-Side Unit
 RSV	Respiratory Syncytial Virus (vaccine, viral infection, lungs and respiratory)
 rsvp	French: "repondez s'il vous plait",  English: "please reply" (common abbreviation)
@@ -4449,7 +4477,7 @@ RTO	Recovery Time Objective (cybersecurity)
 RTO	Regional Transmission Organizations (non-profit, public-benefit corporations)
 RTO	Retransmission Timeout
 RTOS	Real-Time Operating System (used in embedded application)
-RTP	Real Time Protocol (EFC 1889)
+RTP	Real-Time Transport Protocol (RFC 1889)
 rTRP	relay Transmission and Reception Point
 RTS	Radio Transceiver Station (3G UMTS: "NodeB", "RTS" is not used)
 RTS	Real-Time Strategy (type of video game)
@@ -4779,7 +4807,7 @@ SMTP	Simple Mail Transfer Protocol (application layer, sending emails, RFC 821, 
 SN	Secondary Node, radio (handles user plane traffic)
 SN	Sequence Number
 SN	Subscriber Number
-SNAP	Sub Network Access Protocol
+SNAP	Sub-Network Access Protocol
 SNAT	Secure Network Address Translation
 SNDC	SubNetwork Dependent Convergence (TS 23.060)
 SNDCP	SubNetwork Dependent Convergence Protocol (TS 44.065)
@@ -4954,7 +4982,7 @@ STN-SR	Session Transfer Number for SRVCC
 Storm	Apache open-source distributed real-time computation system
 STP	Shielded Twisted Pair (twisted-pair cable)
 STP	Signal Transfer Point (SS7 SP, network node)
-STP	Spanning Tree Protocol (routing protocol, loop prevention, RFC 7727)
+STP	Spanning Tree Protocol (routing protocol, loop prevention, RFC 7727, IEEE 802.1D)
 STR	Synchronous Transmit-Receive
 string		data type, composite:     sequence of characters ("Hello World")
 struct		data type, user-defined:  group of related fields
@@ -5052,6 +5080,7 @@ TCB	Transmission Control Block
 TCH	Traffic Channel
 Tcl	"tickle", free, high-level, interpreted programming language
 TCL	Transaction Control Language (SQL command category)
+TCN	Topology Change Notification
 TCO	Total Cost of Ownership = CapEx + OpEx (business metric)
 TCP	Transmission Control Protocol (transport layer, RFC 793)
 TCP/IP	Transmission Control Protocol/Internet Protocol model (5 layers: PDNTA)
@@ -5617,13 +5646,14 @@ W3C	World Wide Web Consortium (standards organization for World Wide Web, www.w3
 W4	IRS form to calculate amount of tax to withhold (US tax document)
 WAAP	Web Application and API Protection (cybersecurity, framework)
 WAAS	Wide Area Augmentation System
+WAE	Wireless Application Environment   (WAP Protocol stack:  application layer)
 WAF	Web Application Firewall (cybersecurity, framework)
 WAG	Wireless Access Gateway
 WAGF	Wireline Access Gateway Function (W-5GAN network function)
 WAN	Wide Area Network (large area network, covers 5-50 km))
 WANA	West Asia and North Africa (region)
 WANET	Wireless Ad Hoc Network (type of decentralized wireless network)
-WAP	Wireless Application Protocol
+WAP	Wireless Application Protocol  (OMA protocol for web-content on mobile equipment)
 WAS	GSMA Wholesale Agreements & Solutions Group
 WAS	Web Application Security
 wav	Audio for Windows (media file extension)
@@ -5634,6 +5664,7 @@ WCIT	World Congress on Information Technology (ICT event)
 WCS	Wireless Communications Service
 WDM	Wave Division Multiplexing (fiber optics)
 WDP	Wireless Datagram Protocol
+WDP	Wireless Datagram Protocol         (WAP Protocol stack:  transport layer)
 WEA	Web-Enabled Application
 WEA	Wireless Emergency Alerts
 web	subset of World Wide Web that can be accessed via a web browser
@@ -5694,12 +5725,15 @@ WSDL	Web Services Description Language (XML-based interface description language
 WSJ	Wall Street Journal (newspaper)
 WSN	Wireless Sensor Network
 WSP	Wireless Service Provider
+WSP	Wireless Session Protocol          (WAP Protocol stack:  session layer)
 WSRD	Wireless Spectrum R&D Interagency Working Group
 WTA	Women's Tennis Association (organizing body, sports)
 WTDC	World Telecommunications Development Conference
 wtf	what the f**k (slang:  expression of incredulity or annoyance)
 wth	what the hell (slang:  expression of incredulity or annoyance)
 WTI	West Texas Intermediate (crude oil price/futures)
+WTLS	Wireless Transport Layer Security  (WAP Protocol stack:  security layer)
+WTP	Wireless Transaction Protocol      (WAP Protocol stack:  transaction layer)
 WTPF	World Telecommunication Policy Forum
 WTSA	World Telecommunication Standardization Assembly
 WTSC	Wireless Technologies and Systems Committee
