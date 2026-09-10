@@ -118,7 +118,7 @@ input[type="checkbox"] {
    font-size: 14px;
    padding: 10px;
    vertical-align: middle; 
-   color:navy;
+   /* color:navy; */
 }
 
 /* format the output from the search */
