@@ -394,6 +394,7 @@ ASN.1	Abstract Syntax Notation (ITU X.680-X.693)
 ASOAC	Address Supporting Organization Address Council
 ASP	Advanced Services Platform
 ASP	Application Service Provider
+ASPA	Autonomous System Provider Authorization
 ASQ	American Society for Quality (society of quality professionals, www.asq.org)
 ASR	Aggregation Services Router (Cisco product line)
 ASR	Automatic Speech Recognition
@@ -798,6 +799,7 @@ CFR	Code of Federal Regulations (codification of NARA/OFR regulations)
 CFRA	Contention Free Random Access (TS 38.300, Random Access Procedure)
 CFU	Call Forwarding Unconditional (supplementary service)
 CG-VR	Computer Generated Virtual Reality (extended reality)
+CGA	Cryptographically Generated Addresses  
 CGF	Charging Gateway Function
 CGI	Cell Global Identity MCC(3 digits) + MNC(2/3 digits) + LAC(2 octets) + CI(2 octets)
 CGI	Common Gateway Interface
@@ -2231,7 +2233,8 @@ ICLR	International Conference on Learning Representations (AI, focused on DL)
 ICM	Incident Chain Manager
 ICMETE	International Conference on Micro-Electronics and Telecommunication Engineering
 ICML	International Conference on Machine Learning (AI, focused on ML)
-ICMP	Internet Control Message Protocol (network layer, network diagnostics, RFC 792)
+ICMP	Internet Control Message Protocol  (network layer, network diagnostics, RFC 792)
+ICMPv6	Internet Control Message Protocol for IPv6  (network layer, network diagnostics, RFC 4443)
 ICMSaR	International Convention on Maritime Search and Rescue
 ICNIRP	International Commission on Non-Ionizing Radiation Protection
 ICP	Interoperability Compliance Program (WBA guidelines)
@@ -2328,6 +2331,7 @@ INAP	Intelligent Network Application Protocol (ETSI EN 301 668)
 INC	Incident
 Inc.	"Incorporated", business has filed for "Corporation" status
 INCOSE	International Council on Systems Engineering (professional society)
+IND	Inverse Neighbor Discovery
 Industry 1.0	1760-1840:  mechanization, steam/water power, iron metallurgy
 Industry 2.0	1870-1914:  mass production, electricity, telecommunications
 Industry 3.0	1969-2014:  computation, automation, electronics
@@ -3209,6 +3213,7 @@ MR-DC	Multi-Radio Dual Connectivity
 MRAM	Magnetoresistive RAM  (memory:  uses magnetic storage to store data)
 MRAP	Mine-Resistant Ambush Protected (US military vehicle)
 MRB	Media Resource Broker
+MRD	Multicast Router Discovery  (RFC 4286)
 MRE	Meal, Ready to Eat (shelf-stable, self-contained, pre-cooked meal)
 MRF	Multimedia Resource Function (IMS)
 MRFC	Multimedia Resource Function Controller (IMS)
@@ -3408,10 +3413,12 @@ NCM	Network Configuration Manager (SolarWinds product)
 Ncol	Natural Colors                 (color model)
 NCR	National Cash Register corporation (US technology company)
 NCR	Non-Conformance Report  (record of anything that does not meet predefined standards)
+ND	Neighbor Discovery, or Neighbor Discovery Protocol  (network layer, RFC 1970, 2461, 4861)
 NDA	Non-Disclosure Agreement (legal document, confidentiality agreement)
 NDC	National Destination Code (ITU-T E.164)
 ndf	database's secondary data file, user-defined (file extension)
 NDIS	Network Driver Interface Specification (Windows specifications)
+NDP	Neighbor Discovery Protocol, or Neighbor Discovery  (network layer, RFC 1970, 2461, 4861)
 NDR	Network Design Requirements
 NDS	Network Domain Security (TS 33.210)
 NE	Network Element
@@ -3624,6 +3631,7 @@ NTP	Network Time Protocol (application layer, UDP, time synchronization, RFC 590
 NTSB	National Transportation Safety Board (US investigative agency)
 NTSC	National Television Standards Committee (television format)
 NTT	Nippon Telegraph and Telephone - DoCoMo, Japanese mobile operator
+NUD	Neighbor Unreachability Detection
 Nudm	5G Service-Based Interface exhibited by UDM
 Nudr	5G Service-Based Interface exhibited by UDR
 Nudsf	5G Service-Based Interface exhibited by UDSF
@@ -4415,12 +4423,14 @@ ROM	Read Only Memory (memory: non-volatile DAS memory for permanent storage)
 RoR	Rate of Return (business metric)
 rotfl	rolling on the floor laughing (slang)
 route print	TCP/IP command: display/modify local routing table
+ROV	Route Origin Validation
 RPA	Robotic Process Automation (software technology to automate digital tasks)
 RPC	Remote Procedure Call (TCP/UDP, remote execution,  port: 530)
 RPE-LTP	Regular Pulse Excitation Long Term Prediction (speech compression)
 RPF	Reverse Path Forwarding  (RFC 5496 & 7891)
 RPG	Rocket Propelled Grenade (shoulder-fired missile weapon)
 RPG	Role Playing Game (type of video game)
+RPKI	Resource Public Key Infrastructure  (RFC 6480)
 rpm	revolutions per minute (metric)
 RPM	RPM Package Manager (recursive acronym, "Red Hat Package Manager")
 RPO	Recovery Point Objective (cybersecurity)
@@ -4683,6 +4693,7 @@ SEI	Software Engineering Institute (US DoD funded research & development center,
 SEI	Subscriber Experience Insight (field test tool)
 SEID	Session Endpoint Identifier
 SeNB	Secondary evolved NodeB
+SEND	Secure Neighbor Discovery protocol  (extension of NDP, RFC 6794)
 SEO	Search Engine Optimization (URL ranking/optimization algorithm)
 SEP	Signaling End Point
 SEP	Summary of Economic Projections (FED's report on US economy)
@@ -4730,6 +4741,7 @@ SIC	Sequential Interference Cancellation
 SID	Service/Session/Subscriber Identifier
 SID	Shared Information/Data (TR 32.828)
 SIDF	Subscription Identifier De-concealing Function
+SIDR	Secure Inter-Domain Routing
 SIEM	Security Information and Event Management (cybersecurity, framework)
 SIF	signaling Information Field
 SIFT	Scale-Invariant Feature Transform (algorithm to detect and describe features in images)
