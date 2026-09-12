@@ -1,4 +1,3 @@
-
 %	CSS/HTML styles::  relative to parent element's size
 .arpa	Infrastructure Top-Level Domain (internet domains)
 .NET	open source computer software framework for Windows, Linux and macOS
@@ -173,7 +172,7 @@ AC	Alternating Current
 AC	Application Context
 AC/DC	Alternating Current/Direct Current
 ACA	Affordable Care Act (US health care act from March 2010, aka "ObamaCare)
-ACAB	All Cops Are Bastards (common abbreviation, political)
+ACAB	All Cops Are Bastards  (slang:  criticism or distrust of law enforcement)
 ACATS	Automated Customer Account Transfer Service (money transfer)
 accdb	Microsoft Access (file extension)
 Access	Network Access (radio access elements: air/antenna-RU-DU-CU-RIC)
@@ -225,12 +224,12 @@ AEC	Active Electrical Cable (copper cables for SFP or QSFP)
 AED	Automated External Defibrillator (portable device for cardiac arrest, used during CPR)
 AEF	API Exposing Function
 AES	Advanced Encryption Standard (cybersecurity, FIPS Publication 197)
-AF	Application Function (5G network function, TS 29.517)
-afaik	as far as i know  (common abbreviation)
-afair	as far as i recall (common abbreviation)
+AF	Application Function (5G network function, TS 23.501, TS 29.517)
+afaik	"as far as i know"  (slang:  information is believed to be correct, but not guaranteed)
+afair	"as far as i remember" (slang:  sharing information from memory)
 AFE	Analog Front End
 AFGSC	Air Force Global Strike Command (US military, USAF 2009-present)
-afk	away from keyboard (common abbreviation)
+afk	"away from keyboard" (slang:  person is away from devices, and is unable to respond immediately)
 AFM	Advanced Firewall Manager
 AfNOG	African Network Operators Group
 AFRINIC	African Network Information Center (ICANN RIR)
@@ -254,22 +253,23 @@ AIDC	Automatic Identification and Data Capture (barcode: product identification 
 AIDS	Acquired Immuno-Deficiency Syndrome (viral infection)
 AiE	Artificial Intelligence Engineer (certification, ARTiBA AI professional)
 AIN	Advanced Intelligent Network (North America)
-AIO	am i overreacting?   (slang:  asking if emotional reaction is justified)
+AIO	"am i overreacting?"   (slang:  asking if emotional reaction is justified)
 AIoT	Artificial Intelligence of Things
 AIR	Authentication Information Request (DIAMETER message, MME to HSS)
 air-interface	connecting UE and Access Network
 Airflow	Apache's platform that schedules and monitors workflow
 AIS	Automatic Identification System (automatic tracking system)
 AIS-SART	Automatic Identification System-Search and Rescue Transponder
-AITA	am i the a**hole?  (slang: where a person's actions were wrong or morally questionable)
+AITA	"am i the a**hole?"  (slang: where a person's actions were wrong or morally questionable)
 AJAX	Asynchronous JavaScript transfer (techniques to create web applications)
 AK	Anonymity Key
 AK-47	Avtomat Kalashnikov 1947 (automatic gas-operated assault rifle)
 AK-74	Avtomat Kalashnikov 1974 (automatic gas-operated assault rifle)
-aka	also known as  (common abbreviation)
+aka	"also known as"  (slang:  alias, nickname, username, title or humorous description)
 AKA	Authentication and Key Agreement (credential procedure)
 AKM	Authentication and Key Management (IEEE 802.11i, RFC 3748)
 AKMA	Authentication and Key Management for Applications (TS 33.535)
+AKS	Azure Kubernetes Service  (managed Kubernetes service by Microsoft)
 ALCAP	Access Link Control Application Protocol (TS 25.246 and TS 25.414)
 ALENA	French: "Accord de Libre-Échange Nord-Américain",  English: "NAFTA"
 ALG	Application Layer Gateway (IMS)
@@ -286,13 +286,13 @@ AM	Accounting Management (NMS process)
 AM	Acknowledged Mode - Radio Link Control mode (TS 38.322)
 AM	Amplitude Modulation                       (analog signal modulation technique)
 am	Latin: "ante meridiem",  English: "after midnight, before noon"
-ama	ask me anything (common abbreviation, reddit forum)
+ama	"ask me anything"  (slang: reddit Q&A forum)
 AMBER	America’s Missing: Broadcast Emergency Response (US missing person alert)
 AMBR	Aggregate Maximum Bit Rate
 AMC	Adaptive Modulation and Coding
 AMD	Advanced Micro Devices (computer processor manufacturer)
 AMDEX	AI and ML Design & Engineering Excellence Framework (ARTiBA)
-AMF	Access and Mobility Function (5G network function, TS 29.518)
+AMF	Access and Mobility Function (5G network function, TS 23.501, TS 29.518)
 AMFID	AMF Identifier, AMF Region ID (8-bits) + AMF Set ID (10-bits) + AMF Set ID (6-bits)
 AMI	Amazon Machine Image (AWS service, virtual machine within EC2)
 AMOLED	Active Matrix OLED (video display technology)
@@ -373,7 +373,7 @@ AS	Access Stratum (RRC and UP in UMTS and LTE)
 AS	Application Services
 AS	Autonomous System (routing area, using IGP or EGP)
 ASA	Average Speed to Answer
-asap	as soon as possible  (common abbreviation)
+asap	"as soon as possible"  (slang:  indicate urgency or prompt action)
 ASBR	Autonomous System Boundary/Border Router
 ASCII	American Standard Code for Information Interchange (character encoding, ISO/IEC 646)
 ASD	Autism Spectrum Disorder (neuro-developmental disorder)
@@ -415,8 +415,8 @@ ATG	Air to Ground
 ATGW	Access Transfer Gateway (IMS)
 ATIM	Announcement Traffic Indication Message
 ATIS	Alliance for Telecommunications Industry Solutions, USA (standards organization, www.atis.org)
+atm	"at the moment"  (slang:  doing, feeling, or experiencing sonething right now)
 ATM	Asynchronous Transfer Mode (TDM switching, 53-byte units "cells")
-atm	at the moment  (common abbreviation)
 ATM	Automated Teller Machine (banking)
 ATMF	Asynchronous Transfer Mode Forum
 ATO	Authority to Operate
@@ -437,7 +437,7 @@ ATV	All-Terrain Vehicle (type of automobile)
 AU	Access Unit (antenna components on tower, connects to UE)
 AuC	Area under Curve (statistics, evaluation metric)
 AuC	Authentication Center (2G GSM, 3G UMTS, 4G LTE, database)
-AUSF	Authentication Server Function (5G network function, TS 29.509)
+AUSF	Authentication Server Function (5G network function, TS 23.501, TS 29.509)
 AUTN	Authentication Token (authentication vector, TS 33.102)
 AUTOEXEC.BAT	system file, text batch file for automatic execution by OS
 AUX	Auxiliary (connector for audio devices)
@@ -454,7 +454,7 @@ AVP	Audio Video Profile (RFC 3551)
 AVPROD	Audio-Visual Service Production (3GPP Release 17)
 AWG	American Wire Gauge (copper wire thickness number)
 AWGN	Additive White Gaussian Noise
-awol	away without leave (common abbreviation)
+awol	"away without offical leave"  (slang:  absent or missing without permission, offical in military)
 AWS	Amazon Web Services (aws.amazon.com, IaaS provider)
 AWS	Amazon Web Services certification (certification, Amazon cloud)
 AWTP	Advanced Wireless Test Platforms
@@ -465,13 +465,14 @@ B	MSC and VLR	2G GSM  interface
 B-channel	ISDN PRI 64 kbps, voice and data
 B-ISDN	Broadband Integrated Services Digital Network
 B-link	SS7  Bridge:   quad links interconnecting peer-pair STPs
-B2B	Business to Business (business term)
+B2B	Business to Business (business term,  'numeronym')
 B2B2C	Business to Business to Consumer (business term)
 B2C	Business to Consumer (business term)
+b4	"before"  (numeronym)
 BA	Latin: "Artium Baccalaureus",  English "Bachelor of Arts" (undergraduate degree)
 BaaS	Backend as a Service (cloud concept, aka "mBaaS")
 backhaul	transport network between radio-CU and network-CORE
-bae	before anyone else, significant other (slang:  term of endearment)
+bae	"before anyone else", "significant other"  (slang:  term of endearment)
 BAN	Body Area Network (computer network, wearables)
 band	high-band:  above 6 GHz
 band	low-band:   sub to 1 GHz
@@ -514,10 +515,10 @@ BEP	BitTorrent Enhancement Proposal (bittorrent.org)
 BER	Bit Error Rate
 BERT	Bidirectional Encoder Representations from Transformers (AI, NLP model)
 BESS	Battery Energy Storage System
-bet	agreement, confirmation (slang)
+bet	agreement or confirmation (slang)
 BETRS	Basic Exchange Telephone Radio Service
 BFD	Bi-directional Fault Detection
-bff	best friends forever (slang)
+bff	"best friends forever" (slang)
 BFTP	Background File Transfer Program (TCP/UDP, port: 153)
 BG	Border Gateway
 BGA	Ball Grid Array (surface-mount packaging for integrated circuits)
@@ -564,7 +565,7 @@ BNG	Broadband Network Gateway
 BNSF	Burlington Northern and Santa Fe (US freight railways)
 BoD	Bandwidth on Demand
 BoFA	Bank of America (US bank and financial services corporations)
-bolo	be on the look out (common abbreviation)
+bolo	"be on the look out" (slang:  alert people to watch for something important)
 bool		data type, primitive:  logical values (True, False)
 BOOTP	Bootstrap Protocol (UDP, port: 67-server & 68-client)
 boujee	luxurious, high-class, pretentious (slang:  fancy, luxurious, stylish or high-class)
@@ -577,7 +578,7 @@ Bps	bytes per second
 BPSK	Binary Phase Shift Keying                  (digital signal modulation technique)
 BR	Bit Rate
 BRAS	Broadband Remote Access Server
-brb	be right back  (common abbreviation)
+brb	be right back  (slang:  signal a short, temporary pause in conversation or activity)
 BRG	Broadband Residential Gateway
 BRI	ISDN Basic Rate Interface (2 B-channels and 1 D-channel)
 BRIEF	Binary Robust Independent Elementary Features (binary discriptor encoder for image keypoints)
@@ -600,15 +601,15 @@ BT	BlueTooth (short-range wireless communication technology, IEEE 802.15.1)
 BT5.4	BlueTooth version 5.4 (released in February 2023)
 btrfs	better file system (file storage format based on COW)
 BTS	Base Transceiver Station (2G GSM)
-btw	by the way  (common abbreviation)
-bummer	disappointment (slang:  thing that is annoying or disappointing)
-bussin'	extremely good, delicious, tasty (common slang, African American English)
+btw	"by the way"  (slang:  add extra information or smoothly change the topic)
+bummer	annoying or disappointing (slang)
+bussin'	extremely good, delicious, tasty (slang: African American English)
 BVCI	BSSGP Virtual Connection Identifier
 BVPS	Book Value per Share (business metric)
 BW	BandWidth (measure of capacity)
 BWA	Broadband Wireless Access
 BWP	BandWidth Part (5G bandwidths, TS 38.211, NR Channels)
-byob	bring your own bottle/beverage/beer (common abbreviation)
+byob	"bring your own bottle/booze"  (slang:  guests should bring their preferred beverages)
 BYOD	Bring Your Own Device (cybersecurity)
 Byte	unit of information:  1 byte = 8 bits = 1 octet, bit = 0/1, yes/no, true/false, on/off
 C	general-purpose, machine-independent programming language
@@ -622,6 +623,7 @@ C-RAN	Cloud (virtualized) Radio Access Network or Centralized Radio Access Netwo
 C-RNTI	Cell Radio Network Temporary Identifier
 C/R	Command/Response
 C2W	Call to Work (engaging support personnel during unplanned events/outages)
+C3	Chrysler Comprehensive Compensation System
 C3I	Command, Control, Communications and Intelligence
 C6	Cloud, Cognition, Collaboration, Connectivity, Content, Context
 CA	Carrier Aggregation (combines frequency bands to increase bandwidth/data speed)
@@ -657,7 +659,7 @@ CAPIF	Common API Framework
 CAPM	Capital Asset Pricing Model (business term)
 CAPM	Certified Associate in Project Management (certification, project management)
 CAPTCHA	Completely Automated Public Turing test to tell Computers and Humans Apart
-CAPWAP	Control And Provisioning of Wireless Access Points
+CAPWAP	Control and Provisioning of Wireless Access Points
 CAR	Corrective Action Request
 CART	Classification and Regression Trees (AI, supervised ML model)
 CAS	Channel Associated Signaling
@@ -758,7 +760,6 @@ CDN	Content Delivery Network (geographically distributed network of servers)
 CDO	Chief Data Officer (executive position)
 CDO	Chief Diversity Officer (executive position)
 CDP	Cisco Discovery Protocol  (Cisco:  proprietary data link layer protocol)
-CDP	Cisco Discovery Protocol (Cisco proprietary)
 CDPD	Cellular Digital Packet Data
 CDR	Charging Data Record  (same as UDR, billing/usage, TS 32.295)
 CDR	Clock and Data Recovery
@@ -810,7 +811,7 @@ CHAP	Challenge-Handshake Authentication Protocol (RADIUS protocol)
 char		data type, primitive:  single characters ('A', '!')
 charm	automates business logic in software packages (Juju operator)
 cHDLC	Cisco High-Level Data Link Control
-CHF	Charging Function (5G function, TS 32.240)
+CHF	Charging Function (5G function, TS 23.501, TS 32.240)
 chill	relax, calm down (slang)
 CHIPS	Clearing House Interbank Payments System (banking)
 CHIPS Uid	Clearing House Interbank Payments System Universal Identifier (banking)
@@ -907,11 +908,12 @@ CNMS	Converged Network Message Store
 CNN	Cable News Network (cable news channel)
 CNN	Convolutional Neural Networks (AI, deep learning architecture)
 CNP	Congestion Notification Packet
+CNTK	Cognitive Toolkit  (Microsoft's open source deep learning  framework)
 CO	Central Office (main switching facility for PSTN/POTS)
 CoA	Change of Authorization
 CoAP	Constrained Application Protocol
 COAX	Coaxial Cable (for Ethernet and similar networks)
-cob	close of business  (common abbreviation)
+cob	"close of business"  (business term:  end of business day)
 COBIT	Control Objectives for Information and Related Technologies (ISACA IT framework)
 COBOL	Common Business Oriented Language (programming language)
 COBRA	Common Object Request Broker Architecture
@@ -1096,7 +1098,7 @@ CWND	Congestion Window, cwnd=cwnd+mss (TCP message parameter)
 CWR	Congestion Window Reduced (TCP/IP message)
 Cx	CSCF and HSS		IMS interface
 CX	Customer Experience
-cya	cover your ass  (slang:  protecting yourself from blame by keeping records or proof)
+CYA	"cover your ass"  (slang:  protecting yourself from blame by keeping records or proof)
 CYMK	Cyan, Magenta, Yellow, Black   (color model)
 D	HLR and VLR		2G GSM  interface
 D	MSC/VLR and HLR/AuC	3G UMTS interface
@@ -1224,7 +1226,7 @@ DIMM	Dual In-line Memory Module (RAM classification, memory module)
 DISA	Defense Information Systems Agency (DoD)
 DISM	Deployment Image Servicing and Management (Windows scan & repair tool)
 DITA	Darwin Information Typing Architecture
-diy	do it yourself  (common abbreviation)
+diy	"do it yourself"  (slang:  create, fix or build something without professional help)
 DJIA	Dow Jones Industrial Average (US stock market index)
 DL	Deep Learning (AI, neural networks: ANN, CNN, RNN)
 DL	Direct Labor (directly contribute to revenue-generating activities)
@@ -1237,7 +1239,7 @@ dll	Dynamic Link Library file (file extension)
 DLP	Data Loss Prevention (cybersecurity, framework)
 DLP	Digital Light Processing (imaging and projection technology developed by TI)
 DLT	Distributed Ledger Technology (blockchain)
-dm	direct message  (common abbreviation)
+dm	"direct message"  (slang:  private conversation between two users)
 DM-RS	Demodulation Reference Signal
 DMA	Direct Memory Access
 DMaaP	Data Movement as a Platform
@@ -1263,14 +1265,14 @@ DNA	Deoxyribo-Nucleic Acid (two-stranded double helix molecule carrying genetic 
 DNAI	Data Network Access Identifier
 DNAT	Destination Network Address Translation
 DNC	Democratic National Committee (Democratic Party, US political party)
-dnd	do not disturb (common abbreviation)
+dnd	"do not disturb"  (slang:  quick way to say unavailable, or want to avoid interruptions)
 dng	Digital Negative (Adobe, image file format)
 DNIC	US Department of Defense Network Information Center
 DNN	Data Network Name (5G, equal to 4G APN)
 DNS	Domain Name Server (sub-set of DNS/system, resolving domain name and IP address)
 DNS	Domain Name System (application layer, TCP/UDP, RFC 8499.  port: 53)
 DNSSEC	Domain Name System Security Extensions (RFC 4033)
-doa	dead on arrival (common abbreviation)
+doa	"dead on arrival"  (slang:  almost certain to fail.  In medical context, someone already dead)
 DOAP	Description of a Project (mainly for free, open-source software)
 DOB	Date of Birth (birthday)
 doc	Microsoft Word document (file extension, prior version 2007)
@@ -1357,6 +1359,7 @@ DTP	Dynamic Trunking Protocol
 DTR	Data Terminal Ready  (RS-232 line)
 DTS	Data Transformation Services (prepare raw data)
 DTS	Digital Theater Systems (audio technology company, www.dts.com)
+DTSTTCPW	"Do the Simplest Thing That Could Possibly Work"  (principle that promotes simplicity in design)
 DTX	Discontinuous Transmission
 DU	Data Unit
 DU	Distributed Unit: RLC,MAC,PHY (air/antenna-RU-DU-CU-RIC-CORE)
@@ -1501,14 +1504,14 @@ EIOPA	European Insurance and Occupational Pensions Authority
 EIP	Ethereum Improvement Proposals (ethereum.org/en/eips)
 EIR	Equipment Information Register (2G GSM, 3G UMTS, 4G LTE, database, TS 29.511)
 EKG	or ECG, Electrocardiogram (medical, electrical activity of heart)
-EKS	Elastic Kubernetes Service (AWS service)
+EKS	Amazon Elastic Kubernetes Service  (managed Kubernetes service by Amazon)
 el al.	Latin: "et alia", "et alii", "et alibi",  English: "and others"
 ElasticSearch	open-source analytics engine, schema-less database by Elastic (big data, ELK, port: 4000)
 ELB	Elastic Load Balancing (AWS service)
 eLCS	enhanced Location Services
 ELF	Executable and Linkable Format
 ELF	Extremely Low Frequency
-eli5	explain like i’m 5 (common abbreviation, reddit forum)
+eli5	"explain like i’m 5"  (slang: reddit forum)
 ELIN	Emergency Location Identification Number
 ELINT	Electronic Intelligence (from intercepting electronics)
 ELK	ElasticSearch, Logstash and Kibana (big data)
@@ -1560,19 +1563,17 @@ enum		data type, user-defined:  predefined set of constants
 ENUM	E.164 Number to URI Mapping (ITU-T E.164, RFC 6616)
 EO	Earth Orbit/Observation
 EO	Electro-Optical
-eobd	end of business day (common abbreviation)
+eobd	"end of business day"  (business term:  "cob" is more common)
 EOC	Early Operational Capability
-eod	end of day (common abbreviation)
+eod	"end of day"  (business term:  "cob" is more common)
 EOF	End Of Frame
 EoF	Enterprise of the Future
-eoj	end of job (common abbreviation)
 EoL	End of Life (product lifecycle milestone)
 EoM	End of Maintenance (product lifecycle milestone)
 EoS	End of Sale (product lifecycle milestone)
 EoSL	End of Service Life (product lifecycle milestone)
 EoT	End of Transmission
 EOTP	Encrypted One-Time Pad (encyrpted OTP)
-eow	end of week (common abbreviation)
 EPC	Evolved Packet Core (4G LTE Core: MME, HSS, SGW/PGW, PCRF, PCEF)
 ePDG	evolved Packet Data Gateway
 ephemeral	definition: lasting a short time, transitory, short-lived
@@ -1632,7 +1633,7 @@ ESRK	Emergency Services Routing Key
 ESRM	Enterprise Security and Risk Management
 ESS	Extended Service Set (network with multiple AP-Access Point)
 EST	US Eastern  Standard Time, UTC-5 (2nd SUN in NOV to 1st SUN in MAR)
-eta	estimated time of arrival (common abbreviation)
+eta	"estimated time of arrival"
 ETB	End of Transmission Block
 etc.	Latin: "et cetera",  English: "or", "so forth"
 etcd	key value store system used in Kubernetes
@@ -1679,7 +1680,7 @@ FAA	Federal Aviation Administration (US civil aviation agency)
 FaaS	Functions as a Service (cloud concept: stateless, event-triggered, ephemeral)
 FACH	Forward Access Channel
 FAE	Fuel Air Explosive: thermobaric or aerosol bomb (explosive weapon)
-FAFO	f**k around, find out (slang:  actions have consequences)
+FAFO	"f**k around, find out" (slang:  actions have consequences)
 FAIR	Findable, Accessible, Interoperable and Reusable (typically for open datasets)
 FAISS	Facebook AI Similarity Search (AI, open-source libraries for ANN search algorithm)
 FALD	Full-Array Local Dimming (video display technology)
@@ -1735,8 +1736,8 @@ FET	Filed Effect Transistor  (terminal semiconductor device; source, drain and g
 FEU	Front End Unit
 FF	Form Factor (SIM physical sizes: 2FF, 3FF, 4FF, MFF2)
 FFA	First Field Application
+ffs	"for further study"
 FFS	Flash File Systems (file system for flash memory devices)
-ffs	for further study (common abbreviation)
 FFT	Fast Fourier Transform (algorithm, math)
 FH	FrontHaul - transport between radio-RRU and radio-DU
 FIA	Fédération Internationale de l'Automobile (motor sports)
@@ -1771,7 +1772,7 @@ FM	Fault Management (NMS process)
 FM	Frequency Modulation                       (analog signal modulation technique)
 FMC	Fixed Mobile Convergence (BBF MR-427)
 FMIF	Fixed Mobile Inter-Working Function
-fml	f**k my life (slang:  something has gone wrong - often minor, but annoying)
+FML	"f**k my life"  (slang:  something has gone wrong - often minor, but annoying)
 FMLA	Family and Medical Leave Act (US healthcare benefit)
 FMS	Flight Management System  (aviation, specialized computer system to automate in-flight tasks)
 FN	Fixed Network
@@ -1789,7 +1790,7 @@ FOCIS	Fiber Optic Connector Intermateability Standard (TIA-604-5, cable standard
 FOIA	Freedom of Information Act (1967, US executive branch transparency law)
 FOIRL	Fiber-Optic Inter-Repeater Link (IEEE 802.3d, ethernet over fiber)
 FOMC	Federal Open Market Committee (monetary policymaking body of FED)
-fomo	fear of missing out (slang: anxious feeling of missing fun, events or experiences)
+fomo	"fear of missing out"  (slang: anxious feeling of missing fun, events or experiences)
 format	information elements format TS 24.007 section 11.2.1.1
 FORTRAN	Formula Translation (computer language)
 FOSS	Free and Open Source Software (source code: public & free, to study, modify and distribute)
@@ -1835,7 +1836,7 @@ FSS	Fixed Satellite Services
 FTA	Free Trade Agreement
 FTAM	File Transfer, Access and Management
 FTC	Federal Trade Commission (US antitrust agency)
-ftfy	fixed that for you (common abbreviation)
+ftfy	"fixed that for you"
 FTM	Frame Tunnelling Mode (3GPP TS 27.001, TS 29.007)
 FTP	File Transfer Protocol (application layer, TCP, port: 20-data & 21-control)
 FTSE	Financial Times Stock Exchange 100 Share Index (UK stock market index)
@@ -1847,8 +1848,8 @@ FTTN	Fiber to the Node      (FTTx technology)
 FTTP	Fiber to the Premises  (FTTx technology)
 FTTS	Fiber To The Space (future networks, post 6G)
 FTTx	Fiber to the "x" technologies
-ftw	for the win  (slang:  expression of affirmation or strong approval)
-fubar	f**ked up beyond all recognition (slang:  situation beyond repair)
+FTW	"for the win"  (slang:  expression of affirmation or strong approval)
+FUBAR	"f**ked up beyond all recognition"  (slang:  situation beyond repair)
 FUD	Fear, Uncertainty, Doubt (business term)
 fungible	interchangeable, of same value (example: dollar)
 FUP	Fair Usage Policy
@@ -1860,7 +1861,7 @@ FWBB	Fixed Wireless Broad-Band
 FWD	Forward Link
 fya	for your action (business term)
 fye	for your evaluation (business term)
-fyi	for your information (common abbreviation)
+fyi	"for your information"  (slang:  heads-up, update, or reminder, but no response or action required)
 FZC	Frank–Zadoff–Chuaka, aka "ZC", complex-valued digital signal sequence
 G	VLR and VLR	2G GSM  interface
 G.711	Pulse code modulation (PCM) of voice frequencies (ITU, VoIP protocol)
@@ -1929,6 +1930,7 @@ gif	Graphics Interchange Format (image file extension)
 giga-	G,  10 power   9	- numeric, see also "prefix"
 GIJ	GNU Interpreter for Java
 GIS	Geographic Information Systems (all things related to geospatial data)
+GKE	Google Kubernetes Engine  (managed Kubernetes service by Google)
 GLAAD	Gay and Lesbian Alliance Against Defamation (social organization, www.glaad.org))
 GLI	Global Line Identifier
 GLONASS	Globalnaya Navigazionnaya Sputnikovaya Sistema (Russian GPS)
@@ -1960,7 +1962,7 @@ gNodeB	Next Generation Node B (5G network, TS 38.306 Rel-15 and onwards)
 GNSS	Global Navigation Satellite System
 GNU	GNU's Not Unix (recursive acronym, collection of free software)
 Go	high-level compiled programing language (Google)
-GOAT	Greatest Of All Time (slang:  top performer in a field)
+GOAT	"Greatest Of All Time"  (slang:  top performer in a field)
 GoC	Groups of Countries (ITU-T E.164)
 googol		number equal to 1 x 10^100
 GOP	Grand Old Party (Republican Party, US political party)
@@ -1984,6 +1986,7 @@ gPTP	generalized Precision Time Protocol (IEEE 802.1as)
 GPU	Graphics Processing Unit (processor:  parallel, for graphics and AI)
 Gr	SGSN and HLR 		2G GPRS interface, user profile
 Gr	SGSN and HLR/AuC	3G UMTS interface
+gr8	"great"  (numeronym)
 GRC	Governance, Risk and Compliance (approach to ensure compliance with regulatory requirements)
 GRE	Generic Routing Encapsulation (RFC 2784, RFC 2890)
 GRE	Graduate Record Examination (US, graduate admissions exam)
@@ -2012,7 +2015,7 @@ GSPC	Standards & Poor's 500 Index (US stock market index)
 GST	Generic Slice Template
 GSTN	General Switched Telephony Network
 GTA	Global Title Address
-gtfo	get the f**k out (slang:  disbelief, surprise or tell someone to leave)
+GTFO	"get the f**k out"  (slang:  disbelief, surprise or tell someone to leave)
 GTIN	Global Trade Identification Numbers (barcode: inventory tracking identifier)
 GTK	Group Temporal Key (IEEE 802.11i, RFC 3748)
 gTLD	generic Top-Level Domains (internet domains)
@@ -2183,6 +2186,8 @@ I-frame	Information frame (HDLC frames: I, S, U)
 I-RNTI	Inactive Radio Network Temporary Identifier
 i/f	interface
 I/O	Input/Output
+i10n	"localisation"  (numeronym:  adapting to languages, regional and technical requirements)
+i18n	"internationalization"  (numeronym:  adapting to languages, regional and technical requirements)
 I2C	Inter-Integrated Circuit (short-distance connection protocol, wire: SCL,SDA,MCU)
 I2O	Internet to Orbit (devices connecting satellites & spacecrafts to internet)
 IA	Identity Association
@@ -2217,7 +2222,7 @@ ICA	Independent Component Analysis (AI, unsupervised ML model, clustering)
 ICANN	Internet Corporation for Assigned Names and Numbers (www.icann.org)
 ICAO	International Civil Aviation Organization (aviation, UN standards agency for aviation)
 ICAT	Internet Categorization of Attacks Toolkit (now called "NVD")
-icb	I can't believe (common abbreviation)
+icb	"I can't believe"  (slang:  express disbelief)
 ICCID	Integrated Circuit Card Identifier (SIM serial number, ITU E.118)
 ICCP	Inter-Chassis Communication Protocol
 ICD	International Classification of Diseases (WHO health/medical tool)
@@ -2244,18 +2249,18 @@ ICS	IMS Centralized Services (voice service continuity with CS domain, TS 23.292
 ICS	Inter-Carrier Spacing
 ICSI	IMS Communication Service Identifier
 ICT	Information and Communication Technology (based on ITU-T recommendations)
-icymi	in case you missed it  (common abbreviation)
+icymi	"in case you missed it"   (slang:  highlight content someone may have overlooked)
 ID	Identity, Identifier, Identification information
 id	Latin: "idem",  English: "the same"
 iDAS	indoor Distributed Antenna System
-idc	i don’t care  (slang)
+idc	"i don’t care"  (slang)
 IDC	In Device Coexistence (3GPP Release 11)
 IDDD	International Direct Distance Dialing
 IDE	Integrated Development Environment (software development with user interface)
 IDE	Integrated Drive Electronics (hard-disk interface)
 iDEN	integrated Digital Enhanced Network (2G GSM)
 IDFT	Inverse Discrete Fourier Transform (algorithm, math)
-idk	i don’t know  (slang:  express uncertainty, lack of knowledge or indecision)
+idk	"i don’t know"  (slang:  express uncertainty, lack of knowledge or indecision)
 IDL	In-Direct Labor  (support revenue-generating activities, but are not directly involved)
 IDL	Interface Definition Language
 IDLE	Integrated Development and Learning Environment (IDE for Python)
@@ -2290,7 +2295,7 @@ IGP	Interior Routing Protocol
 IGRP	Interior Gateway Routing Protocol  (AD=100)
 IGSO	Inclined Geosynchronous Orbit (satellite orbit)
 IIot	Industrial Internet of Things (industrial usage)
-iirc	if i recall correctly  (common abbreviation)
+iirc	"if i recall correctly"  (slang:  share information while acknowledging uncertainty)
 IIS	Internet Information Services (Microsoft web server)
 IK	Integrity Key (authentication vector, TS 33.102)
 IKE	Internet Key Exchange Protocol (UDP, RFC 7296, port: 500, aka ISAKMP)
@@ -2310,9 +2315,9 @@ IMEI 	International Mobile Equipment Identity, 15-digits (TS 22.016)
 IMEISV	International Mobile Equipment Identity Software Version
 IMF	International Monetary Fund
 IMGI	International Mobile Group Identity
-imho	in my humble/honest opinion  (common abbreviation)
+imho	"in my honest opinion"  (slang:  politely express a personal viewpoint)
 IMINT	Imagery Intelligence (from satellite imagery or aerial photography)
-imo	in my opinion  (common abbreviation)
+imo	"in my opinion"  (slang:  express a personal viewpoint)
 IMO	International Maritime Organization (UN agency)
 IMPI	IP Multimedia Private Identity
 IMPU	IP Multimedia Public Identity
@@ -2514,6 +2519,7 @@ IP-M	Internet Protocol Multicast
 IP-SAN	Internet Protocol SAN (ISM data storage, data transport via IP)
 IPAG	Internet Protocol Aggregation Gateway
 IPAWS	Integrated Public Alert and Warnings System
+IPBB	Internet Protocol Broadband  (2G technology to deliver broadband services with IP)
 ipconfig	TCP/IP command: current configuration
 IPFW	IP FireWall
 IPI	Internet Protocol Intelligence
@@ -2561,7 +2567,7 @@ IRATCC	Inter-Radio Access Technology Cell Change
 IRAU	Inter SGSN Routing Area Update  (GPRS procedure)
 IRC	Internet Relay Chat (instant messaging, chat)
 IrDA	Infrared Data Association  (standards organization, www.irda.org)
-irl	in real life  (slang:  offline events, happening outside the digital world)
+irl	"in real life"  (slang:  off-line events, happening outside the digital world)
 IRM	Insider Risk Management (cybersecurity, framework)
 IRP	Integration Reference Point (TR 32.828)
 IRPA	International Radiation Protection Association
@@ -2661,8 +2667,9 @@ Ix	IBCF and TrGW		IMS interface
 IXC	Inter-eXchange Carrier (long-distance carrier)
 Ixia	US company providing test and simulation platforms
 IXIC	Nasdaq Composite (US stock market index)
+iykyk	"If You Know, You Know"  (slang:  signal insider knowledge or shared experience)
 Izi	TrGW and TrGW		IMS interface
-j/k	just kidding  (common abbreviation)
+j/k	"just kidding", "joking"  (slang:  previous statement not meant to be taken seriously)
 J1	same as T1 with slight modifications.  Used in Japan
 JAMA	Journal of the American Medical Association  (medical journal, www.jamanetwork.com)
 jar	Java Archive File extension
@@ -2685,7 +2692,7 @@ JS	JavaScript (programming language for web pages)
 json	JavaScript Object Notation (RFC 7464, text, attribute-pair file extension)
 JSON-RPC	JavaScript Object Notation-Remote Procedure Call (stateless protocol)
 JSR-311	Java API for RESTful web services
-jsyk	just so you know  (common abbreviation)
+jsyk	"just so you know"  (slang:  casual way to share information or a heads-up)
 JTACS	Japan Total Access Communications System
 Juju	open source orchestration engine
 Julia	high-level, programming language for high-performance numerical and scientific computing
@@ -2696,7 +2703,7 @@ JVMS	Java Virtual Machine Specification
 JWST	James Webb Space Telescope (orbits at L2: 930k miles/1.5 Mkm)
 JWT	JSON Web Token (RFC 7523, authentication)
 K-mean	K-means clustering (AI, unsupervised ML model, clustering)
-K8s	short for Kubernetes, open-source container orchestration platform (Greek: "helmsan", "pilot")
+k8s	Kubernetes, 'numeronym' (open-source container orchestration platform, Greek: "helmsan", "pilot")
 Kafka	Apache distributed event streaming platform
 KASME	Key Access Security Management Entries (authentication vector)
 KASUMI	block cipher used in GSM, GPRS and UMTS (TS 35.202)
@@ -2708,6 +2715,7 @@ KDDI	telecommunications operator, Japan
 KDE	Kernel Density Estimation plot (statistics:  overall shape of data distribution)
 KDF	Key Derivation Function
 KEDB	Known Error DataBase (ITIL)
+Keras	high-level API designed for simplicity and rapid prototyping  (AI, deep learning)
 Keras	open-source Python interface library for ANN (AI)
 kernel	part of operating system that controls functions of hardware
 KGB	Komitet Gosudarstvennoy Bezopasnosti (Soviet security agency, 1954-1991)
@@ -2718,10 +2726,11 @@ Kibana 		dashboard tool for ElasticSearch (big data, ELK)
 kilo-	K,  10 power   3	- numeric, see also "prefix"
 Kinesis	processing and analyzing real-time streaming data (AWS service)
 KINK	Kerberized Internet Negotiation of Keys (RFC 4430)
+KISS	"Keep It Simple, Stupid"  (principle that promotes simplicity in design)
 km	Kilometers
 KML	Keyhole Markup Language (GIS: Google Earth data file, see also KMZ)
+kms	"kill my-self"  (slang:  used in a joking, sarcastic or exaggerated way) 
 KMS	Key Management Service (AWS service)
-kms	Kill My-Self (slang:  used in a joking, sarcastic or exaggerated way) 
 KMZ	compressed KML file (GIS: Google Earth zipped KML file)
 KNIME	Konstanz Information Miner
 KNN	k-Nearest Neighbors (AI, supervised ML model)
@@ -2734,7 +2743,7 @@ KSU	Key System Unit
 KT	Knowledge Transfer (training session)
 KTS	Key Telephone System
 KTS	Knowledge Transfer Session (training)
-Kubernetes	open-source container orchestration platform, aka "K8s" (Greek: "helmsan", "pilot")
+Kubernetes	open-source container orchestration platform, aka "k8s" (Greek: "helmsan", "pilot")
 KVI	Key Value Indicators (metrics)
 KVM	Kernel-based Virtual Machine
 L-W-CP	Legacy Wireline access Control Plane protocol (FN-RG and W-AGF)
@@ -2759,6 +2768,7 @@ L4	layer 4  Transport	- SEGMENT: end-to-end message delivery and error recovery
 L5	layer 5  Session	- establish, manage, terminate sessions
 L6	layer 6  Presentation	- translate, encrypt, compress
 L7	layer 7  Application	- inter-process communication and sharing
+l8r	"later"  (numeronym)
 LA	Location Area (LA --> many RA --> many URA)
 LAA	Licensed Assisted Access
 LAC	Link Access Control
@@ -2820,7 +2830,7 @@ LDN	Local Data Network
 LDoS	Last Day of Support (product lifecycle milestone)
 LDPC	Low Density Parity Check
 LDPE	Low-Density Poly-Ethylene (type of plastic)
-ldr	long-distance relationship (slang)
+ldr	"long-distance relationship"  (slang)
 Le	AS and GMLC		IMS interface
 LEA	Law Enforcement Agencies (TS 33.127)
 LEC	Local Exchange Carrier (Central Office carrier, phone company)
@@ -2838,7 +2848,6 @@ LFN	Linux Foundation Networking (Linux Foundation’s open-source networking umb
 LFSR	Linear Feedback Shift Register
 LGA	Land Grid Array (surface-mount packaging for integrated circuits)
 LGM	Large Geospatial Model (AI, GIS based model)
-lgtm	looks good to me (common abbreviation)
 LI	Lawful Intercept (TS 33.127)
 LIDAR	Light Imaging Detection and Ranging
 LIDB	Line Information Database (billing information)
@@ -2863,9 +2872,9 @@ LLE	Locally Linear Embedding (AI, unsupervised ML model, clustering)
 LLM	Large Language Model (AI, NLP model)
 LLS	Low Layer Split
 LMA	Local Mobility Anchor
-lmao	laughing my ass off (slang)
-LMF	Location Management Function (5G network function, TS 29.572)
-lmk	let me know  (common abbreviation)
+lmao	"laughing my ass off" (slang)
+LMF	Location Management Function (5G network function, TS 23.501, TS 29.572)
+lmk	"let me know"  (slang:  casual request for information, updates or decisions)
 LMR	Land Mobile Radio
 LMS	Learning Management System
 LMS	Location Management Services (TS 29.572)
@@ -2885,7 +2894,7 @@ LoF	Loss of Frame
 logic gate	logic operations: AND, NAND, NOR, NOT, OR, XNOR, XOR
 Logstash	ETL tool for ElasticSearch (big data, ELK)
 LoI	Letter of Intent (agreements, roadmaps)
-lol	laughing out loud  (slang)
+lol	"laughing out loud"  (slang:  absolutely hilarious)
 LoRa	Long Range Radio (radios for M2M and IoT networks)
 LoRA	Low Rank Adaptation (AI, fine tuning models)
 LoS	Line of Sight
@@ -2914,7 +2923,7 @@ LSB	Least Significant Bit
 LSB	Linux Standard Base (interface standards to maintain portability)
 LSGW	Local Serving Gateway
 LSH	Locality-Sensitive Hashing
-lshmsfoaidmt	laughing so hard my sombrero falls off and i drop my taco (common abbreviation)
+lshmsfoaidmt	"laughing so hard my sombrero falls off and i drop my taco"  (slang)
 LSI	Large-Scale Integration	      (integrated chip with  10,000s transistors, 1970s)
 LSTM	Long-Short-Term Memory Networks (AI, deep learning RNN architecture)
 LTA	Leave Travel Allowance (travel expense)
@@ -2975,7 +2984,7 @@ MAPE	Mean Absolute Percentage Error (statistics, evaluation metric)
 MapReduce	programming model for big data processing, see "map" and "reduce"
 Marisat	Maritime Telecommunications Satellites (1973-1981)
 MASG	Mobile Aggregation Site Gateway
-MASINT	Measurement And Signature Intelligence (from scientific observations)
+MASINT	Measurement and Signature Intelligence (from scientific observations)
 MATLAB	MATrix LABoratory (programming language developed by MathWorks)
 matplotlib	Python package for 2D plotting
 MAUI	.NET Multi-platform App UI (Microsoft cross-platform framework)
@@ -3015,7 +3024,6 @@ MCP	Multi-Core Processors (micro-processor chips with multiple CPUs)
 MCPTT	Mission Critical Push To Talk (TS 23.379)
 MCS	Modulation and Coding Scheme
 MCTS	Monte Carlo Tree Search (AI, unsupervised ML model, reinforcement learning)
-MCU	
 MCU	Media Control Unit
 MCU	Micro-Controller Unit (brains in modern electronics, plus built-in hardware peripherals)
 MCX	Mission Critical Service
@@ -3147,7 +3155,7 @@ mMIMO	massive Multiple-Input Multiple-Output (5G technology)
 MML	Man Machine Language
 MMO	Massively Multiplayer Online (type of video game)
 MMORPG	Massively Multiplayer Online Role-Playing Games
-MMR	Measles, Mumps And Rubella (vaccine, viral infection)
+MMR	Measles, Mumps and Rubella (vaccine, viral infection)
 MMS	Multimedia Messaging Service
 MMSE	Minimum Mean-Square Error (statistics, evaluation metric)
 mMTC	massive Machine Type Communications (5G reqr. for connection density)
@@ -3179,7 +3187,6 @@ MongoDB	open-source, cross-platform, distributed document-based database
 MOP	Method of Procedure (document with steps/instructions)
 MORAN	Multi-Operator Radio Access Network
 MOS	Mean Opinion Score
-MOS	Metal Oxide Semiconductor
 MOS	Metal-Oxide-Semiconductor (layered structure used in electronics, i.e. wafer, chip)
 MOSFET	Metal Oxide Semiconductor Field-Effect Transistor (used to switch and amplify signal)
 MOSI	Master Out, Slave In (SPI wire, carries data from master to slave)
@@ -3241,7 +3248,7 @@ MSDSL	Multi-Rate Symmetric Digital Subscriber Line (2 Mbps downstream and upstre
 MSDU	Media Access Control Service Data Unit
 MSE	Mean Squared Error (statistics, evaluation metric)
 MSF	MEC Service Function (5G networks)
-msg	message (common abbreviation)
+msg	"message"  (slang:  text message, online message)
 MSG	Mobile Specification Group (ETSI)
 MSI	Medium-Scale Integration      (integrated chip with     100s transistors, late-1960s)
 msi	Microsoft installer file (file extension)
@@ -3306,8 +3313,8 @@ MUX	Multiplexer  (combines 2^n signals into 1 signal; many to one)
 MVNA	Mobile Virtual Network Aggregator
 MVNE	Mobile Virtual Network Enabler
 MVNO	Mobile Virtual Network Operator
-MVP	Mean Viable Product (business term)
-mvp	most valuable player (common abbreviation)
+mvp	"most valuable player"  (slang:  person who carried the moment, helped the most)
+MVP	Minimum Viable Product (business term, incremental development)
 MVUE	Minimum-Variance Unbiased Estimator (statistics, evaluation metric)
 Mw	CSCF and CSCF		IMS interface
 MW	MicroWave
@@ -3319,8 +3326,8 @@ Mx	CSCF/BGCF and IBCF	IMS interface
 MySQL	MySQL Database (port: 3306)
 N-AMPS	Narrowband Advanced Mobile Phone System (2G)
 N-ISDN	Narrowband Integrated Services Digital Network
-n/a	not available/applicable (common abbreviation)
-n00b	newbie/amateur, aka noob (slang)
+n/a	"not available", "not applicable"  (common abbreviation)
+n00b	beginner, amateur, inexperienced, aka noob (slang:  can be playful, humorous or derogatory)
 N1	UE and AMF	5G interface  (NAS protocol)
 N10	UDM and SMF	5G interface
 N11	AMF and SMF	5G interface
@@ -3427,7 +3434,7 @@ NEACP	National Emergency Airborne Command Post (US military)
 NEC	Network Edge Computing (services located closer to end users)
 NEDA	National Electronic Distributors Association
 NEDA	National Electronic Distributors Association (standards organization, dormant, 1981-2010)
-NEF	Network Exposure Function (5G network function, TS 29.522)
+NEF	Network Exposure Function (5G network function, TS 23.501, TS 29.522)
 NEHO	Network Evaluated Hand Over
 NEMO	Network Mobility
 NENA	National Emergency Number Association (www.nena.org)
@@ -3483,7 +3490,7 @@ NGFI	Next Generation Fronthaul Interface
 NGFW	Next Generation Firewall
 NGH	Next Generation Hotspot
 NGINX	"engine-X" (high-performance, open-source web server, load balancer and TCP/UDP proxy server)
-ngl	not gonna lie (slang:  preface honest or candid statement))
+ngl	"not gonna lie"  (slang:  preface honest or candid statement))
 NGMN	Next Generation Mobile Networks (standards organization, www.ngmn.org)
 NGN	Next Generation Network
 NGO	Non-Governmental Organization
@@ -3539,20 +3546,20 @@ NOC	Network Operations Center (also known as OMC)
 NodeB	Radio Transceiver Station (3G UMTS, NodeB: temporary name that became permanent)
 NodeJS	open-source JavaScript environment to create servers, web apps, command line tools and scripts
 NOMA	Non-Orthogonal Multiple Access (5G technology)
-noob	beginner, amateur, inexperienced (slang)
+noob	beginner, amateur, inexperienced, aka n00b (slang:  can be playful, humorous or derogatory)
 NOR	logic gate, universal:  Y = (A + B)'     def NOR(a, b):  return NOT(OR(a, b))
 NoSQL	any database designed outside of traditional relational model
 NOT	logic gate, basic:      Y = Ā            def NOT(a):     return 0 if a else 1
 NOTAM	Notice to Airmen (aviation, alerts pilots to temporary changes or hazards in airspace)
-np	no problem  (common abbreviation)
+np	"no problem"  (slang:  you’re welcome, it’s okay, don’t worry about it, happy to help)
 NP&E	Network Planning and Engineering
 NPA	Numbering Plan Area (telephony, Area Code)
 NPB	Network Packer Broker
 NPBCH	Narrowband Physical Broadcast Channel (cell physical channel)
-npc	non-player character (slang:  unoriginal, predictable or robotic person )
+npc	"non-playable character"  (slang:  unoriginal, predictable or robotic person)
 Npcf	5G Service-Based Interface exhibited by PCF
-NPDCCH	Narrowband Physical Downlink Control Channel (cell physical channel)
-NPDSCH	Narrowband Physical Downlink Shared Channel  (cell physical channel)
+NPDCCH	Narrowband Physical Downlink Control Channel  (cell physical channel)
+NPDSCH	Narrowband Physical Downlink Shared  Channel  (cell physical channel)
 NPE	Network Processing Element
 NPI	Non-Sensitive Personal Information
 NPI	Numbering Plan Indicator
@@ -3573,11 +3580,11 @@ NR-U	New Radio-Unlicensed (unlicensed spectrum, eg: OMB, private))
 NR-UP	New Radio User Plane protocol stack: PHY,MAC,RLC,PDCP,AS
 NRA	National Rifle Association (US, gun-rights lobby group)
 NRDZ	National Radio Dynamic Zones
-NRF	Network function Repository Function (5G network function, TS 29.510)
+NRF	Network function Repository Function (5G network function, TS 23.501, TS 29.510)
 NRM	Network Resource Model (TR 28.541)
 NRM	Normal Response Mode
 NRMC	National Risk Management Center  (part of CISA)
-nrn	no reply necessary (common abbreviation)
+nrn	"no reply necessary"
 NRS	Narrowband Reference Signal (cell physical signal)
 NRSC	Network Reliability Steering Committee
 NRT	Neighboring Relation Table
@@ -3596,7 +3603,7 @@ NSD	Network Service Descriptor
 NSDU	Network Service Data Unit
 NSE	Nmap Scripting Engine (cybersecurity, scripting tool for Nmap)
 NSF	National Science Foundation (US research and education agency, www.nsf.gov)
-nsfw	not safe for work (common abbreviation, contains offensive content)
+nsfw	"not safe for work"  (slang: contains offensive content, not be suitable for a public setting)
 NSI	Network Service Interface
 NSI	Network Slice Instance
 NSI ID	Network Slice Instance Identifier
@@ -3609,7 +3616,7 @@ NSP	Network Service Provider
 NSS	Network and Switching Subsystem - 2G GSM: MSC,HLR/VLR,EIR,AuC,GMSC,SMS-G
 NSSAA	Network Slice-Specific Authentication and Authorization (TS 29.526)
 NSSAI	Network Slice Selection Assistance Information (5G)
-NSSF	Network Slice Selection Function (5G network function, TS 29.531)
+NSSF	Network Slice Selection Function (5G network function, TS 23.501, TS 29.531)
 NSSMF	Network Slice Subnet Management Function
 NSSP	Network Slice Selection Policy
 NSSS	Narrowband Secondary Synchronization Signal (cell physical signal)
@@ -3618,7 +3625,7 @@ NSTISSI	National Security Telecommunications and Information Systems Security In
 NSWO	Non Seamless WLAN Offload
 NT	Network Terminator
 NT	Nortel, Northern Telecom (Canadian telecommunication company, 1895-2017)
-NTA	not the a**hole (slang:  reply to AITA, not at fault or acted reasonably)
+NTA	"not the a**hole"  (slang:  reply to AITA, not at fault or acted reasonably)
 NTAF	Network Testing Automation Framework
 NTC	National Technology Center
 NTE	Network Terminating Equipment
@@ -3644,7 +3651,7 @@ numeric-3	three number code
 numpy	Python package for Base N-dimensional array computing
 NVD	National Vulnerability Database (nvd.nist.gov)
 NVidia	US company: GPU, API, SoCs, performance & mobile computing
-nvm	never mind  (common abbreviation)
+nvm	"never mind"  (slang:  disregard a previous message or statement)
 NVMA	Non-Uniform Memory Access
 NVMe	Non-volatile Memory Express (hard-disk interface)
 NVP	Network Voice Protocol
@@ -3652,7 +3659,7 @@ NVRAM	Non-Volatile Random-Access Memory  (memory:  retains data even when power 
 NVT	Network Virtual Terminal  (log-in and interact with remote host on local terminal)
 NW	Network
 NW-TT	Network-Side TSN Translator (TS 24.519)
-NWDAF	Network Data Analytics Function (5G network functions)
+NWDAF	Network Data Analytics Function (5G network functions, TS 23.501)
 NWDW	Narrowband Wave Division Multiplexing
 NWG	Network Working Group
 NYSE	New York Stock Exchange (US stock market index)
@@ -3672,8 +3679,8 @@ object		data type, all types:     everything is an object
 OBM	Original Brand Manufacturer
 OBP	Online Browsing Platform
 OBSAI	Open Base Station Architecture Initiative
+oc	"original content" (slang:  original posts, videos or memes, not re-posts)
 OC	Optical Carrier (ANSI SONET, transport signal format)
-oc	original content (common abbreviation, reddit)
 OC  -1		OC-1, 	 SONET	    51.84 Mbps	(same as SONET   STS-1 and SDH STM-0)
 OC  -3		OC-3, 	 SONET	   155.52 Mbps	(same as SONET   STS-3 and SDH STM-1)
 OC -12		OC-12, 	 SONET	   622.08 Mbps	(same as SONET  STS-12 and SDH STM-4)
@@ -3741,11 +3748,11 @@ OMB	Open Mobile Broadband (eg: NR-U neighborhood networks)
 OMC	Operations and Maintenance Centre (also known as NOC)
 OMCI	Onu Management and Control Interface (ITU-T G.988, management & control of ONU)
 OMEC	Open Mobile Evolved Core
+omg	"oh my god"  (slang:  used to express shock, excitement, disbelief, etc.)
 OMG	Object Management Group (computer standards consortium, www.omg.org)
-omg	oh my god (slang)
 OML	Operations and Maintenance Link (between OMC and BSC)
 OMR	Optical Mark Recognition (survey, test, paper, etc. mark recognition)
-omw	on my way  (common abbreviation)
+omw	"on my way"  (slang: are leaving, en route or about to arrive at a destination)
 on-hook		idle circuit, no call in-progress
 ONAP	Open Networking Automation Platform (open-source, orchestration and automation framework)
 ONC	Open Network Computing (RFC 1057)
@@ -3760,13 +3767,13 @@ OOB	Out-of-Band
 OOBE	Out Of Band Emission
 OOK	ON/OFF Keying
 Ookla	US company, provides software for internet speed analysis
-ooo	out of office  (common abbreviation)
+ooo	"out of office"  (business term:  unavailable due to vacation, business travel or personal reasons)
 OOP	Object Oriented Programming (concepts of "classes" and "objects")
 OOS	Out Of Service (or Synchronization)
 OOXML	Office Open Extensible Markup Language (developed by Microsoft)
 Oozie	Apache workflow scheduler system to manage Hadoop jobs
+op	"original poster", "original post"  (slang:  person or post that started the discussion)
 OP	Operating Procedures (business process)
-op	original poster, original post (common abbreviation)
 OPC	Open Platform Communications
 OPEC	Organization of Petroleum Exporting Countries (oil cartel of 13 countries)
 OpenACC	Open Accelerators (framework for parallel computing)
@@ -3904,7 +3911,7 @@ PCCPCH	Physical Common Control Packet Channel
 PCEF	Policy and Charging Enforcement Function
 Pcell	Primary Cell, Serving PCC
 PCF	Packet Control Function (CDMA Session & Mobility Management)
-PCF	Policy Control Function (5G network function, TS 29.513)
+PCF	Policy Control Function (5G network function, TS 23.501, TS 29.513)
 PCFICH	Physical Control Format Indicator Channel
 PCG	Project Coordination Group
 PCH	Paging Channel (PHY-MAC transport channel)
@@ -3971,7 +3978,6 @@ PET	Positron Emission Tomography (medical scan, radiation bloodstream imaging)
 PETA	People for Ethical Treatment of Animals (organization)
 peta-	P,  10 power  15	- numeric, see also "prefix"
 PEX	Peer Exchange (feature of BitTorrent peer-to-peer protocol)
-pfa	please find attached (common abbreviation)
 PFC	Priority Flow Control (IEEE 802.1q, Data Link layer 2 flow control)
 PFCP	Packet Forwarding Control Protocol (Sx/N4 interface)
 PFD	Packet Flow Description (SMF rules to UPF)
@@ -4058,8 +4064,8 @@ POP1	Post Office Protocol version 1 (TCP, retrieve emails, RFC 918)
 POP2	Post Office Protocol version 2 (TCP, retrieve emails, RFC 937,  port: 109)
 POP3	Post Office Protocol version 3 (application layer, TCP, retrieve emails, RFC 1939, port: 110)
 POP3s	Post Office Protocol version 3 secure (application layer, TLS/SSL, retrieve emails, port: 995)
+pos	"piece of s**t"  (slang: worthless or despicable person or thing)
 PoS	Packet over SONET/SDH (RFC 1661, data link layer)
-pos	piece of s**t (common abbreviation, worthless or despicable person or thing)
 POS	Point of Sale (retail, sales tracked by barcode)
 POS	Point of Service (US medical insurance plan)
 POSIX	Portable Operating System Interface (IEEE standards for APIs)
@@ -4067,7 +4073,7 @@ POST	Power-On Self Test (memory, CPU, peripheral check performed by BIOS at star
 PostgreSQL	PostgreSQL Database (port: 5432)
 POTS	Plain Old Telephone Service (analog phone lines over copper)
 POTUS	President of the United States
-pov	point of view (common abbreviation)
+pov	"point of view"  (slang: show a scenario from a specific perspective)
 PP	Poly-Propylene, or Styrofoam (type of plastic)
 PPAC	Paging Permission with Access Control (TS 22.098)
 PPACA	Patient Protection and Affordable Care Act (obsolete, now known as "ACA")
@@ -4075,7 +4081,6 @@ PPD	Paging Policy Differentiation
 PPDR	Public Protection and Disaster Relief
 PPF	Paging Proceed Flag
 PPI	Paging Policy Indicator
-ppl	people (common abbreviation)
 ppm	parts per million
 PPO	Preferred Provider Organization (US medical insurance plan)
 PPP	Point-to-Point Protocol (RFC 1661)
@@ -4189,7 +4194,8 @@ px	CSS/HTML styles::  pixel with fixed, precise font size
 PXE	Preboot eXecution Environment
 py	Python file extension
 Python	interpreted high-level general-purpose programming language
-Q&A	Question and Answer (common abbreviation)
+PyTorch	open-source ML framework by Facebook  (AI, deep learning)
+Q&A	"Question and Answer"  (slang:  discussion forum or setting)
 Q.850	Usage of cause and location in the DSSS1 and SS7 ISUP (ITU-T)
 QA	Quality Assurance
 QAM	Quadrature Amplitude Modulation            (digital signal modulation technique)
@@ -4240,7 +4246,7 @@ RACH	Random Access Channel (TS 36.300, PHY-MAC transport channel)
 RACI	Responsible, Accountable, Consulted, Informed (project model)
 RACS	Resource and Admission Control Subsystem (ETSI ES 282 003)
 rad	radian, SI units for measuring angles, unit-less (2pi rad = 360 degrees)
-RAD	Rapid Application Development model
+RAD	Rapid Application Development  (popular SDLC model)
 RADAR	Radio Detection and Ranging
 RADIUS	Remote Authentication Dial in User Service (RFC 2865)
 RADOS	Reliable Autonomic Distributed Object Store
@@ -4351,8 +4357,8 @@ rIK	re-authentication Integrity Key
 RIM	RAN Information Management
 RIM	Remote Interference Mitigation
 RINGS	Resilient and Intelligent NextG Systems
+RIP	"Rest in Peace"  (slang: failed, ruined or beyond repair; used humorously or dramatically)
 RIP	Request in Progress
-RIP	Rest in Peace (common abbreviation)
 RIP	Routing Information Protocol (UDP, Layer 5, RFC 1058 & 1723, port: 520, AD=120)
 RIPE NCC	Réseaux IP Européens Network Coordination Centre (ICANN RIR)
 RIR	Regional Internet Registry (organization managing internet number resources)
@@ -4395,8 +4401,8 @@ RMI	Remote Method Invocation
 RMSD	Root Mean Square Deviation, same as RMSE (statistics)
 RMSE	Root Mean Squared Error (statistics, evaluation metric)
 RMSI	Remaining Minimum System Information, SIB1 (5G NR system info: MSI, RMSI, OSI)
+rn	"right now"  (slang:  happening at the present moment)
 RN	Registered Nurse (professional healthcare provider)
-rn	right now (slang:  happening at the present moment)
 RNA	RAN Notification Area
 RNA	Ribo-Nucleic Acid (single-strand of DNA with instructions to make proteins)
 RNAU	RAN-based Notification Area Update
@@ -4415,13 +4421,13 @@ ROADM	Reconfigurable Optical Add-Drop Multiplexer
 ROC	Receiver Operating Characteristics (statistics, evaluation metric)
 RoCE	RDMA over Converged Ethernet
 ROE	Return on Equity (business metric)
-rofl	rolling on floor laughing (slang)
+rofl	"rolling on floor laughing"  (slang:  absolutely hilarious)
 ROHC	Robust Header Compression (RFC 5856)
 ROI	Return on Investment (business metric)
 ROIC	Return on Invested Capital (business metric)
 ROM	Read Only Memory (memory: non-volatile DAS memory for permanent storage)
 RoR	Rate of Return (business metric)
-rotfl	rolling on the floor laughing (slang)
+rotfl	"rolling on the floor laughing"  (slang:  absolutely hilarious)
 route print	TCP/IP command: display/modify local routing table
 ROV	Route Origin Validation
 RPA	Robotic Process Automation (software technology to automate digital tasks)
@@ -4478,7 +4484,7 @@ RTC	Real Time Communication
 RTCP	RTP Control Protocol
 RTDR	Roaming Traffic Data Report (GSMA spec TD.91)
 rtf	Rich Text Format file (file extension)
-rtfm	read the f**king manual (slang:  reply to a question whose answer is patently obvious)
+rtfm	"read the f**king manual"  (slang:  reply to a question whose answer is patently obvious)
 RTK	Real-Time Kinematic
 RTM	Rear Transition Modules (enables I/O connectivity without disturbing front-panel wiring)
 RTMFP	Real-Time Media Flow Protocol
@@ -4548,7 +4554,7 @@ SAEGW	System Architecture Evolution Gateway
 SAFe	Scaled Agile Framework
 SAGE	Security Algorithms Group of Experts
 SAI	Service Area Identifier (LAI + SAC)
-salty	upset, bitter about something (slang)
+salty	irritated, bitter or resentful (slang:  someone acting in petty or sore-loser way)
 SAM	Segment Anything Model (AI, deep learning model)
 SAML	Security Assertion Markup Language (cybersecurity)
 SAN	Satellite Access Network, with ISL:  VSAT - SL - ISL - FL - gateway - CN/PDN
@@ -4579,7 +4585,7 @@ SAT	Site Acceptance Testing (acceptance testing)
 SATA	Serial Advanced Technology Attachment (hard-disk interface)
 SAToP	Structure-Agnostic TDM over Packet (RFC 4553)
 SAU	Simultaneously Attached Users
-savage	bold, ruthless, impressive (slang)
+savage	bold, ruthless, impressive (slang:  someone who is confident, skilled, viciously cool)
 SBA	Service Based Architecture (microservices concept)
 SBAS	Satellite-Based Augmentation Systems
 SBB	Service Building Blocks
@@ -4592,7 +4598,7 @@ SBU	Strategic Business Unit
 SC	Single Carrier system
 SC	Subscriber Connector (fiber optic cable connector)
 SC-FDMA	Single Carrier Frequency Division Multiple Access (4G LTE-uplink)
-SCADA	Supervisory Control And Data Acquisition (control systems for remote eqiupment and processes)
+SCADA	Supervisory Control and Data Acquisition (control systems for remote eqiupment and processes)
 Scala	general-purpose, high-level programming language
 SCAP	Security Content Automation Protocol (NIST SP 800-126)
 SCAR	Supplier Corrective Action Request
@@ -4627,7 +4633,7 @@ SCMT	Single-Carrier Modulated Transmission      (light signal modulation techniq
 SCN	Small Cell Network
 SCO	Cyber-Observable Objects
 SCOTUS	Supreme Court of the United States
-SCP	Service Communication Proxy (5G network function, TS 23.501)
+SCP	Service Communication Proxy (5G network function, TS 23.501, TS 23.501)
 SCP	Service Control Point (SS7 SP, intelligent network node)
 SCP	Special Containment Procedures (fictional secret organization, 	www.scp-wiki.wikidot.com)
 SCRUM	Agile process framework to manage product development
@@ -4697,7 +4703,7 @@ SEND	Secure Neighbor Discovery protocol  (extension of NDP, RFC 6794)
 SEO	Search Engine Optimization (URL ranking/optimization algorithm)
 SEP	Signaling End Point
 SEP	Summary of Economic Projections (FED's report on US economy)
-SEPP	Security Edge Protection Proxy (5G network function, TS 33.517)
+SEPP	Security Edge Protection Proxy (5G network function, TS 23.501, TS 33.517)
 SES	Simple Email Service
 SEVIS	Student and Exchange Visitor Information System (USCIS database)
 SEVP	Student and Exchange Visitor Program (USCIS program)
@@ -4712,7 +4718,7 @@ SFN	Single Frequency Network
 SFN	System Frame Number (TS 36.331, frame synchronization timer)
 SFP	Small Form‑Factor Pluggable (cables for networks)
 SFTP	Secure File Transfer Protocol (application layer, TCP, SSH ftp)
-sfw	safe for work (common abbreviation, contains non-offensive content)
+sfw	"safe for work"  (slang: contains non-offensive content, suitable for a public setting)
 SG	Signaling Gateway (converts CCS messages from SS7 to SIGTRAN)
 SGCP	Signaling Gateway Control Protocol
 SGD	Stochastic Gradient Descent Classifier (AI, ML optimization algorithm)
@@ -4729,6 +4735,7 @@ SHA	Secure Hash Algorithm
 SHCCH	Shared Channel Control Channel
 SHCH	Shared Channel
 SHF	Super High Frequency	  3 GHz -  30 GHz, radio
+ship	short for "relationship"  (slang:  support or imagine two people as a couple)
 shm	Shared Memory (Linux, temporary RAM file storage)
 SHOE	Simple HTML Ontology Extensions
 SI	French: "Système international",  English: "International System of Units"
@@ -4801,9 +4808,9 @@ SMC	Security Mode Control
 SMDS	Switched Multimegabit Data Service
 SME	Small and Medium-Sized Enterprise
 SME	Subject Matter Expert
-SMF	Session Management Function (5G network function, TS 29.502)
+SMF	Session Management Function (5G network function, TS 23.501, TS 29.502)
 SMF	Single-Mode Fiber, uses one single ray of light to transmit data
-smh	shaking my head (slang:  express disbelief, frustration, or disapproval)
+smh	"shaking my head"  (slang:  express disbelief, frustration, or disapproval)
 SMI	Structure of Management Information (RFC 1065)
 SMLC	Serving Mobile Location Center
 SMO	Service Management & Orchestrator
@@ -4814,7 +4821,7 @@ SMS	Short Message Service (TS 23.040)
 SMS-G	Short Message Services Gateway
 SMSC	Serving Mobile Switching Center
 SMSC	Short Message Service Center
-SMSF	Short Message Service Function (5G network function, TS 29.540)
+SMSF	Short Message Service Function (5G network function, TS 23.501, TS 29.540)
 SMSoIP	Short Message Service over IP
 SMTC	SSB-based RRM Measurement Timing Configuration
 SMTP	Simple Mail Transfer Protocol (application layer, sending emails, RFC 821, port 25)
@@ -4835,8 +4842,8 @@ SNR	Signal to Noise Ratio (compares signal to background noise)
 SNS	Simple Notification Service
 SNS	Smart Networks and Services
 SNSSAI	S-NSSAI, Single Network Slice Selection Assistance Information (5G NSSF)
+so	"significant other"  (slang:   boyfriend, girlfriend, partner or spouse)
 SO	Service Operation (request/response, subscribe/notify, TS 23.502)
-so	significant other (slang:   boyfriend, girlfriend, partner or spouse)
 SO-DIMM	Small Outline DIMM (RAM classification, smaller profile for limited space)
 SOA	Service Oriented Architecture
 SOAC	Service Order Analysis and Control System
@@ -4921,7 +4928,7 @@ SRP	Stream Reservation Protocol
 SRR	Session Reporting Rule
 SRS	Sounding Reference Signal, used in uplink
 SRS	Spatial Reference System (geographic longitude/latitude system)
-srsly	seriously (slang)
+srsly	short for "seriously"  (slang)
 SRT	Shortest remaining time (scheduling algorithm)
 SRTT	Smoothed Round-Trip Time
 SRVCC	Single Radio Voice Call Continuity (voice service continuity with CS domain, TS 23.216)
@@ -5018,7 +5025,7 @@ SUL	Supplementary Uplink-Only band
 SUPI	Subscription Permanent Identifier (IMSI, NAI, GCI or GLI, TS 23.501)
 SUPL	Secure User Plane Location
 SURF	Speeded-Up Robust Features (algorithm to detect and describe keypoints in images)
-sus	suspicious (slang:  somthing or someone that's shady, untrustworth or off)
+sus	short for "suspicious"  (slang:  somthing or someone that's shady, un-trustworthy or off)
 SUSE	Linux distribution developed by SUSE
 SUT	System Under Test
 SUV	Sports Utility Vehicles (type of automobile)
@@ -5082,10 +5089,10 @@ TASER	Thomas A. Swift’s Electric Rifle (non-lethal electrical weapon)
 TAU	Tracking Area Update (TS 23.401), aka Location Update
 TB	Terabyte	memory size, 10^12	1,099,511,627,776 Bytes
 TB	Transport Block
-tba	to be announced (common abbreviation)
-tbc	to be continued, to be confirmed (common abbreviation)
-tbd	to be determined, to be decided (common abbreviation)
-tbh	to be honest (common abbreviation)
+tba	"to be announced"  (slang:  not yet finalized)
+tbc	"to be continued", "to be confirmed"  (slang:  not final yet, still needs more information)
+tbd	"to be determined", "to be decided" (slang:   details are undecided or pending)
+tbh	"to be honest"  (slang:  introduce a genuine or candid opinion)
 TC	Transaction Capabilities
 TC	Trunk Code (E.164 numbering plan)
 TCaaS	Testing as a Service, or Threat/Traffic Control as a Service
@@ -5110,6 +5117,7 @@ TCP/IP Layer 4	Transport Layer   (Port Number)  UDP, TCP, SCTP, TLS/SSL
 TCP/IP Layer 5	Application Layer (Process ID)   DNS, FTP, DHCP, HTTP, SMTP, TELNET
 TD-SCDMA	Time Division-Synchronous Code Division Multiple Access (China)
 TDAG	Telecommunication Development Advisory Group
+TDAP	Tetanus, Diphtheria, Pertussis  (vaccine, viral infection)
 TDCI	Tethering Detection Confidence Index (feature)
 TDD	Telecommunications Device for the Deaf
 TDD	Test Driven Development (Agile terminology)
@@ -5133,7 +5141,7 @@ telnet	Telecommunication Network unencrypted remote access (TCP L4: Application 
 TEM	telecommunication Equipment Manufacturer
 TEMIC	Telecommunications Executive Management Institute of Canada
 TEMS	Travel and Expense Management System
-TensorFlow	open-source machine learning library for deep learning models
+TensorFlow	open-source ML framework by Google  (AI, deep learning)
 TER	Ternary numbering system,     base 8: 0-2       (BIN, TER, OCT, DEC, HEX)
 tera-	T,  10 power  12	- numeric, see also "prefix"
 TETRA	Trans-European Trunked Radio System (ETSI private mobile radio standard)
@@ -5142,20 +5150,20 @@ TF	TensorFlow (AI, machine learning library by Google)
 TFS	Tape File System for magnetic tapes)
 TFT	Traffic Flow Template
 TFTP	Trivial File Transfer Protocol (UDP, simple file transfer, RFC 1350, port: 69)
-tfw	that feeling when (slang: express an emotional reaction or relatable moment online)
-tgif	thanks God it's Friday (common abbreviation)
-thx	thanks (common abbreviation)
+tfw	"that feeling when"  (slang: express an emotional reaction or relatable moment online)
+tgif	"thanks God it's Friday"  (slang:  celebrate end of workweek,  arrival of weekend)
+thx	"thanks"  (slang:  quickly express gratitude)
 TI	Texas Instruments Incorporated (US semiconductor company)
 TI	Transaction Identifier
 TI-LFA	Topology Independent Loop-Free Alternate  (RFC 9860)
+tia	"thanks in advance", "that is all", "take it away"  (slang:  context matters)
 TIA	Telecommunications Industry Association (trade association information and communications, tiaonline.org)
-tia	thanks in advance (common abbreviation)
 Tier 1	first contact
 Tier 2	more senior than Tier 1
 TIF	Translation Information Flag
 tiff	Tagged Image File Format (image file extension)
-tifu	today i f**ked up (slang:  personal mistake or embarrassing moment)
-til	today i learned (common abbreviation, reddit)
+tifu	"today i f**ked up"  (slang:  personal mistake or embarrassing moment)
+til	"today i learned"  (slang:  recently learned something interesting or surprising)
 time		data type, primitive:     temporal values (12:30:45)
 TIN	Taxpayer Identification Number, aka TIN, unique IRS number for business
 TIP	Telecom Infra Project (organization for 2G/3G/4G/5G OpenRAN)
@@ -5163,9 +5171,10 @@ TISPAN	Telecom & Internet converged Services & Protocols for Advanced Networks (
 Tk	"tee-kay", free, multi-language, widget toolkit for building GUIs
 TKIP	Temporal Key Integrity Protocol (WPA encryption key)
 TL1	Transaction Language 1
+tl;dr	"too long;didn’t read" (slang: summarize and skip the lengthy content)
 TLCAN	Spanish: "Tratado de Libre Comercio de América del Norte",  English: "NAFTA"
 TLD	Top-Level Domain server (DNS server, RFC 2606)
-tldr	too long;didn’t read/don't read (slang: skip lengthy content, summarize lengthy content)
+tldr	"too long;didn’t read" (slang: summarize and skip the lengthy content)
 TLDs	Top-Level Domains (highest level in hierarchical Domain Name System)
 TLIV	Type Length Instance Value
 TLLI	Temporary Logical Link Identity (TS 23.003)
@@ -5179,7 +5188,7 @@ TMC	Traffic Message Channel
 TMDE	Technical Management Data Element (technical performance information)
 TMF	TeleManagement Forum (TR 32.828)
 TMGI	Temporary Mobile Group Identity
-tmi	too much information (slang:  shares overly personal, uncomfortable or unnecessary details)
+tmi	"too much information"  (slang:  sharing overly personal, uncomfortable or unnecessary details)
 TMN	Telecommunications Management Network
 TMSI	Temporary Mobile Subscriber Identity (TS 23.003)
 TN	Terrestrial Networks (vs. NTN)
@@ -5353,7 +5362,7 @@ TTR	Time to Resolve (business metric)
 TTS	Text (transcription) and Text to Speech
 TTS	Time to Scale (business term)
 TTY	Teletypewriter/Text Telephone (hearing impaired telephones)
-ttyl	talk to you later (common abbreviation)
+ttyl	"talk to you later"  (slang:  conversation is pausing, but not ending)
 TUP	Telephone User Part
 TV	Type, Value
 TWAG	Trusted Wireless Access Gateway
@@ -5390,14 +5399,14 @@ UCS	Universal Coded Character Set, ISO standard for character encoding
 UDC	User Data Convergence (TS 23.335)
 UDF	Universal Disk Format (file system for optical media, DVD, Blu-ray disc)
 UDIMM	Unbuffered DIMM (RAM classification, most common PC DIMM)
-UDM	Unified Data Management (5G network function, TS 29.503)
+UDM	Unified Data Management (5G network function, TS 23.501, TS 29.503)
 UDMA	Ultra Direct Memory Access
 UDN	Ultra-Dense small cell Network
 UDP	User Datagram Protocol (transport layer, RFC 768)
-UDR	Unified Data Repository (5G network function, TS 29.504)
+UDR	Unified Data Repository (5G network function, TS 23.501, TS 29.504)
 UDR	Usage Data Record (same as CDR, billing/usage, TS 32.295)
 UDRP	Uniform Domain-Name Dispute Resolution Policy
-UDSF	Unstructured Data Storage Function (5G network function, TS 29.598)
+UDSF	Unstructured Data Storage Function (5G network function, TS 23.501, TS 29.598)
 UDT	UDP-based Data Transfer Protocol
 UE	User Equipment (3G/4G/5G mobile), mobile phone + SIM card
 UEA	UMTS Encryption Algorithm (TS 33.102)
@@ -5445,7 +5454,7 @@ UNSC	United Nations Security Council
 UP	User Plane (user, data, bearer, carrier or forwarding plane)
 UPC	Unified Packet Core (IMS)
 UPC	Universal Product Code (barcode: inventory tracking identifier)
-UPF	User Plane Function (5G network function, TS 29.564)
+UPF	User Plane Function (5G network function, TS 23.501, TS 29.564)
 UPnP	Universal Plug and Play (local network discover and configure protocol.  port: 1723)
 UPS	Uninterruptible Power Source
 UPSF	User Profile Server Function
@@ -5563,7 +5572,7 @@ VIBGYOR	violet, indigo, blue,, green, yellow, orange, red
 VIF	Virtual Interface
 VIM	Virtualized Infrastructure Manager
 VIN	Vehicle Identification Number (17-character unique code for motor vehicles)
-VIP	Very Important Person (common abbreviation)
+VIP	Very Important Person
 VIP	Video Over IP
 VIP	Virtual Internet Protocol (IETF)
 VIRUS	Vital Information Resource Under Siege
@@ -5692,7 +5701,7 @@ WebRTC	Web Real-Time Communication
 WEF	World Economic Forum (www.weforum.org)
 WEP	Wired Equivalent Privacy (IEEE 802.11i standard, 1990s)
 WF	Windows Workflow Foundation
-wfh	work from home (common abbreviation)
+wfh	"work from home"  (business term)
 WG	Working Group (3GPP contribution-driven groups)
 WGS84	World Geodetic System 1984 (used in GPS)
 WHATWG	Web Hypertext Application Technology Working Group (www.whatwg.org)
@@ -5707,8 +5716,9 @@ WiFi6	     802.11ax  2019  RF:   2.4/5 GHz   data rate:  9.6 Gbps   range:     3
 WiFi7	     802.11be  2024  RF: 2.4/5/6 GHz   data rate:   46 Mbps   range:  70-250 m
 WiFi8	     802.11bn  2028  RF:     tbd GHz   data rate:  100 Mbps   range:     tbd
 WiGig	     802.11ad  2012  RF:      60 GHz   data rate:   10 Gbps   range:      10 m
+wing	support someone as a friend  (slang:  also to improvise without preparation)
 WINS	Windows Internet Name Service (netBiOS to IP addr translation, MicroSoft)
-wip	work in progress (common abbreviation)
+wip	"work in progress"  (business term)
 WIPO	UN World Intellectual Property Organization, 1970- (www.wipo.int)
 WireShark	network protocol analyzer (www.wireshark.org)
 WISP	Wireless Internet Service Providers
@@ -5733,7 +5743,7 @@ WPC	Wood Plastic Composite    (type of wood board, water resistant)
 WPF	Windows Presentation Foundation (Windows UI framework)
 WPS	Wireless Priority Service
 WRC	ITU World Radiocommunication Conference (develops IMT)
-wrt	with regard to (common abbreviation)
+wrt	"with regard to"  (business term)
 WSC	World Standards Cooperation
 WSDL	Web Services Description Language (XML-based interface description language)
 WSJ	Wall Street Journal (newspaper)
@@ -5743,8 +5753,8 @@ WSP	Wireless Session Protocol          (WAP Protocol stack:  session layer)
 WSRD	Wireless Spectrum R&D Interagency Working Group
 WTA	Women's Tennis Association (organizing body, sports)
 WTDC	World Telecommunications Development Conference
-wtf	what the f**k (slang:  expression of incredulity or annoyance)
-wth	what the hell (slang:  expression of incredulity or annoyance)
+wtf	"what the f**k"  (slang:  expression of incredulity or annoyance)
+wth	"what the hell"  (slang:  expression of incredulity or annoyance)
 WTI	West Texas Intermediate (crude oil price/futures)
 WTLS	Wireless Transport Layer Security  (WAP Protocol stack:  security layer)
 WTP	Wireless Transaction Protocol      (WAP Protocol stack:  transaction layer)
@@ -5761,7 +5771,7 @@ WWI	Wireless World Initiative
 WWSF	WebRTC Web Server Function
 www	World Wide Web ("internet", "www", "w3", web-page prefix)
 wwww	World Wide Wireless Web (aka "4W)
-wyd	what are you doing? (slang:  casual, informal way to ask someone what they’re up to)
+wyd	"what are you doing?"  (slang:  casual, informal way to ask someone what they’re up to)
 WYSIWYG	What You See Is What You Get (commonly with document printing)
 x-Haul	fronthaul, backhaul and mid-haul combined (5G concept)
 X.25	ITU packet-switching protocol for WAN (published in 1976)
@@ -5793,6 +5803,7 @@ XNOR	logic gate, derived:    Y = AB + A'B'    def XNOR(a, b): return NOT(XOR(a, 
 XNS	Xerox Network Systems Clearinghouse (name server, port: 54)
 XOps	IT operations term, i.e. BizOps, DevOps, AIOps, DataOps, etc.
 XOR	logic gate, derived:    Y = A'B + AB'    def XOR(a, b):  return a ^ b
+XP	Extreme Programming  (principle that promotes collaboration, simplicity and feedback)
 XPath	XML Path Language
 XR	Extended Reality, TS 26.928, immersive technologies: AR/VR/CG-CR/MR
 XRES	Expected Response (32-bit authentication vector, TS 33.102)
@@ -5803,16 +5814,19 @@ Y1	UE and untrusted non-3GPP access	5G interface
 Y2	N3IWF and untrusted non-3GPP access	5G interface
 Y4	FN-RG and W-AGF		5G interface
 Y5	5G-RG and W-AGF		5G interface
+YAGNI	"You Aren’t Gonna Need It"  (software principle to implement featrues only when needed)
 YAML	YAML Ain't Markup Language (human-readable language used for configuration)
 YARN	Yet Another Resource Negotiator (Hadoop resource manager)
 YB	Yottabyte	memory size, 10^24	1,208,925,819,614,629,174,706,176 Bytes
+yeet	throwing something forcefully  (slang:  also to convey excitement, enthusiasm or surprise)
 YIQ	Luma, In-Phase, Quadrature     (color model, used in analog NTSC color TV systems)
 yocto-	y,  10 power -24	- numeric, see also "prefix"
-yolo	you only live once (slang:  used to justify taking risks, enjoying life, seizing opportunities)
+yolo	"you only live once"  (slang:  used to justify taking risks, enjoying life, seizing opportunities)
 YOLO	You Only Look Once (AI, deep learning model)
 yotta-	Y,  10 power  24	- numeric, see also "prefix"
+YSK	"you should know"  (slang: highlight information that is helpful, relevant)
 Yt	N5CW and TWAP interface
-YTA	you're the a**hole (slang:  reply to AITA, at fault or acted unreasonably)
+YTA	"you're the a**hole"  (slang:  reply to AITA, at fault or acted unreasonably)
 Yw	TWAP and TWIF interface
 zazz	acronym file by AsimIslam, updated 20260908
 ZB	Zettabyte	memory size, 10^21	1,180,591,620,717,411,303,424 Bytes
