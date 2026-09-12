@@ -1,0 +1,91 @@
+/*===========================================*/
+/*    HEADING and PARAGRAPH */
+/*===========================================*/
+/* Apply to all elements */
+* {
+    line-height: 1; /* 1.0 = tight, 1.5 = default-ish */
+}
+
+h1 {
+    font-size: medium; 
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 36px; 
+    font-weight: bold;
+    background: yellowgreen;
+    /* display:inline; */
+}
+
+h2 {
+    font-size: medium; 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* font-style: italic;    */
+    font-size: 20px; 
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+h3 {
+    font-size: medium; 
+    font-family: Tahoma;
+    font-size: 16px; 
+    font-weight: bold;
+}
+
+h4 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    display:inline;
+}
+
+p {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+
+figcaption {
+    font-size: 14px;
+    font-family: monospace;
+    padding-bottom: 10px;
+}
+/*===========================================*/
+
+
+/*===========================================*/
+/*  center image  */
+/*===========================================*/
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+/*===========================================*/
+
+
+/*===========================================*/
+/*    DIV  */
+/*===========================================*/
+div {
+    width:300px;
+    height:30px;
+    background: yellowgreen;
+    margin:2px;
+    padding:6px;
+    border:2px solid darkred;
+    border-radius: 10px;
+    /* float:left; */   /* places div side by side */
+}
+
+/* apply to div="id_box" identifier */
+#id_box {
+    color:aliceblue;
+    background: darkolivegreen;
+}
+
+/* apply to div="class_box" identifier */
+.class_box {
+    color:gold;
+    background: darkslategray;
+}
+/*===========================================*/
+
