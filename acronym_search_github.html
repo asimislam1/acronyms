@@ -13,7 +13,11 @@
 <body>
 <h1>Acronym Search</h1>
 <br>
-<input type="text" id="searchText" autocomplete="off" placeholder="enter acronym to search">
+<!--    SEARCH BOX -->
+<!-- -  no autocomplete -->
+<!-- -  focus with "required autofocus" at page load -->
+<!-- -  "x" to clear text with type="search", instead of type="text" -->
+<input type="search" id="searchText" autocomplete="off" placeholder="enter acronym to search" autofocus>
 <br>
 
 <!-- Flags checkboxes -->
@@ -128,6 +132,7 @@ function searchInFile() {
     const acronyDIV = document.getElementById('acronyms_content');
     //const resultDIV = document.getElementById('acronyms_content');
     const resultDIV = document.getElementById('output');
+
     let pattern     = document.getElementById('searchText').value;
     let flags = Array.from(document.querySelectorAll('input[type="checkbox"]:checked'))
                      .map(cb => cb.value)
@@ -245,6 +250,11 @@ searchText.addEventListener('input', () => {searchInFile(searchText.value);});
 cb_star.addEventListener('change',   () => {searchInFile(searchText.value);});
 cb_case.addEventListener('change',   () => {searchInFile(searchText.value);});
 cb_word.addEventListener('change',   () => {searchInFile(searchText.value);});
+
+let inputElem = document.querySelector("searchText");
+window.addEventListener('load', function(e) {
+    inputElem.focus();
+})
 //===============================================
 </script>
 
