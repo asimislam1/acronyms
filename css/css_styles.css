@@ -67,7 +67,9 @@ input[type="file"] {
 }
 
 /* format the input buttons */
-input[type="text"] {
+/* -  "x" to clear text with type="search", instead of type="text" */
+/* -  using input[type="search"] instead of input[type="text"] {  */
+input[type="search"] {
    margin-left: 20px;
    width: 600px;               /* Set width */
    padding: 10px;              /* Inner space inside the input */
@@ -84,7 +86,9 @@ input[type="text"] {
 
 input::placeholder {
    color: lightgray;
+   /* color: greenyellow; */
 }
+
 
 /* remove border from fieldset tag  */
 fieldset {
