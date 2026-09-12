@@ -1,10 +1,10 @@
 body {
    font-family: Trebuchet MS;
    line-height: 1.8;
-   /* margin: 0; */
-   padding: 20px;
+   margin: 5%;
+   /* padding: 1%; */
    background-color: whitesmoke;
-   margin-left: 20px;
+   /* margin-left: 0%; */
 
    /* background-image: url(./../images/pinterest_a9559.jpg); */
    background-color: #fcba04; /* incase image does not load */
@@ -21,14 +21,14 @@ header {
 }
 
 h1 {
-   font-size: 44px;
-   margin-left: 20px;
+   font-size: 3em;
+   font-weight: normal;
    line-height: .1;
 }
 
 h2 {
    font-family: Arial, Helvetica, sans-serif ;
-   font-size: 40px;
+   font-size: 1.4em;
    color: grey;
    text-align: center;
 }
@@ -36,18 +36,19 @@ h2 {
 h3 {
    text-align: left;
    /* margin-left: 20px; */
-   font-size: 28px;
+   font-size: 1.6em;
 }
 
 hr {
-   margin-left: 20px;
+   display: block;
+   /* border-top: .15em solid navy; Blue color */
 }
 
 /* error message class */
 .error {
    font-family: 'Trebuchet MS';
    font-weight: bold;
-   font-size: 16px;
+   font-size: 1em;
    color: red;
 }
 
@@ -55,32 +56,31 @@ hr {
 /* format the Choose file button */
 input[type="file"] {
    font-family: 'Trebuchet MS';
-   font-size: 18px;
+   font-size: 1em;
    font-weight: bold;
-   margin-left: 20px;
 }
 
 #file_info {
-   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-   font-size: 16px;
-   font-weight: normal;
+   font-family:'Trebuchet MS';
+   font-size: .9em;
+   /* font-weight: normal; */
+   font-weight: bold;
 }
 
 /* format the input buttons */
 /* -  "x" to clear text with type="search", instead of type="text" */
 /* -  using input[type="search"] instead of input[type="text"] {  */
 input[type="search"] {
-   margin-left: 20px;
-   width: 600px;               /* Set width */
-   padding: 10px;              /* Inner space inside the input */
+   width: 75%;                 /* set width of page */
+   padding: 1.5%;              /* Inner space inside the input */
    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-   font-size:24px;             /* Text size */
+   font-size:1.4em;             /* Text size */
    font-weight: bold;
    /* color: navy; */
    /* background-color: white; */
-   border: 1px solid white;  /* Border color */
+   border: .1em solid white; /* Border color */
    outline: none;              /* no default "highlight border" */
-   border-radius: 15px;        /* Rounded corners */
+   border-radius: .75em;       /* rounded corners */
    box-sizing: border-box;     /* Ensures padding doesn't increase total width */
 }
 
@@ -90,51 +90,48 @@ input::placeholder {
 }
 
 
-/* remove border from fieldset tag  */
+/* container for "start with", "ignore case" and "whole word"  */
 fieldset {
    font-family:'Trebuchet MS'; 
-   font-size: 14px;
+   font-size: 1em;
    font-weight: bold;
    border: none;           /* removes the border */
-   padding: 10px;          /* add inner spacing */
-   margin: 0;              /* removes outer spacing */
    min-inline-size: auto;  /* prevents default min width in some browsers */
-   margin-left: 20px;      /* line up box with body */  
 }
 
 
 input[type="checkbox"] {
-   width:  20px;             /*  width x height of box */
-   height: 20px;             /*  width x height of box */
+   width:  1.5em;             /*  width x height of box */
+   height: 1.5em;             /*  width x height of box */
    vertical-align: middle;   /*  align text vertically centered */
 }
 
 
 #pattern_flag {
-   padding-left: 60px; 
-   color: blue;
-   vertical-align: middle; 
+   font-size: 1em;
    font-weight: bold; 
-   font-size: 24px;
+   padding-left: 1em; 
+   vertical-align: middle; 
+   float:right;
+   color: blue;
 }
 
 #match_counts {
-   font-size: 14px;
-   padding: 10px;
+   font-size: 1em;
+   padding-left: 1em; 
    vertical-align: middle; 
-   /* color:navy; */
+   float:right;
 }
 
 /* format the output from the search */
 #output {
-   overflow: visible;         /* add scrollbar if content exceeds limits */
-   background-color: #FAFAFA;
-   margin-left: 20px;
-   padding: 10px;
    font-family: monospace; /* Ensures fixed-width font */
-   font-size: 12px;
+   font-size: .9em;
+   background-color: #FAFAFA;
+   padding: 2%;
    white-space: pre-wrap;  /* Preserves formatting and wraps long lines */
    word-wrap: break-word;  /* Prevents overflow for long words */
+   overflow: visible;      /* add scrollbar if content exceeds limits */
 }
 
 .highlight {
