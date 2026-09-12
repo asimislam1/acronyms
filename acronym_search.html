@@ -12,13 +12,15 @@
 
 <body>
 <h1>Acronym Search</h1>
-<br>
-
 <!-- file and search text input box -->
 <input type="file" id="fileInput" accept=".txt">
-<!-- <span id="file_info" style="font-size:18px;; font-weight: bold; float: right;" ></span> -->
-<input type="text" id="searchText" autocomplete="off" placeholder="acronym search w/regex">
+<span id="file_info" style="float:right;"></span><br>
 <br>
+<!--    SEARCH BOX -->
+<!-- -  no autocomplete -->
+<!-- -  focus with "required autofocus" at page load -->
+<!-- -  "x" to clear text with type="search", instead of type="text" -->
+<input type="search" id="searchText" autocomplete="off" placeholder="enter acronym to search" autofocus>
 
 <!-- Flags checkboxes -->
 <fieldset>
@@ -268,7 +270,6 @@ cb_word.addEventListener('change',   () => {searchInFile(searchText.value);});
 </script>
 <!-- =============================================== -->
 
-<!-- <h3 style="text-align: center;">--- end ---</h3> -->
-<span id="file_info" style="font-size:14px; padding-left: 20px;float:right;" ></span><br>
+<h3 style="text-align: center;">--- end ---</h3>
 </body>
 </html>
