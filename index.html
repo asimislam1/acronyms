@@ -7,6 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>acronyms</title>
     <link rel="stylesheet" href="./css/css_styles.css">
+    <!-- icon image -->
+    <link rel="icon" href="./images/pinterest_0d52a.jpg" type="image/x-icon">
 </head>
 
 
@@ -250,6 +252,7 @@ cb_star.addEventListener('change',   () => {searchInFile(searchText.value);});
 cb_case.addEventListener('change',   () => {searchInFile(searchText.value);});
 cb_word.addEventListener('change',   () => {searchInFile(searchText.value);});
 
+//  set focus on searchText at windows load
 let inputElem = document.querySelector("searchText");
 window.addEventListener('load', function(e) {
     inputElem.focus();
