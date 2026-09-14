@@ -221,7 +221,7 @@ ADRAM	Asynchronous DRAM (RAM classification, async timing)
 ADSL	Asymmetric Digital Subscriber Line (8 Mbps downstream, 1.5 Mbps upstream)
 ADT	Abstract Data Type (objects defined by set of values and operations)
 AEC	Active Electrical Cable (copper cables for SFP or QSFP)
-AED	Automated External Defibrillator (portable device for cardiac arrest, used during CPR)
+AED	Automated External Defibrillator (medical:  portable device for cardiac arrest, used during CPR)
 AEF	API Exposing Function
 AES	Advanced Encryption Standard (cybersecurity, FIPS Publication 197)
 AF	Application Function (5G network function, TS 23.501, TS 29.517)
@@ -974,7 +974,7 @@ CPNI	Customer Proprietary Network Information
 CPPA	California Privacy Protection Agency (compliance agency)
 CPPN	Compositional Pattern-Producing Network (AI, deep learning model)
 CPQ	Configure, Price, Quote (sales optimization software)
-CPR	Cardio-Pulmonary Resuscitation (emergency lifesaving procedure)
+CPR	Cardio-Pulmonary Resuscitation (medical:  emergency lifesaving procedure)
 CPRA	California Privacy Rights Act (privacy compliance)
 CPRI	Common Public Radio Interface (fronthaul protocol, www.cpri.info)
 CPS	Calls per Second (telecommunication metric)
@@ -1537,11 +1537,11 @@ eMPS	enhanced Multimedia Priority Service
 EMR	Elastic MapReduce (AWS service)
 EMS	Electro-Magnetic Spectrum (wavelengths: 10^-18 m to 100 km)
 EMS	Element Management System (network element manager)
-EMS	Emergency Medical Services
+EMS	Emergency Medical Services (medical:  urgent medical care)
 EMSK	Extended Master Session Key (IEEE 802.11i, RFC 3748)
 EMSS	Enhanced Mobile Satellite Service
 EMSS	Enterprise Mobility Security Standard
-EMT	Emergency Medical Technician (professional providing on-site medical care and transportation)
+EMT	Emergency Medical Technician (medical:  professional providing on-site medical care and transportation)
 EMT	Ethernet Multifunction Terminal (previously called "EMUX")
 EMTEL	Emergency Communications
 EMUX	Ethernet Multiplexer (now called "EMT")
@@ -3070,7 +3070,7 @@ MEO	Medium Earth Orbit satellites (2,000 km to <35,786 km orbit)
 MEOSAR	Medium Earth Orbiting Search and Rescue
 MEPM	Multi-Access Edge Computing Platform Manager
 MER	Message Error Rate
-MERS	Middle East Respiratory Syndrome (viral infection)
+MERS	Middle East Respiratory Syndrome (medical: viral infection)
 MEX	MATLAB executable (provides interface with C, C++ or Fortran functions)
 MExE	Mobile station Execution Environment
 MF	Medium Frequency	300 kHz -   3 MHz, radio, AM
@@ -4571,7 +4571,7 @@ SAR	Segmentation and Reassembly
 SAR	Service Area Restriction
 SARIMA	Seasonal Auto-Regressive Integrated Moving Average (AI, forcasting model)
 SARP	Standards and Recommended Practice
-SARS	Severe Acute Respiratory Syndrome (viral infection)
+SARS	Severe Acute Respiratory Syndrome (medical: viral infection)
 SARSA	State-Action-Reward-State-Action (AI, unsupervised ML model, reinforcement learning)
 SART	Search and Rescue Transponder
 SAS	Statement on Auditing Standards
