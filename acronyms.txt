@@ -184,7 +184,7 @@ ACID	Atomicity, Consistency, Isolation, Durability (database concept)
 ACK	ACKnowledgement (TCP/IP message)
 ACL	Access Control List
 ACL	Annual Meeting of the Association for Computational Linguistics (AI, focused on NLP)
-ACL	Anterior Cruciate Ligament (medical, knee joint ligament)
+ACL	Anterior Cruciate Ligament (medical: knee joint ligament)
 ACL	Asynchronous Connectionless Link
 ACLU	American Civil Liberties Union, nonprofit organization (www.aclu.org)
 ACS	Access Control System
@@ -250,7 +250,7 @@ AI/ML	Artificial Intelligence/Machine Learning (data science)
 AIA	Authentication Information Answer (DIAMETER message, HSS to MME)
 AICH	Acquisition Indicator Channel (UMTS frame/channel)
 AIDC	Automatic Identification and Data Capture (barcode: product identification & data collection)
-AIDS	Acquired Immuno-Deficiency Syndrome (viral infection)
+AIDS	Acquired Immuno-Deficiency Syndrome (medical:  viral infection)
 AiE	Artificial Intelligence Engineer (certification, ARTiBA AI professional)
 AIN	Advanced Intelligent Network (North America)
 AIO	"am i overreacting?"   (slang:  asking if emotional reaction is justified)
@@ -386,7 +386,7 @@ ASIC	Application Specific Integrated Circuit
 ASK	Amplitude Shift Keying                     (digital signal modulation technique)
 ASME	Access Security Management Entity
 ASMG	Arab Spectrum Management Group (ITU WRC group)
-ASML	Advanced Semiconductor Materials Lithography (Dutch photolithography company)
+ASML	Advanced Semiconductor Materials Lithography (Dutch photo-lithography company)
 ASN	Access Service Network (WiMAX, IEEE 802.16)
 ASN	Autonomous System Number (routing area, using IGP or EGP)
 ASN-GW	Access Service Network-GateWay (WiMAX, IEEE 802.16)
@@ -456,7 +456,6 @@ AWG	American Wire Gauge (copper wire thickness number)
 AWGN	Additive White Gaussian Noise
 awol	"away without offical leave"  (slang:  absent or missing without permission, offical in military)
 AWS	Amazon Web Services (aws.amazon.com, IaaS provider)
-AWS	Amazon Web Services certification (certification, Amazon cloud)
 AWTP	Advanced Wireless Test Platforms
 AYIYA	Anything In Anything (protocol to manage tunneling between IP networks)
 AZMP	Azureus Extended Messaging Protocol (torrent protocol)
@@ -916,7 +915,6 @@ COAX	Coaxial Cable (for Ethernet and similar networks)
 cob	"close of business"  (business term:  end of business day)
 COBIT	Control Objectives for Information and Related Technologies (ISACA IT framework)
 COBOL	Common Business Oriented Language (programming language)
-COBRA	Common Object Request Broker Architecture
 COBRA	Consolidated Omnibus Budget Reconciliation Act of 1985 (US healthcare law)
 COBS	Consistent Overhead Byte Stuffing (encoding algorithm)
 COCO	Common Objects in Context (large-scale computer vision dataset)
@@ -942,6 +940,7 @@ COO	Chief Operating Officer (executive position)
 cookies	block of HTTP data created by web server and placed on user device
 COQ	Contractor Quality (contractor responsibilities)
 CORBA	Common Object Request Broker Architecture
+CORBA	Common Object Request Broker Architecture  (middleware framework developed by OMG)
 CORE	Network Core (session, connection, policy, etc. elements)
 CORESET	Control Resource Set (TS 38.211)
 Corp.	"Corporation", business owned by shareholders
@@ -954,8 +953,8 @@ CoT	Chain of Thought (AI, prompt engineering technique for LLMs)
 cot	cotangent = adjacent/opposite    (trignometric function, right-angled triangle)
 COTS	Commercial off the Shelf (usage of commercially available hardware and software)
 COU	Company Official Use
-CoV2	CoronaVirus 2 (SARS-CoV2, viral infection)
-COVID	COrona VIrus Disease, SARS-CoV2 (viral infection)
+CoV2	CoronaVirus 2 (medical:  SARS-CoV2, viral infection)
+COVID	COrona VIrus Disease, SARS-CoV2 (medical:  viral infection)
 COW	Cell on Wings (cell site on drone, for disaster or events)
 COW	Copy On Write (file system management)
 CP	Control Plane (signaling)
@@ -1350,6 +1349,7 @@ DSU	Data Service Unit  (digital interface device, converts signals between netwo
 DT	Decision Tree (AI, supervised ML model)
 DT	Deutsche Telekom (German mobile operator)
 DT	Digital Transformation (business term)
+DTaP	Diphtheria, Tetanus, acellular Pertussis  ((medical:  vaccine, lockjaw, diphtheria and whooping cough)
 DTCH	Dedicated Traffic Channel (MAC-RLC logical channel)
 DTD	Document Type Definition
 DTE	Data Terminal Equipment
@@ -1436,7 +1436,7 @@ ECDIS	Electronic Chart Display and Information System (location system)
 ECDSA	Elliptic Curve Digital Signature Algorithm (RFC 4754)
 ECEF	Earth-Centered, Earth-Fixed (geospatial reference system, satellite coordinate system)
 ECF	Event Charging Function
-ECG	or EKG, Electrocardiogram (medical, electrical activity of heart)
+ECG	or EKG, Electrocardiogram (medical:  electrical activity of heart)
 ECGI	E-UTRAN Cell Global Identifier (MCC+MNC+ENB-ID+CELLID)
 Echo	smart speakers by Amazon
 ECI	E-UTRAN Cell Identifier (ENB-ID+CELLID)
@@ -1472,7 +1472,7 @@ edu	.edu "dot edu", educational use (domain name suffix)
 EEA	EPS Encryption Algorithm
 EEA	European Economic Area
 EEC	Ethernet Equipment slave Clock
-EEG	Electroencephalography (medical, electrical activity of scalp)
+EEG	Electro-Encephalography (medical:  electrical activity of scalp)
 EEPROM	Electrically Erasable Programmable Read-Only Memory (non-volitile, reprogrammable memory)
 EFF	Electronic Frontier Foundation (non-profit digital rights group, www.eff.org)
 EFI	Extensible Firmware Interface (firmware that initialized hardware and load OS, see also "UEFI")
@@ -1503,7 +1503,7 @@ EIN	Employer Identification Number, aka TIN, unique IRS number for business
 EIOPA	European Insurance and Occupational Pensions Authority
 EIP	Ethereum Improvement Proposals (ethereum.org/en/eips)
 EIR	Equipment Information Register (2G GSM, 3G UMTS, 4G LTE, database, TS 29.511)
-EKG	or ECG, Electrocardiogram (medical, electrical activity of heart)
+EKG	or ECG, Electro-Cardiogram (medical:  electrical activity of heart)
 EKS	Amazon Elastic Kubernetes Service  (managed Kubernetes service by Amazon)
 el al.	Latin: "et alia", "et alii", "et alibi",  English: "and others"
 ElasticSearch	open-source analytics engine, schema-less database by Elastic (big data, ELK, port: 4000)
@@ -2097,6 +2097,7 @@ HFN	Hyper Frame Number (frame synchronization timer)
 HFS	Hierarchical File System (older version of macOS file system)
 HGNN	Heterogeneous Graph Neural Network (AI, deep-learning for graph-structured data)
 HHS	US Department of Health and Human Services (US government)
+Hib	Haemophilus Influenzae Type B (medical:  vaccine, lungs and respiratory virus)
 HIBS	High Altitude IMT Base Stations (station at 20 to 50 km)
 HID	Hughes Identification Devices (US company providing PAC & IAC products eg: badges)
 HID	Human Interface Device (ex:  keyboard, mouse, joystick)
@@ -2104,7 +2105,7 @@ HiFi	High-Fidelity (audio, high-quality of audio reproduction)
 HIP	Host Identity Protocol (RFC 4423)
 HIPAA	Health Insurance Portability and Accountability Act (US medical privacy law)
 HITL	Human oversight of AI systems
-HIV	Human Immunodeficiency Virus (viral infection)
+HIV	Human Immunodeficiency Virus (medical:  viral infection)
 Hive	Apache data warehouse interface for Hadoop
 HLD	High-Level Design (general system design document)
 HLR	Home Location Register (2G GSM, 3G UMTS, subscriber database)
@@ -2129,7 +2130,7 @@ HPCC	High-Performance Computing Cluster (open-source big data tool)
 hPCRF	home Policy and Charging Rules Function
 HPLMN	Home Public Land Mobile Network
 HPQC	Hewlett-Packard Quality Center (test management tool)
-HPV	Human Papilloma-Virus (medical, viral infection)
+HPV	Human Papilloma-Virus (medical:  vaccine, cancers and warts virus)
 HQL	Hive Query Language
 HR	Home Routed (roaming)
 HR	Human Resource (company department)
@@ -2138,7 +2139,7 @@ hRLLC	High-Reliability Low Latency Communications (uRLLC for LTE)
 HRNN	Human-Readable Network Name
 HRPD	High Rate Packet Data (IS-856)
 HRR	Hardware Replacement Request
-HRT	Hormone Replacement Therapy (medicine, taking hormones to replace depleted hormone levels)
+HRT	Hormone Replacement Therapy (medical:  taking hormones to replace depleted hormone levels)
 HS-PDSCH	High Speed Physical Downlink Shared Channel (UMTS frame/channel)
 HS-SCCH	HS Shared Control Channel (UMTS frame/channel)
 HSA	Health Savings Account (US medical insurance plan)
@@ -2540,6 +2541,7 @@ IPS	Intrusion Prevention System (cybersecurity)
 IPSec	Internet Protocol Security (network layer, authentication and encryption protocol suite)
 IPTV	Internet Protocol Television
 IPUPS	Inter-PLMN User Plane Security
+IPV	Inactivated Poliovirus Vaccine (medical:  poliomyelitis/polio virus)
 IPv4	IETF Internet Protocol version 4 ( 32-bit/ 4-byte IPaddr, DEC w/dots, RFC 791,  eg 192.168.1.1)
 IPv6	IETF Internet Protocol version 6 (128-bit/16-byte IPaddr, HEX w/dots, RFC 2473, eg 2001:db8::1)
 IPX	IP Packet eXchange (GSMA AA.80)
@@ -2972,7 +2974,6 @@ MAHO	Mobile Assisted Hand-Over
 MAI	Multiple Access Interference
 MAN	Metropolitan Area Network (large area network, covers 5-50 km))
 MANET	Mobile Ad Hoc Network (type of decentralized wireless network)
-MANET	Mobile Ad-Hoc Network
 MANO	Management and Orchestration
 MANRS	Mutually Agreed Norms for Routing Security
 MAP	Mobile Application Part (TS 29.002)
@@ -3056,7 +3057,7 @@ ME-LDPC	Multi-Edge Low Density Parity Check
 MEC	Multi-Access Edge Computing (5G technology, uRLLC. Hub at base station)
 MED	Multi-Exit Discriminator (sent to peers to influence paths to AS)
 MEF	Metro Ethernet Forum (consortium of network, cloud & technology providers, www.mplify.net)
-MEG	Magnetoencephalography (medical, electrical activity of brain using magnetic fields)
+MEG	Magnetoencephalography (medical:  electrical activity of brain using magnetic fields)
 mega-	M,  10 power   6	- numeric, see also "prefix"
 MEGACO	MEdia GAteway and COntrol (H.248)
 MEHO	Mobile Evaluated Hand-Over
@@ -3155,7 +3156,7 @@ mMIMO	massive Multiple-Input Multiple-Output (5G technology)
 MML	Man Machine Language
 MMO	Massively Multiplayer Online (type of video game)
 MMORPG	Massively Multiplayer Online Role-Playing Games
-MMR	Measles, Mumps and Rubella (vaccine, viral infection)
+MMR	Measles, Mumps and Rubella (medical:  vaccine, pneumonia, encephalitis virus)
 MMS	Multimedia Messaging Service
 MMSE	Minimum Mean-Square Error (statistics, evaluation metric)
 mMTC	massive Machine Type Communications (5G reqr. for connection density)
@@ -3432,7 +3433,6 @@ NE	Network Element
 NE-DC	New Radio E-UTRA - Dual Connectivity (5G Option 4)
 NEACP	National Emergency Airborne Command Post (US military)
 NEC	Network Edge Computing (services located closer to end users)
-NEDA	National Electronic Distributors Association
 NEDA	National Electronic Distributors Association (standards organization, dormant, 1981-2010)
 NEF	Network Exposure Function (5G network function, TS 23.501, TS 29.522)
 NEHO	Network Evaluated Hand Over
@@ -3481,7 +3481,6 @@ NG.105	ENUM Guidelines for Service Providers and IPX Providers (GSMA)
 NGA	National Geospatial‑Intelligence Agency (US government, Department of Defense GIS)
 NGA	Next Generation Access
 NGAP	Next Generation Application Protocol (for NAS messages, TS 38.413)
-NGC	Next Generation Core
 NGC	Next Generation Core (AMF and UPF)
 NGCN	Next Generation Core Network (5G core)
 NGCS	Next Generation Core Services
@@ -4476,7 +4475,7 @@ RST	ReSeT (TCP/IP message)
 RSTD	Reference Signal Time Difference
 RSTP	Rapid Spanning Tree Protocol (routing protocol, IEEE 802.1w)
 RSU	Road-Side Unit
-RSV	Respiratory Syncytial Virus (vaccine, viral infection, lungs and respiratory)
+RSV	Respiratory Syncytial Virus (medical:  vaccine, lungs and respiratory virus)
 rsvp	French: "repondez s'il vous plait",  English: "please reply" (common abbreviation)
 RSVP	Resource Reservation Protocol (RFC 2205)
 RT	Real Time
@@ -4606,7 +4605,7 @@ SCAS	Security Assurance Specification (TS 33.517)
 SCC	Secondary Component Carrier (Carrier Aggregation chunk)
 SCCH	Synchronization Control Channel
 SCCOP	Service Specific Connection-Oriented Protocol (ITU-T Q.2110)
-SCCP	signaling Connection Control Part (RFC 3868)
+SCCP	Signaling Connection Control Part (RFC 3868)
 SCCP	Stream Control Transmission Protocol (RFC 2960, 3873, 4166, 4960)
 SCCPCH	Secondary Common Control Physical Channel
 SCD	Sensitive Customer Data
@@ -5117,7 +5116,7 @@ TCP/IP Layer 4	Transport Layer   (Port Number)  UDP, TCP, SCTP, TLS/SSL
 TCP/IP Layer 5	Application Layer (Process ID)   DNS, FTP, DHCP, HTTP, SMTP, TELNET
 TD-SCDMA	Time Division-Synchronous Code Division Multiple Access (China)
 TDAG	Telecommunication Development Advisory Group
-TDAP	Tetanus, Diphtheria, Pertussis  (vaccine, viral infection)
+TDAP	Tetanus, Diphtheria, Pertussis  (medical:  vaccine, lockjaw, diphtheria and whooping cough)
 TDCI	Tethering Detection Confidence Index (feature)
 TDD	Telecommunications Device for the Deaf
 TDD	Test Driven Development (Agile terminology)
@@ -5647,7 +5646,7 @@ vSRVCC	Single Radio Video Call Continuity - VIDEO (TS 23.216)
 VSS	Voltage at the Source  (negative supply voltage or ground connected to source terminal)
 VSS	Volume Shadow Copy Service (Windows backup feature, copies data without interrupting applications)
 vSSF	virtual Service Switching Function
-VSV	Vesicular Stomatitis Virus (medical, viral infection)
+VSV	Vesicular Stomatitis Virus (medical: viral infection)
 VSWR	Voltage Standing Wave Ratio
 VTP	VLAN Trunking Protocol (routing protocol)
 VTS	Vessel Traffic Service (marine traffic monitoring system)
@@ -5760,8 +5759,8 @@ WTLS	Wireless Transport Layer Security  (WAP Protocol stack:  security layer)
 WTP	Wireless Transaction Protocol      (WAP Protocol stack:  transaction layer)
 WTPF	World Telecommunication Policy Forum
 WTSA	World Telecommunication Standardization Assembly
-WTSC	Wireless Technologies and Systems Committee
-WTSC	World Telecommunication Standardization Conference
+WTSC	Wireless Technologies and Systems Committee  (ATIS standards body)
+WTSC	World Telecommunication Standardization Conference  (ITU-T meeting, every 4 years)
 WUS	Wake Up Signal
 WWAN	Wireless Wide Area Network (type of WAN network)
 WWC	Wireless-Wireline Convergence (BBF TR-470)
