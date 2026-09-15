@@ -143,14 +143,14 @@ A10	PCF and PDSN 	CDMA interface, user data
 A11	PCF and PDSN 	CDMA interface, transport data
 A12	AN-AAA and PCF 	CDMA interface, authentication information
 A14	AN and PCF 	CDMA interface, session & mobility information
-A3C	Asynchronous Advantage Actor-Critic (AI, unsupervised ML model, reinforcement learning)
+A3C	Asynchronous Advantage Actor-Critic (AI:  unsupervised ML model, reinforcement learning)
 A5	Stream Cipher (over-the-air communication privacy)
 A8	AN and PCF 	CDMA interface, user data
 A9	AN and PCF 	CDMA interface, connection information
 AA.80	Agreement for IP Packet eXchange (IPX) Services (GSMA)
 AAA	Active Antenna Array
 AAA	Authentication, Authorization and Accounting (logical access control, LAC)
-AAAI	AAAI Conference on Artificial Intelligence (AI, focused on general AI)
+AAAI	AAAI Conference on Artificial Intelligence (AI:  focused on general AI)
 AACP	Advanced Airborne Command Post (US military)
 AAGR	Average Annual Growth Rate (business metric)
 AAL	ATM Adaptation Layer
@@ -183,7 +183,7 @@ ACIA	5G Alliance for Connected Industries and Automation (non-profit for 5G adop
 ACID	Atomicity, Consistency, Isolation, Durability (database concept)
 ACK	ACKnowledgement (TCP/IP message)
 ACL	Access Control List
-ACL	Annual Meeting of the Association for Computational Linguistics (AI, focused on NLP)
+ACL	Annual Meeting of the Association for Computational Linguistics (AI:  focused on NLP)
 ACL	Anterior Cruciate Ligament (medical: knee joint ligament)
 ACL	Asynchronous Connectionless Link
 ACLU	American Civil Liberties Union, nonprofit organization (www.aclu.org)
@@ -236,7 +236,7 @@ AFRINIC	African Network Information Center (ICANN RIR)
 AG	"Aktiengesellschaft", public limited company, Germany
 Agentic AI	Autonomous Artificial Intelligence Systems (AI with minimal human supervision)
 AGF	Access Gateway Function (BBF TR-456)
-AGI	General Artificial Intelligence (AI, human-level artificial intelligence)
+AGI	General Artificial Intelligence (AI:  human-level artificial intelligence)
 Agile	principles used in software development and project management
 AGPL	GNU Affero General Public License published by FSF in 2007
 AGV	Automated-Guided Vehicles
@@ -307,9 +307,9 @@ ANC	Access Node Controller (AN + PCF)
 AND	logic gate, basic:      Y = A • B        def AND(a, b):  return a & b
 ANDSF	Access Network Discovery and Selection Function (TS 23.402)
 ANI	Automatic Number Identification (caller number sent to PSAP)
-ANI	Narrow Artificial Intelligence (AI, specialized models for single tasks)
-ANN	Artificial Neural Network (AI, deep learning architecture)
-ANN	Fast Approximate Nearest-Neighbor (AI, ML search algorithm)
+ANI	Narrow Artificial Intelligence (AI:  specialized models for single tasks)
+ANN	Artificial Neural Network (AI:  deep learning architecture)
+ANN	Fast Approximate Nearest-Neighbor (AI:  ML search algorithm)
 ANOVA	Analysis of Variance (statistics)
 ANPR	Automated Number-Plate Recognition (license plate reader)
 ANR	Automatic Neighbor Relation (TS 32.511)
@@ -354,7 +354,7 @@ ARCNET	Attached Resource Computer NETwork (LAN protocols, IEEE 802.3)
 ARF	Analog Radio Frequency
 ARFCN	Absolute Radio Frequency Channel Number
 ARG	Automatic Repeat Request (TCP message)
-ARIMA	Auto-Regressive Integrated Moving Average (AI, forcasting model)
+ARIMA	Auto-Regressive Integrated Moving Average (AI:  forcasting model)
 ARIN	American Registerty for Internet Numbers (ICANN RIR)
 ARM	Advanced RISC Machines (British semiconductor and software company)
 ARM	Asynchronous Response Mode
@@ -512,7 +512,7 @@ BEC	Binary Erasure Channel
 BEEP	Blocks Extensible Exchange Protocol (RFC 4227)
 BEP	BitTorrent Enhancement Proposal (bittorrent.org)
 BER	Bit Error Rate
-BERT	Bidirectional Encoder Representations from Transformers (AI, NLP model)
+BERT	Bidirectional Encoder Representations from Transformers (AI:  NLP model)
 BESS	Battery Energy Storage System
 bet	agreement or confirmation (slang)
 BETRS	Basic Exchange Telephone Radio Service
@@ -660,7 +660,7 @@ CAPM	Certified Associate in Project Management (certification, project managemen
 CAPTCHA	Completely Automated Public Turing test to tell Computers and Humans Apart
 CAPWAP	Control and Provisioning of Wireless Access Points
 CAR	Corrective Action Request
-CART	Classification and Regression Trees (AI, supervised ML model)
+CART	Classification and Regression Trees (AI:  supervised ML model)
 CAS	Channel Associated Signaling
 CAS	Content-Addressed Storage  (ISM data storage, retrieves data based on content)
 CASB	Cloud Access Security Broker
@@ -905,7 +905,7 @@ CNI	Container Network Interface
 CNIS	Cloud Native Infrastructure Solution
 CNMS	Converged Network Message Store
 CNN	Cable News Network (cable news channel)
-CNN	Convolutional Neural Networks (AI, deep learning architecture)
+CNN	Convolutional Neural Networks (AI:  deep learning architecture)
 CNP	Congestion Notification Packet
 CNTK	Cognitive Toolkit  (Microsoft's open source deep learning  framework)
 CO	Central Office (main switching facility for PSTN/POTS)
@@ -949,7 +949,7 @@ CORS	Cross-Origin Resource Sharing (HTTP-header based mechanism)
 cos	cosine    = adjacent/hypotenuse  (trignometric function, right-angled triangle)
 cosh	hyperbolic cosine  = (e^x + e^-x)/2   (hyperbolic function, defined using hyperbola)
 CoSP	Communications Service Provider
-CoT	Chain of Thought (AI, prompt engineering technique for LLMs)
+CoT	Chain of Thought (AI:  prompt engineering technique for LLMs)
 cot	cotangent = adjacent/opposite    (trignometric function, right-angled triangle)
 COTS	Commercial off the Shelf (usage of commercially available hardware and software)
 COU	Company Official Use
@@ -972,7 +972,7 @@ CPM	Continuous Performance Monitoring (software)
 CPM	Converged IP Messaging
 CPNI	Customer Proprietary Network Information
 CPPA	California Privacy Protection Agency (compliance agency)
-CPPN	Compositional Pattern-Producing Network (AI, deep learning model)
+CPPN	Compositional Pattern-Producing Network (AI:  deep learning model)
 CPQ	Configure, Price, Quote (sales optimization software)
 CPR	Cardio-Pulmonary Resuscitation (medical:  emergency lifesaving procedure)
 CPRA	California Privacy Rights Act (privacy compliance)
@@ -1087,7 +1087,7 @@ CVD	Coordinated Vulnerability Disclosure
 CVE	Common Vulnerabilities and Exposures
 CVES	Core Virtual function Event Streaming
 CVM	Customer Value Maximization (real-time business service model)
-CVPR	Conference on Computer Vision and Pattern Recognition (AI, focused on image/vision AI) 
+CVPR	Conference on Computer Vision and Pattern Recognition (AI:  focused on image/vision AI) 
 CVSS	Common Vulnerability Scoring System
 CVT	Continuously Variable Transmission (automobile transmission type)
 CVV	Card Verification Value    (3-4 digits code on credit/debit cards, aka CCV,CID,CSC,CVC,CVD,CVV)
@@ -1137,7 +1137,7 @@ dBi	Decibel Isotropic (gain.  Used to evaluate efficiency and directionality)
 dBm	Decibel milliwatts (absolute unit of power in 1 mW.  Used to measure signal strength)
 DBMS	Database Management System
 DBoR	DataBase of Record
-DBSCAN	Density-Based Spatial Clustering of Applications with Noise (AI, unsupervised ML model, clustering)
+DBSCAN	Density-Based Spatial Clustering of Applications with Noise (AI:  unsupervised ML model, clustering)
 DC	Data Center
 DC	Direct Current
 DC	Dual Connectivity (3GPP Release 15)
@@ -1170,7 +1170,7 @@ DDCMP	Digital Data Communications Message Protocol
 DDD	Direct Distance Dialing
 DDDS	Dynamic Delegation Discovery Service (RFC 3958)
 DDE	Download Delivery Enhancements (TR 28.851)
-DDFF	Deep Depth From Focus (AI, deep learning approach in computer vision)
+DDFF	Deep Depth From Focus (AI:  deep learning approach in computer vision)
 DDL	Data Definition Language (SQL command category)
 DDM	Degrees Decimal Minutes (geographic longitude/latitude notation)
 DDNMF	Direct Discovery Name Management Function (TS 29.555)
@@ -1197,20 +1197,20 @@ DEMUX	De-Multiplexer  (separates 1 signal into 2^n signals; one to many)
 DeNB	Donor eNB(evolved-NodeB)
 deprecated	definition: not recommended, better options available or impending upgrade
 DES	Data Encryption Standard (FIPS Publication 46-3)
-DETR	DEtection TRansformer (AI, deep learning model, object detection)
+DETR	DEtection TRansformer (AI:  deep learning model, object detection)
 Dev	Development (business term)
 DevOps	Development + Operations (business term)
 DFA	Deterministic Finite Automaton/Acceptor (aka "FSM", "DFSM", "DFSA")
 DFB	Distributed Feedback Laser (commonly used in DWDM systems)
 DFE	Digital Front End
-DFF	Deep Feed Forward (AI, type of feed-forward neural network)
+DFF	Deep Feed Forward (AI:  type of feed-forward neural network)
 DFS	Distributed File System (file storage in multiple nodes concept)
 DFSA	Deterministic Finite-State Automaton    (aka "FSM", "DFA", "DFSM")
 DFSM	Deterministic Finite-State Machine      (aka "FSM", "DFA", "DFSA")
 DFT	Discrete Fourier Transform (algorithm, math)
 DFT-s-OFDM	Discrete Fourier Transform spread OFDM (UL)
 DFW	Dallas/Fort Worth (metroplex in Texas, US)
-DGL	Deep Graph Library (AI, GNN framework, research and development)
+DGL	Deep Graph Library (AI:  GNN framework, research and development)
 DH	Diffie–Hellman (secure cryptographic keys exchange over public channel)
 DHCP	Dynamic Host Configuration Protocol (application layer, IP address assignment, RFC 2131, port: 67-server, 68-client)
 DHCPv6	Dynamic Host Configuration Protocol version 6 (RFC 8415)
@@ -1227,7 +1227,7 @@ DISM	Deployment Image Servicing and Management (Windows scan & repair tool)
 DITA	Darwin Information Typing Architecture
 diy	"do it yourself"  (slang:  create, fix or build something without professional help)
 DJIA	Dow Jones Industrial Average (US stock market index)
-DL	Deep Learning (AI, neural networks: ANN, CNN, RNN)
+DL	Deep Learning (AI:  neural networks: ANN, CNN, RNN)
 DL	Direct Labor (directly contribute to revenue-generating activities)
 DL	Downlink or Download
 DL-SCH	Downlink Shared Channel (PHY-MAC transport channel)
@@ -1299,7 +1299,7 @@ DPCH	Dedicated Physical Channel (UMTS frame/channel)
 DPDCH	Dedicated Physical Data Channel
 DPDK	Data Plane Development Kit
 DPI	Deep Packet Inspection
-DPMM	Dirichlet Process Mixture Models (AI, unsupervised ML model, clustering)
+DPMM	Dirichlet Process Mixture Models (AI:  unsupervised ML model, clustering)
 DPO	Data Protection Officer (company position)
 DPP	Daily Peak Period (telecommunication metric)
 DPU	Data Processing Unit     (processor:  I/O, network and storage)
@@ -1346,10 +1346,10 @@ DSS1	Digital Subscriber signaling System No. 1 (ITU-T I.411)
 DSSS	Direct-Sequence Spread Spectrum            (spread-spectrum modulation technique)
 DSSS	Dual SIM Single Standby
 DSU	Data Service Unit  (digital interface device, converts signals between networks)
-DT	Decision Tree (AI, supervised ML model)
+DT	Decision Tree (AI:  supervised ML model)
 DT	Deutsche Telekom (German mobile operator)
 DT	Digital Transformation (business term)
-DTaP	Diphtheria, Tetanus, acellular Pertussis  ((medical:  vaccine, lockjaw, diphtheria and whooping cough)
+DTaP	Diphtheria, Tetanus, acellular Pertussis  ((medical: vaccine for lockjaw, diphtheria and whooping cough)
 DTCH	Dedicated Traffic Channel (MAC-RLC logical channel)
 DTD	Document Type Definition
 DTE	Data Terminal Equipment
@@ -1442,7 +1442,7 @@ Echo	smart speakers by Amazon
 ECI	E-UTRAN Cell Identifier (ENB-ID+CELLID)
 ECIA	Electronic Components Industry Association
 ECIES	Elliptic Curve Integrated Encryption Scheme
-ECLAT	Equivalence Class Clustering and bottom-up Lattice Traversal (AI, unsupervised ML model, clustering)
+ECLAT	Equivalence Class Clustering and bottom-up Lattice Traversal (AI:  unsupervised ML model, clustering)
 ECM	EPS Connection Management
 ECMA	European Computer Manufacturers Association, now "ECMA International"  (standards organization, www.ecma-international.org)
 ECMAScript	ECMA scripting language specification (ECMA-262 Standard www.ecma-international.org)
@@ -1457,7 +1457,7 @@ ECRF	Emergency Call Routing Function (RFC 5582)
 ECS	Elastic Container Service (AWS service)
 ECS	Enhanced Charging Function
 EDA	Event Driven Architecture
-EDA	Exploratory Data Analysis (AI, data visualization)
+EDA	Exploratory Data Analysis (AI:  data visualization)
 EDC	Emergency Communications Division (see DHS)
 EDGE	Enhanced Data for GSM Evolution (2.75G E-GPRS, 385 kbs, PSK)
 edge	transport or backhaul network (connects Access and Core network)
@@ -1519,7 +1519,7 @@ ELSUR	Electronic Surveillance Data Management System (DCSNet repository)
 em	CSS/HTML styles::  element with scalable size relative to parent font size
 EM	Electro-Magnetic
 EM	Element Management
-EM	Expectation-Maximization (AI, unsupervised ML model, clustering)
+EM	Expectation-Maximization (AI:  unsupervised ML model, clustering)
 EMA	Exponential Moving Average (stock market trading indicators)
 EMAC	Ethernet Media Access Control
 emacs	text editor available in UNIX/Linux
@@ -1682,7 +1682,7 @@ FACH	Forward Access Channel
 FAE	Fuel Air Explosive: thermobaric or aerosol bomb (explosive weapon)
 FAFO	"f**k around, find out" (slang:  actions have consequences)
 FAIR	Findable, Accessible, Interoperable and Reusable (typically for open datasets)
-FAISS	Facebook AI Similarity Search (AI, open-source libraries for ANN search algorithm)
+FAISS	Facebook AI Similarity Search (AI:  open-source libraries for ANN search algorithm)
 FALD	Full-Array Local Dimming (video display technology)
 fam	close friend, family (slang)
 FAN	Fixed Access Network
@@ -1709,7 +1709,7 @@ FCDM	Frequency Code Division Multiplexing
 FCF	Free Cash Flow (business metric)
 FCFC	First Come, First Choice (scheduling algorithm)
 FCFS	First Come First Served (scheduling algorithm)
-FCM	Fuzzy C-Means clustering (AI, unsupervised ML model, clustering)
+FCM	Fuzzy C-Means clustering (AI:  unsupervised ML model, clustering)
 FCRAM	Fast Cycle DRAM (developed by Fujitsu and Toshiba)
 FCS	Frame Check Sequence (error detection)
 FD-MIMO	Full-Dimension Multiple-Input Multiple-Output
@@ -1763,7 +1763,7 @@ FLC	Field Level Communications
 Flink	Apache's open source data analytics tools for big data stream processing
 FLM	Field Level Management
 float		data type, primitive:     decimal numbers (3.14, -0.5)
-FLOPS	Floating-Point Operations per Second (AI, number of math operations for single pass of a model)
+FLOPS	Floating-Point Operations per Second (AI:  number of math operations for single pass of a model)
 FLOSS	Free/Libre and Open Source Software (source code: public & free, to study, modify and distribute)
 FLSM	Fixed-Length Subnet Masks  (all subnets have equal number of addresses)
 FLUS	Framework for Live Uplink Streaming
@@ -1798,7 +1798,7 @@ FOTA	Firmware Over the Air
 FOV	Field-Of-View
 FP	Fast Path
 FP	Frame Protocol
-FP-Growth	Frequent Pattern-Growth (AI, unsupervised ML model, clustering)
+FP-Growth	Frequent Pattern-Growth (AI:  unsupervised ML model, clustering)
 FPAD	Facsimile Packet Assembly/Disassembly (ITU X.5)
 FPGA	Field Programmable Gate Array (type of PLD)
 FPL	Federal Poverty Level (US government metric)
@@ -1873,14 +1873,14 @@ GAA	Generic Authentication Architecture (TS 33.221)
 GAD	Geographical Area Description (TS 23.032)
 GAE	Google App Engine (cloud computing platform as a service)
 GALILEO	Global Navigation Satellite System (European Union)
-GAN	Generative Adversarial Networks (AI, deep learning architecture)
+GAN	Generative Adversarial Networks (AI:  deep learning architecture)
 GAN	Generic Access Network (TS 43.318)
 GAN	Global Area Network (computer network)
 GAP	Generic Access Profile (DECT, ETSI 300.444)
 GARS	Global Area Reference System (geographic longitude/latitude notation)
-GAT	Graph Attention Network            (AI, deep-learning for graph-structured data)
+GAT	Graph Attention Network (AI:  deep learning for graph-structured data)
 GB	Gigabyte	memory size, 10^9	1,073,741,824 Bytes
-GB	Gradient Boosting (AI, supervised ML model)
+GB	Gradient Boosting (AI:  supervised ML model)
 Gb	SGSN and BSS	2G GPRS interface
 Gb	SGSN and GERAN	3G UMTS interface
 GBC	General-purpose and Base-band Computing
@@ -1892,12 +1892,12 @@ GCC	Gulf Cooperation Council (Middle East economic union)
 GCI	Global Cable Identifier
 GCJ	GNU Compiler for Java
 GCM	Galois/Counter Mode (cipher mode)
-GCN	Graph Convolutional Network        (AI, deep-learning for graph-structured data)
+GCN	Graph Convolutional Network (AI:  deep learning for graph-structured data)
 GCP	Gateway Control Protocol (RFC 3525)
 GCP	Google Cloud Platform
 GCS	Geographic Coordinate System (coordinates on spherical model - see PCS)
 Gd	GPRS and SMS	2G GPRS interface
-GD	Gradient Descent (AI, ML optimization algorithm)
+GD	Gradient Descent (AI:  ML optimization algorithm)
 GDDR	Graphics DDR SDRAM (RAM for high-bandwidth applications, such as GPUs)
 GDP	Gross Domestic Product, market value of a country at a specific time
 GDPR	EU General Data Protection Regulation (data privacy & security laws, gdpr.eu)
@@ -1918,7 +1918,7 @@ GFDM	Generalized Frequency Division Multiplexing
 GFP	Generic Framing Procedure
 GFP-F	Generic Framing Procedure-Framed
 GFSK	Gaussian Frequency Shift Keying            (digital signal modulation technique)
-GGNN	Gated Graph Neural Networks        (AI, deep-learning for graph-structured data)
+GGNN	Gated Graph Neural Networks (AI:  deep learning for graph-structured data)
 GGP	Gateway to Gateway Protocol (RFC 823)
 GGSN	Gateway GPRS Support Node (2G GSM, 3G UMTS)
 GHz	Giga Hertz (billion cycles per second)
@@ -1945,7 +1945,7 @@ GMDSS	Global Maritime Distress Safety System (developed by IMO)
 GMK	Group Master Key (IEEE 802.11i, RFC 3748)
 GML	Geography Markup Language (OGC defined XML grammar for GIS)
 GMLC	Gateway Mobile Location Center (TS 29.515)
-GMM	Gaussian Mixture Models (AI, unsupervised ML model, clustering)
+GMM	Gaussian Mixture Models (AI:  unsupervised ML model, clustering)
 GMM	GPRS Mobility Management
 GMPLS	Generalized Multi Protocol Label Switching
 GMRS	General Mobile Radio Service
@@ -1956,7 +1956,7 @@ Gn	SGSN and GGSN		2G GPRS interface
 Gn	SGSN and SGSN/GGSN	3G UMTS interface
 gNB	Next Generation Node B (5G network, TS 38.306 Rel-15 and onwards)
 GND	Ground (reference point for all voltages, between TX and RX, can be power ground or signal ground)
-GNN	Graph Neural Networks              (AI, deep-learning for graph-structured data)
+GNN	Graph Neural Networks (AI:  deep learning for graph-structured data)
 GNOC	Global Network Operations Center
 gNodeB	Next Generation Node B (5G network, TS 38.306 Rel-15 and onwards)
 GNSS	Global Navigation Satellite System
@@ -1981,7 +1981,7 @@ GPP	General Purpose Processer (CPU)
 GPRS	General Packet Radio Service (2.5G GPRS, TS 23.060, GMSK)
 GPS	Global Positioning System (satellite-based navigation system)
 GPSI	Generic Public Subscription Identifier
-GPT	Generative Pre-trained Transformers, type of LLM (AI, NLP model)
+GPT	Generative Pre-trained Transformers, type of LLM (AI:  NLP model)
 gPTP	generalized Precision Time Protocol (IEEE 802.1as)
 GPU	Graphics Processing Unit (processor:  parallel, for graphics and AI)
 Gr	SGSN and HLR 		2G GPRS interface, user profile
@@ -1991,8 +1991,7 @@ GRC	Governance, Risk and Compliance (approach to ensure compliance with regulato
 GRE	Generic Routing Encapsulation (RFC 2784, RFC 2890)
 GRE	Graduate Record Examination (US, graduate admissions exam)
 grTLD	Restricted Generic Top-Level Domains (internet domains)
-GRU	Gated Recurrent Units              (AI, LSTM-like gating mechanism in RNN)
-GRU	Gated Recurrent Units (AI, deep learning RNN architecture)
+GRU	Gated Recurrent Units (AI:  LSTM-like gating mechanism in RNN)
 GRU	Glavnoje Razvedyvatel'noje Upravlenije (Russian intelligence agency, 1992-present)
 GRX	Global Roaming eXchange
 GS	ETSI Group Specification
@@ -2095,9 +2094,9 @@ HF	High Frequency		  3 MHz -  30 MHz, radio, Short Wave
 HFC	Hybrid Fiber/Coaxial (cable-telephony system)
 HFN	Hyper Frame Number (frame synchronization timer)
 HFS	Hierarchical File System (older version of macOS file system)
-HGNN	Heterogeneous Graph Neural Network (AI, deep-learning for graph-structured data)
+HGNN	Heterogeneous Graph Neural Network (AI:  deep learning for graph-structured data)
 HHS	US Department of Health and Human Services (US government)
-Hib	Haemophilus Influenzae Type B (medical:  vaccine, lungs and respiratory virus)
+Hib	Haemophilus Influenzae Type B (medical:  vaccine for lungs and respiratory virus)
 HIBS	High Altitude IMT Base Stations (station at 20 to 50 km)
 HID	Hughes Identification Devices (US company providing PAC & IAC products eg: badges)
 HID	Human Interface Device (ex:  keyboard, mouse, joystick)
@@ -2119,7 +2118,7 @@ HMIP	Hierarchical Mobile Internet Protocol version 6 (RFC 5380)
 HMO	Health Maintenance Organization (US medical insurance plan)
 HNN	Home Network Name
 HNSP	ARPA Host Name Server Protocol (UDP, host to IP addr, obsolete, port: 42)
-HNSW	Hierarchical Navigable Small World (AI, ML graph-based ANN search algorithm)
+HNSW	Hierarchical Navigable Small World (AI:  ML graph-based ANN search algorithm)
 HO	Hand-Over
 HOL	Head of Line Blocking (packets held up by the first packet)
 HonHaiPr	Foxconn/Hon Hai Precision message (router checking for updates)
@@ -2130,7 +2129,7 @@ HPCC	High-Performance Computing Cluster (open-source big data tool)
 hPCRF	home Policy and Charging Rules Function
 HPLMN	Home Public Land Mobile Network
 HPQC	Hewlett-Packard Quality Center (test management tool)
-HPV	Human Papilloma-Virus (medical:  vaccine, cancers and warts virus)
+HPV	Human Papilloma-Virus (medical:  vaccine for cancers and warts virus)
 HQL	Hive Query Language
 HR	Home Routed (roaming)
 HR	Human Resource (company department)
@@ -2219,7 +2218,7 @@ IBSS	Independent Basic Service Set (wireless devices connected without AP)
 IBU	Integrated Business Unit
 IC	Identification Code (ITU-T E.164)
 IC	Integrated Circuit (michochip, or simple "chip")
-ICA	Independent Component Analysis (AI, unsupervised ML model, clustering)
+ICA	Independent Component Analysis (AI:  unsupervised ML model, clustering)
 ICANN	Internet Corporation for Assigned Names and Numbers (www.icann.org)
 ICAO	International Civil Aviation Organization (aviation, UN standards agency for aviation)
 ICAT	Internet Categorization of Attacks Toolkit (now called "NVD")
@@ -2235,10 +2234,10 @@ Ici	IBCF and IBCF		IMS interface
 ICI	Inter-Carrier Interference
 ICIC	Inter-Cell Interference Coordination
 ICICoS	International Conference on Informatics and Computational Sciences
-ICLR	International Conference on Learning Representations (AI, focused on DL)
+ICLR	International Conference on Learning Representations (AI:  focused on DL)
 ICM	Incident Chain Manager
 ICMETE	International Conference on Micro-Electronics and Telecommunication Engineering
-ICML	International Conference on Machine Learning (AI, focused on ML)
+ICML	International Conference on Machine Learning (AI:  focused on ML)
 ICMP	Internet Control Message Protocol  (network layer, network diagnostics, RFC 792)
 ICMPv6	Internet Control Message Protocol for IPv6  (network layer, network diagnostics, RFC 4443)
 ICMSaR	International Convention on Maritime Search and Rescue
@@ -2330,7 +2329,6 @@ IMT-2000	ITU requirements for 3G mobile networks
 IMT-2020	ITU requirements for 5G mobile networks
 IMT-Advanced	ITU requirements for 4G LTE-Advanced mobile networks
 IMTS	Improved Mobile Telephone Service, US 1965-
-IMU	Inertial Measurement Unit
 IMU	Inertial Measurement Unit (sensor package measuring an object's motion and orientation)
 IN	Intelligent Network
 INAP	Intelligent Network Application Protocol (ETSI EN 301 668)
@@ -2541,7 +2539,7 @@ IPS	Intrusion Prevention System (cybersecurity)
 IPSec	Internet Protocol Security (network layer, authentication and encryption protocol suite)
 IPTV	Internet Protocol Television
 IPUPS	Inter-PLMN User Plane Security
-IPV	Inactivated Poliovirus Vaccine (medical:  poliomyelitis/polio virus)
+IPV	Inactivated Poliovirus Vaccine (medical:  vaccine for poliomyelitis/polio virus)
 IPv4	IETF Internet Protocol version 4 ( 32-bit/ 4-byte IPaddr, DEC w/dots, RFC 791,  eg 192.168.1.1)
 IPv6	IETF Internet Protocol version 6 (128-bit/16-byte IPaddr, HEX w/dots, RFC 2473, eg 2001:db8::1)
 IPX	IP Packet eXchange (GSMA AA.80)
@@ -2657,9 +2655,9 @@ Iur	RNC and RNC	3G UMTS interface (UTRAN)
 IV	Latin: "Intra-Venous", English: "within a vein" (medical)
 IVAS	Immersive Voice and Audio Services
 IVF	In vitro fertilization (medical:  procedures that can lead to a pregnancy)
-IVF	Inverted File Index (AI, indexing structure used in ANN search algorithm)
-IVF-HNSW	Inverted File with Hierarchical Navigable Small World (AI, indexing used in ANN search algorithm)
-IVF-PQ	Inverted File with Product Quantization (AI, indexing used in ANN search algorithm)
+IVF	Inverted File Index (AI:  indexing structure used in ANN search algorithm)
+IVF-HNSW	Inverted File with Hierarchical Navigable Small World (AI:  indexing used in ANN search algorithm)
+IVF-PQ	Inverted File with Product Quantization (AI:  indexing used in ANN search algorithm)
 IVHS	Intelligent Vehicle Highway Systems
 IVR	Interactive Voice Response
 IWF	Inter-Working Function
@@ -2704,7 +2702,7 @@ JVM	Java Virtual Machine (JVM code + libraries + JVM interpreter + machine code)
 JVMS	Java Virtual Machine Specification
 JWST	James Webb Space Telescope (orbits at L2: 930k miles/1.5 Mkm)
 JWT	JSON Web Token (RFC 7523, authentication)
-K-mean	K-means clustering (AI, unsupervised ML model, clustering)
+K-mean	K-means clustering (AI:  unsupervised ML model, clustering)
 k8s	Kubernetes, 'numeronym' (open-source container orchestration platform, Greek: "helmsan", "pilot")
 Kafka	Apache distributed event streaming platform
 KASME	Key Access Security Management Entries (authentication vector)
@@ -2712,13 +2710,12 @@ KASUMI	block cipher used in GSM, GPRS and UMTS (TS 35.202)
 kB	kilo-Byte	memory size, 10^3	1024 Bytes
 kbps	Kilobit per second
 Kc	Ciphering Key (64-bit GSM ciphering key, TS 33.102)
-KDD	International Conference on Knowledge Discovery and Data Mining (AI, focused on data mining)
+KDD	International Conference on Knowledge Discovery and Data Mining (AI:  focused on data mining)
 KDDI	telecommunications operator, Japan
 KDE	Kernel Density Estimation plot (statistics:  overall shape of data distribution)
 KDF	Key Derivation Function
 KEDB	Known Error DataBase (ITIL)
-Keras	high-level API designed for simplicity and rapid prototyping  (AI, deep learning)
-Keras	open-source Python interface library for ANN (AI)
+Keras	high-level API designed for simplicity and rapid prototyping (AI:  deep learning)
 kernel	part of operating system that controls functions of hardware
 KGB	Komitet Gosudarstvennoy Bezopasnosti (Soviet security agency, 1954-1991)
 KHI	Karachi (major city in Pakistan, birth place of author :-)
@@ -2735,7 +2732,7 @@ kms	"kill my-self"  (slang:  used in a joking, sarcastic or exaggerated way)
 KMS	Key Management Service (AWS service)
 KMZ	compressed KML file (GIS: Google Earth zipped KML file)
 KNIME	Konstanz Information Miner
-KNN	k-Nearest Neighbors (AI, supervised ML model)
+KNN	k-Nearest Neighbors (AI:  supervised ML model)
 KPI	Key Performance Indicators (metrics)
 KQI	Key Quality Indicators
 KRA	Key Responsibility Areas
@@ -2822,7 +2819,7 @@ LCI	Load Control Information (IE in PFCP signaling)
 LCM	Life Cycle Management
 LCR	Least Cost Routing
 LCS	LoCation Services (TS 23.271)
-LDA	Linear Discriminant Analysis (AI, supervised ML model)
+LDA	Linear Discriminant Analysis (AI:  supervised ML model)
 LDAP	Lightweight Directory Access Protocol (application layer, TCP, RFC 4511, port: 389)
 LDAPS	Lightweight Directory Access Protocol Secure (application layer, TCP, RFC 4511, port: 636, 3269)
 LDB	Location Database
@@ -2849,7 +2846,7 @@ LFA	Loop-Free Alternate  (RFC 7761)
 LFN	Linux Foundation Networking (Linux Foundation’s open-source networking umbrella)
 LFSR	Linear Feedback Shift Register
 LGA	Land Grid Array (surface-mount packaging for integrated circuits)
-LGM	Large Geospatial Model (AI, GIS based model)
+LGM	Large Geospatial Model (AI:  GIS based model)
 LI	Lawful Intercept (TS 33.127)
 LIDAR	Light Imaging Detection and Ranging
 LIDB	Line Information Database (billing information)
@@ -2870,8 +2867,8 @@ LLC	Limited Liability Company (hybrid legal entity, US)
 LLC	Logical Link Control (IEEE 802.2, part of Layer 2-Data Link)
 LLD	Low-Level Design (component-level design document)
 LLDP	Link Layer Discovery Protocol (network topology discovery, IEEE 802.1ab)
-LLE	Locally Linear Embedding (AI, unsupervised ML model, clustering)
-LLM	Large Language Model (AI, NLP model)
+LLE	Locally Linear Embedding (AI:  unsupervised ML model, clustering)
+LLM	Large Language Model (AI:  NLP model)
 LLS	Low Layer Split
 LMA	Local Mobility Anchor
 lmao	"laughing my ass off" (slang)
@@ -2890,7 +2887,7 @@ LNP	Local Number Portability
 LNS	Layer 2 Tunneling Protocol (L2TP) Network Server
 LOB	Large Object (information storage in databases)
 LOB	Line Of Business (business term)
-LoBF	Line of Best Fit (AI, supervised ML model)
+LoBF	Line of Best Fit (AI:  supervised ML model)
 LOC	Localizer  (aviation, lateral guidance for runway approach)
 LoF	Loss of Frame
 logic gate	logic operations: AND, NAND, NOR, NOT, OR, XNOR, XOR
@@ -2898,7 +2895,7 @@ Logstash	ETL tool for ElasticSearch (big data, ELK)
 LoI	Letter of Intent (agreements, roadmaps)
 lol	"laughing out loud"  (slang:  absolutely hilarious)
 LoRa	Long Range Radio (radios for M2M and IoT networks)
-LoRA	Low Rank Adaptation (AI, fine tuning models)
+LoRA	Low Rank Adaptation (AI:  fine tuning models)
 LoS	Line of Sight
 LoS	Loss of Signal
 LoST	Location to Service Translation protocol (RFC 5222)
@@ -2914,10 +2911,10 @@ LPU	Language Processing Unit (processor:  AI, NLP, text/speech)
 LPV	Localizer Performance with Vertical guidance (aviation GPS)
 LPWA	Low Power Wide Area
 LPWAN	Low Power Wide Area Network (type of WAN network)
-LR	Lasso Regression (AI, supervised ML model)
-LR	Linear Regression (AI, supervised ML model)
+LR	Lasso Regression (AI:  supervised ML model)
+LR	Linear Regression (AI:  supervised ML model)
 LR	Location Registration
-LR	Logistic Regression (AI, supervised ML model)
+LR	Logistic Regression (AI:  supervised ML model)
 LRF	Location Resource Function
 LS	Location Service
 LSAT	Law School Admission Test (US, law school admissions test)
@@ -2927,7 +2924,7 @@ LSGW	Local Serving Gateway
 LSH	Locality-Sensitive Hashing
 lshmsfoaidmt	"laughing so hard my sombrero falls off and i drop my taco"  (slang)
 LSI	Large-Scale Integration	      (integrated chip with  10,000s transistors, 1970s)
-LSTM	Long-Short-Term Memory Networks (AI, deep learning RNN architecture)
+LSTM	Long-Short-Term Memory Networks (AI:  deep learning RNN architecture)
 LTA	Leave Travel Allowance (travel expense)
 LTA	Lighter Than Air (UAS)
 LTC	Leave Travel Concession (travel expense)
@@ -3020,11 +3017,11 @@ MCM	Management Control Module
 MCM	Multi-Chip Module (assembly with multiple ICs)
 MCMT	Multi-Carrier Modulated Transmission       (light signal modulation technique)
 MCP	Manage, Control and Plan
-MCP	Model Context Protocol (AI, standardized open protocol for AI models)
+MCP	Model Context Protocol (AI:  standardized open protocol for AI models)
 MCP	Multi-Core Processors (micro-processor chips with multiple CPUs)
 MCPTT	Mission Critical Push To Talk (TS 23.379)
 MCS	Modulation and Coding Scheme
-MCTS	Monte Carlo Tree Search (AI, unsupervised ML model, reinforcement learning)
+MCTS	Monte Carlo Tree Search (AI:  unsupervised ML model, reinforcement learning)
 MCU	Media Control Unit
 MCU	Micro-Controller Unit (brains in modern electronics, plus built-in hardware peripherals)
 MCX	Mission Critical Service
@@ -3043,7 +3040,7 @@ MDM	Mobile Device Management
 MDN	Mobile Directory Number (10-digit dialed mobile number)
 MDN	Mozilla Developer Network (free, open-source platform for web technologies)
 mDNS	Multicast Domain Name Server (RFC 6762)
-MDP	Markov Decision Processes (AI, unsupervised ML model, reinforcement learning)
+MDP	Markov Decision Processes (AI:  unsupervised ML model, reinforcement learning)
 MDR	Message Definition Reports, describes ISO20022 message technical structure
 MDS	Meta Data Server
 MDS	Multi-media Distribution Service
@@ -3156,7 +3153,7 @@ mMIMO	massive Multiple-Input Multiple-Output (5G technology)
 MML	Man Machine Language
 MMO	Massively Multiplayer Online (type of video game)
 MMORPG	Massively Multiplayer Online Role-Playing Games
-MMR	Measles, Mumps and Rubella (medical:  vaccine, pneumonia, encephalitis virus)
+MMR	Measles, Mumps and Rubella (medical:  vaccine for pneumonia, encephalitis virus)
 MMS	Multimedia Messaging Service
 MMSE	Minimum Mean-Square Error (statistics, evaluation metric)
 mMTC	massive Machine Type Communications (5G reqr. for connection density)
@@ -3179,7 +3176,7 @@ MOB	mobility
 MOBA	Multi-player Online Battle Arena (type of video game)
 MoCA	Multimedia over Coax Alliance (standards consortium, www.mocalliance.org)
 MOCN	Multiple Operator Core Network (TS 23.251)
-MoE	Mixture of Experts (AI, ML architecture that uses multiple specialized neural-netwrok experts)
+MoE	Mixture of Experts (AI:  ML architecture that uses multiple specialized neural-netwrok experts)
 MoFRR	Multicast-only Fast Reroute  (RFC 7431)
 MOHO	Mobile Originated Hand Over
 Mohs	Mohs scale of mineral hardness (ordinal scale, by mineralogist Friedrich Mohs)
@@ -3205,7 +3202,7 @@ MPEG-4	aka "MPEG-4 AVC", ITU/ISO Moving Picture Experts Group standcodecard (see
 MPG	Multi touch, Physics and Gestures (3rd generation user interfaces)
 MPI	Message Passing Interface (API for distributed process communication)
 MPLS	Multi-Protocol Label Switching (network layer, routing protocol, RFC 3031)
-MPNN	Message Passing Neural Network     (AI, deep-learning for graph-structured data)
+MPNN	Message Passing Neural Network (AI:  deep learning for graph-structured data)
 MPO	Multi-Fiber Push-On (IEC 61754-7 & TIA-604-5, connectors for high-density networks)
 MPOE	Minimum (or Main) Point of Entry (utility box at customer premise)
 MPPP	MP, MPPP, MLPPP: Multilink Point-to-Point Protocol (RFC 1990)
@@ -3280,7 +3277,6 @@ MST	US Mountain Standard Time, UTC-7 (2nd SUN in NOV to 1st SUN in MAR)
 MSTP	Multiple Spanning Tree Protocol  (IEEE 802.1s)
 MSU	Message Signal Units (ISUP)
 MT	Message Type in SWIFT financial messages (legacy format, see also MX)
-MT	Message XML in SWIFT financial messages (ISO20022, see also legacy MT)
 MT	Mobile Termination
 MT-EDT	Mobile Terminated Early Data Transmission
 MT-SMS	Mobile Terminated-Short Message Service
@@ -3324,6 +3320,7 @@ MWC	Mobile World Congress (trade show organized by GSMA)
 MWD	Message Waiting Data, HLR flag for SMS
 MWN	Municipal Wireless Network (type of MAN network)
 Mx	CSCF/BGCF and IBCF	IMS interface
+MX	Message XML in SWIFT financial messages (ISO20022, see also legacy MT)
 MySQL	MySQL Database (port: 3306)
 N-AMPS	Narrowband Advanced Mobile Phone System (2G)
 N-ISDN	Narrowband Integrated Services Digital Network
@@ -3400,7 +3397,7 @@ NATO	North Atlantic Treaty Organization (intergovernmental military alliance, ww
 Nausf	5G Service-Based Interface exhibited by AUSF
 NAVIC	Navigation Indian Constellation (Indian GPS)
 NAVSTAR	Navigation Satellite Timing and Ranging
-NB	Naive Bayes (AI, supervised ML model)
+NB	Naive Bayes (AI:  supervised ML model)
 NB-IoT	Narrow-Band Internet of Things, 3GPP LPWAN radio technology standard 
 NBA	National Basketball Association (North America league, sports)
 NBAP	Node-B Application Protocol (3G UMTS, TS 25.433)
@@ -3439,7 +3436,7 @@ NEHO	Network Evaluated Hand Over
 NEMO	Network Mobility
 NENA	National Emergency Number Association (www.nena.org)
 NEP	Network Equipment Providers
-NeRF	Neural Radiance Fields (AI, reconstructs 3D space from 2D images using machine learning)
+NeRF	Neural Radiance Fields (AI:  reconstructs 3D space from 2D images using machine learning)
 NESAS	Network Element Security Assurance Scheme
 NESS	Network Element Services Signaling
 NEST	Network Slice Type
@@ -3457,7 +3454,7 @@ network 2G 	GSM  -->  TDMA: GSM,  iDEN, IS-136, PDC and CDMA: IS-95A
 network 3G 	UMTS -->  UMTS: HSPA, HSPA+, WCDMA & CDMA2000: 1x, EV-DO
 network 4G 	LTE  -->  LTE, LTE-A, WiMAX; OFDMA & SC-FDMA, MIMO antenna
 network 5G	5G     -->  Core Network is Service Based Architecture (SBA)
-NeurIPS	Conference on Neural Information Processing Systems (AI, focused on AI/ML)
+NeurIPS	Conference on Neural Information Processing Systems (AI:  focused on AI/ML)
 NextG	Next Generation
 NF	Network Functions (5G network functions)
 NFA	Nondeterministic Finite-State Automation (aka "NFSM")
@@ -3517,19 +3514,19 @@ NITZ	Network Identity and Time Zone
 NKVD	Naródnyy Komissariát Vnútrennikh Del (Soviet interior ministry, 1934-1946)
 nLoS	near-Line of Sight (tranmission by reflection or diffraction)
 NLoS	Non-Line of Sight  (tranmission by penetration)
-NLP	Natural Language Processing (AI, text/speech model)
+NLP	Natural Language Processing (AI:  text/speech model)
 NLSP	Network Layer Security Protocol (ISO/IEC 11577)
 NLTK	Natural Language Tool-kit
 Nmap	Network Mapper (cybersecurity, open-source network scanning tool)
-NMF	Non-negative Matrix Factorization (AI, unsupervised ML model, clustering)
+NMF	Non-negative Matrix Factorization (AI:  unsupervised ML model, clustering)
 NMM	Network Monitor Mode
 NMOS	N-channel MOSFET (uses electrons as charge carriers)
 NMS	Network Management System
 NMS	non-maximum suppression
 NMSI	National Mobile Station Identifier
-NMSLIB	Non-Metric Space Library (AI, open-source libraries for ANN search algorithm)
+NMSLIB	Non-Metric Space Library (AI:  open-source libraries for ANN search algorithm)
 NMT	Nordic Mobile Telephones (1G)
-NN	Neural Network (AI, deep learning architecture)
+NN	Neural Network (AI:  deep learning architecture)
 Nnef	5G Service-Based Interface exhibited by NEF
 NNI	Network Node Interface
 NNI	Network to Network Interface (switch to switch, TS 29.165)
@@ -3789,7 +3786,7 @@ Ops	Operations (business term)
 OPS	Operations per Second (metric)
 OPSEC	Operational Security
 Optical	digital audio cable (legacy, aka TOSLINK)
-OPTICS	Ordering Points To Identify the Clustering Structure (AI, unsupervised ML model, clustering)
+OPTICS	Ordering Points To Identify the Clustering Structure (AI:  unsupervised ML model, clustering)
 Option 1	5G SA,  4G-eNB connected to EPC
 Option 2	5G SA,  5G-gNB connected to 5GC
 Option 3	5G NSA, 4G-eNB & 5G-en-gNB connected to EPC (EN-DC)
@@ -3897,7 +3894,7 @@ PC	Personal Computer
 PC	Point Code (SS7 network node unique address, ANSI T1.111.8)
 PC-SAN	Parallel SCSI SAN (ISM data storage, host directly connected to storage via SCSI cables)
 PC5	SideLink (SL) new radio interface for D2D (TR 38.885)
-PCA	Principal Component Analysis (AI, unsupervised ML model, clustering)
+PCA	Principal Component Analysis (AI:  unsupervised ML model, clustering)
 pcap	Packet CAPture binary file (typically used with WireShark)
 PCB	Printed Circuit Board (flat laminate board with etched wiring.  aka PWB)
 PCB	Process Control Block
@@ -4193,7 +4190,7 @@ px	CSS/HTML styles::  pixel with fixed, precise font size
 PXE	Preboot eXecution Environment
 py	Python file extension
 Python	interpreted high-level general-purpose programming language
-PyTorch	open-source ML framework by Facebook  (AI, deep learning)
+PyTorch	open-source ML framework by Facebook (AI:  deep learning)
 Q&A	"Question and Answer"  (slang:  discussion forum or setting)
 Q.850	Usage of cause and location in the DSSS1 and SS7 ISUP (ITU-T)
 QA	Quality Assurance
@@ -4251,7 +4248,7 @@ RADIUS	Remote Authentication Dial in User Service (RFC 2865)
 RADOS	Reliable Autonomic Distributed Object Store
 RADSL	Rate-Adaptive Asymmetric Digital Subscriber Line(7 Mbps downstream 1 Mbps upstream)
 RAEX	Roaming Agreement EXchange (GSMA spec TD.67)
-RAG	Retrieval-Augmented Generation (AI, response enhancement technique)
+RAG	Retrieval-Augmented Generation (AI:  response enhancement technique)
 RAI	Routing Area Identity (LAI + RAC)
 RAID	Redundant Array of Independent Disks (hard drives configured for speed/performance)
 RAKE	radio receiver designed to counter effects of multipath fading
@@ -4315,7 +4312,7 @@ reduce	shuffle, sort, reduce (big data processing concept)
 ReFS	Resilient File System (Windows Server 2012 file system format based on COW)
 REGEX	Regular Expression, pattern search in computer languages
 REIT	Real Estate Investment Trusts (financial investment instrument)
-ReLU	Rectified Linear Unit (AI, activation function in NN: ReLu, Sigmoid, SoftMax & Tanh)
+ReLU	Rectified Linear Unit (AI:  activation function in NN: ReLu, Sigmoid, SoftMax & Tanh)
 rem	CSS/HTML styles::  root element with scalable size relative to root font size
 REPL	Read, Evaluate, Print, Loop
 REQ	Request or Requisition
@@ -4323,7 +4320,7 @@ RES	Response
 REST	REpresentational State Transfer (web standard for APIs using HTTP)
 RESTful	web services based on REST architecture
 RF	Radio Frequency
-RF	Random Forest (AI, supervised ML model)
+RF	Random Forest (AI:  supervised ML model)
 RFB	Remote Frame Buffer (remote access protocol, RFC-6143)
 RFC	IETF Request For Comments (standards)
 RFC1392	Internet Users' Glossary
@@ -4343,7 +4340,7 @@ RG-LWAC	RG Level Wireline Access Characteristics
 RGB	Red Green Blue                 (color model)
 RGBA	Red Green Blue Alpha           (color model)
 RGBD	Red Green Blue Depth           (color model)
-RGNN	Recurrent Graph Neural Networks    (AI, deep-learning for graph-structured data)
+RGNN	Recurrent Graph Neural Networks (AI:  deep learning for graph-structured data)
 RGU	Revenue Generating Unit (business term)
 RGW	Relay Gateway
 RHB	Requirements Handbook (TIA TL9000 document)
@@ -4383,11 +4380,11 @@ RJ-48	Registered Jack-48, 8P8C	- Ethernet, four-wire data lines
 RJ-49	Registered Jack-49, 8P8C	- ISDN BRI
 RJ-61	Registered Jack-61, 8P8C	- four telephone/fax lines
 RJ-71	Registered Jack-71, 50-pin 	- call sequencer equipment
-RL	Reinforcement Learning (AI, machine learning model using rewards and penalties)
+RL	Reinforcement Learning (AI:  machine learning model using rewards and penalties)
 RL	Reverse Link (from end user to fixed location)
 RLC	Radio Link Control (UE-eNodeB, layer 2, TS 38.322)
 RLF	Radio Link Failure
-RLHF	Reinforcement Learning from Human Feedback (AI, unsupervised ML model, reinforcement learning)
+RLHF	Reinforcement Learning from Human Feedback (AI:  unsupervised ML model, reinforcement learning)
 RLOS	Restricted Local Operator Services
 RLP	Radio Link Protocol (TS 36.322)
 RLQ	Root Link Query protocol (routing protocol)
@@ -4410,7 +4407,7 @@ RNC	Radio Network Controller (3G UMTS)
 RND	Random
 RNIS	Radio Network Information Service
 RNL	Radio Network Layer
-RNN	Recurrent Neural Networks (AI, deep learning architecture)
+RNN	Recurrent Neural Networks (AI:  deep learning architecture)
 RNP	Required Navigation Performance  (aviation, navigation specifications, ICAO Doc 8168)
 RNS	Radio Network Subsystem (3G UMTS, RNC + NodeB)
 RNSAP	Radio Network System Application Protocol (TS 25.423)
@@ -4445,7 +4442,7 @@ RPVST+	Rapid Per VLAN Spanning Tree Plus  (Cisco:  enhancement to STP routing pr
 RQA	Reflective QoS Attribute
 RQI	Reflective QoS Identifier
 RR	Radio Resource (procedure)
-RR	Ridge Regression (AI, supervised ML model)
+RR	Ridge Regression (AI:  supervised ML model)
 RR	Round Robin (scheduling algorithm)
 RRAS	Routing and Remote Access Service
 RRC	Radio Resource Control (UE-eNodeB, layer 3, TS 36.331)
@@ -4475,7 +4472,7 @@ RST	ReSeT (TCP/IP message)
 RSTD	Reference Signal Time Difference
 RSTP	Rapid Spanning Tree Protocol (routing protocol, IEEE 802.1w)
 RSU	Road-Side Unit
-RSV	Respiratory Syncytial Virus (medical:  vaccine, lungs and respiratory virus)
+RSV	Respiratory Syncytial Virus (medical:  vaccine for lungs and respiratory virus)
 rsvp	French: "repondez s'il vous plait",  English: "please reply" (common abbreviation)
 RSVP	Resource Reservation Protocol (RFC 2205)
 RT	Real Time
@@ -4554,7 +4551,7 @@ SAFe	Scaled Agile Framework
 SAGE	Security Algorithms Group of Experts
 SAI	Service Area Identifier (LAI + SAC)
 salty	irritated, bitter or resentful (slang:  someone acting in petty or sore-loser way)
-SAM	Segment Anything Model (AI, deep learning model)
+SAM	Segment Anything Model (AI:  deep learning model)
 SAML	Security Assertion Markup Language (cybersecurity)
 SAN	Satellite Access Network, with ISL:  VSAT - SL - ISL - FL - gateway - CN/PDN
 SAN	Service Aware Network (SDN concept)
@@ -4569,10 +4566,10 @@ SAPP	Service Awareness and Privacy Policy (TS 23.203)
 SAR	Search and Rescue
 SAR	Segmentation and Reassembly
 SAR	Service Area Restriction
-SARIMA	Seasonal Auto-Regressive Integrated Moving Average (AI, forcasting model)
+SARIMA	Seasonal Auto-Regressive Integrated Moving Average (AI:  forcasting model)
 SARP	Standards and Recommended Practice
 SARS	Severe Acute Respiratory Syndrome (medical: viral infection)
-SARSA	State-Action-Reward-State-Action (AI, unsupervised ML model, reinforcement learning)
+SARSA	State-Action-Reward-State-Action (AI:  unsupervised ML model, reinforcement learning)
 SART	Search and Rescue Transponder
 SAS	Statement on Auditing Standards
 SAS	Statistical Analysis System (SAS Institute statistical software)
@@ -4720,7 +4717,7 @@ SFTP	Secure File Transfer Protocol (application layer, TCP, SSH ftp)
 sfw	"safe for work"  (slang: contains non-offensive content, suitable for a public setting)
 SG	Signaling Gateway (converts CCS messages from SS7 to SIGTRAN)
 SGCP	Signaling Gateway Control Protocol
-SGD	Stochastic Gradient Descent Classifier (AI, ML optimization algorithm)
+SGD	Stochastic Gradient Descent Classifier (AI:  ML optimization algorithm)
 SGi	PGW and PDN	4G LTE interface
 SGML	Standard Generalized Markup Language
 SGMP	Simple Gateway Monitoring Protocol (TCP/UDP, network management, RFC 1028, port: 153)
@@ -4754,7 +4751,7 @@ SIFT	Scale-Invariant Feature Transform (algorithm to detect and describe feature
 SIG	Bluetooth Special Interest Group (BlueTooth standards organization, www.bluetooth.com)
 sigi	Country Code (ITU-T E.164)
 SIGINT	Signals Intelligence (from intercepting signals)
-Sigmoid	sigmoid function (AI, activation function in NN: ReLu, Sigmoid, SoftMax & Tanh)
+Sigmoid	sigmoid function (AI:  activation function in NN: ReLu, Sigmoid, SoftMax & Tanh)
 SIGTRAN	Signaling Transport (extension of SS7 protocol using IP/SCTP)
 SII	Spectrum Innovation Initiative (NSF spectrum utilization)
 SIM	Subscriber Identity Module (TS 51.011)
@@ -4792,7 +4789,7 @@ SLO	Service Level Objectives (agreement within an SLA)
 SLP	Service Logic Program
 SLP	Single Data Link Protocol
 SLPI	Service Logic Program Instance
-SLR	Simple Linear Regression (AI, supervised ML model)
+SLR	Simple Linear Regression (AI:  supervised ML model)
 SLS	Service-Level Specification
 SLsAP	MME to SMLC	4G LTE interface
 SM	Security Management (NMS process)
@@ -4834,7 +4831,7 @@ SNDCP	SubNetwork Dependent Convergence Protocol (TS 44.065)
 SNI	Server Name Indication (TLS protocol)
 SNMP	Simple Network Management Protocol (application layer, network monitoring, RFC 1157, port: 161)
 SNN	Serving Network Name
-SNN	Simulated Neural Network (AI, deep learning model)
+SNN	Simulated Neural Network (AI:  deep learning model)
 SNO	Satellite Network Operator
 SNPN	Stand-alone Non-Public Network
 SNR	Signal to Noise Ratio (compares signal to background noise)
@@ -4854,7 +4851,7 @@ SOC	Service Oriented Core
 SoC	System on a Chip (PoP configured integrated chip)
 SOC 2	Service Organization Control (cybersecurity compliance standard)
 SOF	Start of Frame (RFC 2687 hdlc, IEEE 802.3 ethernet)
-SoftMax	smooth approximation function (AI, activation function in NN: ReLu, Sigmoid, SoftMax & Tanh)
+SoftMax	smooth approximation function (AI:  activation function in NN: ReLu, Sigmoid, SoftMax & Tanh)
 SOHC	Single Overhead Camshaft (engine design with one camshafts in combustion chamber)
 SOHO	Small Office/Home Office
 SoL	Safety of Life service (top priority GPS service)
@@ -5033,7 +5030,7 @@ SVDO	Simultaneous Voice and EV-DO data
 SVFA	Self-Verifying Finite Automata (finite machine)
 SVG	Scalable Vector Graphics (graphics in XML format)
 SVGA	Super Video Graphics Array (800x600 pixels; 1.33:1 aspect ratio)
-SVM	Support Vector Machine (AI, supervised ML model)
+SVM	Support Vector Machine (AI:  supervised ML model)
 SVN	Storage Virtual Machines (formerly known as Vservers)
 SW	Software (programs to direct a computer to perform specific activities)
 SW-CDMA	Satellite Wideband Code Division Multiple Access
@@ -5056,7 +5053,7 @@ T&M	Time and Money, Test and Measurement
 T-BCSM	Terminating Basic Call State Model
 T-carrier	(US) Transmission System, replaced by all IP networks
 T-CSI	Terminating CAMEL Subscription Information
-t-SNE	t-distributed Stochastic Neighbor Embedding (AI, unsupervised ML model, clustering)
+t-SNE	t-distributed Stochastic Neighbor Embedding (AI:  unsupervised ML model, clustering)
 T.50	ITU International Reference Alphabet specification
 T1	23 B-channels, 1 D-channel.  ANSI, used in the USA, Canada and Hong Kong
 T1	ANSI ISDN PRI Tranmission System 1	 1 T1,   24 DS0	  1.544 Mbps
@@ -5064,7 +5061,7 @@ T1 frame (125 ms)	= 8000 frames/sec * (24 * DS0 channel x 8 bits + 1 bit)
 T2	ANSI ISDN PRI Tranmission System 2	 4 T1,   96 DS0	  6.312 Mbps
 T3	ANSI ISDN PRI Tranmission System 3	18 T1,  432 DS0	 44.736 Mbps
 T4	ANSI ISDN PRI Tranmission System 4	24 T1, 4032 DS0	274.176 Mbps
-T5	encoder-decoder transformer (AI, NLP model)
+T5	encoder-decoder transformer (AI:  NLP model)
 TA	Terminal Adapter
 TA	Tracking Area (TS 23.401)
 TaaS	Tap as a Service (OpenStack neutron service for monitoring networks)
@@ -5081,7 +5078,7 @@ TAM	Total Addressable Market (business term)
 TAM	Traffic Anchoring Mode
 tan	tangent   = opposite/adjacent    (trignometric function, right-angled triangle)
 tanh	hyperbolic tangent = sinh(x)/cosh(x)  (hyperbolic function, defined using hyperbola)
-Tanh	hyperbolic tangent function (AI, activation function in NN: ReLu, Sigmoid, SoftMax & Tanh)
+Tanh	hyperbolic tangent function (AI:  activation function in NN: ReLu, Sigmoid, SoftMax & Tanh)
 TAP	Transferred Account Procedure (GSMA spec TD.57)
 TAS	Telephony Application Server
 TASER	Thomas A. Swift’s Electric Rifle (non-lethal electrical weapon)
@@ -5116,7 +5113,7 @@ TCP/IP Layer 4	Transport Layer   (Port Number)  UDP, TCP, SCTP, TLS/SSL
 TCP/IP Layer 5	Application Layer (Process ID)   DNS, FTP, DHCP, HTTP, SMTP, TELNET
 TD-SCDMA	Time Division-Synchronous Code Division Multiple Access (China)
 TDAG	Telecommunication Development Advisory Group
-TDAP	Tetanus, Diphtheria, Pertussis  (medical:  vaccine, lockjaw, diphtheria and whooping cough)
+TDAP	Tetanus, Diphtheria, Pertussis  (medical:  vaccine for lockjaw, diphtheria and whooping cough)
 TDCI	Tethering Detection Confidence Index (feature)
 TDD	Telecommunications Device for the Deaf
 TDD	Test Driven Development (Agile terminology)
@@ -5140,12 +5137,12 @@ telnet	Telecommunication Network unencrypted remote access (TCP L4: Application 
 TEM	telecommunication Equipment Manufacturer
 TEMIC	Telecommunications Executive Management Institute of Canada
 TEMS	Travel and Expense Management System
-TensorFlow	open-source ML framework by Google  (AI, deep learning)
+TensorFlow	open-source ML framework by Google (AI:  deep learning)
 TER	Ternary numbering system,     base 8: 0-2       (BIN, TER, OCT, DEC, HEX)
 tera-	T,  10 power  12	- numeric, see also "prefix"
 TETRA	Trans-European Trunked Radio System (ETSI private mobile radio standard)
 Tez	Apache open-source framework for big data processing using MapReduce
-TF	TensorFlow (AI, machine learning library by Google)
+TF	TensorFlow (AI:  machine learning library by Google)
 TFS	Tape File System for magnetic tapes)
 TFT	Traffic Flow Template
 TFTP	Trivial File Transfer Protocol (UDP, simple file transfer, RFC 1350, port: 69)
@@ -5528,7 +5525,7 @@ VA	Vertical Alignment Panels (video display technology)
 VA	Veterans Affairs (US department)
 VAAL	Video Adaptation at Application Layer
 VACL	VLAN Access Control List
-VAE	Variational Auto-Encoders (AI, generative model)
+VAE	Variational Auto-Encoders (AI:  generative model)
 VAS	Value Added Service
 VASP	Value Added Service Provider
 VAX	Virtual Address eXtension
@@ -5787,7 +5784,7 @@ XDMS	XML Document Management Server
 XDR	Extended Detection and Response (cybersecurity, framework)
 xDSL	DSL variants:  ADSL, HDSL, IDSL, MDSL, MSDSL, RADSL, SDSL, VDSL
 XEN	open-source hypervisor/VMM
-XGBoost	Gradient Boost ((AI, machine learning model)
+XGBoost	Gradient Boost (AI:  machine learning model)
 xhr	XMLHttpRequest file (web file extension)
 XHTML	eXtensible HyperText Markup Language
 xkcd	webcomic by Randall Munroe, covers math, programming, science, romance (www.xkcd.com)
@@ -5821,7 +5818,7 @@ yeet	throwing something forcefully  (slang:  also to convey excitement, enthusia
 YIQ	Luma, In-Phase, Quadrature     (color model, used in analog NTSC color TV systems)
 yocto-	y,  10 power -24	- numeric, see also "prefix"
 yolo	"you only live once"  (slang:  used to justify taking risks, enjoying life, seizing opportunities)
-YOLO	You Only Look Once (AI, deep learning model)
+YOLO	You Only Look Once (AI:  deep learning model)
 yotta-	Y,  10 power  24	- numeric, see also "prefix"
 YSK	"you should know"  (slang: highlight information that is helpful, relevant)
 Yt	N5CW and TWAP interface
