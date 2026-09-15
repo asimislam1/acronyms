@@ -2055,6 +2055,7 @@ HaLow	     802.11ah  2016  RF:   2.4/5 GHz   data rate:  347 Mbps   range:    10
 HALT	Hungry, Angry, Lonely and Tired (mental health: self-check to identify basic emotional states)
 HAM	Amateur Radio Service (world-wide radio service: AM,FM,SSB,CW,digital)
 HAN	Home Area Network (computer network)
+HANA	High-performance ANalytic Appliance (in-memory, column-oriented RDBMS by SAP)
 HAPS	High Altitude Platform Stations (WNN at 20 to 50 km, airships, balloons, etc.)
 HARQ	Hybrid Automatic Repeat Request (layer 2, TS 25.309)
 HATEOAS	Hypermedia as the Engine of Application State (REST constraint)
@@ -4613,6 +4614,7 @@ Scell	Secondary Cell, Serving SCC
 SCF	Service Control Function
 SCG	Secondary Cell Group (EN-DC, UP terminates at secondary node)
 SCH	Synchronization Channel (UMTS frame/channel)
+SCI	Sensitive Compartmented Information (US security clearance)
 SCID	Source Connection ID (QUIC message field)
 scikit-learn	Python package for predictive data analysis
 SCIM	System for Cross-domain Identity Management (RFC 7644)
@@ -5235,6 +5237,7 @@ TRS	Tip-Ring-Sleeve (analog audio connector)
 TRX	Transceiver
 TS	Technical Specification (3GPP document type, www.3gpp.org)
 TS	Tip, Sleeve (type of connector)
+TS	Top Secret (US security clearance)
 TS	Traffic Server
 TS 08.51	Base Station Controller - Base Transceiver Station (BSC-BTS) Interface General Aspects
 TS 22.016	International Mobile station Equipment Identities (IMEI)
@@ -5323,6 +5326,7 @@ TS 44.068	Group Call Control (GCC) protocol
 TS 44.069	Broadcast Call Control (BCC) protocol
 TS 48.049	Base Station Controller - Cell Broadcast Centre (BSC-CBC) interface specification; Cell Broadcast Service Protocol (CBSP)
 TS 51.011	Specification of the Subscriber Identity Module - Mobile Equipment (SIM-ME) interface
+TS/SCI	Top Secret/Sensitive Compartmented Information (US security clearance)
 TSAG	Telecommunication Standardization Advisory Group (ITU, www.itu.int/en/ITU-T/tsag)
 TSB	Telecommunication Standardization Bureau (ITU, www.itu.int/en/ITU-T/info/tsb)
 TSC	Technical Steering Committee (standards committee)
