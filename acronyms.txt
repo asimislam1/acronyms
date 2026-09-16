@@ -2,8 +2,10 @@
 .arpa	Infrastructure Top-Level Domain (internet domains)
 .NET	open source computer software framework for Windows, Linux and macOS
 0D	Zero Dimension: single point
+100	HTTP Status Code:  Continue               - Informational, request received and processed
 1000BASE-T	Gigabit Ethernet for LAN over twisted-pair cabling (RJ-45 connector)
 100BASE-T	Fast Ethernet for LAN over twisted-pair cabling    (RJ-45 connector)
+101	HTTP Status Code:  Switching Protocols    - Informational, server switching to different protocol 
 1080i	1920x1080 pixels-Interlaced,  HDTV specification
 1080p	1920x1080 pixels-Progressive, HDTV specification
 10BASE-T	Ethernet for LAN over twisted-pair cabling         (RJ-45 connector)
@@ -15,11 +17,17 @@
 1xRTT	single-carrier Radio Transmission Technology (CDMA bases, 2.5G)
 2.5G	GPRS -->  TDMA: EDGE, GPRS  and  CDMA: IS-95B
 2.75G	EDGE or E-GPRS
+200	HTTP Status Code:  OK,                    - Successful,    request succeeded
+201	HTTP Status Code:  Created                - Successful,    new resource created
+204	HTTP Status Code:  No Content             - Successful,    request successful, no content to return
 2D	Two Dimensions: horizontal and vertical (x,y axes:  square)
 2FA	Two-Factor Authentication (two distinct forms of verification to authenticate)
 2FF	SIM Form Factor (FF), Mini SIM	25mm x 15mm x 0.76mm
 2G	1990s,  FDMA/TDMA,  BW: 200kHz, rate: 64 kbps, network: CS.  GSM, iDEN, IS-136, PDC, CDMA
 2SV	Two-Step Verification (two passwords or password & email link)
+301	HTTP Status Code:  Moved Permanently      - Redirection,   resource permanently moved to new URL
+302	HTTP Status Code:  Found                  - Redirection,   resource temporarily located at different URL
+304	HTTP Status Code:  Not Modified           - Redirection,   cached version still valid
 365	Microsoft 365: Office Suite as cloud-based services
 3CLS	Communications, Computing, Control, Localization, Sensing
 3D	Three Dimensions: horizontal, vertical, depth (x,y,z axes:  cube)
@@ -73,6 +81,10 @@
 3V	Volume, Velocity, Variety (big data concept)
 3WC	Three Way calling
 3xEVDO	Evolution for Data Only, 3.25 MHz
+400	HTTP Status Code:  Bad Request            - Client Error,  cannot process request due to malformed syntax
+401	HTTP Status Code:  Unauthorized           - Client Error,  authentication required
+403	HTTP Status Code:  Forbidden              - Client Error,  client does not have permission
+404	HTTP Status Code:  Not Found              - Client Error,  resource not found on server
 4D	Four Dimensions: horizontal, vertical, depth, time (x,y,z,t axes:  tesseract, 4D hypercube)
 4FF	SIM Form Factor (FF), nano SIM	12.3mm x 8.8mm x 0.67mm
 4G	2010s, OFDMA,  BW:  20MHz, rate:  1 Gbps, network: all IP.  LTE, LTE-A, WiMAX
@@ -80,6 +92,9 @@
 4P4C	RJ connector:  4-physical contacts (max) and 4-contacts (actual)
 4T4R	4 Transmit and 4 Receive antenna elements (cell array)
 4W	World Wide Wireless Web (aka "wwww")
+500	HTTP Status Code:  Internal Server Error  - Server Error,  generic server failed error
+502	HTTP Status Code:  Bad Gateway            - Server Error,  server received invalid response from upstream server
+503	HTTP Status Code:  Service Unavailable    - Server Error,  server temporarily unavailable
 5ESS	Western Electric Class 5 PSTN switching system for AT&T (started in 1982)
 5G	2020s, OFDMA,  BW: 100MHz, rate: 20 Gbps, network: all IP, hybrid, virtualized
 5G NR	5G New Radio (gNodeB)
@@ -1235,6 +1250,7 @@ DLC	Downloadable Content
 DLD	Detailed-Level Design (detailed technical design document)
 DLL	Data Link Layer	(OSI layer 2, MAC and LLC)
 dll	Dynamic Link Library file (file extension)
+DLL	L2 Data Link Layer:	  framing, flow control, error control (DLL = MAC+LLC)
 DLP	Data Loss Prevention (cybersecurity, framework)
 DLP	Digital Light Processing (imaging and projection technology developed by TI)
 DLT	Distributed Ledger Technology (blockchain)
@@ -2749,25 +2765,18 @@ KVM	Kernel-based Virtual Machine
 L-W-CP	Legacy Wireline access Control Plane protocol (FN-RG and W-AGF)
 L-W-UP	Legacy Wireline access User    Plane protocol (FN-RG and W-AGF)
 L1	astronomy:  Lagrange Point 1 at 932k miles/1.5Mkm from Earth, towards Sun
-L1	layer 1  Physical	- BIT:     transmit serial bits
 L1 cache	smallest and fastest, located within CPU cores
 L2	astronomy:  Lagrange Point 2 at 1M miles/1.5Mkm from Earth, away from Sun
-L2	layer 2  Data Link	- FRAME:   organize bits to frame, node-to-node delivery
 L2 cache	larger and slower then L1, acts as intermediary between L1, L3 and main memory
 L2PT	Layer 2 Protocol Tunneling
 L2TP	Layer 2  Tunneling Protocol (RFC 3931)
 L3	astronomy:  Lagrange Point 3 at 93M miles/150 Mkm from Earth, on far side of Sun
-L3	layer 3  Network	- PACKET:  packets from source to destination and inter-working
 L3 cache	largest and slowest, shared among multiple cores, stores less frequently used data
 L3AF	platform for Linux management, orchestration and composition (developed by Walmart, 2021)
 L3AFD	L3AF Daemon
 L3DP	Layer-3 Liveness and Discovery Protocol
 L3ND	Layer-3 Neighbor Discovery Protocol
 L4	astronomy:  Lagrange Point 4 at 93M miles/150 Mkm at 60 deg ahead of Earth
-L4	layer 4  Transport	- SEGMENT: end-to-end message delivery and error recovery
-L5	layer 5  Session	- establish, manage, terminate sessions
-L6	layer 6  Presentation	- translate, encrypt, compress
-L7	layer 7  Application	- inter-process communication and sharing
 l8r	"later"  (numeronym)
 LA	Location Area (LA --> many RA --> many URA)
 LAA	Licensed Assisted Access
@@ -2796,13 +2805,25 @@ LASER	Light Amplification by Stimulated Emission of Radiation
 LASIK	Laser-Assisted In Situ Keratomileusis (corrective eye surgery)
 LATA	Local Access and Transport Area
 LatAm	Latin America (Mexico, Central America and South America)
-layer 1	L1  Physical	- BIT:     transmit serial bits
-layer 2	L2  Data	- FRAME:   organize bits to frame, node-to-node delivery
-layer 3	L3  Network	- PACKET:  packets from source to destination and inter-working
-layer 4	L4  Transport	- SEGMENT: end-to-end message delivery and error recovery
-layer 5	L5  Session	- establish, manage, terminate sessions
-layer 6	L6  Presentation- translate, encrypt, compress
-layer 7	L7  Application	- inter-process communication and sharing
+layer 1  	Physical Layer	   - medium:	   BIT     transmit serial bits
+layer 2  	Data Link Layer	   - switching:	   FRAME   organize bits to frame, node-to-node delivery
+layer 3  	Network Layer	   - routing:	   PACKET  packets from source to destination and inter-working
+layer 4  	Transport Layer	   - segmentation: SEGMENT end-to-end message delivery and error recovery
+layer 5  	Session Layer	   - data:	   DATA    establish, manage, terminate sessions
+layer 6  	Presentation Layer - data:	   DATA    translate, encrypt, compress
+layer 7  	Application Layer  - data:	   DATA    inter-process communication and sharing
+layer OSI 1	Physical Layer	   - medium:	   BIT     hub, repeater, modem, cables - USB, ATM
+layer OSI 2	Data Link Layer	   - switching:	   FRAME   switch, bridge - ARP, MAC, DSL, ethernet, PPP
+layer OSI 3	Network Layer	   - routing:	   PACKET  router - IP, ICMP, IGMP, ARP
+layer OSI 4	Transport Layer	   - segmentation: SEGMENT segments/TCP, datagrams/UDP - TCP, UDP, RCP, TLS
+layer OSI 5	Session Layer	   - data:	   DATA    manage sessions, security   RPC, PPTP
+layer OSI 6	Presentation Layer - data:	   DATA    translation, encryption, compression - JPEG, MPEG
+layer OSI 7	Application Layer  - data:	   DATA    services, applications, interfaces - HTTP, FTP, DNS
+layer TCP/IP 1	Physical Layer	   - medium:	   BIT	     hub, repeater, modem, cables - USB, ATM
+layer TCP/IP 2	Data Link Layer    - switching:	   FRAME     switch - ARP, MAC, DSL, ethernet, PPP
+layer TCP/IP 3	Network Layer	   - routing:	   DATAGRAM  router - IP, ICMP, IGMP, ARP
+layer TCP/IP 4	Transport Layer	   - segmentation: SEGMENT   port number:  UDP, TCP, SCTP, TLS/SSL
+layer TCP/IP 5	Application Layer  - data:   	   MESSAGES  DNS, FTP, DHCP, HTTP, SMTP, TELNET
 LB	Load Balancer
 LBA	Load Balancer Agent
 LBGTQIA+	Lesbian, Gay, Bisexual, Transgender, Queer Or Questioning, Intersex, Asexual, plus
@@ -2864,6 +2885,7 @@ LIU	Line Interface Units
 LIW	Long Instruction Word (ISA classification)
 LL	Log Loss (statistics, evaluation metric)
 LLB	Latin: "Legum Baccalaureus", English: "Bachelor of Laws" (undergraduate degree, law)
+LLC	L2 Logical Link Control:  protocol, multiplexing, flow/error management (DLL = MAC+LLC)
 LLC	Limited Liability Company (hybrid legal entity, US)
 LLC	Logical Link Control (IEEE 802.2, part of Layer 2-Data Link)
 LLD	Low-Level Design (component-level design document)
@@ -3645,6 +3667,7 @@ NUL	Null
 NUM	Number, numbering systems:    BIN, TER, OCT, DEC, HEX
 NUMA	Non-Uniform Memory Architecture/Access
 numeric-3	three number code
+numeronym	word, usually an abbreviation, composed partially or wholly of numerals, eg: b4, B2B, k8s, i18n
 numpy	Python package for Base N-dimensional array computing
 NVD	National Vulnerability Database (nvd.nist.gov)
 NVidia	US company: GPU, API, SoCs, performance & mobile computing
@@ -3699,7 +3722,7 @@ OCT	Octal numbering system,       base 8: 0-7       (BIN, TER, OCT, DEC, HEX)
 OCTET	Unit of Information, 1 byte = 8 bits = 1 octet
 ODA	On-Device Activation
 oDAS	outdoor Distributed Antenna System
-ODATA	Open Data protocol
+OData	Open Data Protocol (enables creation of REST-bases data services, www.standards.rest)
 ODB	Operator Determined Barring
 ODBC	Open Database Connectivity (standardized driver to connect to databases)
 ODCCH	ODMA Dedicated Control Channel
@@ -3815,13 +3838,6 @@ OSG	Open Source Group
 OSHA	Occupational Safety and Health Administration (US agency)
 OSI	Open Systems Interconnection model (7 layers: "PDNTSPA")
 OSI	Other System Information, SIB2-SIB9 (5G NR system information: MSI, RMSI, OSI)
-OSI L1	Physical Layer	     - medium:	      BIT:     hub, repeater, modem, cables - ethernet, USB, ATM
-OSI L2	Data Link Layer	     - switching:     FRAME:   switch, bridge - ethernet, PPP
-OSI L3	Network Layer	     - routing:	      PACKET:  router - IP, ICMP, IGMP, ARP
-OSI L4	Transport Layer	     - segmentation:  SEGMENT: segments/TCP, datagrams/UDP - TCP, UDP, RCP, TLS
-OSI L5	Session Layer	     - data:	      DATA:    manage sessions, security   RPC, PPTP
-OSI L6	Presentation Layer   - data:	      DATA:    translation, encryption, compression - JPEG, MPEG
-OSI L7	Application Layer    - data:	      DATA:    services, applications, interfaces - HTTP, FTP, DNS
 OSINT	Open Source Intelligence (any public information, www.osint.org)
 OSM	Open Source Management and Orchestration (MANO)
 OSOC	Universal Service Ordering Code
@@ -3989,6 +4005,7 @@ PHI	Protected Health Information (private information)
 PHICH	Physical HARQ Indicator Channel (LTE downlink control channel)
 PHP	Hypertext Preprocessor (open-source server-side scripting language)
 PHS	Personal Handyphone System (pre-2G)
+PHY	L1 Physical Layer:	  transmission/reception of raw bits over a medium
 PHY	Physical Layer	(OSI layer 1)
 pi	= 22/7, ratio of circle's circumference to diameter (mathematical constant)
 PIA	Privacy Impact Assessment (identifying and assessing privacy risks)
@@ -4318,7 +4335,7 @@ rem	CSS/HTML styles::  root element with scalable size relative to root font siz
 REPL	Read, Evaluate, Print, Loop
 REQ	Request or Requisition
 RES	Response
-REST	REpresentational State Transfer (web standard for APIs using HTTP)
+REST	REpresentational State Transfer (web standard for APIs using HTTP, www.standards.rest)
 RESTful	web services based on REST architecture
 RF	Radio Frequency
 RF	Random Forest (AI:  supervised ML model)
@@ -4617,7 +4634,7 @@ SCH	Synchronization Channel (UMTS frame/channel)
 SCI	Sensitive Compartmented Information (US security clearance)
 SCID	Source Connection ID (QUIC message field)
 scikit-learn	Python package for predictive data analysis
-SCIM	System for Cross-domain Identity Management (RFC 7644)
+SCIM	System for Cross-domain Identity Management (RFC 7644, HTTP-based protocol)
 scipy	Python package for scientific computing
 SCL	Serial Clock Line (I2C wire, provides clock signal to synchronize data transfer on SDA line)
 SCL	Successive Cancellation List
@@ -5108,11 +5125,6 @@ TCP/IP command	ping		- check connectivity, usage: ping <name/ip addr>
 TCP/IP command	route print	- display/modify local routing table
 TCP/IP command	tracert		- display path to destination <hostaddr>
 TCP/IP command 	netstat		- display sessions, connections and open port
-TCP/IP Layer 1	Physical Layer    (wire, air)    RZ,  ASK, FSK
-TCP/IP Layer 2	Data Link Layer   (MAC Address)  ARP, MAC, DSL  (switching)
-TCP/IP Layer 3	Network Layer     (IP  Address)  ARP, IP,  ICMP, IGMP (routing)
-TCP/IP Layer 4	Transport Layer   (Port Number)  UDP, TCP, SCTP, TLS/SSL
-TCP/IP Layer 5	Application Layer (Process ID)   DNS, FTP, DHCP, HTTP, SMTP, TELNET
 TD-SCDMA	Time Division-Synchronous Code Division Multiple Access (China)
 TDAG	Telecommunication Development Advisory Group
 TDAP	Tetanus, Diphtheria, Pertussis  (medical:  vaccine for lockjaw, diphtheria and whooping cough)
@@ -5464,7 +5476,7 @@ UR	Ultra Reliable
 URA	UTRAN Routing Area (LA --> many RA --> many URA)
 URC	Ultra-Reliable Communication
 URG	URGent
-URI	Uniform Resource Identifier, identifies resource on internet (RFC 2396)
+URI	Uniform Resource Identifier, identifies resource on internet (RFC 3986)
 URL	Uniform Resource Locator, identifies specific resource on internet (unique)
 uRLLC	Ultra-Reliable Low Latency Communications (5G reqr. for latency)
 URN	Uniform Resource Name (RFC 7255)
@@ -5828,7 +5840,7 @@ YSK	"you should know"  (slang: highlight information that is helpful, relevant)
 Yt	N5CW and TWAP interface
 YTA	"you're the a**hole"  (slang:  reply to AITA, at fault or acted unreasonably)
 Yw	TWAP and TWIF interface
-zazz	acronym file by AsimIslam, updated 20260908
+zazz	acronym file by AsimIslam, updated 20260915
 ZB	Zettabyte	memory size, 10^21	1,180,591,620,717,411,303,424 Bytes
 ZC	Zadoff–Chu, aka"FZC", complex-valued mathematical sequence applied to digital signal
 Zephyr	JIRA's test creation, execution, management environment
