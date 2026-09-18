@@ -158,6 +158,7 @@ A10	PCF and PDSN 	CDMA interface, user data
 A11	PCF and PDSN 	CDMA interface, transport data
 A12	AN-AAA and PCF 	CDMA interface, authentication information
 A14	AN and PCF 	CDMA interface, session & mobility information
+A2A	Agent-to-Agent Communication Protocol (AI: open protocol for AI agents to access tasks over HTTP)
 A3C	Asynchronous Advantage Actor-Critic (AI:  unsupervised ML model, reinforcement learning)
 A5	Stream Cipher (over-the-air communication privacy)
 A8	AN and PCF 	CDMA interface, user data
@@ -325,7 +326,7 @@ ANI	Automatic Number Identification (caller number sent to PSAP)
 ANI	Narrow Artificial Intelligence (AI:  specialized models for single tasks)
 ANN	Artificial Neural Network (AI:  deep learning architecture)
 ANN	Fast Approximate Nearest-Neighbor (AI:  ML search algorithm)
-ANOVA	Analysis of Variance (statistics)
+ANOVA	Analysis of Variance (statistics: evaluation metric)
 ANPR	Automated Number-Plate Recognition (license plate reader)
 ANR	Automatic Neighbor Relation (TS 32.511)
 ANS	Answer
@@ -450,7 +451,7 @@ ATU	African Telecommunications Union (ITU WRC group)
 ATU-R	ADSL Transceiver Unit-Remote
 ATV	All-Terrain Vehicle (type of automobile)
 AU	Access Unit (antenna components on tower, connects to UE)
-AuC	Area under Curve (statistics, evaluation metric)
+AuC	Area under Curve (statistics: evaluation metric)
 AuC	Authentication Center (2G GSM, 3G UMTS, 4G LTE, database)
 AUSF	Authentication Server Function (5G network function, TS 23.501, TS 29.509)
 AUTN	Authentication Token (authentication vector, TS 33.102)
@@ -527,7 +528,7 @@ BEC	Binary Erasure Channel
 BEEP	Blocks Extensible Exchange Protocol (RFC 4227)
 BEP	BitTorrent Enhancement Proposal (bittorrent.org)
 BER	Bit Error Rate
-BERT	Bidirectional Encoder Representations from Transformers (AI:  NLP model)
+BERT	Bidirectional Encoder Representations from Transformers (AI:  2018 NLP model by Google, language understanding)
 BESS	Battery Energy Storage System
 bet	agreement or confirmation (slang)
 BETRS	Basic Exchange Telephone Radio Service
@@ -1092,8 +1093,8 @@ CUDA	Compute Unified Device Architecture (NVidia's parallel computing platform &
 CUDIMM	Clocked Unbuffered DIMM (RAM classification, newer with higher clock rate)
 CUPS	Control-Plane User-Plane Separation (TS 23.214, TS 29.244)
 CUSIP	Committee on Uniform Securities Identification Procedures (financial instrument number)
-CV	Coefficient of Variation (statistics, measure of dispersion)
-CV	Cross Validation (statistics, evaluation metric)
+CV	Coefficient of Variation (statistics: measure of dispersion)
+CV	Cross Validation (statistics: evaluation metric)
 cv	Latin: "curriculum vitae" in Latin,  English: "course of life (resume)"
 CV2X	Cellular Vehicle to Everything
 CVC	Card Verification Code     (3-4 digits code on credit/debit cards, aka CCV,CID,CSC,CVC,CVD,CVV)
@@ -1189,7 +1190,7 @@ DDFF	Deep Depth From Focus (AI:  deep learning approach in computer vision)
 DDL	Data Definition Language (SQL command category)
 DDM	Degrees Decimal Minutes (geographic longitude/latitude notation)
 DDNMF	Direct Discovery Name Management Function (TS 29.555)
-ddof	Delta Degrees of Freedom (statistics, python numpy)
+ddof	Delta Degrees of Freedom (statistics: python numpy)
 DDoS	Distributed Denial of Service (cybersecurity, type of cyber attack)
 DDR	Double Data Rate SDRAM (memory: RAM classification, SO-DIMM profile)
 DDR1	Double Data Rate SDRAM 1 (2000,   266 MT/s, 128 Mb per chip, 1 GB per module, obsolete)
@@ -1365,7 +1366,7 @@ DSU	Data Service Unit  (digital interface device, converts signals between netwo
 DT	Decision Tree (AI:  supervised ML model)
 DT	Deutsche Telekom (German mobile operator)
 DT	Digital Transformation (business term)
-DTaP	Diphtheria, Tetanus, acellular Pertussis  ((medical: vaccine for lockjaw, diphtheria and whooping cough)
+DTaP	Diphtheria, Tetanus, acellular Pertussis  ((medical: vaccine for diphtheria, lockjaw and whooping cough)
 DTCH	Dedicated Traffic Channel (MAC-RLC logical channel)
 DTD	Document Type Definition
 DTE	Data Terminal Equipment
@@ -1778,6 +1779,7 @@ FLASH	Fast Low Latency Access with Seamless Handoff
 FLC	Field Level Communications
 Flink	Apache's open source data analytics tools for big data stream processing
 FLM	Field Level Management
+FLM	Fine-Tuned Language Model (AI:  LLM base model adapted with doanin-specific data, NLP model)
 float		data type, primitive:     decimal numbers (3.14, -0.5)
 FLOPS	Floating-Point Operations per Second (AI:  number of math operations for single pass of a model)
 FLOSS	Free/Libre and Open Source Software (source code: public & free, to study, modify and distribute)
@@ -1855,6 +1857,8 @@ FTC	Federal Trade Commission (US antitrust agency)
 ftfy	"fixed that for you"
 FTM	Frame Tunnelling Mode (3GPP TS 27.001, TS 29.007)
 FTP	File Transfer Protocol (application layer, TCP, port: 20-data & 21-control)
+FTR	"for the record"  (slang:  
+FTR	Full-Time Regular  (business:  employed full-time)
 FTSE	Financial Times Stock Exchange 100 Share Index (UK stock market index)
 FTTA	Fiber to the Antenna   (FTTx technology)
 FTTB	Fiber to the Building  (FTTx technology)
@@ -1901,6 +1905,7 @@ Gb	SGSN and BSS	2G GPRS interface
 Gb	SGSN and GERAN	3G UMTS interface
 GBC	General-purpose and Base-band Computing
 GBIC	Gigabit interface converter
+GBO	Global Business Operations  (business term)
 Gbps	Gigabits (or bytes) per Second
 GBR	Guaranteed Bit Rate
 GCC	Group Call Control (TS 44.068)
@@ -1915,7 +1920,7 @@ GCS	Geographic Coordinate System (coordinates on spherical model - see PCS)
 Gd	GPRS and SMS	2G GPRS interface
 GD	Gradient Descent (AI:  ML optimization algorithm)
 GDDR	Graphics DDR SDRAM (RAM for high-bandwidth applications, such as GPUs)
-GDP	Gross Domestic Product, market value of a country at a specific time
+GDP	Gross Domestic Product (market value of a country at a specific time)
 GDPR	EU General Data Protection Regulation (data privacy & security laws, gdpr.eu)
 GEA	GPRS Encryption Algorithm
 GENB-ID	Global ENodeB Identity (MCC+MNC+ENB-ID)
@@ -1951,6 +1956,7 @@ GLAAD	Gay and Lesbian Alliance Against Defamation (social organization, www.glaa
 GLI	Global Line Identifier
 GLONASS	Globalnaya Navigazionnaya Sputnikovaya Sistema (Russian GPS)
 GLSB	Global Server Load Balancing
+Glue	serverless ETL  (AWS service, moves and transforms data between S3 locations)
 GM	General Motors (US company)
 Gm	UE and P-CSCF, or between IP-PBX and P-CSCF	IMS interface
 GMA	Generic Multi-Access
@@ -1997,7 +2003,13 @@ GPP	General Purpose Processer (CPU)
 GPRS	General Packet Radio Service (2.5G GPRS, TS 23.060, GMSK)
 GPS	Global Positioning System (satellite-based navigation system)
 GPSI	Generic Public Subscription Identifier
-GPT	Generative Pre-trained Transformers, type of LLM (AI:  NLP model)
+GPT	Generative Pre-trained Transformers, type of LLM (AI:  family of LLM by OpenAI)
+GPT-1	OpenAI LLM model, JUN2018   117M params     512 tokens:  basic text generation, research
+GPT-2	OpenAI LLM model, FEB2019   1.5B params,     1k tokens:  more fluent, longer text, limited API, research
+GPT-3	OpenAI LLM model, MAY2020   175B params,     2k tokens:  more languages, coding/Q&A, creative writing, API
+GPT-3.5	OpenAI LLM model, MAR2022   175B params,     8k tokens:  RHLF-tuned, better reasoning, Microsoft integration
+GPT-4	OpenAI LLM model, MAR2023   undisclosed, 8k-32k tokens:  text+images, advanced reasoning, MoE architecture, 100+ languages
+GPT-5	OpenAI LLM model, AUG2025   undisclosed,  200k+ tokens:  text+images+audio+video+code, advanced reasoning, planning
 gPTP	generalized Precision Time Protocol (IEEE 802.1as)
 GPU	Graphics Processing Unit (processor:  parallel, for graphics and AI)
 Gr	SGSN and HLR 		2G GPRS interface, user profile
@@ -2562,7 +2574,7 @@ IPv6	IETF Internet Protocol version 6 (128-bit/16-byte IPaddr, HEX w/dots, RFC 2
 IPX	IP Packet eXchange (GSMA AA.80)
 ipynb	Python Jupyter Notebook file extension
 IQ	Intelligence Quotient (human intelligence metric)
-IQR	Inter-Quartile Range (statistics, spread of data, including outliers)
+IQR	Inter-Quartile Range (statistics: spread of data, including outliers)
 IR	Infra-Red radiation (wavelengths above 800 nm)
 IR.33	GPRS Roaming Guidelines (GSMA)
 IR.39	IMS Profile for High Definition Video Conference Service (GSMA)
@@ -2883,7 +2895,7 @@ list		data type, composite:     ordered collection of elements, often same type 
 lit	exciting, fun, amazing (slang)
 LIU	Line Interface Units
 LIW	Long Instruction Word (ISA classification)
-LL	Log Loss (statistics, evaluation metric)
+LL	Log Loss (statistics: evaluation metric)
 LLB	Latin: "Legum Baccalaureus", English: "Bachelor of Laws" (undergraduate degree, law)
 LLC	L2 Logical Link Control:  protocol, multiplexing, flow/error management (DLL = MAC+LLC)
 LLC	Limited Liability Company (hybrid legal entity, US)
@@ -2891,7 +2903,7 @@ LLC	Logical Link Control (IEEE 802.2, part of Layer 2-Data Link)
 LLD	Low-Level Design (component-level design document)
 LLDP	Link Layer Discovery Protocol (network topology discovery, IEEE 802.1ab)
 LLE	Locally Linear Embedding (AI:  unsupervised ML model, clustering)
-LLM	Large Language Model (AI:  NLP model)
+LLM	Large Language Model (AI:  neural network trained on massive text datasets, NLP model)
 LLS	Low Layer Split
 LMA	Local Mobility Anchor
 lmao	"laughing my ass off" (slang)
@@ -2988,20 +3000,21 @@ MAC	Medium Access Control (UE-eNodeB, layer 2, TS 38.321)
 MAC	Message Authentication Code (integrity check mechanism, RFC 7151)
 MACD	Moving Average Convergence Divergence (stock market trading indicators)
 macOS	Macintosh Operating System (Apple-PC operating system)
-MAE	Mean Absolute Error (statistics, evaluation metric)
+MAE	Mean Absolute Error (statistics: evaluation metric, lower is better)
 MAG	Mobility Access Gateway
 MAHO	Mobile Assisted Hand-Over
 MAI	Multiple Access Interference
 MAN	Metropolitan Area Network (large area network, covers 5-50 km))
 MANET	Mobile Ad Hoc Network (type of decentralized wireless network)
 MANO	Management and Orchestration
+MANOVA	Multiple dependent variables Analysis of Variance (statistics: evaluation metric)
 MANRS	Mutually Agreed Norms for Routing Security
 MAP	Mobile Application Part (TS 29.002)
 MAP	Multi-aspect PAD (ITU X.8)
 map	split, map, combine, partition (big data processing concept)
 MAPCON	Multiple-Access PDN Connectivity
 MAPDU	Multi-Access Packet Data Unit (TS 23.793 Release 16)
-MAPE	Mean Absolute Percentage Error (statistics, evaluation metric)
+MAPE	Mean Absolute Percentage Error (statistics: evaluation metric, lower is better)
 MapReduce	programming model for big data processing, see "map" and "reduce"
 Marisat	Maritime Telecommunications Satellites (1973-1981)
 MASG	Mobile Aggregation Site Gateway
@@ -3040,7 +3053,7 @@ MCM	Management Control Module
 MCM	Multi-Chip Module (assembly with multiple ICs)
 MCMT	Multi-Carrier Modulated Transmission       (light signal modulation technique)
 MCP	Manage, Control and Plan
-MCP	Model Context Protocol (AI:  standardized open protocol for AI models)
+MCP	Model Context Protocol (AI:  open standard by Anthropic for AI models to access external tools, data and APIs)
 MCP	Multi-Core Processors (micro-processor chips with multiple CPUs)
 MCPTT	Mission Critical Push To Talk (TS 23.379)
 MCS	Modulation and Coding Scheme
@@ -3178,7 +3191,7 @@ MMO	Massively Multiplayer Online (type of video game)
 MMORPG	Massively Multiplayer Online Role-Playing Games
 MMR	Measles, Mumps and Rubella (medical:  vaccine for pneumonia, encephalitis virus)
 MMS	Multimedia Messaging Service
-MMSE	Minimum Mean-Square Error (statistics, evaluation metric)
+MMSE	Minimum Mean-Square Error (statistics: evaluation metric)
 mMTC	massive Machine Type Communications (5G reqr. for connection density)
 MMTel	Multimedia Telephony (IMS Application Server, TS 32.275)
 mmWave	millimeter Wave (5G technology, radio spectrum in FR2, 30-300 GHz)
@@ -3199,7 +3212,7 @@ MOB	mobility
 MOBA	Multi-player Online Battle Arena (type of video game)
 MoCA	Multimedia over Coax Alliance (standards consortium, www.mocalliance.org)
 MOCN	Multiple Operator Core Network (TS 23.251)
-MoE	Mixture of Experts (AI:  ML architecture that uses multiple specialized neural-netwrok experts)
+MoE	Mixture of Experts (AI:  ML architecture that uses multiple "expert" sub-models)
 MoFRR	Multicast-only Fast Reroute  (RFC 7431)
 MOHO	Mobile Originated Hand Over
 Mohs	Mohs scale of mineral hardness (ordinal scale, by mineralogist Friedrich Mohs)
@@ -3267,7 +3280,7 @@ MSC	Media Session Controller (IMS)
 MSC	Mobile service Switching Center (2G GSM, 3G UMTS)
 MSDSL	Multi-Rate Symmetric Digital Subscriber Line (2 Mbps downstream and upstream)
 MSDU	Media Access Control Service Data Unit
-MSE	Mean Squared Error (statistics, evaluation metric)
+MSE	Mean Squared Error (statistics: evaluation metric, lower is better)
 MSF	MEC Service Function (5G networks)
 msg	"message"  (slang:  text message, online message)
 MSG	Mobile Specification Group (ETSI)
@@ -3335,9 +3348,10 @@ MVNE	Mobile Virtual Network Enabler
 MVNO	Mobile Virtual Network Operator
 mvp	"most valuable player"  (slang:  person who carried the moment, helped the most)
 MVP	Minimum Viable Product (business term, incremental development)
-MVUE	Minimum-Variance Unbiased Estimator (statistics, evaluation metric)
+MVUE	Minimum-Variance Unbiased Estimator (statistics: evaluation metric)
 Mw	CSCF and CSCF		IMS interface
-MW	MicroWave
+MW	MicroWave  (electomagnetic radiation: wavelengths between radio and infrared waves, 300MHz-300GHz)
+MWAA	Managed Workflows for Apache Airflow  (AWS service:  setup, operation and scaling of Apache Airflow workflows in the cloud)
 MWAM	Multiprocessor WAN Application Module  (Cisco:  IOS application module)
 MWC	Mobile World Congress (trade show organized by GSMA)
 MWD	Message Waiting Data, HLR flag for SMS
@@ -3564,6 +3578,7 @@ NOAA	National Oceanic and Atmospheric Administration (US meteorological agency)
 NOC	Network Operations Center (also known as OMC)
 NodeB	Radio Transceiver Station (3G UMTS, NodeB: temporary name that became permanent)
 NodeJS	open-source JavaScript environment to create servers, web apps, command line tools and scripts
+NOIR	Name, Order, Interval, Ratio  (statistics:  measurement scale)
 NOMA	Non-Orthogonal Multiple Access (5G technology)
 noob	beginner, amateur, inexperienced, aka n00b (slang:  can be playful, humorous or derogatory)
 NOR	logic gate, universal:  Y = (A + B)'     def NOR(a, b):  return NOT(OR(a, b))
@@ -3757,7 +3772,7 @@ OLED	Organic Light Emitting Diode (video display technology)
 OLEDB	Object Linking and Embedding, Database (Microsoft API for accessing data)
 OLIP	Originating Line Information Parameter
 OLO	Other Licensed Operators
-OLS	Ordinary Least Square (statistics, estimator)
+OLS	Ordinary Least Square (statistics: estimator)
 OLSA	Open Learning Services Architecture (SkillSoft learning services)
 OLT	Offentlig Landmobil Telefoni, Norway 1966-1990
 OLT	Optical Line Terminal
@@ -4241,8 +4256,8 @@ R	high-level programming language for statistical computing and visualization
 R&D	Research and Development
 R1	MS and ASN	WiMax: air interface
 R2	MS and CSN	WiMax: authentication, authorization and IP management
-R2	R2 Score (statistics, evaluation metric)
-r2	r^2, R-squared or coefficient of determination (statistics, metric)
+R2	R2 Score (statistics: evaluation metric, higher is better)
+r2	r^2, R-squared or coefficient of determination (statistics: evaluation metric)
 R2	Register Type 2 (MFC standard from 60s)
 R3	MS and ASN	WiMax: control plane; AAA, policy and mobility
 R4	MS and ASN	WiMax: control and bearer, mobility
@@ -4266,7 +4281,7 @@ RADIUS	Remote Authentication Dial in User Service (RFC 2865)
 RADOS	Reliable Autonomic Distributed Object Store
 RADSL	Rate-Adaptive Asymmetric Digital Subscriber Line(7 Mbps downstream 1 Mbps upstream)
 RAEX	Roaming Agreement EXchange (GSMA spec TD.67)
-RAG	Retrieval-Augmented Generation (AI:  response enhancement technique)
+RAG	Retrieval-Augmented Generation (AI:  improves AI answers by fetching relevant, external sources)
 RAI	Routing Area Identity (LAI + RAC)
 RAID	Redundant Array of Independent Disks (hard drives configured for speed/performance)
 RAKE	radio receiver designed to counter effects of multipath fading
@@ -4413,7 +4428,7 @@ RMA	Return Material Authorization
 RMG	Route Monitor Group (monitoring link)
 RMI	Remote Method Invocation
 RMSD	Root Mean Square Deviation, same as RMSE (statistics)
-RMSE	Root Mean Squared Error (statistics, evaluation metric)
+RMSE	Root Mean Squared Error (statistics: evaluation metric, lower is better)
 RMSI	Remaining Minimum System Information, SIB1 (5G NR system info: MSI, RMSI, OSI)
 rn	"right now"  (slang:  happening at the present moment)
 RN	Registered Nurse (professional healthcare provider)
@@ -4432,7 +4447,7 @@ RNSAP	Radio Network System Application Protocol (TS 25.423)
 RNTI	Radio Network Temporary Identifier (allocated by UTRAN)
 ROA	Return on Assets (business metric)
 ROADM	Reconfigurable Optical Add-Drop Multiplexer
-ROC	Receiver Operating Characteristics (statistics, evaluation metric)
+ROC	Receiver Operating Characteristics (statistics: evaluation metric)
 RoCE	RDMA over Converged Ethernet
 ROE	Return on Equity (business metric)
 rofl	"rolling on floor laughing"  (slang:  absolutely hilarious)
@@ -4484,7 +4499,7 @@ RSRP	Reference Signal Received Power (signal power, dBm, LTE only)
 RSRQ	Reference Signal Received Quality (signal quality, dB, LTE only)
 RSS	Really Simple Syndication (web feed service)
 RSS	Receive Side Scaling (NIC feature, distributes network packets across multiple CPUs)
-RSS	Residual Sum of Squares (statistics, metric)
+RSS	Residual Sum of Squares (statistics: metric)
 RSSI	Received Signal Strength Indication (signal power, dBm, 2G, 3G and LTE)
 RST	ReSeT (TCP/IP message)
 RSTD	Reference Signal Time Difference
@@ -4659,7 +4674,7 @@ SCUBA	Self-Contained Underwater Breathing Apparatus
 SCV	Speed, Consistency, Volume (big data concept)
 SD	Secure Digital (data storage:  memory card)
 SD	Slice Differentiator (5G NSSF, part of S-NSSAI)
-SD	Standard Deviation (statistics, amount of variation)
+SD	Standard Deviation (statistics: amount of variation)
 SD-WAN	Software Defined-Wide Area Networking
 SDA	Serial Data Line (I2C wire, responsible for carrying data between devices)
 SDA	Software Defined Architecture
@@ -4804,6 +4819,7 @@ SLF	Subscriber Location Function
 SLI	Service Level Indicator (SLO compliance metric)
 SLIP	Serial Line Internet Protocol (RFC 1055)
 SLM	Service Level Management (ITIL)
+SLM	Small Language Model (AI:  neural network trained on text datasets, smaller then LLM, NLP model)
 SLO	Service Level Objectives (agreement within an SLA)
 SLP	Service Logic Program
 SLP	Single Data Link Protocol
@@ -4816,6 +4832,7 @@ SM	Session Management (procedure)
 SMA	Simple Moving Average (stock market trading indicators)
 SMA	Sub-Miniature Connector (specialized connectors for small spaces)
 SMAC	Social, Mobile, Analytics and Cloud (digital technologies)
+sMAPE	symmetric Mean Absolute Percentage Error (statistics: evaluation metric, lower is better)
 SMART	Specific, Measurable, Attainable, Realistic, Time-bound (business metric)
 SMARTER	Services and Markets Technology Enablers (TS 22.261)
 SMB	Server Message Block (windows file sharing, port: 445, same as CIFS)
@@ -5127,7 +5144,7 @@ TCP/IP command	tracert		- display path to destination <hostaddr>
 TCP/IP command 	netstat		- display sessions, connections and open port
 TD-SCDMA	Time Division-Synchronous Code Division Multiple Access (China)
 TDAG	Telecommunication Development Advisory Group
-TDAP	Tetanus, Diphtheria, Pertussis  (medical:  vaccine for lockjaw, diphtheria and whooping cough)
+TDaP	Tetanus, Diphtheria, acellular Pertussis  (medical:  vaccine for lockjaw, diphtheria and whooping cough)
 TDCI	Tethering Detection Confidence Index (feature)
 TDD	Telecommunications Device for the Deaf
 TDD	Test Driven Development (Agile terminology)
@@ -5355,7 +5372,7 @@ TSP	Telecommunications Service Provider, aka CSP or SP
 TSP	Traffic Steering Policy
 TSPS	Traffic Service Position System
 TSR	Technical Support Request
-TSS	Total Sum of Squares (statistics, metric)
+TSS	Total Sum of Squares (statistics: metric)
 TSSF	Traffic Steering Support Function
 TSTS	Triple SIM Triple Standby
 TSV	Through-Silicon Vias vertical connections through silicon wafer)
@@ -5456,7 +5473,7 @@ UMH	Upstream Multicast Hop
 UML	Unified Modeling Language (visual modeling language)
 uMTC	critical Machine-Type Communications
 UMTS	Universal Mobile Telecommunications System (TS 23.101, 3G-WCDMA+GSM/GPRS)
-UMVUE	Uniformly Minimum-Variance Unbiased Estimator (statistics, evaluation metric)
+UMVUE	Uniformly Minimum-Variance Unbiased Estimator (statistics: evaluation metric)
 UN	United Nations - international organization (www.un.org)
 undecillion	number equal to 1 x 10^36 (US, short scale), 1 x 10^66 (EU, large scale)
 UNI	User-Network Interface (switch to end-user)
@@ -5689,6 +5706,7 @@ WAN	Wide Area Network (large area network, covers 5-50 km))
 WANA	West Asia and North Africa (region)
 WANET	Wireless Ad Hoc Network (type of decentralized wireless network)
 WAP	Wireless Application Protocol  (OMA protocol for web-content on mobile equipment)
+WAPE	Weighted Absolute Percentage Error (statistics: evaluation metric, lower is better)
 WAS	GSMA Wholesale Agreements & Solutions Group
 WAS	Web Application Security
 wav	Audio for Windows (media file extension)
