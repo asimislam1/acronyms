@@ -1027,6 +1027,7 @@ CS	Circuit Switched, 2G GSM: voice, SMS
 CS-CN	Circuit Switched Core Networks
 CS/PS	Circuit Switched/Packet Switched, 2G/3G: CS-voice + PS-data + SMS
 CSA	Cloud Security Alliance (standards and certification organization for Cloud and AI)
+CSAM	Child Sexual Abuse Material  (any content depicting sexual abuse or exploitation of a minor)
 CSAT	Customer Satisfaction Score (survey methodology)
 CSC	Card Security Code         (3-4 digits code on credit/debit cards, aka CCV,CID,CSC,CVC,CVD,CVV)
 csc	cosecant  = hypotenuse/opposite  (trignometric function, right-angled triangle)
