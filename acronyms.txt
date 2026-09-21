@@ -185,6 +185,7 @@ Abis	3G interface between BSC and BTS (TS 08.51)
 ABM	Abnormal Balanced Mode
 ABNF	Augmented Backus-Naur Form (RFC 5234)
 ABR	Adaptive Bit Rate
+ABR	Area Border Router (router that connects multiple OSPF areas)
 ABS	Almost Blank Subframe (reduces interference in macrocells)
 AC	Alternating Current
 AC	Application Context
@@ -370,11 +371,13 @@ ARC	Advanced RAN Coordination
 ARC	Audio Return Channel (audio signals from TV to audio devices)
 ArcGIS	GIS software by ERSI
 ARCNET	Attached Resource Computer NETwork (LAN protocols, IEEE 802.3)
+Area 0	OSPF backbone area, 0.0.0.0 (OSPF network core, central hub for all routing information exchange)
 ARF	Analog Radio Frequency
 ARFCN	Absolute Radio Frequency Channel Number
 ARG	Automatic Repeat Request (TCP message)
 ARIMA	Auto-Regressive Integrated Moving Average (AI:  forcasting model)
 ARIN	American Registerty for Internet Numbers (ICANN RIR)
+ARJ	Advanced RAR (file format, supports data compression and error correction)
 ARM	Advanced RISC Machines (British semiconductor and software company)
 ARM	Asynchronous Response Mode
 ARP	Address Resolution Protocol (Layer 2 & 3, RFC 826)
@@ -390,7 +393,7 @@ array		data type, composite:  ordered collection of elements, often same type ([
 ARTiBA	Artificial Intelligence Board of America (AI accreditation authority, Austin, Texas, USA)
 AS	Access Stratum (RRC and UP in UMTS and LTE)
 AS	Application Services
-AS	Autonomous System (routing area, using IGP or EGP)
+AS	Autonomous System (networks under single administrative domain using same routing policy, iBGP and eBGP)
 ASA	Average Speed to Answer
 asap	"as soon as possible"  (slang:  indicate urgency or prompt action)
 ASBR	Autonomous System Boundary/Border Router
@@ -852,7 +855,7 @@ CIC	Circuit Identification Code (ITU-T Q.763)
 CICD	"CI/CD", Continuous Integration/Continuous Deployment (business process)
 CID	Card Identification Number (3-4 digits code on credit/debit cards, aka CCV,CID,CSC,CVC,CVD,CVV)
 CID	Charge Identity (data record, CDR "serial number")
-CIDR	Classless Inter-Domain Routing (RFC 4632)
+CIDR	Classless Inter-Domain Routing (RFC 4632, also see "VLSM")
 CIFS	Common Internet File System (file-sharing protocol, port 445, same as SMB)
 CIM	Common Information Model (data modeling standard)
 CIO	Chief Information Officer (executive position)
@@ -1216,6 +1219,7 @@ DEC	Digital Equipment Corporation, US information technology company
 deci-	d,  10 power  -1	- numeric, see also "prefix"
 DECOR	Dedicated Core Networks
 DECT	Digital Enhanced Cordless Telecommunications
+DEFLATE	lossless data compression algorithm (RFC 1951, uses LZ77 and Huffman coding)
 DEI	Drop Eligible Indicator
 deka-	da, 10 power   1	- numeric, see also "prefix"
 DEL	DELete
@@ -1801,7 +1805,7 @@ FLOPS	Floating-Point Operations per Second (AI:  number of math operations for s
 FLOSS	Free/Libre and Open Source Software (source code: public & free, to study, modify and distribute)
 FLSM	Fixed-Length Subnet Masks  (all subnets have equal number of addresses)
 FLUS	Framework for Live Uplink Streaming
-flv	Flash-compatible video file (file extension)
+flv	Flash-compatible video file (file extension, Adobe Flash Player)
 FM	Fault Management (NMS process)
 FM	Frequency Modulation                       (analog signal modulation technique)
 FMC	Fixed Mobile Convergence (BBF MR-427)
@@ -2715,12 +2719,13 @@ Ix	IBCF and TrGW		IMS interface
 IXC	Inter-eXchange Carrier (long-distance carrier)
 Ixia	US company providing test and simulation platforms
 IXIC	Nasdaq Composite (US stock market index)
+IXP	Internet Exchange Points
 iykyk	"If You Know, You Know"  (slang:  signal insider knowledge or shared experience)
 Izi	TrGW and TrGW		IMS interface
 j/k	"just kidding", "joking"  (slang:  previous statement not meant to be taken seriously)
 J1	same as T1 with slight modifications.  Used in Japan
 JAMA	Journal of the American Medical Association  (medical journal, www.jamanetwork.com)
-jar	Java Archive File extension
+jar	Java Archive (file extension)
 JAVA	OOP programming language with WORA (Oracle Corporation)
 JAVAC	Java programming language Compiler
 JAX-RS	Jakarta RESTful Web Services (REST services)
@@ -2974,9 +2979,11 @@ LR	Location Registration
 LR	Logistic Regression (AI:  supervised ML model)
 LRF	Location Resource Function
 LS	Location Service
+LSA	Link State Advertisement (data packet used by routers to share network topology information)
 LSAT	Law School Admission Test (US, law school admissions test)
 LSB	Least Significant Bit
 LSB	Linux Standard Base (interface standards to maintain portability)
+LSDB	Link State Database (complete and identical map of network topology build using LSAs)
 LSGW	Local Serving Gateway
 LSH	Locality-Sensitive Hashing
 lshmsfoaidmt	"laughing so hard my sombrero falls off and i drop my taco"  (slang)
@@ -3008,6 +3015,9 @@ LWF	Light-Weight Filter (NDIS driver)
 LWIP	LTE WLAN Radio Level Integration with IPsec Tunnel
 LWR	Load aWare Routing
 LXC	Linux Container (OS-level virtualization method)
+LZ77	Lempel-Ziv 1 (lossless data compression algorithm by Abraham Lempel and Jacob Ziv in 1977)
+LZ78	Lempel-Ziv 2 (lossless data compression algorithm by Abraham Lempel and Jacob Ziv in 1978)
+LZMA	Lempel–Ziv–Markov chain Algorithm (lossless data compression algorithm by Igor Pavlov in 1998)
 M&P	Methods and Procedures
 M2M	Machine to Machine communication
 M2PA	MTP User Peer to Peer Adaptation Layer
@@ -3111,6 +3121,7 @@ ME	Mobile Equipment (hardware and software, without SIM card)
 ME	Multi-Edge
 ME-LDPC	Multi-Edge Low Density Parity Check
 MEC	Multi-Access Edge Computing (5G technology, uRLLC. Hub at base station)
+MED	Multi-Exit Discriminator (BGP path attribute)
 MED	Multi-Exit Discriminator (sent to peers to influence paths to AS)
 MEF	Metro Ethernet Forum (consortium of network, cloud & technology providers, www.mplify.net)
 MEG	Magnetoencephalography (medical:  electrical activity of brain using magnetic fields)
@@ -3384,6 +3395,7 @@ MWN	Municipal Wireless Network (type of MAN network)
 Mx	CSCF/BGCF and IBCF	IMS interface
 MX	Mail Exchange (DNS record type: directs e-mails to mail servers)
 MX	Message XML in SWIFT financial messages (ISO20022, see also legacy MT)
+MXF	Material Exchange Format (container format for professional digital video and audio media)
 MySQL	MySQL Database (port 3306)
 N-AMPS	Narrowband Advanced Mobile Phone System (2G)
 N-ISDN	Narrowband Integrated Services Digital Network
@@ -3886,7 +3898,7 @@ OSINT	Open Source Intelligence (any public information, www.osint.org)
 OSM	Open Source Management and Orchestration (MANO)
 OSOC	Universal Service Ordering Code
 OSP	Open Stack Platform
-OSPF	Open Shortest Path First (network layer, interior gateway routing, RFC 2328, AD=110)
+OSPF	Open Shortest Path First (network layer, interior gateway routing, link state, RFC 2328, AD=110)
 OSS	Open Source Software
 OSS	Operation and Support Subsystem
 OSWG	Oversight Work Group
@@ -4326,7 +4338,8 @@ RAP	Random Access Procedure (TS 36.300, UE to eNodeB)
 RAPID	Random Access Preamble Identifier
 RAPT	Reverse Address and Port Translation (aka RAT)
 RAR	Random Access Response (TS 36.300, radio to UE)
-rar	Roshal Archive Compressed file (file extension)
+rar	Roshal Archive Compressed file (file format, supports data compression and error correction)
+rar	Roshal Archive Compressed file (file format, supports data compression, error correction, and file spanning)
 RARP	Reverse Address Resolution Protocol (RFC 903)
 RAS	Registration Admission Status
 RAS	Reliability, Availability, Serviceability
@@ -4420,8 +4433,10 @@ RIM	Remote Interference Mitigation
 RINGS	Resilient and Intelligent NextG Systems
 RIP	"Rest in Peace"  (slang: failed, ruined or beyond repair; used humorously or dramatically)
 RIP	Request in Progress
-RIP	Routing Information Protocol (UDP, Layer 5, RFC 1058 & 1723, port 520, AD=120)
+RIP	Routing Information Protocol (UDP, Layer 5, hop counts, RFC 1058 & 1723, port 520, AD=120)
 RIPE NCC	Réseaux IP Européens Network Coordination Centre (ICANN RIR)
+RIPv1	Routing Information Protocol version 1 (hop counts, classful,  does not support VLSM/CIDR)
+RIPv2	Routing Information Protocol version 2 (hop counts, classless, does supports VLSM/CIDR)
 RIR	Regional Internet Registry (organization managing internet number resources)
 RISC	Reduced Instruction Set Computer (ISA classification)
 RIT	Radio Interface Technologies
@@ -4880,6 +4895,7 @@ SMLC	Serving Mobile Location Center
 SMO	Service Management & Orchestrator
 SMPP	Short Message Peer to Peer
 SMPS	Switch Mode Power Supply  (high-frequency switching)
+SMPTE	Society of Motion Picture and Television Engineers (professional association, www.smpte.org)
 SMR	Specialized Mobile Radio (part of CMRS)
 SMS	Short Message Service (TS 23.040)
 SMS-G	Short Message Services Gateway
@@ -5150,6 +5166,7 @@ tan	tangent   = opposite/adjacent    (trignometric function, right-angled triang
 tanh	hyperbolic tangent = sinh(x)/cosh(x)  (hyperbolic function, defined using hyperbola)
 Tanh	hyperbolic tangent function (AI:  activation function in NN: ReLu, Sigmoid, SoftMax & Tanh)
 TAP	Transferred Account Procedure (GSMA spec TD.57)
+tar	Tape Archive (file extension)^jar
 TAS	Telephony Application Server
 TASER	Thomas A. Swift’s Electric Rifle (non-lethal electrical weapon)
 TAU	Tracking Area Update (TS 23.401), aka Location Update
@@ -5645,7 +5662,7 @@ VIS	Visible radiation (wavelengths between 400 nm and 800 nm)
 VIX	CBOE Volatility Index10 (US financial market volatility index)
 VLAN	Virtual Local Area Network (IEEE 802.1q, "Dot1q")
 VLC	Variable Length Code
-VLC	VideoLAN Client (media player)
+VLC	VideoLAN Client (free, open-source, portable, cross-platform media player and streaming server )
 VLC	Visible Light Communication (400-800 THz, 780–375 nm)
 VLDL	Very Low-Density Lipoprotein ( bad cholesterol,   <30 mg/dL, produced by liver, converts to LDL)
 VLF	Very Low Frequency	  3 kHz -  30 kHz, audio
@@ -5784,6 +5801,7 @@ WiFi8	     802.11bn  2028  RF:     tbd GHz   data rate:  100 Mbps   range:     t
 WiGig	     802.11ad  2012  RF:      60 GHz   data rate:   10 Gbps   range:      10 m
 wing	support someone as a friend  (slang:  also to improvise without preparation)
 WinPcap	pcap file format for Windows (1998-1999, obsolete, now using "Npcap")
+WinRAR	file archiver (file compresser since 1995)
 WINS	Windows Internet Name Service (netBiOS to IP addr translation, MicroSoft)
 wip	"work in progress"  (business term)
 WIPO	UN World Intellectual Property Organization, 1970- (www.wipo.int)
