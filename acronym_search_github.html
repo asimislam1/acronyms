@@ -8,7 +8,7 @@
     <title>acronyms</title>
     <link rel="stylesheet" href="./css/css_styles.css">
     <!-- icon image -->
-    <link rel="icon" href="./images/pinterest_0d52a.jpg" type="image/x-icon">
+    <link rel="icon" href="./images/pinterest_a9559.jpg" type="image/x-icon">
 </head>
 
 
@@ -100,7 +100,7 @@ window.onload = function() {
 const rndCount = 11;   // global var, number of random lines
 
 function getRandomUniqueLines(lines) {
-    // Fisher–Yates shuffle (no duplicates, unbiased)
+    // FisherâYates shuffle (no duplicates, unbiased)
     for (let i = lines.length - 1; i > 0; i--) {
       const j = Math.floor(Math.random() * (i + 1));
       [lines[i], lines[j]] = [lines[j], lines[i]];
