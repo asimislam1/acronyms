@@ -6,7 +6,7 @@ body {
    background-color: whitesmoke;
    /* margin-left: 0%; */
 
-   /* background-image: url(./../images/pinterest_a9559.jpg); */
+   /* background-image: url(./../images/background_yellow.jpg); */
    background-color: #fcba04; /* incase image does not load */
    background-repeat: no-repeat; /* Prevent tiling */
    background-attachment: fixed; /* Keep image fixed during scroll */
