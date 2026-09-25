@@ -357,6 +357,7 @@ APM	Access Policy Manager
 APN	Access Point Name (name of gateway between telecommunication and computer networks)
 APNIC	Asia-Pacific Network Information Center (ICANN RIR)
 APOD	Astronomy Picture of the Day (website by NASA and Michigan Technology Univeristy, since 1995)
+APR	Annual Percentage Rate (US, annual cost of a loan including interest, points, and fees)
 APRU	Average Revenue per User (business metric)
 APS	Automatic Protection Switching
 APT	Advanced Persistent Threat (cybersecurity)
@@ -379,6 +380,7 @@ ARG	Automatic Repeat Request (TCP message)
 ARIMA	Auto-Regressive Integrated Moving Average (AI:  forcasting model)
 ARIN	American Registerty for Internet Numbers (ICANN RIR)
 ARJ	Advanced RAR (file format, supports data compression and error correction)
+ARM	Adjustable-Rate Mortgage (US, mortgage interest rate that changes after an initial fixed period)
 ARM	Advanced RISC Machines (British semiconductor and software company)
 ARM	Asynchronous Response Mode
 ARP	Address Resolution Protocol (Layer 2 & 3, RFC 826)
@@ -1390,6 +1392,7 @@ DTaP	Diphtheria, Tetanus, acellular Pertussis  ((medical: vaccine for diphtheria
 DTCH	Dedicated Traffic Channel (MAC-RLC logical channel)
 DTD	Document Type Definition
 DTE	Data Terminal Equipment
+DTI	Debt-to-Income Ratio (US, measure of monthly debt payments compared to income)
 DTLS	Datagram Transport Layer Security
 DTMF	Dual Tone Multiple Frequency
 DTP	Dynamic Trunking Protocol
@@ -1783,6 +1786,7 @@ ffs	"for further study"
 FFS	Flash File Systems (file system for flash memory devices)
 FFT	Fast Fourier Transform (algorithm, math)
 FH	FrontHaul - transport between radio-RRU and radio-DU
+FHA	Federal Housing Administration (part of HUD, provides government-backed mortgage insurance)
 FIA	Fédération Internationale de l'Automobile (motor sports)
 FIB	Fast Information Block (data burst of 256 bits)
 FIC	Fast Information Channel
@@ -2186,6 +2190,7 @@ HNN	Home Network Name
 HNSP	ARPA Host Name Server Protocol (UDP, host to IP addr, obsolete, port 42)
 HNSW	Hierarchical Navigable Small World (AI:  ML graph-based ANN search algorithm)
 HO	Hand-Over
+HOA	Homeowners Association (US, private organization that manages a residential community)
 HOL	Head of Line Blocking (packets held up by the first packet)
 HonHaiPr	Foxconn/Hon Hai Precision message (router checking for updates)
 HOTP	HMAC-based one-time password (RFC 4226, OTP algorithm)
@@ -2238,6 +2243,7 @@ HTTP 	crud:  create/POST, read/GET, update/PUT, delete/DELETE
 HTTP2	Hypertext Transfer Protocol version 2 (RFC 7540, TS 29.500, Layer 5)
 HTTPS	Hypertext Transfer Protocol Secure (application layer, TCP/UDP, secure web traffic, port 443)
 HUD	Heads-Up Display
+HUD	Housing and Urban Development (US agency for housing policy and community development)
 HUMINT	Human Intelligence (from interpersonal contact)
 HV	High Volume
 HV	HyperVisor (virtual machine management, supervision & orchestration)
@@ -3023,6 +3029,7 @@ LTMI	Long Term Mobile ID
 LTN	Location Table Number
 LTNBE	Location Table Number Before Encryption
 LTO	Local Time Offset
+LTV	Loan-to-Value Ratio (US, loan amount divided by property’s value)
 LU	Location Update
 LUR	Location Update Response
 LVF	Location Validation Function
@@ -5629,7 +5636,7 @@ V2V	Vehicle to Vehicle
 V2V	Vendor to Vendor
 V2X	Vehicle to Everything (TS 23.287)
 VA	Vertical Alignment Panels (video display technology)
-VA	Veterans Affairs (US department)
+VA	Veterans Affairs (US department for military personnel)
 VAAL	Video Adaptation at Application Layer
 VACL	VLAN Access Control List
 VAE	Variational Auto-Encoders (AI:  generative model)
