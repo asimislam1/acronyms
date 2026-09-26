@@ -24,6 +24,7 @@
 2FA	Two-Factor Authentication (two distinct forms of verification to authenticate)
 2FF	SIM Form Factor (FF), Mini SIM	25mm x 15mm x 0.76mm
 2G	1990s,  FDMA/TDMA,  BW: 200kHz, rate: 64 kbps, network: CS.  GSM, iDEN, IS-136, PDC, CDMA
+2SLS	Two-Stage Least Squares method (statistics: Simultaneous Equations Models)
 2SV	Two-Step Verification (two passwords or password & email link)
 301	HTTP Status Code:  Moved Permanently      - Redirection,   resource permanently moved to new URL
 302	HTTP Status Code:  Found                  - Redirection,   resource temporarily located at different URL
@@ -31,6 +32,7 @@
 365	Microsoft 365: Office Suite as cloud-based services
 3CLS	Communications, Computing, Control, Localization, Sensing
 3D	Three Dimensions: horizontal, vertical, depth (x,y,z axes:  cube)
+3DES	Triple Data Encryption Standard (cybersecurity: symmetric encryption algorithm, legacy)
 3DGS	3D Gaussian Splatting (photorealistic views in real-time using Gaussian ellipsoids)
 3DoF	Three Degrees of Freedom (pitch, yaw, roll)
 3FF	SIM Form Factor (FF), Micro SIM	15mm x 12mm x 0.76mm
@@ -78,6 +80,7 @@
 3GPP Series 4x	GERAN
 3GPP Series 55	Security Algorithms-GERAN specific  (35 & 55 series)
 3GPP2	3rd Generation Partnership Project 2 (standards organization, www.3gpp2.org)
+3SLS	Three-Stage Least Squares method (statistics: Simultaneous Equations Models)
 3V	Volume, Velocity, Variety (big data concept)
 3WC	Three Way calling
 3xEVDO	Evolution for Data Only, 3.25 MHz
@@ -243,7 +246,7 @@ ADT	Abstract Data Type (objects defined by set of values and operations)
 AEC	Active Electrical Cable (copper cables for SFP or QSFP)
 AED	Automated External Defibrillator (medical:  portable device for cardiac arrest, used during CPR)
 AEF	API Exposing Function
-AES	Advanced Encryption Standard (cybersecurity, FIPS Publication 197)
+AES	Advanced Encryption Standard (cybersecurity: symmetric encryption algorithm, NIST FIPS 197)
 AF	Application Function (5G network function, TS 23.501, TS 29.517)
 AFAIK	"as far as i know"  (slang:  information is believed to be correct, but not guaranteed)
 AFAIR	"as far as i remember" (slang:  sharing information from memory)
@@ -372,12 +375,14 @@ ARB	Architecture Review Board
 ARC	Advanced RAN Coordination
 ARC	Audio Return Channel (audio signals from TV to audio devices)
 ArcGIS	GIS software by ERSI
+ARCH	Autoregressive Conditional Heteroskedasticity (statistics: time-varying volatility in time series)
 ARCNET	Attached Resource Computer NETwork (LAN protocols, IEEE 802.3)
+ARDL	Autoregressive Distributed Lag (math: time-series analysis)
 Area 0	OSPF backbone area, 0.0.0.0 (OSPF network core, central hub for all routing information exchange)
 ARF	Analog Radio Frequency
 ARFCN	Absolute Radio Frequency Channel Number
 ARG	Automatic Repeat Request (TCP message)
-ARIMA	Auto-Regressive Integrated Moving Average (AI:  forcasting model)
+ARIMA	Auto-Regressive Integrated Moving Average (statistics:  model for time series forecasting)
 ARIN	American Registerty for Internet Numbers (ICANN RIR)
 ARJ	Advanced RAR (file format, supports data compression and error correction)
 ARM	Adjustable-Rate Mortgage (US, mortgage interest rate that changes after an initial fixed period)
@@ -872,7 +877,7 @@ CIRT	Computer Incident Response Team
 CIS	Commonwealth of Independent States (Russia + 8 surrounding countries)
 CIS	Container Ingress Service
 CISA	Cybersecurity and Infrastructure Security Agency (US security agency)
-CISC	Complex Instruction Set Computer (ISA classification)
+CISC	Complex Instruction Set Computer (ISA classification for processor architecture)
 CISM	Certified Information Security Manager (certification, cybersecurity)
 CISO	Chief Information Security Officer (cybersecurity, executive position)
 CISSP	Certified Information Systems Security Professional (certification, cybersecurity)
@@ -969,12 +974,14 @@ COMSAT	Communications Satellite Corporation
 COMU	Communications Unit
 conda	open-source, cross-platform package and environment manager (Anaconda distribution)
 CONFIG.SYS	configuration file for MS-DOS and Windows
+CONNECT	establish a tunnel		- RFC 9110,  HTTP method or verb
 container	isolated operating system instance (engine and image)
 COO	Chief Operating Officer (executive position)
 cookies	block of HTTP data created by web server and placed on user device
 COQ	Contractor Quality (contractor responsibilities)
 CORBA	Common Object Request Broker Architecture
 CORBA	Common Object Request Broker Architecture  (middleware framework developed by OMG)
+CoRE	Constrained RESTful Environments (RFC 6690, Web Linking using a link format)
 CORE	Network Core (session, connection, policy, etc. elements)
 CORESET	Control Resource Set (TS 38.211)
 Corp.	"Corporation", business owned by shareholders
@@ -1039,7 +1046,7 @@ CRS	Cognitive Radio System
 CRS	Coordinate Reference System (geographic longitude/latitude system)
 CRT	Cathode Ray Tube (video display technology)
 CRT	Critical Race Theory (education:  study of race, society and law)
-CRUD	Create, Read, Update, Delete (http: create=POST, read=GET, update=PUT, delete=DELETE)
+CRUD	Create, Read, Update, Delete (RESTful API operations, see also http: POST, GET, PUT, DELETE)
 CRUSH	Consistent, Replicated, Unique, Scalable Hashing (data storage algorithm)
 CS	Circuit Switched, 2G GSM: voice, SMS
 CS-CN	Circuit Switched Core Networks
@@ -1075,6 +1082,7 @@ CSP	Communication Service Provider, aka SP, TSP
 CSPDN	Circuit-Switched Public Data Network (ITU X.81)
 CSR	Create Session Request
 CSRC	Centralized Signaling and Routing Control
+CSRC	Computer Security Resource Center (NIST repository for standards, tools, practices, etc.)
 CSReq	Create Session Request
 CSRF	Cross-Site Request Forgery attacks (cybersecurity, type of cyber attack)
 CSRG	Computer Systems Research Group
@@ -1229,6 +1237,7 @@ DEFLATE	lossless data compression algorithm (RFC 1951, uses LZ77 and Huffman cod
 DEI	Drop Eligible Indicator
 deka-	da, 10 power   1	- numeric, see also "prefix"
 DEL	DELete
+DELETE	remove				- RFC 9110,  HTTP method or verb,  CRUD DELETE operation
 DEMUX	De-Multiplexer  (separates 1 signal into 2^n signals; one to many)
 DeNB	Donor eNB(evolved-NodeB)
 deprecated	definition: not recommended, better options available or impending upgrade
@@ -1254,6 +1263,7 @@ DHS	US Department of Homeland Security
 DHT	Distributed Hash Table (used by BitTorret to store peer information)
 DIA	Direct Internet Acess (user - gateway - internet)
 Diameter	IP Protocol for Authentication, Authorization and Accounting (RFC 6733)
+DiD	Difference-in-Differences (statistics:  evaluation model)
 DID	Direct Inward Dialing (call without going through switchboard)
 DIE	Debugging Information Entry
 DIKW	Data, Information, Knowledge, Wisdom
@@ -1449,6 +1459,7 @@ EAB	Enhanced Address Book
 EAD	Employment Authorization Document (USCIS document)
 EAG	Encryption Administration Group (RDS type 8A group)
 EAM	Enterprise Asset Management
+EAN	Enterprise Area Network (organization network, integrated LANs, WANs, etc.)
 EAN	European Article Numbers (barcode: inventory tracking identifier)
 EAP	Extensible Authentication Protocol (RFC 7458)
 EAP-AKA	Extensible Authentication Protocol - Authentication and Key Agreement
@@ -1469,6 +1480,7 @@ Ec/Io	Downlink Carrier-To-Interference Ratio (signal quality, dB, 2G, 3G & LTE)
 Ec/No	Received Energy from CPICH per chip (Ec) over Noise Density (No)
 EC2	Elastic Compute Cloud (AWS virtual machine service)
 ECB	Electronic Code-Book (cipher mode)
+ECC	Elliptic Curve Cryptography (cybersecurity: asymmetric encryption algorithm)
 ECC	Elliptic-Curve Cryptography (public-key cryptography)
 ECC-RAM	Error-Correcting Code RAM (RAM classification, critical systems: servers/workstations)
 ECCN	Export Control Classification Number (US commerce classification list, 5-character alphanumeric)
@@ -1485,6 +1497,7 @@ ECIA	Electronic Components Industry Association
 ECIES	Elliptic Curve Integrated Encryption Scheme
 ECLAT	Equivalence Class Clustering and bottom-up Lattice Traversal (AI:  unsupervised ML model, clustering)
 ECM	EPS Connection Management
+ECM	Error Correction Models (math: time-series analysis)
 ECMA	European Computer Manufacturers Association, now "ECMA International"  (standards organization, www.ecma-international.org)
 ECMAScript	ECMA scripting language specification (ECMA-262 Standard www.ecma-international.org)
 ECMP	Equal-Cost Multi-Path (routing strategy)
@@ -1559,6 +1572,7 @@ ELIN	Emergency Location Identification Number
 ELINT	Electronic Intelligence (from intercepting electronics)
 ELK	ElasticSearch, Logstash and Kibana (big data)
 ELSUR	Electronic Surveillance Data Management System (DCSNet repository)
+ELU	Exponential Linear Unit		(AI: activation function in NN, introduces non-linearity)
 em	CSS/HTML styles::  element with scalable size relative to parent font size
 EM	Electro-Magnetic
 EM	Element Management
@@ -1928,6 +1942,7 @@ GAN	Generative Adversarial Networks (AI:  deep learning architecture)
 GAN	Generic Access Network (TS 43.318)
 GAN	Global Area Network (computer network)
 GAP	Generic Access Profile (DECT, ETSI 300.444)
+GARCH	Generalized Autoregressive Conditional Heteroskedasticity (statistics: time-varying volatility in time series)
 GARS	Global Area Reference System (geographic longitude/latitude notation)
 GAT	Graph Attention Network (AI:  deep learning for graph-structured data)
 GB	Gigabyte	memory size, 10^9	1,073,741,824 Bytes
@@ -1954,6 +1969,7 @@ GDDR	Graphics DDR SDRAM (RAM for high-bandwidth applications, such as GPUs)
 GDP	Gross Domestic Product (market value of a country at a specific time)
 GDPR	EU General Data Protection Regulation (data privacy & security laws, gdpr.eu)
 GEA	GPRS Encryption Algorithm
+GELU	Gaussian Error Linear Unit	(AI: activation function in NN, introduces non-linearity)
 GENB-ID	Global ENodeB Identity (MCC+MNC+ENB-ID)
 Generation	born 1901–1927	"Greatest Generation"	Great Depression and WWII, resilience and civic duty 
 Generation	born 1928–1945	"Silent Generation"	post-Depression and WWII, conformist and disciplined 
@@ -1973,6 +1989,7 @@ GEOSAR	Geostationary Earth Orbiting Search and Rescue
 GEPOF	Gigabit Ethernet over Plastic Optical Fiber (IEEE P802.3bv)
 GEPON	Gigabit Ethernet Passive Optical Network
 GERAN	GSM EDGE Radio Access Network
+GET	retrieve information		- RFC 9110,  HTTP method or verb,  CRUD READ   operation
 GFBR	Guaranteed Flow Bit Rate
 GFDM	Generalized Frequency Division Multiplexing 
 GFP	Generic Framing Procedure
@@ -2057,6 +2074,7 @@ gr8	"great"  (numeronym)
 GRC	Governance, Risk and Compliance (approach to ensure compliance with regulatory requirements)
 GRE	Generic Routing Encapsulation (RFC 2784, RFC 2890)
 GRE	Graduate Record Examination (US, graduate admissions exam)
+gRPC	gRPC Remote Procedure Call (recursive acronym, Google, TCP/UDP, remote execution,  port 50051)
 grTLD	Restricted Generic Top-Level Domains (internet domains)
 GRU	Gated Recurrent Units (AI:  LSTM-like gating mechanism in RNN)
 GRU	Glavnoje Razvedyvatel'noje Upravlenije (Russian intelligence agency, 1992-present)
@@ -2151,6 +2169,7 @@ HDSL	High-Bit-Rate Digital Subscriber Line(1.544 Mbps downstream and upstream)
 HDTV	High Definition TeleVision
 HDVC	High Definition Video Conference
 HE-VASP	Home Environment-Value Added Service Provider
+HEAD	get headers in GET		- RFC 9110,  HTTP method or verb
 hecto-	h,  10 power   2	- numeric, see also "prefix"
 HEENT	Head, Eyes, Ears, Nose and Throat exam (medical: standard part of a physical exam)
 HELOC	Home Equity Line of Credit (finance, using home as collateral for loan)
@@ -2238,7 +2257,7 @@ HTE	High Touch Engineer
 htm	Hyper Text Markup (WHATWG, markup for web page)
 html	Hyper Text Markup Language (WHATWG, markup language for web page)
 HTOM	High Touch Operations Manager (various companies)
-HTTP	Hypertext Transfer Protocol (application layer, TCP/UDP, unsecure web traffic, RFC 7230, port 80)
+HTTP	Hypertext Transfer Protocol (application layer, TCP/UDP, unsecure web traffic, RFC 9110, port 80)
 HTTP 	crud:  create/POST, read/GET, update/PUT, delete/DELETE
 HTTP2	Hypertext Transfer Protocol version 2 (RFC 7540, TS 29.500, Layer 5)
 HTTPS	Hypertext Transfer Protocol Secure (application layer, TCP/UDP, secure web traffic, port 443)
@@ -2728,6 +2747,7 @@ IuCS	RNC and MSC/VLR, MGW	3G UMTS interface
 IUI	International USIM Identifier
 IuPS	RNC and SGSN		3G UMTS interface
 Iur	RNC and RNC	3G UMTS interface (UTRAN)
+IV	Instrumental Variables (statistics:  evaluation model)
 IV	Latin: "Intra-Venous", English: "within a vein" (medical)
 IVAS	Immersive Voice and Audio Services
 IVF	In vitro fertilization (medical:  procedures that can lead to a pregnancy)
@@ -2977,7 +2997,7 @@ LOB	Line Of Business (business term)
 LoBF	Line of Best Fit (AI:  supervised ML model)
 LOC	Localizer  (aviation, lateral guidance for runway approach)
 LoF	Loss of Frame
-logic gate	logic operations: AND, NAND, NOR, NOT, OR, XNOR, XOR
+logic gate	logic operations: AND, OR, NOT, NAND, NOR, XOR, XNOR
 Logstash	ETL tool for ElasticSearch (big data, ELK)
 LoI	Letter of Intent (agreements, roadmaps)
 lol	"laughing out loud"  (slang:  absolutely hilarious)
@@ -3840,7 +3860,7 @@ OLED	Organic Light Emitting Diode (video display technology)
 OLEDB	Object Linking and Embedding, Database (Microsoft API for accessing data)
 OLIP	Originating Line Information Parameter
 OLO	Other Licensed Operators
-OLS	Ordinary Least Square (statistics: estimator)
+OLS	Ordinary Least Square (statistics: estimator, cross-sectional models)
 OLSA	Open Learning Services Architecture (SkillSoft learning services)
 OLT	Offentlig Landmobil Telefoni, Norway 1966-1990
 OLT	Optical Line Terminal
@@ -3901,6 +3921,7 @@ Option 4	5G NSA, 4G-ng-eNB & 5G-gNB connected to 5GC (NE-DC)
 Option 5	5G SA,  4G-ng-eNB connected to 5GC
 Option 6	5G, only 5G-nGB connected to EPC (very unlikely)
 Option 7	5G NSA, 4G-ng-eNB & 5G-gNB connected to 5GC (NGEN-DC)
+OPTIONS	describe communication options	- RFC 9110,  HTTP method or verb
 OQPSK	Offset Quadrature Phase Shift Keying       (digital signal modulation technique)
 OR	logic gate, basic:      Y = A + B        def OR(a, b):   return a | b
 ORACH	ODMA Random Access Channel
@@ -3982,6 +4003,7 @@ PARC	Palo Alto Research Center, formerly Xerox PARC
 PAS	Packet Application Server
 PAT	Port Address Translation (RFC 2663, section 2.2)
 PATA	Parallel Advanced Technology Attachment (hard-disk interface)
+PATCH	apply partial modifications	- RFC 9110,  HTTP method or verb
 PAwR	Periodic Advertising with Responses (BT periodic advertisements to multiple peripherals)
 PAWR	Platforms for Advanced Wireless Research (NSF initiative)
 PB	Petabyte	memory size, 10^15	1,125,899,906,842,624 Bytes
@@ -4154,6 +4176,7 @@ POD	Point of Delivery (business term)
 PoE	Power over Ethernet
 POI	Point of Interest
 pointers	data type, composite:     memory addresses referencing data
+POLAN	Passive Optical Local Area Network (small to medium sized network, campuses and enterprises)
 Polybase	works on top of SQL Server to access data in PDW
 PON	Passive Optical Network
 PoP	Package on Package (integrated circuit packaging method)
@@ -4167,6 +4190,7 @@ PoS	Packet over SONET/SDH (RFC 1661, data link layer)
 POS	Point of Sale (retail, sales tracked by barcode)
 POS	Point of Service (US medical insurance plan)
 POSIX	Portable Operating System Interface (IEEE standards for APIs)
+POST	create new			- RFC 9110,  HTTP method or verb,  CRUD CREATE operation
 POST	Power-On Self Test (memory, CPU, peripheral check performed by BIOS at start-up)
 PostgreSQL	PostgreSQL Database (port 5432)
 POTS	Plain Old Telephone Service (analog phone lines over copper)
@@ -4218,6 +4242,7 @@ prefix  -15	femto-	f,  10 power -15   (numeric prefix)
 prefix  -18	atto-	a,  10 power -18   (numeric prefix)
 prefix  -21	zepto-	z,  10 power -21   (numeric prefix)
 prefix  -24	yocto-	y,  10 power -24   (numeric prefix)
+PReLU	Parametric ReLU			(AI: activation function in NN, introduces non-linearity)
 Presto	open-source SQL engine developed by Facebook
 PRI	ISDN Primary Rate Interface (30 B-channels and 1 D-channel)
 PRK	Photorefractive Keratectomy (corrective eye surgery)
@@ -4248,6 +4273,7 @@ PSK	Phase Shift Keying                         (digital signal modulation techni
 PSK	Pre-Shared Key (WPA key, RFC 6617)
 PSKC	Portable Symmetric Key Container (RFC 6030)
 PSL	Public Suffix List (catalog of Internet domain names)
+PSM	Propensity Score Matching (statistics:  evaluation model)
 PSN	Packet Switched Network
 PSPDN	Packet-Switched Public Data Network (ITU X.323)
 PSS	Packet-Switched Stream, or Service (UK xX.25 packet-switched network)
@@ -4275,6 +4301,7 @@ pub	Microsoft Publisher (file extension)
 PUCCH	Physical Uplink Control Channel (air interface channel)
 PUP	Performance User Plane
 PUSCH	Physical Uplink Shared Channel (air interface channel)
+PUT	update or replace		- RFC 9110,  HTTP method or verb,  CRUD UPDATE operation
 PV	Paravirtualized Virtual Machines (modified VM OS, works directly with hypervisor)
 PVC	Permanent Virtual Circuit/Connection
 PVC	Poly-Vinyl Chloride (type of plastic)
@@ -4389,6 +4416,7 @@ RCC	Regional Commonwealth in the Field of Communications (ITU WRC group)
 RCF	Radio Control Functions
 RCLWI	RAN Controlled LTE Wireless LAN Inter-Working
 RCS	Rich Communication Service (GSMA specification)
+RD	Regression Discontinuity Design (statistics:  evaluation model)
 RD	Retained Data
 RDA	Remote Database Access
 RDBMS	Relational Database Management System, i.e. MySQL, Oracle, DB2, etc.
@@ -4416,7 +4444,7 @@ reduce	shuffle, sort, reduce (big data processing concept)
 ReFS	Resilient File System (Windows Server 2012 file system format based on COW)
 REGEX	Regular Expression, pattern search in computer languages
 REIT	Real Estate Investment Trusts (financial investment instrument)
-ReLU	Rectified Linear Unit (AI:  activation function in NN: ReLu, Sigmoid, SoftMax & Tanh)
+ReLU	Rectified Linear Unit 		(AI: activation function in NN, introduces non-linearity)
 rem	CSS/HTML styles::  root element with scalable size relative to root font size
 REPL	Read, Evaluate, Print, Loop
 REQ	Request or Requisition
@@ -4441,6 +4469,7 @@ RG	Redundancy Group
 RG	Residential Gateway
 RG	Resource Grid, radio: subcarrier in frequency axis vs OFDM in time axis
 RG-LWAC	RG Level Wireline Access Characteristics
+RGARCH	Risk-Adjusted GARCH (statistics: time-varying volatility in time series)
 RGB	Red Green Blue                 (color model)
 RGBA	Red Green Blue Alpha           (color model)
 RGBD	Red Green Blue Depth           (color model)
@@ -4465,7 +4494,7 @@ RIPE NCC	Réseaux IP Européens Network Coordination Centre (ICANN RIR)
 RIPv1	Routing Information Protocol version 1 (hop counts, classful,  does not support VLSM/CIDR)
 RIPv2	Routing Information Protocol version 2 (hop counts, classless, does supports VLSM/CIDR)
 RIR	Regional Internet Registry (organization managing internet number resources)
-RISC	Reduced Instruction Set Computer (ISA classification)
+RISC	Reduced Instruction Set Computer (ISA classification for processor architecture)
 RIT	Radio Interface Technologies
 rizz	charm, charisma, or the ability to attract someone (slang:  romantic and social context)
 RJ	Registered Jack (standardized network interface)
@@ -4561,7 +4590,7 @@ RRU	Remote Radio Unit (hardware, DAC/ADC and RF equipment, aka RRH or RU)
 RS	Recommended Standard (EIA standards)
 RS	Reference Signal, used both in uplink and downlink
 RS-232	Recommended Standard-232, EIA (interface and protocol between DTE and DCE)
-RSA	Rivest–Shamir–Adleman (public-key cryptography)
+RSA	Rivest–Shamir–Adleman (cybersecurity: public-key asymmetric encryption algorithm, 1977)
 RSCP	Received Signal Code Power (signal power, dBm, 3G only)
 RSD	Relative Standard Deviation (statistics
 RSI	Relative Strength Index (stock market trading indicators)
@@ -4674,6 +4703,7 @@ SAPP	Service Awareness and Privacy Policy (TS 23.203)
 SAR	Search and Rescue
 SAR	Segmentation and Reassembly
 SAR	Service Area Restriction
+SARIMA	Seasonal ARIMA (statistics:  model for time series forecasting)
 SARIMA	Seasonal Auto-Regressive Integrated Moving Average (AI:  forcasting model)
 SARP	Standards and Recommended Practice
 SARS	Severe Acute Respiratory Syndrome (medical: viral infection)
@@ -4803,6 +4833,8 @@ SeGW	Secure Gateway
 SEI	Software Engineering Institute (US DoD funded research & development center, www.sei.cmu.edu)
 SEI	Subscriber Experience Insight (field test tool)
 SEID	Session Endpoint Identifier
+SELU	Scaled Exponential Linear Unit	(AI: activation function in NN, introduces non-linearity)
+SEM	Simultaneous Equations Models (statistics: set of linear simultaneous equations)
 SeNB	Secondary evolved NodeB
 SEND	Secure Neighbor Discovery protocol  (extension of NDP, RFC 6794)
 SEO	Search Engine Optimization (URL ranking/optimization algorithm)
@@ -4860,9 +4892,10 @@ SIFT	Scale-Invariant Feature Transform (algorithm to detect and describe feature
 SIG	Bluetooth Special Interest Group (BlueTooth standards organization, www.bluetooth.com)
 sigi	Country Code (ITU-T E.164)
 SIGINT	Signals Intelligence (from intercepting signals)
-Sigmoid	sigmoid function (AI:  activation function in NN: ReLu, Sigmoid, SoftMax & Tanh)
+Sigmoid	Sigmoid Function 		(AI: activation function in NN, introduces non-linearity)
 SIGTRAN	Signaling Transport (extension of SS7 protocol using IP/SCTP)
 SII	Spectrum Innovation Initiative (NSF spectrum utilization)
+SiLU	Sigmoid Linear Unit, "Swish"	(AI: activation function in NN, introduces non-linearity)
 SIM	Subscriber Identity Module (TS 51.011)
 SIMD	Single Instruction Multiple Data
 SIMM	Single In-line Memory Module (RAM classification, memory module)
@@ -4965,7 +4998,7 @@ SOC	Service Oriented Core
 SoC	System on a Chip (PoP configured integrated chip)
 SOC 2	Service Organization Control (cybersecurity compliance standard)
 SOF	Start of Frame (RFC 2687 hdlc, IEEE 802.3 ethernet)
-SoftMax	smooth approximation function (AI:  activation function in NN: ReLu, Sigmoid, SoftMax & Tanh)
+SoftMax	smooth approximation function 	(AI: activation function in NN, introduces non-linearity)
 SOHC	Single Overhead Camshaft (engine design with one camshafts in combustion chamber)
 SOHO	Small Office/Home Office
 SoL	Safety of Life service (top priority GPS service)
@@ -5193,7 +5226,7 @@ TAM	Total Addressable Market (business term)
 TAM	Traffic Anchoring Mode
 tan	tangent   = opposite/adjacent    (trignometric function, right-angled triangle)
 tanh	hyperbolic tangent = sinh(x)/cosh(x)  (hyperbolic function, defined using hyperbola)
-Tanh	hyperbolic tangent function (AI:  activation function in NN: ReLu, Sigmoid, SoftMax & Tanh)
+Tanh	hyperbolic tangent function 	(AI: activation function in NN, introduces non-linearity)
 TAP	Transferred Account Procedure (GSMA spec TD.57)
 tar	Tape Archive (file extension)^jar
 TAS	Telephony Application Server
@@ -5258,6 +5291,7 @@ TFS	Tape File System for magnetic tapes)
 TFT	Traffic Flow Template
 TFTP	Trivial File Transfer Protocol (UDP, simple file transfer, RFC 1350, port 69)
 TFW	"that feeling when"  (slang: express an emotional reaction or relatable moment online)
+TGARCH	Threshold GARCH (statistics: time-varying volatility in time series)
 TGIF	"thanks God it's Friday"  (slang:  celebrate end of workweek,  arrival of weekend)
 thx	"thanks"  (slang:  quickly express gratitude)
 TI	Texas Instruments Incorporated (US semiconductor company)
@@ -5332,6 +5366,7 @@ TPU	Tensor Processing Units  (processor:  matrix processing for large AI batches
 TQM	Total Quality Management (business process)
 TR	Technical Report (3GPP document type, www.3gpp.org)
 TR 21.905	Vocabulary for 3GPP Specifications
+TRACE	perform loop-back test		- RFC 9110,  HTTP method or verb
 tracert	TCP/IP command:  display path to destination hostaddr>
 transport	connecting Access Network and Core Network (aka "backhaul")
 TRAP	event notification: unsolicited message from device to NMS (TCP/UDP, RFC 1215, port 162)
@@ -5640,6 +5675,7 @@ VA	Veterans Affairs (US department for military personnel)
 VAAL	Video Adaptation at Application Layer
 VACL	VLAN Access Control List
 VAE	Variational Auto-Encoders (AI:  generative model)
+VAR	Vector Autoregression (statistics:  model for time series forecasting)
 VAS	Value Added Service
 VASP	Value Added Service Provider
 VAX	Virtual Address eXtension
@@ -5662,6 +5698,7 @@ VDI	Virtual Desktop Infrastructure
 VDSL	Very High-Speed Digital Subscriber Line (52 Mbps downstream, 16 Mbps upstream)
 vdx	Microsoft Visio XML (file extension)
 VE	Virtual Environment (container)
+VECM	Vector Error Correction Model (statistics:  model for time series forecasting)
 VEE	Voltage at the Emitter  (negative supply voltage)
 vEPC	Virtualized Evolved Packet Core
 VES	Virtual function Event Streaming (RESTful processing of JSON messages into DCAE)
