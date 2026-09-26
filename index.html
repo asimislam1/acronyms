@@ -8,7 +8,7 @@
     <title>acronyms</title>
     <link rel="stylesheet" href="./css/css_styles.css">
     <!-- icon image -->
-    <link rel="icon" href="./images/pinterest_0d52a.jpg" type="image/x-icon">
+    <link rel="icon" href="./images/background_green.jpg" type="image/x-icon">
 </head>
 
 
@@ -97,7 +97,7 @@ window.onload = function() {
 //===============================================
 //  get random lines for "output" window
 //===============================================
-const rndCount = 11;   // global var, number of random lines
+const rndCount = 26;   // global var, number of random lines
 
 function getRandomUniqueLines(lines) {
     // Fisher–Yates shuffle (no duplicates, unbiased)
@@ -107,7 +107,7 @@ function getRandomUniqueLines(lines) {
   }
 
   //  "unshift":  append to beginning of array
-  lines.unshift(`\t~~~  displaying some random acronyms ~~~`);
+  lines.unshift(`\t~~~~~  random acronyms  ~~~~~`);
   //console.log(`getRandomUniqueLines:\n${lines.slice(0, rndCount).join("\n")}`);
 
   return lines.slice(0, rndCount).join("\n");  // return random lines
