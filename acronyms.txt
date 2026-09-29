@@ -253,6 +253,7 @@ AFAIR	"as far as i remember" (slang:  sharing information from memory)
 AFE	Analog Front End
 AFGSC	Air Force Global Strike Command (US military, USAF 2009-present)
 AFK	"away from keyboard" (slang:  person is away from devices, and is unable to respond immediately)
+AFL-CIO	American Federation of Labor and Congress of Industrial Organizations (US trade union, aflcio.org)
 AFM	Advanced Firewall Manager
 AfNOG	African Network Operators Group
 AFRINIC	African Network Information Center (ICANN RIR)
@@ -370,6 +371,7 @@ APT	Asia-Pacific Telecommunity (ITU WRC group)
 APV	Approach with Vertical guidance (aviation GPS)
 APW	Active Program Workplace (business term)
 APWG	Anti-Phishing Working Group (international cybersecurity organization, www.apwg.org)
+AQI	Air Quality Index (air quality level)
 AQT	Advanced Query Tool, multi-database query tool (www.querytool.com)
 AR	Augmented Reality (virtual info/objects overlaid on real world)
 AR-15	ArmaLite Rifle 15 (assault rifle)
@@ -662,6 +664,7 @@ C-link	SS7  Cross:    interconnect mated-pair STPs
 C-RAN	Cloud (virtualized) Radio Access Network or Centralized Radio Access Network
 C-RNTI	Cell Radio Network Temporary Identifier
 C/R	Command/Response
+C2M2	Cybersecurity Capability Maturity Model (cybersecurity framework)
 C2W	Call to Work (engaging support personnel during unplanned events/outages)
 C3	Chrysler Comprehensive Compensation System
 C3I	Command, Control, Communications and Intelligence
@@ -709,6 +712,7 @@ CAS	Channel Associated Signaling
 CAS	Content-Addressed Storage  (ISM data storage, retrieves data based on content)
 CASB	Cloud Access Security Broker
 Cassandra	Apache's big-data database
+CAST	Conditional Algorithm Self-Tests (cybersecurity)
 CAT	RJ-45 Ethernet cable "Category", copper UTP or STP (TIA/EIA-568)
 CAT-1	Category 1  RJ-45 UTP  	   freq:   1 MHz  speed: voice only  defunct
 CAT-2	Category 2  RJ-45 UTP  	   freq:   4 MHz  speed:   4 Mbps    defunct
@@ -878,6 +882,7 @@ CIFS	Common Internet File System (file-sharing protocol, port 445, same as SMB)
 CIM	Common Information Model (data modeling standard)
 CIO	Chief Information Officer (executive position)
 CIoT	Cellular Internet of Things
+CIP	Critical Infrastructure Protection (process of safeguarding essential systems, networks and assets)
 CIQ	Customer Information Questionnaire
 CIRP	UN Committee on Internet-Related Policy
 CIRT	Computer Incident Response Team
@@ -1072,6 +1077,7 @@ CSCN	Circuit-Switched Core Network
 CSD	Circuit Switched Data (TIA IS-136)
 CSDPS	Coordinated Scheduling and Dynamic Point Selection
 CSF	Channel State Feedback
+CSF	Cybersecurity Framework (cybersecurity: set of guidelines, best practices, and standards)
 CSFB	Circuit Switched Fall-Back (TS 23.272)
 CSG	Closed Subscriber Group
 CSG	Content Services Gateway  (Cisco:  high-speed processing module for billing & traffic)
@@ -1093,7 +1099,7 @@ CSP	Communication Service Provider, aka SP, TSP
 CSPDN	Circuit-Switched Public Data Network (ITU X.81)
 CSR	Create Session Request
 CSRC	Centralized Signaling and Routing Control
-CSRC	Computer Security Resource Center (NIST repository for standards, tools, practices, etc.)
+CSRC	Computer Security Resource Center (NIST repository, csrc.nist.gov)
 CSReq	Create Session Request
 CSRF	Cross-Site Request Forgery attacks (cybersecurity, type of cyber attack)
 CSRG	Computer Systems Research Group
@@ -1149,6 +1155,7 @@ CW	Continuous Wave
 CWDM	Coarse Wavelength Division Multiplexing
 CWND	Congestion Window, cwnd=cwnd+mss (TCP message parameter)
 CWR	Congestion Window Reduced (TCP/IP message)
+CWSP	NIST CyberSecurity White Paper (cybersecurity: csrc.nist.gov/publications/cswp)
 Cx	CSCF and HSS		IMS interface
 CX	Customer Experience
 CYA	"cover your ass"  (slang:  protecting yourself from blame by keeping records or proof)
@@ -1252,7 +1259,7 @@ DELETE	remove				- RFC 9110,  HTTP method or verb,  CRUD DELETE operation
 DEMUX	De-Multiplexer  (separates 1 signal into 2^n signals; one to many)
 DeNB	Donor eNB(evolved-NodeB)
 deprecated	definition: not recommended, better options available or impending upgrade
-DES	Data Encryption Standard (FIPS Publication 46-3)
+DES	Data Encryption Standard (FIPS Publication 46-3, withdrawn in 2005)
 DETR	DEtection TRansformer (AI:  deep learning model, object detection)
 Dev	Development (business term)
 DevOps	Development + Operations (business term)
@@ -1323,9 +1330,12 @@ DNAI	Data Network Access Identifier
 DNAT	Destination Network Address Translation
 DNC	Democratic National Committee (Democratic Party, US political party)
 dnd	"do not disturb"  (slang:  quick way to say unavailable, or want to avoid interruptions)
+DNF	Did Not Finish (sports:  driver started race but was unable to complete it)
 dng	Digital Negative (Adobe, image file format)
 DNIC	US Department of Defense Network Information Center
 DNN	Data Network Name (5G, equal to 4G APN)
+DNQ	Did Not Finish (sports:  driver was knocked out during qualifying)
+DNS	Did Not Start  (sports:  driver was unable to start in the race)
 DNS	Domain Name Server (sub-set of DNS/system, resolving domain name and IP address)
 DNS	Domain Name System (application layer, TCP/UDP, RFC 8499.  port 53)
 DNS-SD	DNS Service Discovery (RFC 6763, mDNS msg: enables applications to dynamically discover network services)
@@ -1397,6 +1407,7 @@ DSLAM	Digital Subscriber Line Access Multiplexer (between DSL modem to PSTN/inte
 DSM	Diagnostic and Statistical Manual of Mental Disorders (medical:  handbook for mental disorders)
 DSP	Digital Service Provider (online media distributor)
 DSP	Digital Signal Processor (microprocessor for processing digital signals)
+DSQ	Disqualified   (sports:  driver started the race but was removed after breaking a rule)
 DSR	Data Set Ready       (RS-232 line)
 DSRC	Dedicated Short-Range Communication service (IEEE 802.11p, V2X)
 DSRK	Domain-Specific Root Key
@@ -1644,6 +1655,7 @@ EoS	End of Sale (product lifecycle milestone)
 EoSL	End of Service Life (product lifecycle milestone)
 EoT	End of Transmission
 EOTP	Encrypted One-Time Pad (encyrpted OTP)
+EPA	Environmental Protection Agency (US federal agency for environmental protection, www.epa.gov)
 EPC	Evolved Packet Core (4G LTE Core: MME, HSS, SGW/PGW, PCRF, PCEF)
 ePDG	evolved Packet Data Gateway
 ephemeral	definition: lasting a short time, transitory, short-lived
@@ -1828,9 +1840,10 @@ FIFO	First-In, First-Out (scheduling algorithm)
 FIG	Fast Information Group
 FIN	FINish, no more data from sender (TCP/IP message)
 finna	going to, intending to (slang)
-FIPS	Federal Information Processing Standards (published by NIST)
+FIPS	Federal Information Processing Standards (US standards published by NIST, csrc.nist.gov)
 FIRST	Forum of International Response and Security Teams
-FISMA	Federal Information Security Management Act of 2002 (US security law)
+FISMA	Federal Information Security Management Act of 2002    (cybersecurity: US security compliance framework)
+FISMA	Federal Information Security Modernization Act of 2014 (cybersecurity: US security compliance framework)
 FL	Forward Link (from fixed location to end user)
 FL	NTN Feeder Link (HAPS to CN)
 flac	Free Lossless Audio Codec (media file extension)
@@ -2217,7 +2230,7 @@ HLS	High Layer Split
 HLS	HTTP Live Streaming
 HLS	Hue, Lightness, Saturation     (color model, aka HSL)
 HLSA	Hue Lightness Saturation Alpha (color model, aka HSLA)
-HMAC	keyed-Hash Message Authentication Code (cipher mode)
+HMAC	keyed-Hash Message Authentication Code (cybersecurity:  cipher mode, FIPS 198-1)
 HMI	Human-Machine Interfaces
 HMIP	Hierarchical Mobile Internet Protocol version 6 (RFC 5380)
 HMO	Health Maintenance Organization (US medical insurance plan)
@@ -2748,6 +2761,7 @@ IT	Information Technology
 ITAM	IT Asset Management (ITIL activity)
 ITAR	International Traffic in Arms Regulations (US regulations for exporting of military items)
 ITIL	Information Technology Infrastructure Library (IT practices, www.axelos.com)
+ITL	Information Technology Laboratory (NIST research labs, www.nist.gov/itl)
 ITRF	International Terrestrial Reference Frame (data using ITRS procedures)
 ITRI	Industrial Technology Research Institute, Taiwan, non-profit RTO
 ITRS	International Terrestrial Reference System (Earth surface measurement procedures)
@@ -2830,6 +2844,7 @@ k8s	Kubernetes, 'numeronym' (open-source container orchestration platform, Greek
 Kafka	Apache distributed event streaming platform
 KASME	Key Access Security Management Entries (authentication vector)
 KASUMI	block cipher used in GSM, GPRS and UMTS (TS 35.202)
+KAT	Known Answer Tests (cybersecurity)
 kB	kilo-Byte	memory size, 10^3	1024 Bytes
 kbps	Kilobit per second
 Kc	Ciphering Key (64-bit GSM ciphering key, TS 33.102)
@@ -3590,6 +3605,7 @@ NEHO	Network Evaluated Hand Over
 NEMO	Network Mobility
 NENA	National Emergency Number Association (www.nena.org)
 NEP	Network Equipment Providers
+NERC	North American Electric Reliability Corporation (international regulatory authority, www.nerc.com)
 NeRF	Neural Radiance Fields (AI:  reconstructs 3D space from 2D images using machine learning)
 NESAS	Network Element Security Assurance Scheme
 NESS	Network Element Services Signaling
@@ -3973,7 +3989,7 @@ OSC	Operations Support Center
 OSDL	Open Source Development Labs (non-profit technology consortium, obsolete, 2000-2007)
 OSF	Open Software Foundation (Open Group, www.opengroup.org)
 OSG	Open Source Group
-OSHA	Occupational Safety and Health Administration (US agency)
+OSHA	Occupational Safety and Health Administration (US agency for workplace safety, www.osha.gov)
 OSI	Open Systems Interconnection model (7 layers: "PDNTSPA")
 OSI	Other System Information, SIB2-SIB9 (5G NR system information: MSI, RMSI, OSI)
 OSINT	Open Source Intelligence (any public information, www.osint.org)
@@ -4167,6 +4183,7 @@ PIOPS	EBS Provisioned IOPS (AWS high performance cloud databases service)
 pip	package manager for Python packages & modules
 PIPEDA	Personal Information Protection and Electronic Documents Act (Canada)
 PIREP	Pilot Report  (aviation,  report of actual weather conditions encountered during flight)
+PIV	Personal Identity Verification (US Federal Employees and Contractors, FIPS 201-3)
 PJL	Page Job Language
 PKA	Packet Capture Agent
 PKE	Public Key Enabling (certificate authority)
@@ -4183,6 +4200,7 @@ PLMN	Public Land Mobile Network
 PLMN-ID	Public Land Mobile Network Identity, 14-bits  MCC(3 digits) + MNC(2/3 digits)
 PLTE	Private LTE: EPC + Content Server (aka "P-LTE:)
 pm	Latin: "post meridiem", before midnight, after noon
+PM	Particulate Matter (air quality: nitrogen oxides, ozone, sulfur oxides, carbon monoxide and lead)
 PM	Performance Management (NMS process)
 PM	Phase Modulation                           (analog signal modulation technique)
 PM	Project Management (business position)
@@ -4582,6 +4600,7 @@ RNAU	RAN-based Notification Area Update
 RNAV	Area Navigation  (aviation, IFR method allowing flights along a desired path)
 RNC	Radio Network Controller (3G UMTS)
 RND	Random
+RNG	Random Number Generator
 RNIS	Radio Network Information Service
 RNL	Radio Network Layer
 RNN	Recurrent Neural Networks (AI:  deep learning architecture)
@@ -4916,6 +4935,7 @@ SHF	Super High Frequency	  3 GHz -  30 GHz, radio
 ship	short for "relationship"  (slang:  support or imagine two people as a couple)
 shm	Shared Memory (Linux, temporary RAM file storage)
 SHOE	Simple HTML Ontology Extensions
+SHS	Secure Hash Standard (cybersecurity:  hash algorithms, FIPS 180-4)
 SI	French: "Système international",  English: "International System of Units".  aka "metric system"
 Si	IM-SSF and HSS		IMS interface
 SI	Study Item (3GPP request for features/technical specs to be studied/developed)
@@ -5226,6 +5246,7 @@ SW	Software (programs to direct a computer to perform specific activities)
 SW-CDMA	Satellite Wideband Code Division Multiple Access
 SWAT	Special Weapons and Tactics (law enforcement unit)
 SWG	Secure Web Gateway
+SWG 	Security Working Group (cybersecurity: teams that oversee, guide and enhance security practices)
 Swift	Apache OpenStack cloud storage platform, BLOB storage (large binary object)
 SWIFT	Society for Worldwide Interbank Financial Telecommunication or BIC (banking)
 SWOT	Strengths, Weaknesses, Opportunities and Threats (business metric)
@@ -5304,6 +5325,7 @@ TDCI	Tethering Detection Confidence Index (feature)
 TDD	Telecommunications Device for the Deaf
 TDD	Test Driven Development (Agile terminology)
 TDD	Time Division Duplexing mode
+TDES	"Triple-DES", Triple-Data Encryption Standard (FIPS Publication 46-3, withdrawn in 2005)
 TDF	Traffic Detection Function
 TDF-C	Traffic Detection Function Control Plane function
 TDF-U	Traffic Detection Function User Plane function
@@ -5583,9 +5605,9 @@ UAV	Unmanned Aerial Vehicle (drones, TR 22.829)
 UAW	Under-Water Acoustic communication
 UBIFS	Unsorted Block Image File System (flash-optimized file system)
 Ubuntu	Linux distribution developed by Canonical
+UCD	Unicode Character Database (define property, behavior and rule for all Unicode characters)
 UCI	Uplink Control Information
-UCS	Universal Coded Character Set (ISO/IEC 10646 standards for charachter sets)
-UCS	Universal Coded Character Set, ISO standard for character encoding
+UCS	Universal Coded Character Set (ISO/IEC 10646 standards for charachter encoding)
 UDC	User Data Convergence (TS 23.335)
 UDF	Universal Disk Format (file system for optical media, DVD, Blu-ray disc)
 UDIMM	Unbuffered DIMM (RAM classification, most common PC DIMM)
@@ -5687,7 +5709,10 @@ Ut	UE and Application Server	IMS interface
 UT	User Terminal
 UTC	Universal Time Coordinated (Zulu Time)
 UTDOA	Uplink Time Difference of Arrival
-UTF	Unicode Transformation Format, character encoding (RFC 3629)
+UTF	Unicode Transformation Format (character encoding, see UTF-8, UTF-16, UTF-32.  www.unicode.org)
+UTF-16	Unicode Transformation Format-16 (character encoding, 2-4 variable bytes, RFC 2781)
+UTF-32	Unicode Transformation Format-32 (character encoding,   4 fixed bytes)
+UTF-8	Unicode Transformation Format-8  (character encoding, 1-4 variable bytes, RFC 3629)
 UTM	UAS Traffic Management
 UTM	Universal Transverse Mercator (geographic longitude/latitude notation)
 UTM	Urchin Tracking Module, tracking text added to URL
@@ -6029,6 +6054,7 @@ yotta-	Y,  10 power  24	- numeric, see also "prefix"
 YSK	"you should know"  (slang: highlight information that is helpful, relevant)
 Yt	N5CW and TWAP interface
 YTA	"you're the a**hole"  (slang:  reply to AITA, at fault or acted unreasonably)
+YUM	Yellowdog Updater, Modified (command-line package management utility for RPM-Linux)
 Yw	TWAP and TWIF interface
 zazz	acronym file by AsimIslam, updated 20260915
 ZB	Zettabyte	memory size, 10^21	1,180,591,620,717,411,303,424 Bytes
