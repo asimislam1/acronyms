@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Regex Search in Local File</title>
+  <style>
+    body { font-family: Arial; margin: 40px; }
+    input, button { padding: 8px; margin: 5px; }
+    #result { margin-top: 20px; white-space: pre-wrap; }
+  </style>
+</head>
+<body>
+
+<h2>Search (Regex) in a Local File</h2>
+<input type="file" id="fileInput"><br>
+<input type="text" id="searchText" placeholder="Enter regex (e.g. ^Error|Warning)">
+<input type="text" id="regexFlags" placeholder="Flags (e.g. i, g, m)">
+<button onclick="searchInFile()">Search</button>
+
+<div id="result"></div>
+
+<script>
+function searchInFile() {
+  const file = document.getElementById('fileInput').files[0];
+  // <!-- const file = "C:\Users\ACER\Desktop\CODE\acronym.txt"; -->
+  const pattern = document.getElementById('searchText').value;
+  const flags = document.getElementById('regexFlags').value;
+  const resultDiv = document.getElementById('result');
+
+  if (!file) {
+    resultDiv.textContent = "Please select a file first.";
+    return;
+  }
+  if (!pattern) {
+    resultDiv.textContent = "Please enter a regex pattern.";
+    return;
+  }
+
+  let regex;
+  try {
+    regex = new RegExp(pattern, flags);
+  } catch (e) {
+    resultDiv.textContent = "Invalid regex: " + e.message;
+    return;
+  }
+
+  const reader = new FileReader();
+  reader.onload = function(e) {
+    const content = e.target.result;
+    const lines = content.split(/\r?\n/);
+
+    let matches = [];
+    lines.forEach((line, index) => {
+      if (regex.test(line)) {
+        <!--matches.push(`Line ${index + 1}: ${line}`);-->
+        matches.push(`${line}`);
+      }
+    });
+
+    resultDiv.textContent = matches.length
+      ? matches.join("\n")
+      : "No matches found.";
+  };
+
+  reader.readAsText(file);
+}
+</script>
+</body>
+</html>
