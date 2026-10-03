@@ -1330,7 +1330,9 @@ DN	Data Network (LTE "PDN" = 5G "DN", examples: Internet, IMS, AR/VR, etc.)
 DN	Destination Network (ITU-T E.164)
 DN	Directory Number (10-digits telephone number)
 DNA	Deoxyribo-Nucleic Acid (two-stranded double helix molecule carrying genetic code)
+DNACPR	Do Not Attempt CPR (medical:  do not perform CPR or other treatments if heart stops)
 DNAI	Data Network Access Identifier
+DNAR	Do Not Attempt Resuscitation (medical:  do not perform CPR or other treatments if heart stops)
 DNAT	Destination Network Address Translation
 DNC	Democratic National Committee (Democratic Party, US political party)
 dnd	"do not disturb"  (slang: quick way to say unavailable, or want to avoid interruptions)
@@ -1339,6 +1341,7 @@ dng	Digital Negative (Adobe, image file format)
 DNIC	US Department of Defense Network Information Center
 DNN	Data Network Name (5G, equal to 4G APN)
 DNQ	Did Not Qualify (sports: driver was knocked out during qualifying)
+DNR	Do Not Resuscitate (medical:  do not perform CPR or other treatments if heart stops)
 DNS	Did Not Start   (sports: driver was unable to start in the race)
 DNS	Domain Name Server (sub-set of DNS/system, resolving domain name and IP address)
 DNS	Domain Name System (application layer, TCP/UDP, RFC 8499.  port 53)
