@@ -241,6 +241,7 @@ ADMF	Administration Function
 ADN	Application Delivery Networking
 adPaaS	application development Platform as a Service (cloud concept)
 ADRAM	Asynchronous DRAM (RAM classification, async timing)
+ADS-B	Automatic Dependent Surveillance–Broadcast (aviation: aircraft location broadcast)
 ADSL	Asymmetric Digital Subscriber Line (8 Mbps downstream, 1.5 Mbps upstream)
 ADT	Abstract Data Type (objects defined by set of values and operations)
 AEC	Active Electrical Cable (copper cables for SFP or QSFP)
@@ -3997,7 +3998,7 @@ ORB	Oriented FAST and Rotated BRIEF (algorithm to detect and describe keypoints 
 orchestration	automation of management tasks for private and public clouds
 org	.org "dot org", organizations, now unrestricted (domain name suffix)
 ORI	Open Radio Equipment Interface
-ORM	Object-relational mapping (bridges OOP languages and RDBMS)
+ORM	Object-Relational Mapping (bridges RDBMS and OOP languages)
 ORQ	Operational ReQuest Management
 OS	Operating System
 OSA	Open Service Architecture
@@ -5371,6 +5372,7 @@ tera-	T,  10 power  12	- numeric, see also "prefix"
 TETRA	Trans-European Trunked Radio System (ETSI private mobile radio standard)
 Tez	Apache open-source framework for big data processing using MapReduce
 TF	TensorFlow (AI: machine learning library by Google)
+TFR	Temporary Flight Restrictions (aviation: geographically-limited, short-term, airspace restriction in US)
 TFS	Tape File System for magnetic tapes)
 TFT	Traffic Flow Template
 TFTP	Trivial File Transfer Protocol (UDP, simple file transfer, RFC 1350, port 69)
@@ -5555,6 +5557,7 @@ TS 44.069	Broadcast Call Control (BCC) protocol
 TS 48.049	Base Station Controller - Cell Broadcast Centre (BSC-CBC) interface specification; Cell Broadcast Service Protocol (CBSP)
 TS 51.011	Specification of the Subscriber Identity Module - Mobile Equipment (SIM-ME) interface
 TS/SCI	Top Secret/Sensitive Compartmented Information (US security clearance)
+TSA	Transportation Security Administration (US agency of DHS, security of transportation systems)
 TSAG	Telecommunication Standardization Advisory Group (ITU, www.itu.int/en/ITU-T/tsag)
 TSB	Telecommunication Standardization Bureau (ITU, www.itu.int/en/ITU-T/info/tsb)
 TSC	Technical Steering Committee (standards committee)
