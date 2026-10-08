@@ -1,7 +1,7 @@
 %	CSS/HTML styles:  relative to parent element's size
 .arpa	Infrastructure Top-Level Domain (internet domains)
 .NET	open source computer software framework for Windows, Linux and macOS
-0D	Zero Dimension: single point
+0D	SCALER,  Zero Dimension:  rank 0, magnitude only, no direction (e.g. speed, speed)
 100	HTTP Status Code:  Continue		  - Informational, request received and processed
 1000BASE-T	Gigabit Ethernet for LAN over twisted-pair cabling (RJ-45 connector)
 100BASE-T	Fast Ethernet for LAN over twisted-pair cabling    (RJ-45 connector)
@@ -9,7 +9,7 @@
 1080i	1920x1080 pixels-Interlaced,  HDTV specification
 1080p	1920x1080 pixels-Progressive, HDTV specification
 10BASE-T	Ethernet for LAN over twisted-pair cabling         (RJ-45 connector)
-1D	One Dimension: horizontal (x axis: line)
+1D	VECTOR,   One Dimension:  rank 1, magnitude and direction (e.g. velocity, force)
 1FF	SIM Form Factor (FF)		85.6mm x 53.98mm x 0.76mm
 1G	1980s, FDMA, BW:  30kHz, rate 2.4 kbps, network: analog.  AMPS (North America), NMT (Nordic)
 1xCSFB	Circuit Switched Fallback to 1xRTT
@@ -20,7 +20,7 @@
 200	HTTP Status Code:  Ok			  - Successful,    request succeeded
 201	HTTP Status Code:  Created		  - Successful,    new resource created
 204	HTTP Status Code:  No Content		  - Successful,    request successful, no content to return
-2D	Two Dimensions: horizontal and vertical (x,y axes:  square)
+2D	MATRIX,   Two Dimensions: rank 2, 2D array of rows and columns (e.g. x,y axes)
 2FA	Two-Factor Authentication (two distinct forms of verification to authenticate)
 2FF	SIM Form Factor (FF), Mini SIM	25mm x 15mm x 0.76mm
 2G	1990s,  FDMA/TDMA,  BW: 200kHz, rate: 64 kbps, network: CS.  GSM, iDEN, IS-136, PDC, CDMA
@@ -31,7 +31,7 @@
 304	HTTP Status Code:  Not Modified		  - Redirection,   cached version still valid
 365	Microsoft 365: Office Suite as cloud-based services
 3CLS	Communications, Computing, Control, Localization, Sensing
-3D	Three Dimensions: horizontal, vertical, depth (x,y,z axes:  cube)
+3D	TENSOR, Three Dimensions: rank 2, 3D array of rows and columns (e.g. x,y,z axes.  cube)
 3DES	Triple Data Encryption Standard (cybersecurity: symmetric encryption algorithm, legacy)
 3DGS	3D Gaussian Splatting (photorealistic views in real-time using Gaussian ellipsoids)
 3DoF	Three Degrees of Freedom (pitch, yaw, roll)
@@ -88,7 +88,7 @@
 401	HTTP Status Code:  Unauthorized		  - Client Error,  authentication required
 403	HTTP Status Code:  Forbidden		  - Client Error,  client does not have permission
 404	HTTP Status Code:  Not Found		  - Client Error,  resource not found on server
-4D	Four Dimensions: horizontal, vertical, depth, time (x,y,z,t axes:  tesseract, 4D hypercube)
+4D	TENSOR,  Four Dimensions: rank 3, 4D array of rows and columns (e.g. x,y,z, time axes. tesseract, 4D hypercube)
 4FF	SIM Form Factor (FF), nano SIM	12.3mm x 8.8mm x 0.67mm
 4G	2010s, OFDMA,  BW:  20MHz, rate:  1 Gbps, network: all IP.  LTE, LTE-A, WiMAX
 4GL	Fourth-Generation Language
@@ -98,6 +98,7 @@
 500	HTTP Status Code:  Internal Server Error  - Server Error,  generic server failed error
 502	HTTP Status Code:  Bad Gateway		  - Server Error,  server received invalid response from upstream server
 503	HTTP Status Code:  Service Unavailable	  - Server Error,  server temporarily unavailable
+5D	TENSOR,  Five Dimensions: rank 4, 5D array of rows and columns (e.g. add another axis to 4D)
 5ESS	Western Electric Class 5 PSTN switching system for AT&T (started in 1982)
 5G	2020s, OFDMA,  BW: 100MHz, rate: 20 Gbps, network: all IP, hybrid, virtualized
 5G NR	5G New Radio (gNodeB)
@@ -191,7 +192,10 @@ ABM	Abnormal Balanced Mode
 ABNF	Augmented Backus-Naur Form (RFC 5234)
 ABR	Adaptive Bit Rate
 ABR	Area Border Router (router that connects multiple OSPF areas)
+ABS	Absolute value or modulus (mathematics: non-negative, real number, magnitude)
+ABS	Acrylonitrile Butadiene Styrene (thermoplastic polymer used in consumer products, automotive, plumbing and electronics)
 ABS	Almost Blank Subframe (reduces interference in macrocells)
+ABS	Anti-lock Braking System (prevents automobile wheels from locking during abrupt stops)
 AC	Alternating Current
 AC	Application Context
 AC/DC	Alternating Current/Direct Current
