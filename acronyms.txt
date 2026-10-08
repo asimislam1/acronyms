@@ -178,6 +178,7 @@ AAGR	Average Annual Growth Rate (business metric)
 AAL	ATM Adaptation Layer
 AAL2	ATM Adaptation Layer type 2
 AAL5	ATM Adaptation Layer type 5
+AAMC	Association of American Medical Colleges (non-profit academic  organization , www.aamc.org)
 AAN	Aerial Access Network, with IAL:  VSAT - SL - IAL - FL - gateway - CN/PDN
 AARP	American Association of Retired Persons  (US, non-profit for over-50 Americans, www.aarp.org)
 AAU	Active Antenna Unit
@@ -504,7 +505,7 @@ B2B	Business to Business (business term,  'numeronym')
 B2B2C	Business to Business to Consumer (business term)
 B2C	Business to Consumer (business term)
 b4	"before"  (numeronym)
-BA	Latin: "Artium Baccalaureus",  English "Bachelor of Arts" (undergraduate degree)
+BA	English "Bachelor of Arts", Latin: "Artium Baccalaureus" (undergraduate degree)
 BaaS	Backend as a Service (cloud concept, aka "mBaaS")
 backhaul	transport network between radio-CU and network-CORE
 bae	"before anyone else", "significant other"  (slang: term of endearment)
@@ -624,7 +625,7 @@ BRI	ISDN Basic Rate Interface (2 B-channels and 1 D-channel)
 BRIEF	Binary Robust Independent Elementary Features (binary discriptor encoder for image keypoints)
 BRLLC	Broadband Reliable Low Latency Communication
 BS	Base Station (antenna + RRU + BBU + cabling)
-BS	Latin: "Scientiarum Baccalaureus",  English: "Bachelor of Science" (undergraduate degree)
+BS	English: "Bachelor of Science", Latin: "Scientiarum Baccalaureus" (undergraduate degree)
 BSA	Basic Service Area (region serviced by an AP-Access Point)
 BSC	Base Station Controller (2G GSM, TS 08.51)
 BSCS	Business Support and Control System
@@ -709,6 +710,7 @@ CAPM	Certified Associate in Project Management (certification, project managemen
 CAPTCHA	Completely Automated Public Turing test to tell Computers and Humans Apart
 CAPWAP	Control and Provisioning of Wireless Access Points
 CAR	Corrective Action Request
+CARS	Critical Analysis and Reasoning Skills
 CART	Classification and Regression Trees (AI: supervised ML model)
 CAS	Channel Associated Signaling
 CAS	Content-Addressed Storage  (ISM data storage, retrieves data based on content)
@@ -737,6 +739,7 @@ CBC-MAC	Counter Mode Cipher Block Chaining Message Authentication Code
 CBCF	Cell Broadcast Centre Function
 CBDO	Chief Business Development Officer (executive position)
 CBIM	Common Baseline Information Model
+CBK	Common Body of Knowledge
 CBOE	Chicago Board Options Exchange (US financial options exchange market)
 CBP	US Customs and Border Protection (US federal agency)
 CBR	Constant Bit Rate
@@ -748,6 +751,7 @@ CBSP	Cell Broadcast Service Protocol (TS 48.049)
 CBT	Cognitive Behavioral Therapy (medical: reshape negative thought-behavior cycles)
 CC	Carbon Copy (include recipients in email, visible)
 CC	Cell Change
+CC	Certified in Cybersecurity (cybersecurity: entry-level credentials)
 CC	Component Carrier (Carrier Aggregation chunk)
 CC	Coordination Center
 CCA	Congestion Control Algorithm
@@ -783,6 +787,7 @@ CCS	Converged Charging System
 CCS	Cross-Carrier Scheduled
 CCS7	Common Channel Signaling System 7
 CCSA	China Communications Standards Association, China (standards organization)
+CCSP	Certified Cloud Security Professional (cybersecurity: ISC2 certification)
 CCTA	Central Computer and Telecommunications Agency (UK government agency)
 ccTLD	Country Code Top-Level Domains (internet domains)
 CCTrCH	Common Control Transport Channel
@@ -859,6 +864,7 @@ CGI	Common Gateway Interface
 CGI	Computer Generated Image (digital visual content)
 CGID	Cell Global ID
 CGNAT	Carrier Grade Network Address Translation and management
+CGRC	Certified in Governance, Risk and Compliance (cybersecurity: ISC2 certification)
 CHAP	Challenge-Handshake Authentication Protocol (RADIUS protocol)
 char		data type, primitive:  single characters ('A', '!')
 charm	automates business logic in software packages (Juju operator)
@@ -895,7 +901,7 @@ CISA	Cybersecurity and Infrastructure Security Agency (US security agency)
 CISC	Complex Instruction Set Computer (ISA classification for processor architecture)
 CISM	Certified Information Security Manager (certification, cybersecurity)
 CISO	Chief Information Security Officer (cybersecurity, executive position)
-CISSP	Certified Information Systems Security Professional (certification, cybersecurity)
+CISSP	Certified Information Systems Security Professional (cybersecurity:  ISC2 certification)
 CITEL	Inter-American Telecommunication Commission (ITU WRC group)
 CITS	Cooperative Intelligent Transport Systems (ex: V2X, P2N, etc.)
 CJD	Creutzfeldt-Jakob Disease (fatal neurodegenerative disease caused by misfolded proteins-prions)
@@ -988,7 +994,7 @@ COMAC	Converged Multi-Access and Core
 COMINT	Communications Intelligence (from intercepting communication)
 COMMAND.COM	default command-line interpreter for MS-DOS and Windows
 CoMP	Coordinated Multipoint (3GPP Release 11)
-CompTIA	Computing Technology Industry Association  (non-profit organization)
+CompTIA	Computing Technology Industry Association (non-profit IT organization, www.comptia.org)
 COMSAT	Communications Satellite Corporation
 COMU	Communications Unit
 conda	open-source, cross-platform package and environment manager (Anaconda distribution)
@@ -1063,7 +1069,7 @@ cron	time-based job scheduler (Unix/Linux)
 crontab	table-like file that contains "cron" jobs (Unix/Linux)
 CRS	Cell specific Reference Signal
 CRS	Cognitive Radio System
-CRS	Coordinate Reference System (geographic longitude/latitude system)
+CRS	Coordinate Reference System (geographic notation for longitude & latitude)
 CRT	Cathode Ray Tube (video display technology)
 CRT	Critical Race Theory (education: study of race, society and law)
 CRUD	Create, Read, Update, Delete (RESTful API operations, see also http: POST, GET, PUT, DELETE)
@@ -1110,6 +1116,7 @@ CSRG	Computer Systems Research Group
 CSRIC	Communication Security, Reliability, and Interoperability Council
 CSRsp	Create Session Response
 CSS	Cascading Style Sheets (web page design language, W3C specification)
+CSSLP	Certified Secure Software Lifecycle Professional (cybersecurity: ISC2 certification)
 CSSOM	CSS Object Model (APIs for manipulating CSS with JavaScript)
 CST	US Central  Standard Time, UTC-6 (2nd SUN in NOV to 1st SUN in MAR)
 CSU	Channel Service Unit  (digital interface device, manages connection to networks)
@@ -1148,7 +1155,7 @@ CV2X	Cellular Vehicle to Everything
 CVC	Card Verification Code     (3-4 digits code on credit/debit cards, aka CCV,CID,CSC,CVC,CVD,CVV)
 CVD	Card Verification Data     (3-4 digits code on credit/debit cards, aka CCV,CID,CSC,CVC,CVD,CVV)
 CVD	Coordinated Vulnerability Disclosure
-CVE	Common Vulnerabilities and Exposures
+CVE	Common Vulnerabilities and Exposures (cybersecurity)
 CVES	Core Virtual function Event Streaming
 CVM	Customer Value Maximization (real-time business service model)
 CVPR	Conference on Computer Vision and Pattern Recognition (AI: focused on image/vision AI) 
@@ -1229,7 +1236,7 @@ DCS	Digital Combat Simulator (computer games: military aircraft & vehicle simula
 DCS	Digital Cross-connect System
 DCSNet	Digital Collection System Network (FBI surveillance system)
 DCSP	Data Center Service Provider
-DD	Decimal Degrees (geographic longitude/latitude notation)
+DD	Decimal Degrees (geographic notation for longitude & latitude )
 DDC	Data Dictionary Cache
 DDCMP	Digital Data Communications Message Protocol
 DDD	Direct Distance Dialing
@@ -1237,7 +1244,7 @@ DDDS	Dynamic Delegation Discovery Service (RFC 3958)
 DDE	Download Delivery Enhancements (TR 28.851)
 DDFF	Deep Depth From Focus (AI: deep learning approach in computer vision)
 DDL	Data Definition Language (SQL command category)
-DDM	Degrees Decimal Minutes (geographic longitude/latitude notation)
+DDM	Degrees Decimal Minutes (geographic notation for longitude & latitude)
 DDNMF	Direct Discovery Name Management Function (TS 29.555)
 ddof	Delta Degrees of Freedom (statistics: python numpy)
 DDoS	Distributed Denial of Service (cybersecurity, type of cyber attack)
@@ -1249,6 +1256,7 @@ DDR4	Double Data Rate SDRAM 4 (2014,  3600 MHz, 25.6 GB/s, common)
 DDR5	Double Data Rate SDRAM 5 (2020,  8400 MHz,   64 MB/s, current, high-performance)
 DDR6	Double Data Rate SDRAM 6 (2028,  high MHz,  134 MB/s, future)
 DDS	Digital Data Systems (organizations delivering IT solutions)
+DDS	Doctor of Dental Surgery (graduate degree)
 DEA	Drug Enforcement Administration (US federal agency)
 DEC	DECimal numbering system,     base 10: 0-9      (BIN, TER, OCT, DEC, HEX)
 DEC	Digital Equipment Corporation, US information technology company
@@ -1322,7 +1330,7 @@ DMO	Direct Mode Operation
 DMR	Digital Mobile Radio
 DMRS	De-Modulation Reference Signal (cell physical signal)
 DMS	Database Management System
-DMS	Degrees Minutes and Seconds (geographic longitude/latitude notation)
+DMS	Degrees Minutes and Seconds (geographic notation for longitude & latitude)
 DMS	Digital Multiplex System (Nortel MSC)
 DMT	Discrete Multi-Tone
 DMVPN	Dynamic Multipoint Virtual Private Network
@@ -1453,6 +1461,7 @@ DVD	Digital Video/Versatile Disc (type of optical DAS hardware)
 DVDR	Digital Versatile Disk Recordable
 DVDRW	Digital Versatile Disk Rewritable
 DVI	Digital Visual Interface
+DVM	Doctor of Veterinary Medicine (graduate degree)
 DVR	Digital Video Recorder
 DWARF	standardized debugging data format
 DWDM	Dense Wavelength Division Multiplexing (optical multiplexing technology)
@@ -1544,6 +1553,7 @@ ECT	Explicit Congestion Notification (RFC 3168, network congestion)
 EDA	Event Driven Architecture
 EDA	Exploratory Data Analysis (AI: data visualization)
 EDC	Emergency Communications Division (see DHS)
+EdD	Doctor of Education (academic degree, practice-oriented)
 EDGE	Enhanced Data for GSM Evolution (2.75G E-GPRS, 385 kbs, PSK)
 edge	transport or backhaul network (connects Access and Core network)
 EDID	Extended Display Identification Data (metadata format for display devices, VESA standards)
@@ -1979,7 +1989,7 @@ GAN	Generic Access Network (TS 43.318)
 GAN	Global Area Network (computer network)
 GAP	Generic Access Profile (DECT, ETSI 300.444)
 GARCH	Generalized Autoregressive Conditional Heteroskedasticity (statistics: time-varying volatility in time series)
-GARS	Global Area Reference System (geographic longitude/latitude notation)
+GARS	Global Area Reference System (geographic notation for longitude & latitude)
 GAT	Graph Attention Network (AI: deep learning for graph-structured data)
 GB	Gigabyte	memory size, 10^9	1,073,741,824 Bytes
 GB	Gradient Boosting (AI: supervised ML model)
@@ -2019,7 +2029,7 @@ GENSO	Global Educational Network for Satellite Operations
 GEO	Geostationary Equatorial Orbit satellites (35,786 km orbit)
 GEOINT	Geospatial Intelligence (formerly known as NIMA)
 GeoIP2	MaxMind geoip2 Python library for IP geolocation
-GEOREF	Geographic Reference System (geographic longitude/latitude notation)
+GEOREF	Geographic Reference System (geographic notation for longitude & latitude)
 GEOS	Databrick's group of data center regions
 GEOSAR	Geostationary Earth Orbiting Search and Rescue
 GEPOF	Gigabit Ethernet over Plastic Optical Fiber (IEEE P802.3bv)
@@ -2038,6 +2048,7 @@ GGSN	Gateway GPRS Support Node (2G GSM, 3G UMTS)
 GHz	Giga Hertz (billion cycles per second)
 Gi	GGSN and PDN	2G GPRS interface
 Gi	GPRS and external PDN	IMS interface
+GIAC	Global Information Assurance Certification (cybersecurity: certification entity, www.giac.org)
 GIC	Group Identification Code (ITU-T E.164)
 GICA	Group Identification Code Administrator (ITU-T E.164)
 gif	Graphics Interchange Format (image file extension)
@@ -2086,6 +2097,7 @@ GoS	Grade of Service
 gov	.gov "dot gov", US governmental use (domain name suffix)
 Gp	SGSN and GGSN	2G GPRS interface
 Gp	SGSN and GGSN	3G UMTS interface
+GPEN	GIAC Penetration Tester (cybersecurity: GIAC certification)
 GPGPU	General Purpose Graphics Processing Unit
 GPIO	General Purpose Input/Output
 GPL	GNU General Public License (free software license)
@@ -2189,6 +2201,7 @@ HBM	High Bandwidth Memory
 HBO	Home Box Office (cable TV channel)
 HCA	Host Channel Adapter (PCIe endpoint, high-throughput RDMA, storage intensive workloads)
 HCI	Hyperconverged Infrastructure
+HCISPP	Healthcare Information Security and Privacy Professional (cybersecurity: ISC2 certification)
 HCM	Human Capital Management (business software)
 HCS	Hierarchical Cell Structure
 HCS	Hyper-Converged Storage (data storage concept)
@@ -2732,6 +2745,7 @@ ISAKMP	Internet Security Association and Key Management Protocol (UDP, RFC 2408,
 ISBN	International Standard Book Number (unique numeric identifier for each edition and format of book)
 ISC	CSCF and AS, or between CSCF and MRB		IMS interface
 ISC	Internet Systems Consortium, Inc. (non-profit, develops core Internet software, www.isc.org)
+ISC2	International Information System Security Certification Consortium (cybersecurity: non-profit organization, www.isc2.org)
 ISDN	Integrated Services Digital Network (SS7, ITU-T Q.931 & Q.76x series)
 ISDN-UP	Integrated Services Digital Network-User Part (SS7, ITU-T Q.76x series)
 ISED	Innovation, Science and Economic Development Canada
@@ -2764,7 +2778,10 @@ ISPC	International Signaling Point Codes (ITU-T Q.708)
 ISR	Idle mode Signaling Reduction
 ISRP	Inter-System Routing Policies (traffic distribution and routing rules)
 ISS	Integrated Security Systems (systems and strategies to protect people and infrastructure)
+ISSAP	Information Systems Security Architecture Professional (cybersecurity: ISC2 certification)
+ISSEP	Information Systems Security Engineering Professional (cybersecurity: ISC2 certification)
 ISSI	Integrated Sub-System Interface
+ISSMP	Information Systems Security Management Professional (cybersecurity: ISC2 certification)
 ISSN	International Standard Serial Number (catalog number for periodical publications)
 IST	India Standard Time, UTC+5:30
 ISUP	ISDN User Part (ITU Q.76x series)
@@ -2821,7 +2838,7 @@ jar	Java Archive (file extension)
 JAVA	OOP programming language with WORA (Oracle Corporation)
 JAVAC	Java programming language Compiler
 JAX-RS	Jakarta RESTful Web Services (REST services)
-JD	Latin: "Juris Doctorem",  English: "Doctor of Jurisprudence" or "Doctor of Law" (graduate degree, law)
+JD	English: "Doctor of Jurisprudence" or "Doctor of Law", Latin: "Juris Doctorem" (graduate degree, law)
 JDF	Java Development Kit
 JDM	Joint Design Manufacturers
 JEDEC	Joint Electron Device Engineering Council (microelectronics standards, www.jedec.org)
@@ -3022,7 +3039,7 @@ lit	exciting, fun, amazing (slang)
 LIU	Line Interface Units
 LIW	Long Instruction Word (ISA classification)
 LL	Log Loss (statistics: evaluation metric)
-LLB	Latin: "Legum Baccalaureus", English: "Bachelor of Laws" (undergraduate degree, law)
+LLB	English: "Bachelor of Laws", Latin: "Legum Baccalaureus" (undergraduate degree, law)
 LLC	L2 Logical Link Control:  protocol, multiplexing, flow/error management (DLL = MAC+LLC)
 LLC	Limited Liability Company (hybrid legal entity, US)
 LLC	Logical Link Control (IEEE 802.2, part of Layer 2-Data Link)
@@ -3125,7 +3142,7 @@ M2PA	MTP User Peer to Peer Adaptation Layer
 M2UA	Message Transfer Part 2 User Adaptation Layer (RFC 3331)
 M3UA	Message Transfer Part (MTP) 3 User Adaptation Layer (RFC 4666)
 Ma	AS and I-CSCF		IMS interface
-MA	Latin: "Magister Artium",  English: "Master of Arts" (graduate degree)
+MA	English: "Master of Arts", Latin: "Magister Artium" (graduate degree)
 MA-PDU	Multi-Access Protocol Data Unit
 MaaS	Metal as a Service (cloud concept: machines, CPU, discs, networks, etc.)
 MAC	MAC Address: unique ID of any connected machine (on NIC card, eg: 00:1A:2B:3C:4d:5E)
@@ -3174,6 +3191,7 @@ MBSS	Mesh Basic Service Set (large area network with multiple AP-Access Point)
 MBTI	Myers–Briggs Type Indicator (medical: self-report personality assessment)
 MC	Message Center
 MC	Micro-Controller (also known as MCU, Micro-Controller Unit)
+MCAT	Medical College Admission Test (US, test admission to medical schools)
 MCC	Mission Critical Communication
 MCC	Mobile Content Cloud (Affirmed Networks product)
 MCC	Mobile Country Code (ITU-T E.164, 3 digits, IMSI=MCC+MNC+MSIN)
@@ -3224,6 +3242,7 @@ ME	Mobile Equipment (hardware and software, without SIM card)
 ME	Multi-Edge
 ME-LDPC	Multi-Edge Low Density Parity Check
 MEC	Multi-Access Edge Computing (5G technology, uRLLC. Hub at base station)
+MEd	Master of Education (graduate degree)
 MED	Multi-Exit Discriminator (BGP path attribute)
 MED	Multi-Exit Discriminator (sent to peers to influence paths to AS)
 MEF	Metro Ethernet Forum (consortium of network, cloud & technology providers, www.mplify.net)
@@ -3237,6 +3256,7 @@ MENA	Middle East and North Africa (region)
 MENAP	Middle East and North Africa, Afghanistan, Pakistan (region)
 MENAT	Middle East and North Africa, Turkey (region)
 MeNB	Master evolved NodeB
+MEng	Master of Engineering (graduate degree, focused on applied engineering)
 MEO	Medium Earth Orbit satellites (2,000 km to <35,786 km orbit)
 MEOSAR	Medium Earth Orbiting Search and Rescue
 MEPM	Multi-Access Edge Computing Platform Manager
@@ -3259,7 +3279,7 @@ MGCF	Media Gateway Control Function (IMS)
 MGCP	Media Gateway Control Protocol (RFC 2705)
 MGMT	Management
 MgNB	Master gNB (next generation NodeB)
-MGRS	Military Grid Reference System (geographic longitude/latitude notation)
+MGRS	Military Grid Reference System (geographic notation for longitude & latitude)
 MGS	Message Geographical Scope
 MGW	Media GateWay (IMS control plane node, TS 29.232)
 MGWF	Media GateWay Function
@@ -3409,8 +3429,8 @@ MRO	Mobility Robustness Optimization
 MRP	Market Representation Partner
 MRU	Maximum Receive Unit
 MRU	Multiple Resource Units
+MS	English: "Master of Science", Latin: "Magister Scientiarum" (graduate degree)
 Ms	IBCF and AS		IMS interface
-MS	Latin: "Magister Scientiarum",  English: "Master of Science" (graduate degree)
 MS	Mobile Station (2G GSM, 3G UMTS), mobile equipment+SIM card (TS 02.07)
 MS-DOS	MicroSoft–Disk Operating System (PC operating system)
 MSA	Mail Submission Agent (SMTP email server)
@@ -3441,6 +3461,7 @@ MSK	Minimum Shift Keying                       (digital signal modulation techni
 MSLD	Maritime Survivor Locating Device
 MSM	Multi-Site Management (software)/Mobile Software Management
 MSNBC	Microsoft/National Broadcasting Company (cable TV channel)
+MSP	Managed Service Provider (deliver IT services: network administration, help desk, cloud, etc.)
 MSP	Mobile Service Providers
 MSP	Multi-Service Proxy
 MSPP	Multi-Service Provisioning Platform (TDM, packet & optical services)
@@ -3450,12 +3471,13 @@ MSRP	Message Session Relay Protocol
 MSS	Maximum Segment Size (TCP message parameter)
 MSS	Mobile Satellite Services
 MSS	Mobile Switching center Server
-MSSP	Managed Security Service Providers
+MSSP	Managed Security Service Providers (cybersecurity service: security, monitoring, incident response, etc.)
 MSSQL	Microsoft SQL Server (port 1433)
 MST	Multiple Spanning Tree (routing protocol)
 MST	US Mountain Standard Time, UTC-7 (2nd SUN in NOV to 1st SUN in MAR)
 MSTP	Multiple Spanning Tree Protocol  (IEEE 802.1s)
 MSU	Message Signal Units (ISUP)
+MSW	Master of Social Work (graduate degree)
 MT	Message Type in SWIFT financial messages (legacy format, see also MX)
 MT	Mobile Termination
 MT-EDT	Mobile Terminated Early Data Transmission
@@ -3727,6 +3749,7 @@ NOAA	National Oceanic and Atmospheric Administration (US meteorological agency)
 NOC	Network Operations Center (also known as OMC)
 NodeB	Radio Transceiver Station (3G UMTS, NodeB: temporary name that became permanent)
 NodeJS	open-source JavaScript environment to create servers, web apps, command line tools and scripts
+NodeZero	autonomous penetration-testing platform by Horizon3.ai
 NOIR	Name, Order, Interval, Ratio  (statistics: measurement scale)
 NOMA	Non-Orthogonal Multiple Access (5G technology)
 noob	beginner, amateur, inexperienced, aka n00b (slang: can be playful, humorous or derogatory)
@@ -3914,6 +3937,7 @@ OFCS	Offline Charging System (postpaid services)
 OFDM	Orthogonal Frequency Division Multiplexing
 OFDMA	Orthogonal Frequency Division Multiple Access (4G LTE-downlink)
 off-hook	circuit in use, call in-progress
+OffSec	Offensive Security (cybersecurity)
 OFR	Office of Federal Register (prepare/publish US private/public laws)
 OG	original, "original gangster"  (slang: someone who’s respected, exceptional, authentic)
 OGC	Open Geospatial Consortium (standards organization, www.ogc.org)
@@ -4004,6 +4028,7 @@ OS	Operating System
 OSA	Open Service Architecture
 OSB	Oriented Strand Board     (type of wood board, very high strength, stonger then HDF)
 OSC	Operations Support Center
+OSCP	Offensive Security Certified Professional (cybersecurity: certification)
 OSDL	Open Source Development Labs (non-profit technology consortium, obsolete, 2000-2007)
 OSF	Open Software Foundation (Open Group, www.opengroup.org)
 OSG	Open Source Group
@@ -4176,7 +4201,7 @@ PGA	Professional Golfer’s Association (sports association)
 PGP	Pretty Good Privacy, encryption program
 PGW	Packet Data Network Gateway (4G LTE)
 PHB	Per-Hop Behaviors (how each network device handles packets at every hop to provide QoS)
-PhD	Latin: "Philosophiae Doctor",  English: "Doctor of Philosophy" (highest academic degree)
+PhD	English: "Doctor of Philosophy", Latin: "Philosophiae Doctor" (academic degree, research-oriented)
 PHDC	Personal Healthcare Device Class (ex: pulse monitor watch, fitbit)
 PHI	Protected Health Information (private information)
 PHICH	Physical HARQ Indicator Channel (LTE downlink control channel)
@@ -4901,6 +4926,7 @@ SEC	SDH Equipment Clock
 SEC	Securities and Exchange Commission (US financial agency)
 SEC	System Security Extensions
 sec	tangent   = hypotenuse/adjacent  (trignometric function, right-angled triangle)
+SEC+	CompTIA Security+ (cybersecurity: CompTIA certification)
 SECaaS	Security as a Service
 SECAG	Security Assurance Group
 SECAM	Security Assurance Methodology
@@ -5153,7 +5179,7 @@ sRNC	serving Radio Network Controller
 SRP	Stream Reservation Protocol
 SRR	Session Reporting Rule
 SRS	Sounding Reference Signal, used in uplink
-SRS	Spatial Reference System (geographic longitude/latitude system)
+SRS	Spatial Reference System (geographic notation for longitude & latitude)
 srsly	short for "seriously"  (slang)
 SRT	Shortest remaining time (scheduling algorithm)
 SRTT	Smoothed Round-Trip Time
@@ -5178,6 +5204,7 @@ SSCF-NNI	Service Specific Coordination Function-Network Node Interface (on SSCOP
 SSCMSP	Session and Service Continuity Mode Selection Policy
 SSCOP	Service Specific Coordination Oriented Protocol
 SSCOPMCE	Service Specific Connection Oriented Protocol in a Multi-Link and
+SSCP	Systems Security Certified Practitioner (cybersecurity: ISC2 certification)
 SSCS	Service Specific Coordination Sublayer
 SSD	Shared Secret Data (128-bit security key, , CAVE algorithm)
 SSD	Solid State Drive (data storage: type of DAS hardware, hard drive)
@@ -5321,6 +5348,7 @@ TB	Transport Block
 TBA	"to be announced"  (slang: not yet finalized)
 TBC	"to be continued", "to be confirmed"  (slang: not final yet, still needs more information)
 TBD	"to be determined", "to be decided" (slang: details are undecided or pending)
+TBF	"to be fair"  (slang: introduce a fair, balanced or nuanced perspective)
 TBH	"to be honest"  (slang: introduce a genuine or candid opinion)
 TC	Transaction Capabilities
 TC	Trunk Code (E.164 numbering plan)
@@ -5722,7 +5750,7 @@ USD	United States Dollar (currency)
 USDA	US Department of Agriculture (US federal agency)
 USIM	Universal Subscriber Identity Module (TS 31.102)
 USMCA	United States-Mexico-Canada Agreement
-USNG	United States National Grid (geographic longitude/latitude notation)
+USNG	United States National Grid (geographic notation for longitude & latitude)
 USP	Universal Signaling Point (Nortel)
 USP	User Services Platform (BBF TR-369)
 USPP	Universal Subscriber Profile Platform
@@ -5737,7 +5765,7 @@ UTF-16	Unicode Transformation Format-16 (character encoding, 2-4 variable bytes,
 UTF-32	Unicode Transformation Format-32 (character encoding,   4 fixed bytes)
 UTF-8	Unicode Transformation Format-8  (character encoding, 1-4 variable bytes, RFC 3629)
 UTM	UAS Traffic Management
-UTM	Universal Transverse Mercator (geographic longitude/latitude notation)
+UTM	Universal Transverse Mercator (geographic notation for longitude & latitude)
 UTM	Urchin Tracking Module, tracking text added to URL
 uTorrent	file sharing P2P protocol (BEP 29, bittorrent.org)
 UTP	Unshielded Twisted Pair (twisted-pair cable)
@@ -5926,7 +5954,6 @@ wav	Audio for Windows (media file extension)
 WB	Wide Band
 WBA	Wireless Broadband Alliance (standards organization, www.wballiance.com)
 WCDMA	Wideband Code Division Multiple Access (3G UMTS)
-WCGW	"what could go wrong" (slang: highlight risky or potentially disastrous situations)
 WCGW	"what could go wrong?" (slang: situations that are likely to end poorly or humorously)
 WCIT	World Congress on Information Technology (ICT event)
 WCS	Wireless Communications Service
