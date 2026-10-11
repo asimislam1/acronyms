@@ -327,6 +327,7 @@ AMDEX	AI and ML Design & Engineering Excellence Framework (ARTiBA)
 AMF	Access and Mobility Function (5G network function, TS 23.501, TS 29.518)
 AMFID	AMF Identifier, AMF Region ID (8-bits) + AMF Set ID (10-bits) + AMF Set ID (6-bits)
 AMI	Amazon Machine Image (AWS service, virtual machine within EC2)
+AML	Anti-Money Laundering (banking: framework to prevent disguising illegal funds as legitimate income)
 AMOLED	Active Matrix OLED (video display technology)
 AMOR	Automated Monitoring, Response and Operations
 AMPS	Advanced Mobile Phone System (1G, FDMA)
@@ -440,6 +441,7 @@ ASR	Aggregation Services Router (Cisco product line)
 ASR	Automatic Speech Recognition
 ASR5K	Aggregation Services Routers 5000 (Cisco router)
 ASTM	American Society for Testing and Materials (standards organization, www.astm.org)
+ASVS	Application Security Verification Standard (OWASP’s open framework for security controls)
 AT	Access Terminal (end user equipment)
 AT&T	American Telephone and Telegraph Inc. (US telecommunications company)
 ATA	Advanced Technology Attachment (hard-disk interface)
@@ -630,6 +632,7 @@ BRIEF	Binary Robust Independent Elementary Features (binary discriptor encoder f
 BRLLC	Broadband Reliable Low Latency Communication
 BS	Base Station (antenna + RRU + BBU + cabling)
 BS	English: "Bachelor of Science", Latin: "Scientiarum Baccalaureus" (undergraduate degree)
+BSA	Bank Secrecy Act (banking: US law requiring compliance with AML, 1970)
 BSA	Basic Service Area (region serviced by an AP-Access Point)
 BSC	Base Station Controller (2G GSM, TS 08.51)
 BSCS	Business Support and Control System
@@ -807,6 +810,7 @@ CD-WO	Compact Disk – Write Once
 CD-XA	Compact Disk – Extended Architecture
 cda	CD Audio Track (media file extension)
 CDC	Centers for Disease Control and Prevention (US federal agency)
+CDD	Customer Due Diligence (banking: ongoing monitoring to detect unusual or suspicious activity)
 CDE	Cardholder Data Environment (digital wallet environment)
 CDF	Charging Data Function
 CDF	Cumulative Distribution Function (statistics)
@@ -858,6 +862,8 @@ CFPB	Consumer Financial Protection Bureau (US government agency)
 CFQ	Completely Fair Queuing (Linux synchronous requests process)
 CFR	Code of Federal Regulations (codification of NARA/OFR regulations)
 CFRA	Contention Free Random Access (TS 38.300, Random Access Procedure)
+CFT	Capture The Flag (cybersecurity: gamified cybersecurity competition)
+CFT	Countering the Financing of Terrorism (banking: compliance with international AML laws)
 CFTC	Commodity Futures Trading Commission (US government agency, regulates derivitive markets, www.cftc.gov)
 CFU	Call Forwarding Unconditional (supplementary service)
 CG-VR	Computer Generated Virtual Reality (extended reality)
@@ -1267,7 +1273,9 @@ DEC	Digital Equipment Corporation, US information technology company
 deci-	d,  10 power  -1	- numeric, see also "prefix"
 DECOR	Dedicated Core Networks
 DECT	Digital Enhanced Cordless Telecommunications
+DeFi	Decentralized Finance (banking: blockchain engineer specializing in decentralized finance applications)
 DEFLATE	lossless data compression algorithm (RFC 1951, uses LZ77 and Huffman coding)
+DEI	Diversity, Equity and Inclusion   (US, frameworks to promote the fair treatment of all people)
 DEI	Drop Eligible Indicator
 deka-	da, 10 power   1	- numeric, see also "prefix"
 DEL	DELete
@@ -1279,6 +1287,7 @@ DES	Data Encryption Standard (FIPS Publication 46-3, withdrawn in 2005)
 DETR	DEtection TRansformer (AI: deep learning model, object detection)
 Dev	Development (business term)
 DevOps	Development + Operations (business term)
+DEXs	Decentralized Exchanges (banking: peer-to-peer cryptocurrency trading platforms)
 DFA	Deterministic Finite Automaton/Acceptor (aka "FSM", "DFSM", "DFSA")
 DFB	Distributed Feedback Laser (commonly used in DWDM systems)
 DFE	Digital Front End
@@ -1431,7 +1440,7 @@ DSQ	Disqualified    (sports: driver started the race but was removed after break
 DSR	Data Set Ready       (RS-232 line)
 DSRC	Dedicated Short-Range Communication service (IEEE 802.11p, V2X)
 DSRK	Domain-Specific Root Key
-DSS	Data Security Standard
+DSS	Data Security Standard (cybersecurity: formalized guidelines to sensitive data)
 DSS	Dynamic Spectrum Sharing
 DSS1	Digital Subscriber signaling System No. 1 (ITU-T I.411)
 DSSS	Direct-Sequence Spread Spectrum            (spread-spectrum modulation technique)
@@ -1560,6 +1569,7 @@ EDC	Emergency Communications Division (see DHS)
 EdD	Doctor of Education (academic degree, practice-oriented)
 EDGE	Enhanced Data for GSM Evolution (2.75G E-GPRS, 385 kbs, PSK)
 edge	transport or backhaul network (connects Access and Core network)
+EDI	Equality, Diversity and Inclusion (UK, frameworks to promote the fair treatment of all people)
 EDID	Extended Display Identification Data (metadata format for display devices, VESA standards)
 EDMG	Enhanced Directional Multi-Gigabit (IEEE 802.11ay standard)
 EDO-DRAM	Extended Data Out DRAM (RAM classification, older DRAM variant)
@@ -1805,6 +1815,7 @@ FAST	Features from Accelerated Segment Test (algorithm to detect strong changes 
 FAT	Factory Acceptance Test (acceptance testing)
 FAT	File Allocation Table  (file system, common on USB)
 FAT32	File Allocation Table 32 (file system, common on USB)
+FATF	Financial Action Task Force, French: "GAFI" (banking: organization to combat money laundering, www.fatf-gafi.org)
 FAUSCH	Fast Uplink Signaling Chanel
 FAX	facsimile, transmission of scanned printed material
 FB	Fall-Back
@@ -1861,6 +1872,7 @@ FIDO	Fast Identity Online (industry association for authentication standards, ww
 FIFO	First-In, First-Out (scheduling algorithm)
 FIG	Fast Information Group
 FIN	FINish, no more data from sender (TCP/IP message)
+FinCEN	Financial Crimes Enforcement Network (banking: US Treasury bureau, www.fincen.gov)
 finna	going to, intending to (slang)
 FIPS	Federal Information Processing Standards (US standards published by NIST, csrc.nist.gov)
 FIRST	Forum of International Response and Security Teams
@@ -1987,6 +1999,7 @@ GAA	General Authorized Users (CBRS spectrum user)
 GAA	Generic Authentication Architecture (TS 33.221)
 GAD	Geographical Area Description (TS 23.032)
 GAE	Google App Engine (cloud computing platform as a service)
+GAFI	Groupe d'Action Financière, English: "FATF" (banking: organization to combat money laundering, www.fatf-gafi.org)
 GALILEO	Global Navigation Satellite System (European Union)
 GAN	Generative Adversarial Networks (AI: deep learning architecture)
 GAN	Generic Access Network (TS 43.318)
@@ -2138,6 +2151,7 @@ Gs	MSC/VLR and SGSN	3G UMTS interface
 Gs	SGSN and MSC		2G GPRS interface, exchange database
 GSC	Global Standards Collaboration
 GSCN	Global Synchronization Channel Number
+GSFC	Goddard Space Flight Center (NASA's main space flight complex located in Greenbelt, Maryland)
 GSI	Global System Integrator
 GSLB	Global Server Load Balancing
 GSM	Global System for Mobile Communications (2G GSM, FDMA & TDMA)
@@ -2918,6 +2932,7 @@ KTS	Knowledge Transfer Session (training)
 Kubernetes	open-source container orchestration platform, aka "k8s" (Greek: "helmsan", "pilot")
 KVI	Key Value Indicators (metrics)
 KVM	Kernel-based Virtual Machine
+KYC	Know Your Customer (banking: verify customer identity, behavior and risk profile)
 L-W-CP	Legacy Wireline access Control Plane protocol (FN-RG and W-AGF)
 L-W-UP	Legacy Wireline access User    Plane protocol (FN-RG and W-AGF)
 L1	astronomy:  Lagrange Point 1 at 932k miles/1.5Mkm from Earth, towards Sun
@@ -4068,6 +4083,7 @@ OvS	Open vSwitch (open-source, production-quality, multilayer virtual switch, Ap
 OVSDB	Open Virtual Switch Database
 OVSF	Orthogonal Variable Spreading Factor
 OWA	Outlook Web Access (Microsoft Office Outlook web application)
+OWASP	Open Web Application Security Project (non-profit organization for web applications security, www.owasp.org)
 OWL	Web Ontology Language
 OXC	Optical Cross-Connect
 p-ANI	Pseudo-ANI Automatic Number Identification (non-NANP caller number sent to PSAP)
@@ -4131,10 +4147,10 @@ PCF	Policy Control Function (5G network function, TS 23.501, TS 29.513)
 PCFICH	Physical Control Format Indicator Channel
 PCG	Project Coordination Group
 PCH	Paging Channel (PHY-MAC transport channel)
-PCI	Payment Card Industry (credit card information process, store & transmit requirements)
+PCI	Payment Card Industry (organizations involved in payment systems)
 PCI	Peripheral Component Interconnect (connection between PC components)
 PCI	Physical Cell Identifier
-PCI-DSS	Payment Card Industry Data Security Standard (cybersecurity, requirements for PCI)
+PCI-DSS	Payment Card Industry Data Security Standard (cybersecurity: requirements for PCI)
 PCI-SIG	Peripheral Component Interconnect Special Interest Group (PCI industry consortium, www.pcisig.com)
 PCI-SSC	Peripheral Component Interconnect Security Standards Council (PCI compliance authority)
 PCID	Physical Cell Identity
@@ -4815,6 +4831,7 @@ SARIMA	Seasonal ARIMA (statistics: model for time series forecasting)
 SARIMA	Seasonal Auto-Regressive Integrated Moving Average (AI: forcasting model)
 SARP	Standards and Recommended Practice
 SARS	Severe Acute Respiratory Syndrome (medical: viral infection)
+SARs	Suspicious Activity Reporting (banking: report suspicious transactions to regulatory authorities)
 SARSA	State-Action-Reward-State-Action (AI: unsupervised ML model, reinforcement learning)
 SART	Search and Rescue Transponder
 SAS	Statement on Auditing Standards
@@ -5213,6 +5230,7 @@ SSCS	Service Specific Coordination Sublayer
 SSD	Shared Secret Data (128-bit security key, , CAVE algorithm)
 SSD	Solid State Drive (data storage: type of DAS hardware, hard drive)
 SSD	Subscriber Session Director
+SSDLC	Secure Software Development Lifecycles (framework for security practices in the software development process)
 SSDP	Simple Service Discovery Protocol (RFC 4566)
 SSF	Service Signaling Function
 SSH	Secure Shell Protocol (application layer, secure remote access, port 22)
@@ -5804,6 +5822,7 @@ VAE	Variational Auto-Encoders (AI: generative model)
 VAR	Vector Autoregression (statistics: model for time series forecasting)
 VAS	Value Added Service
 VASP	Value Added Service Provider
+VASP	Virtual Asset Service Provider (banking: business that exchanges, transfers or issues cryptocurrencies)
 VAX	Virtual Address eXtension
 VB	Visual Basic (object-oriented programming language by MicroSoft)
 VBA	Visual Basic for Applications (MicroSoft Excel automation tool)
