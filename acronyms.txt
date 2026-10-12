@@ -892,6 +892,7 @@ CI	Continuous Integration (business process)
 CI-COU	Controlled Introduction of Company Official Use device
 CI/CD	Continuous Integration/Continuous Deployment (business process)
 CIA	Central Intelligence Agency (US intelligence service)
+CIA	Confidentiality, Integrity and Availability, aka "CIA Triad" (cybersecurity: core principles)
 CIC	Circuit Identification Code (ITU-T Q.763)
 CICD	"CI/CD", Continuous Integration/Continuous Deployment (business process)
 CID	Card Identification Number (3-4 digits code on credit/debit cards, aka CCV,CID,CSC,CVC,CVD,CVV)
@@ -1070,6 +1071,7 @@ CRD	Customer Reference Data
 CRE	Cell Range Expansion
 CRFM	Center for Research on Foundation Models (AI: Stanford University initiative focused on models)
 CRG	Cable Residential Gateway
+CRISC	Certified in Risk and Information Systems Control (cybersecurity: certification in risk management)
 CRISPR	Clustered Regularly Interspaced Short Palindromic Repeats (family of DNA found in bacteria)
 CRLF	Carriage-Return "\r", Line-Feed "\n" sequence
 CRM	Customer Relationship Management (business software)
@@ -1999,6 +2001,7 @@ GAA	General Authorized Users (CBRS spectrum user)
 GAA	Generic Authentication Architecture (TS 33.221)
 GAD	Geographical Area Description (TS 23.032)
 GAE	Google App Engine (cloud computing platform as a service)
+GAESP 	GenAI Expert Cybersecurity Professional (cybersecurity: certification in AI systems and governance)
 GAFI	Groupe d'Action Financière, English: "FATF" (banking: organization to combat money laundering, www.fatf-gafi.org)
 GALILEO	Global Navigation Satellite System (European Union)
 GAN	Generative Adversarial Networks (AI: deep learning architecture)
@@ -2020,6 +2023,7 @@ GBR	Guaranteed Bit Rate
 GCC	Group Call Control (TS 44.068)
 GCC	Gulf Cooperation Council (Middle East economic union)
 GCI	Global Cable Identifier
+GCIH	GIAC Certified Incident Handler (cybersecurity: GIAC certification)
 GCJ	GNU Compiler for Java
 GCM	Galois/Counter Mode (cipher mode)
 GCN	Graph Convolutional Network (AI: deep learning for graph-structured data)
@@ -2151,6 +2155,7 @@ Gs	MSC/VLR and SGSN	3G UMTS interface
 Gs	SGSN and MSC		2G GPRS interface, exchange database
 GSC	Global Standards Collaboration
 GSCN	Global Synchronization Channel Number
+GSEC	GIAC Security Essentials Certification (cybersecurity: GIAC certification)
 GSFC	Goddard Space Flight Center (NASA's main space flight complex located in Greenbelt, Maryland)
 GSI	Global System Integrator
 GSLB	Global Server Load Balancing
@@ -4404,6 +4409,7 @@ PST	US Pacific Standard Time, UTC-8 (2nd SUN in NOV to 1st SUN in MAR)
 PSTN	Public Switch Telephone Network (voice network)
 PSU	Power Supply Unit
 pt	CSS/HTML styles:  point with fixed precise size.  1 point = 1/72 of an inch
+PT	Penetration Testing (cybersecurity: simulates real-world attacks to exploit vulnerabilities and validate impact)
 PT-RS	Phase Tracking Reference Signal
 PTCRB	PCS Type Certification Review Board
 PTE	Path Terminating Element
@@ -5816,9 +5822,11 @@ V2V	Vendor to Vendor
 V2X	Vehicle to Everything (TS 23.287)
 VA	Vertical Alignment Panels (video display technology)
 VA	Veterans Affairs (US department for military personnel)
+VA	Vulnerability Assessment (cybersecurity: use automated tools to detect weaknesses, misconfigurations and exposures)
 VAAL	Video Adaptation at Application Layer
 VACL	VLAN Access Control List
 VAE	Variational Auto-Encoders (AI: generative model)
+VAPT	Vulnerability Assessment Penetration Testing (cybersecurity: uncovers vulnerabilities with VA & PT)
 VAR	Vector Autoregression (statistics: model for time series forecasting)
 VAS	Value Added Service
 VASP	Value Added Service Provider
