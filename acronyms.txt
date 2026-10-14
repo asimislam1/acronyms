@@ -64,7 +64,7 @@
 3GPP Series 23	Technical Realization ("stage 2")
 3GPP Series 24	Network Signaling Protocols  (24 & 29 series)
 3GPP Series 25	Radio Aspects: W-CDMA, UTRAN/UMTS, HSPA
-3GPP Series 26	CODECs - Speech, audio, video, and multimedia 	
+3GPP Series 26	CODECs - Speech, audio, video and multimedia 	
 3GPP Series 27	Data - 3GPP Inter-Working with External Data Networks
 3GPP Series 29	Network Signaling Protocols  (24 & 29 series)
 3GPP Series 31	SIM, USIM
@@ -80,6 +80,7 @@
 3GPP Series 4x	GERAN
 3GPP Series 55	Security Algorithms-GERAN specific  (35 & 55 series)
 3GPP2	3rd Generation Partnership Project 2 (standards organization, www.3gpp2.org)
+3PAO	Third-Party Assessment Organizations, aka "TPAO" (US DoD, entity that assesses cybersecurity compliance)
 3SLS	Three-Stage Least Squares method (statistics: Simultaneous Equations Models)
 3V	Volume, Velocity, Variety (big data concept)
 3WC	Three Way calling
@@ -148,7 +149,7 @@
 802.1q	"Dot1q", Virtual Local Area Network standard
 802.3	CAT-3 unshielded twisted pair (UTP) wiring
 802.3ab	Gigabit Ethernet, CAT-5 UTP wiring
-802.3an	Gigabit Ethernet, CAT-5e, CAT-6, and CAT-7 cables
+802.3an	Gigabit Ethernet, CAT-5e, CAT-6 and CAT-7 cables
 802.3u	Fast Ethernet, CAT-5, CAT-5E, or CAT-6 UTP wiring
 802.3z	Gigabit EthernetCopper UTP/STP twisted-pair cabling
 8P8C	RJ connector:  8-physical contacts (max) and 8-contacts (actual)
@@ -258,7 +259,7 @@ AFAIK	"as far as i know"  (slang: information is believed to be correct, but not
 AFAIR	"as far as i remember" (slang: sharing information from memory)
 AFE	Analog Front End
 AFGSC	Air Force Global Strike Command (US military, USAF 2009-present)
-AFK	"away from keyboard" (slang: person is away from devices, and is unable to respond immediately)
+AFK	"away from keyboard" (slang: person is away from devices and is unable to respond immediately)
 AFL-CIO	American Federation of Labor and Congress of Industrial Organizations (US trade union, aflcio.org)
 AFM	Advanced Firewall Manager
 AfNOG	African Network Operators Group
@@ -370,7 +371,7 @@ APM	Access Policy Manager
 APN	Access Point Name (name of gateway between telecommunication and computer networks)
 APNIC	Asia-Pacific Network Information Center (ICANN RIR)
 APOD	Astronomy Picture of the Day (website by NASA and Michigan Technology Univeristy, since 1995)
-APR	Annual Percentage Rate (US, annual cost of a loan including interest, points, and fees)
+APR	Annual Percentage Rate (US, annual cost of a loan including interest, points and fees)
 APRU	Average Revenue per User (business metric)
 APS	Automatic Protection Switching
 APT	Advanced Persistent Threat (cybersecurity)
@@ -472,7 +473,7 @@ ATSSS	steering   - direct data traffic based on standby, priority, short-path, Q
 ATSSS	switching  - direct data traffic from one access network to another
 ATSSS-LL	Access Traffic Steering, Switching, Splitting-Low Layer
 ATT	American Telephone and Telegraph Inc. (see "AT&T")
-ATT&CK	Adversarial Tactics, Techniques and Common Knowledge
+ATT&CK	Adversarial Tactics, Techniques and Common Knowledge (cybersecurity: framework, knowledge base, www.mitre.org))
 atto-	a,  10 power -18	- numeric, see also "prefix"
 ATU	African Telecommunications Union (ITU WRC group)
 ATU-R	ADSL Transceiver Unit-Remote
@@ -619,7 +620,7 @@ BPaaS	Business Process as a Service
 BPCF	Broadband Policy Control Framework (BBF TR-134)
 BPDU	Bridge Protocol Data Units  (network frame in STP routing protocol)
 BPF	Berkeley Packet Filter (kernel mechanism for network filtering and monitoring, see eBPF)
-bps	bits  per second (see also "prefix")
+bps	bits  per second
 Bps	bytes per second
 BPSK	Binary Phase Shift Keying                  (digital signal modulation technique)
 BR	Bit Rate
@@ -673,6 +674,7 @@ C-link	SS7  Cross:    interconnect mated-pair STPs
 C-RAN	Cloud (virtualized) Radio Access Network or Centralized Radio Access Network
 C-RNTI	Cell Radio Network Temporary Identifier
 C/R	Command/Response
+C2	Command and Control
 C2M2	Cybersecurity Capability Maturity Model (cybersecurity framework)
 C2W	Call to Work (engaging support personnel during unplanned events/outages)
 C3	Chrysler Comprehensive Compensation System
@@ -794,9 +796,10 @@ CCS	Converged Charging System
 CCS	Cross-Carrier Scheduled
 CCS7	Common Channel Signaling System 7
 CCSA	China Communications Standards Association, China (standards organization)
-CCSP	Certified Cloud Security Professional (cybersecurity: ISC2 certification)
+CCSAS	Certified Cybersecurity Attack Specialist (cybersecurity: certification)
+CCSP	Certified Cloud Security Professional (cybersecurity: certification by ISC2)
 CCTA	Central Computer and Telecommunications Agency (UK government agency)
-ccTLD	Country Code Top-Level Domains (internet domains)
+ccTLD	Country Code Top-Level Domains (internet domains, ISO-3166 standards)
 CCTrCH	Common Control Transport Channel
 CCTV	Closed-Circuit Television
 CCU	Channel Codec Unit
@@ -874,7 +877,7 @@ CGI	Common Gateway Interface
 CGI	Computer Generated Image (digital visual content)
 CGID	Cell Global ID
 CGNAT	Carrier Grade Network Address Translation and management
-CGRC	Certified in Governance, Risk and Compliance (cybersecurity: ISC2 certification)
+CGRC	Certified in Governance, Risk and Compliance (cybersecurity: certification by ISC2)
 CHAP	Challenge-Handshake Authentication Protocol (RADIUS protocol)
 char		data type, primitive:  single characters ('A', '!')
 charm	automates business logic in software packages (Juju operator)
@@ -911,8 +914,8 @@ CIS	Container Ingress Service
 CISA	Cybersecurity and Infrastructure Security Agency (US security agency)
 CISC	Complex Instruction Set Computer (ISA classification for processor architecture)
 CISM	Certified Information Security Manager (certification, cybersecurity)
-CISO	Chief Information Security Officer (cybersecurity, executive position)
-CISSP	Certified Information Systems Security Professional (cybersecurity:  ISC2 certification)
+CISO	Chief Information Security Officer (cybersecurity: executive position)
+CISSP	Certified Information Systems Security Professional (cybersecurity:  certification by ISC2)
 CITEL	Inter-American Telecommunication Commission (ITU WRC group)
 CITS	Cooperative Intelligent Transport Systems (ex: V2X, P2N, etc.)
 CJD	Creutzfeldt-Jakob Disease (fatal neurodegenerative disease caused by misfolded proteins-prions)
@@ -955,6 +958,7 @@ CMDB	Configuration Management DataBase (ITIL)
 CMIP	Common Management Information Protocol
 CMISE	Common Management Information Service Element
 CMM	Circuit Mobility Management
+CMMC	Cybersecurity Maturity Model Certification (cybersecurity: certification by NIST)
 CMMI	Capability Maturity Model Integrated (business process model)
 CMMIS	Computerized Maintenance Management Information System
 CMMS	Computerized Maintenance Management System
@@ -1035,7 +1039,6 @@ COVID	COrona VIrus Disease, SARS-CoV2 (medical: viral infection)
 COW	Cell on Wings (cell site on drone, for disaster or events)
 CoW	Copy on Write (file system management)
 CP	Control Plane (signaling)
-CP-OFDM	Cyclic-Prefix OFDM (DL and UL)
 CPA	Certified Public Accountant (licensed accounting professional)
 CPAR	Corrective and Preventive Action Request  (corrective and preventive action document)
 CPC	Communist Party of China (aka CCP, ruling party of PRC)
@@ -1099,7 +1102,7 @@ CSCN	Circuit-Switched Core Network
 CSD	Circuit Switched Data (TIA IS-136)
 CSDPS	Coordinated Scheduling and Dynamic Point Selection
 CSF	Channel State Feedback
-CSF	Cybersecurity Framework (cybersecurity: set of guidelines, best practices, and standards)
+CSF	Cybersecurity Framework (cybersecurity: set of guidelines, best practices and standards)
 CSFB	Circuit Switched Fall-Back (TS 23.272)
 CSG	Closed Subscriber Group
 CSG	Content Services Gateway  (Cisco: high-speed processing module for billing & traffic)
@@ -1123,12 +1126,12 @@ CSR	Create Session Request
 CSRC	Centralized Signaling and Routing Control
 CSRC	Computer Security Resource Center (NIST repository, csrc.nist.gov)
 CSReq	Create Session Request
-CSRF	Cross-Site Request Forgery attacks (cybersecurity, type of cyber attack)
+CSRF	Cross-Site Request Forgery attacks (cybersecurity: type of cyber attack)
 CSRG	Computer Systems Research Group
-CSRIC	Communication Security, Reliability, and Interoperability Council
+CSRIC	Communication Security, Reliability and Interoperability Council
 CSRsp	Create Session Response
 CSS	Cascading Style Sheets (web page design language, W3C specification)
-CSSLP	Certified Secure Software Lifecycle Professional (cybersecurity: ISC2 certification)
+CSSLP	Certified Secure Software Lifecycle Professional (cybersecurity: certification by ISC2)
 CSSOM	CSS Object Model (APIs for manipulating CSS with JavaScript)
 CST	US Central  Standard Time, UTC-6 (2nd SUN in NOV to 1st SUN in MAR)
 CSU	Channel Service Unit  (digital interface device, manages connection to networks)
@@ -1158,6 +1161,7 @@ CU-UP	Centralized Unit-User Plane
 CUC	Centralized User Configuration
 CUDA	Compute Unified Device Architecture (NVidia's parallel computing platform & API)
 CUDIMM	Clocked Unbuffered DIMM (RAM classification, newer with higher clock rate)
+CUI	Controlled Unclassified Information (US DoD, unclassified information that may not be released to public)
 CUPS	Control-Plane User-Plane Separation (TS 23.214, TS 29.244)
 CUSIP	Committee on Uniform Securities Identification Procedures (financial instrument number)
 CV	Coefficient of Variation (statistics: measure of dispersion)
@@ -1259,7 +1263,7 @@ DDL	Data Definition Language (SQL command category)
 DDM	Degrees Decimal Minutes (geographic notation for longitude & latitude)
 DDNMF	Direct Discovery Name Management Function (TS 29.555)
 ddof	Delta Degrees of Freedom (statistics: python numpy)
-DDoS	Distributed Denial of Service (cybersecurity, type of cyber attack)
+DDoS	Distributed Denial of Service (cybersecurity: type of cyber attack)
 DDR	Double Data Rate SDRAM (memory: RAM classification, SO-DIMM profile)
 DDR1	Double Data Rate SDRAM 1 (2000,   266 MT/s, 128 Mb per chip, 1 GB per module, obsolete)
 DDR2	Double Data Rate SDRAM 2 (2004,   553 MHz,  256 Mb per chip, 2 GB per module, legacy)
@@ -1291,6 +1295,7 @@ Dev	Development (business term)
 DevOps	Development + Operations (business term)
 DEXs	Decentralized Exchanges (banking: peer-to-peer cryptocurrency trading platforms)
 DFA	Deterministic Finite Automaton/Acceptor (aka "FSM", "DFSM", "DFSA")
+DFARS	Defense Federal Acquisition Regulation Supplement (US DoD, purchasing rules for the DoD)
 DFB	Distributed Feedback Laser (commonly used in DWDM systems)
 DFE	Digital Front End
 DFF	Deep Feed Forward (AI: type of feed-forward neural network)
@@ -1308,13 +1313,14 @@ DHS	US Department of Homeland Security
 DHT	Distributed Hash Table (used by BitTorret to store peer information)
 DIA	Direct Internet Acess (user - gateway - internet)
 Diameter	IP Protocol for Authentication, Authorization and Accounting (RFC 6733)
+DIB	Defense Industrial Base (US DoD, material and services provider for military forces)
 DiD	Difference-in-Differences (statistics: evaluation model)
 DID	Direct Inward Dialing (call without going through switchboard)
 DIE	Debugging Information Entry
 DIKW	Data, Information, Knowledge, Wisdom
 DIMM	Dual In-line Memory Module (RAM classification, memory module)
 DISA	Defense Information Systems Agency (DoD)
-DISC	Dominance, Influence, Steadiness, and Conscientiousness (medical: assessment of the four main personality categories)
+DISC	Dominance, Influence, Steadiness and Conscientiousness (medical: assessment of the four main personality categories)
 DISM	Deployment Image Servicing and Management (Windows scan & repair tool)
 DITA	Darwin Information Typing Architecture
 DIY	"do it yourself"  (slang: create, fix or build something without professional help)
@@ -1328,7 +1334,7 @@ DLD	Detailed-Level Design (detailed technical design document)
 DLL	Data Link Layer	(OSI layer 2, MAC and LLC)
 dll	Dynamic Link Library file (file extension)
 DLL	L2 Data Link Layer:	  framing, flow control, error control (DLL = MAC+LLC)
-DLP	Data Loss Prevention (cybersecurity, framework)
+DLP	Data Loss Prevention (cybersecurity: framework)
 DLP	Digital Light Processing (imaging and projection technology developed by TI)
 DLT	Distributed Ledger Technology (blockchain)
 dm	"direct message"  (slang: private conversation between two users)
@@ -1389,7 +1395,7 @@ DOL	Department of Labor (US federal department)
 DOM	Document Object Model (programming interface for web documents, W3C standard)
 DORA	Devops Research and Assessment
 DORA	Digital Operational Resilience Act (cybersecurity compliance standard)
-DoS	Denial of Service (cybersecurity, type of cyber attack)
+DoS	Denial of Service (cybersecurity: type of cyber attack)
 DOS	Disk Operating System (PC operating system)
 DOT	US Department of Transportation
 double		data type, primitive:     decimal numbers (3.14, -0.5)
@@ -1518,6 +1524,7 @@ EAN	European Article Numbers (barcode: inventory tracking identifier)
 EAP	Extensible Authentication Protocol (RFC 7458)
 EAP-AKA	Extensible Authentication Protocol - Authentication and Key Agreement
 EAPoL	Extensible authentication protocol over LAN (IEEE 802.11i, RFC 3748)
+EAR	Export Administration Regulations (administered by US Department of Commerce)
 EARFCN	E-UTRA/LTE Absolute Radio-Frequency Channel Number
 EAS	Emergency Alert System
 EB	Exabyte		memory size, 10^18	1,152,921,504,606,846,976 Bytes
@@ -1558,7 +1565,7 @@ ECMP	Equal-Cost Multi-Path (routing strategy)
 ECN	Engineering Change Notices  (formal record of change including reasons and impact)
 ECN	Explicit Congestion Notification (RFC 3168, Network Layer 3, congestion management)
 ECO	Engineering Change Order  (allocates resources, lists parts and locks devision dates)
-ECOMP	Enhanced Control, Orchestration, Management, and Policy
+ECOMP	Enhanced Control, Orchestration, Management and Policy
 eCPRI	enhanced Common Public Radio Interface
 ECR	Elastic Container Registry (AWS service)
 ECRF	Emergency Call Routing Function (RFC 5582)
@@ -1576,7 +1583,7 @@ EDID	Extended Display Identification Data (metadata format for display devices, 
 EDMG	Enhanced Directional Multi-Gigabit (IEEE 802.11ay standard)
 EDO-DRAM	Extended Data Out DRAM (RAM classification, older DRAM variant)
 EDP	Event Detection Point
-EDR	Endpoint Detection and Response (cybersecurity, framework)
+EDR	Endpoint Detection and Response (cybersecurity: framework)
 EDR	Enhanced Data Rate (Bluetooth)
 EDR	Event Data Record
 EDT	US Eastern  Daylight Time, UTC-4 (2nd SUN in MAR to 1st SUN in NOV)
@@ -1811,6 +1818,7 @@ FAO	Food and Agriculture Organization of UN (www.fao.org)
 FAP	Foreign Access Point
 FAPI	Functional Application Platform Interface
 FAQ	Frequently Asked Questions
+FAR	Federal Acquisition Regulation (US DoD, purchasing rules for the DoD)
 FAR	Fixed Assets Register
 FAR	Forwarding Action Rule (SMF rules to UPF)
 FAST	Features from Accelerated Segment Test (algorithm to detect strong changes in intensity)
@@ -1831,6 +1839,7 @@ FCDM	Frequency Code Division Multiplexing
 FCF	Free Cash Flow (business metric)
 FCFC	First Come, First Choice (scheduling algorithm)
 FCFS	First Come First Served (scheduling algorithm)
+FCI	Federal Contract Information (US DoD, information not intended for public release)
 FCM	Fuzzy C-Means clustering (AI: unsupervised ML model, clustering)
 FCRAM	Fast Cycle DRAM (developed by Fujitsu and Toshiba)
 FCS	Frame Check Sequence (error detection)
@@ -1933,7 +1942,7 @@ FPS	First Person Shooter (type of video game)
 fps	Frames per Second
 FPU	Floating-Point Unit (math co-processor, operations on floating-point numbers, aka NPU)
 FPY	First Pass Yield
-FQDN	Fully Qualified Domain Name
+FQDN	Fully Qualified Domain Name (complete address for a website or a server, that maps to an IP address)
 fr	"for real"  (slang: indicates agreement or seriousness)
 FR	Frame Relay (physical & data layers packet transmission technology)
 FR	Frequency Range    (spectrum allocated for mobile communication)
@@ -2153,6 +2162,7 @@ GRX	Global Roaming eXchange
 GS	ETSI Group Specification
 Gs	MSC/VLR and SGSN	3G UMTS interface
 Gs	SGSN and MSC		2G GPRS interface, exchange database
+GSA	General Services Administration (US federal agency, manages functioning of federal agencies)
 GSC	Global Standards Collaboration
 GSCN	Global Synchronization Channel Number
 GSEC	GIAC Security Essentials Certification (cybersecurity: GIAC certification)
@@ -2224,7 +2234,7 @@ HBM	High Bandwidth Memory
 HBO	Home Box Office (cable TV channel)
 HCA	Host Channel Adapter (PCIe endpoint, high-throughput RDMA, storage intensive workloads)
 HCI	Hyperconverged Infrastructure
-HCISPP	Healthcare Information Security and Privacy Professional (cybersecurity: ISC2 certification)
+HCISPP	Healthcare Information Security and Privacy Professional (cybersecurity: certification by ISC2)
 HCM	Human Capital Management (business software)
 HCS	Hierarchical Cell Structure
 HCS	Hyper-Converged Storage (data storage concept)
@@ -2416,6 +2426,7 @@ ICP	Interoperability Compliance Program (WBA guidelines)
 ICPO	International Criminal Police Organization (commonly called "INTERPOL")
 ICR	Intelligent Character Recognition (handwriting recognition)
 ICS	IMS Centralized Services (voice service continuity with CS domain, TS 23.292)
+ICS	Industrial Control Systems
 ICS	Inter-Carrier Spacing
 ICSI	IMS Communication Service Identifier
 ICT	Information and Communication Technology (based on ITU-T recommendations)
@@ -2423,13 +2434,14 @@ ICYMI	"in case you missed it"   (slang: highlight content someone may have overl
 ID	Identity, Identifier, Identification information
 id	Latin: "idem",  English: "the same"
 iDAS	indoor Distributed Antenna System
-IDC	"i don’t care"  (slang)
+IDC	"i don’t care"  (slang: indifference, lack of preference or emotional disengagement)
 IDC	In Device Coexistence (3GPP Release 11)
 IDDD	International Direct Distance Dialing
 IDE	Integrated Development Environment (software development with user interface)
 IDE	Integrated Drive Electronics (hard-disk interface)
 iDEN	integrated Digital Enhanced Network (2G GSM)
 IDFT	Inverse Discrete Fourier Transform (algorithm, math)
+IDGAK	"i don't give a f**k" (slang: don’t care about opinions, criticism, drama or situation)
 IDK	"i don’t know"  (slang: express uncertainty, lack of knowledge or indecision)
 IDL	In-Direct Labor  (support revenue-generating activities, but are not directly involved)
 IDL	Interface Definition Language
@@ -2673,7 +2685,7 @@ INTERPOL	International Criminal Police Organization ("ICPO")
 interrupt	exception generated by hardware
 IO	Input/Output, typically written as "I/O"
 IO.SYS	system file, contains DOS device drivers and DOS start-up program
-IOC	Indicators of Compromise
+IoC	Indicators of Compromise (cybersecurity: evidence of breach, attack, compromise)
 IoE	Internet of Everything
 IOGP	International Association of Oil & Gas Producers
 IOPS	input/output operations per second (storage devices performance measurement)
@@ -2743,7 +2755,7 @@ IRC	Internet Relay Chat (instant messaging, chat)
 IrDA	Infrared Data Association  (standards organization, www.irda.org)
 IRI	Internationalized Resource Identifiers (IP protocol standard build on URI, RFC 3987)
 IRL	"in real life"  (slang: off-line events, happening outside the digital world)
-IRM	Insider Risk Management (cybersecurity, framework)
+IRM	Insider Risk Management (cybersecurity: framework)
 IRP	Integration Reference Point (TR 32.828)
 IRPA	International Radiation Protection Association
 IRR	Internal Rate of Return (business metric)
@@ -2801,17 +2813,17 @@ ISPC	International Signaling Point Codes (ITU-T Q.708)
 ISR	Idle mode Signaling Reduction
 ISRP	Inter-System Routing Policies (traffic distribution and routing rules)
 ISS	Integrated Security Systems (systems and strategies to protect people and infrastructure)
-ISSAP	Information Systems Security Architecture Professional (cybersecurity: ISC2 certification)
-ISSEP	Information Systems Security Engineering Professional (cybersecurity: ISC2 certification)
+ISSAP	Information Systems Security Architecture Professional (cybersecurity: certification by ISC2)
+ISSEP	Information Systems Security Engineering Professional (cybersecurity: certification by ISC2)
 ISSI	Integrated Sub-System Interface
-ISSMP	Information Systems Security Management Professional (cybersecurity: ISC2 certification)
+ISSMP	Information Systems Security Management Professional (cybersecurity: certification by ISC2)
 ISSN	International Standard Serial Number (catalog number for periodical publications)
 IST	India Standard Time, UTC+5:30
 ISUP	ISDN User Part (ITU Q.76x series)
 ISV	Independent Software Vendors
 IT	Information Technology
 ITAM	IT Asset Management (ITIL activity)
-ITAR	International Traffic in Arms Regulations (US regulations for exporting of military items)
+ITAR	International Traffic in Arms Regulations (US State Department regulations for export of military items)
 ITIL	Information Technology Infrastructure Library (IT practices, www.axelos.com)
 ITL	Information Technology Laboratory (NIST research labs, www.nist.gov/itl)
 ITRF	International Terrestrial Reference Frame (data using ITRS procedures)
@@ -3341,7 +3353,8 @@ MIRI	Mid-Infrared Instrument (instrument on JWST)
 MIS	Management Information System
 MISC	Minimal Instruction Set Computer (ISA classification)
 MISO	Master In, Slave Out (SPI wire, carries data from slave to master)
-MitM	Man in the Middle attack (cybersecurity, type of cyber attack)
+MitM	Man in the Middle attack (cybersecurity: type of cyber attack)
+MITRE ATT&CK	knowledge base built from real-world cyberattack (see "ATT&CK", www.mitre.org)
 Mj	BGCF and MGCF		IMS interface
 Mk	BGCF/IMS ALG and BGCF	IMS interface
 ML	Machine Learning (data science)
@@ -3656,6 +3669,7 @@ ndf	database's secondary data file, user-defined (file extension)
 NDIS	Network Driver Interface Specification (Windows specifications)
 NDP	Neighbor Discovery Protocol, or Neighbor Discovery  (network layer, RFC 1970, 2461, 4861)
 NDR	Network Design Requirements
+NDR	Network Detection and Response (cybersecurity: monitor traffic to detect unusual activities)
 NDS	Network Domain Security (TS 33.210)
 NE	Network Element
 NE-DC	New Radio E-UTRA - Dual Connectivity (5G Option 4)
@@ -3721,7 +3735,7 @@ NGINX	"engine-X" (high-performance, open-source web server, load balancer and TC
 NGL	"not gonna lie"  (slang: preface honest or candid statement))
 NGMN	Next Generation Mobile Networks (standards organization, www.ngmn.org)
 NGN	Next Generation Network
-NGO	Non-Governmental Organization
+NGO	Non-Governmental Organization (entity that is not part of a government)
 NGSF	Next-Generation Smart Factory
 NGSO	Non-Geostationary Satellite Orbit, i.e. LEO or MEO
 NHL	National Hockey League (sports league)
@@ -3749,7 +3763,7 @@ NLoS	Non-Line of Sight  (tranmission by penetration)
 NLP	Natural Language Processing (AI: text/speech model)
 NLSP	Network Layer Security Protocol (ISO/IEC 11577)
 NLTK	Natural Language Tool-kit
-Nmap	Network Mapper (cybersecurity, open-source network scanning tool)
+Nmap	Network Mapper (cybersecurity: open-source network scanning tool)
 NMF	Non-negative Matrix Factorization (AI: unsupervised ML model, clustering)
 NMM	Network Monitor Mode
 NMOS	N-channel MOSFET (uses electrons as charge carriers)
@@ -3833,7 +3847,7 @@ NSB	Network Safe Browsing (5G feature)
 NSC	Notice of Status Change (product lifecycle milestone)
 NSD	Network Service Descriptor
 NSDU	Network Service Data Unit
-NSE	Nmap Scripting Engine (cybersecurity, scripting tool for Nmap)
+NSE	Nmap Scripting Engine (cybersecurity: scripting tool for Nmap)
 NSF	National Science Foundation (US research and education agency, www.nsf.gov)
 NSFW	"not safe for work"  (slang: contains offensive content, not be suitable for a public setting)
 NSI	Network Service Interface
@@ -3981,6 +3995,7 @@ OLT	Optical Line Terminal
 OLTP	On-Line Transactional Processing (real-time DB transactions)
 OMA	Open Mobile Alliance (standards organization, www.openmobilealliance.org)
 OMA	Orthogonal Multiple-Access
+OMB	Office of Management and Budget (US administrative office, prepares and executes the federal budget)
 OMB	Open Mobile Broadband (eg: NR-U neighborhood networks)
 OMC	Operations and Maintenance Centre (also known as NOC)
 OMCI	Onu Management and Control Interface (ITU-T G.988, management & control of ONU)
@@ -4054,6 +4069,7 @@ OSB	Oriented Strand Board     (type of wood board, very high strength, stonger t
 OSC	Operations Support Center
 OSCP	Offensive Security Certified Professional (cybersecurity: certification)
 OSDL	Open Source Development Labs (non-profit technology consortium, obsolete, 2000-2007)
+OSEP	Offensive Security Experienced Penetration Tester (cybersecurity: certification)
 OSF	Open Software Foundation (Open Group, www.opengroup.org)
 OSG	Open Source Group
 OSHA	Occupational Safety and Health Administration (US agency for workplace safety, www.osha.gov)
@@ -4067,6 +4083,7 @@ OSPF	Open Shortest Path First (network layer, interior gateway routing, link sta
 OSS	Open Source Software
 OSS	Operation and Support Subsystem
 OSWG	Oversight Work Group
+OSWP	Offensive Security Wireless Professional (cybersecurity: certification)
 OT	Operational Technology
 OTA	Over-the-Air
 OTAC	One-Time Authorization Code (or OTP, password valid for only one login or one transaction)
@@ -4398,7 +4415,7 @@ psig	pressure in pound per square inch gauge (pressure relative to atmospheric p
 PSK	Phase Shift Keying                         (digital signal modulation technique)
 PSK	Pre-Shared Key (WPA key, RFC 6617)
 PSKC	Portable Symmetric Key Container (RFC 6030)
-PSL	Public Suffix List (catalog of Internet domain names)
+PSL	Public Suffix List (catalog of Internet domain names, www.publicsuffix.org/list)
 PSM	Propensity Score Matching (statistics: evaluation model)
 PSN	Packet Switched Network
 PSPDN	Packet-Switched Public Data Network (ITU X.323)
@@ -4520,8 +4537,7 @@ RAP	Random Access Procedure (TS 36.300, UE to eNodeB)
 RAPID	Random Access Preamble Identifier
 RAPT	Reverse Address and Port Translation (aka RAT)
 RAR	Random Access Response (TS 36.300, radio to UE)
-rar	Roshal Archive Compressed file (file format, supports data compression and error correction)
-rar	Roshal Archive Compressed file (file format, supports data compression, error correction, and file spanning)
+rar	Roshal Archive Compressed file (file format, supports data compression, error correction and file spanning)
 RARP	Reverse Address Resolution Protocol (RFC 903)
 RAS	Registration Admission Status
 RAS	Reliability, Availability, Serviceability
@@ -5020,7 +5036,7 @@ SID	Service/Session/Subscriber Identifier
 SID	Shared Information/Data (TR 32.828)
 SIDF	Subscription Identifier De-concealing Function
 SIDR	Secure Inter-Domain Routing
-SIEM	Security Information and Event Management (cybersecurity, framework)
+SIEM	Security Information and Event Management (cybersecurity: framework)
 SIF	signaling Information Field
 SIFT	Scale-Invariant Feature Transform (algorithm to detect and describe features in images)
 SIG	Bluetooth Special Interest Group (BlueTooth standards organization, www.bluetooth.com)
@@ -5056,7 +5072,7 @@ SLA	Service Level Agreement (contracts)
 SLAAC	State-Less Address Auto-Configuration
 SLAM	Simultaneous Localization and Mapping (XR concept)
 SLB	Server Load Balancing
-SLED	State, Local and Education (cybersecurity, government agencies, including schools and universities)
+SLED	State, Local and Education (cybersecurity: government agencies, including schools and universities)
 SLEE	Service Logic Execution Environment
 SLF	Subscriber Location Function
 SLI	Service Level Indicator (SLO compliance metric)
@@ -5126,7 +5142,7 @@ SOA	Start of Authority (DNS record type: locates specific services)
 SOAC	Service Order Analysis and Control System
 SOAC	Survivable Airborne Operations Center (US military)
 SOAP	Simple Object Access Protocol (W3C, XML protocol over HTTP, web services)
-SOAR	Security Orchestration, Automation, and Response (cybersecurity, framework)
+SOAR	Security Orchestration, Automation and Response (cybersecurity: framework)
 SOC	Security Operations Center (cybersecurity)
 SOC	Service Oriented Core
 SoC	System on a Chip (PoP configured integrated chip)
@@ -5182,7 +5198,7 @@ SPUCCH	Short Physical Uplink Control channel
 SPV	Special Purpose Vehicles (investing: legally distinct entity for investment)
 Spyder	Scientific Python Development Environment (IDE for Python)
 SQL	Structured Query Language (database language)
-SQLI	Structured Query Language Injection attack (cybersecurity, type of cyber attack)
+SQLI	Structured Query Language Injection attack (cybersecurity: type of cyber attack)
 SQN	Sequence Number (48-bit)
 SquashFS	Compressed & Read-Only File Systems (Linux file system)
 SR	Service Request (formal request for a change to be made)
@@ -5231,7 +5247,7 @@ SSCF-NNI	Service Specific Coordination Function-Network Node Interface (on SSCOP
 SSCMSP	Session and Service Continuity Mode Selection Policy
 SSCOP	Service Specific Coordination Oriented Protocol
 SSCOPMCE	Service Specific Connection Oriented Protocol in a Multi-Link and
-SSCP	Systems Security Certified Practitioner (cybersecurity: ISC2 certification)
+SSCP	Systems Security Certified Practitioner (cybersecurity: certification by ISC2)
 SSCS	Service Specific Coordination Sublayer
 SSD	Shared Secret Data (128-bit security key, , CAVE algorithm)
 SSD	Solid State Drive (data storage: type of DAS hardware, hard drive)
@@ -5456,7 +5472,7 @@ TKIP	Temporal Key Integrity Protocol (WPA encryption key)
 TL1	Transaction Language 1
 TL;DR	"too long;didn’t read" (slang: summarize and skip the lengthy content)
 TLCAN	Spanish: "Tratado de Libre Comercio de América del Norte",  English: "NAFTA"
-TLD	Top-Level Domain server (DNS server, RFC 2606)
+TLD	Top-Level Domain (domain name that follows the final dot, www.iana.org/domains/root/db)
 TLDR	"too long;didn’t read" (slang: summarize and skip the lengthy content)
 TLDs	Top-Level Domains (highest level in hierarchical Domain Name System)
 TLIV	Type Length Instance Value
@@ -5498,6 +5514,7 @@ ToS	Type of Service
 TOSLINK	Toshiba Link (digital audio connector, legacy, aka Optical)
 TOTP	Time-based One-Time Password (RFC 6238, time-synchronized OTP)
 TPA	Third-Party Administrator
+TPAO	Third-Party Assessment Organizations, aka "3PAO" (US DoD, entity that assesses cybersecurity compliance)
 TPC	Transmit Power Control
 TPM	Trusted Platform Module
 TPNCP	Trunk Pack Network Control Protocol (AudioCodes' proprietary protocol)
@@ -5644,6 +5661,7 @@ TTL	Time to Live (IP message, limits packet lifespan to prevent infinite looping
 TTL	Transistor–Transistor Logic
 tTLD	testing Top-Level Domains (internet domains)
 TTM	Time to Market (business term)
+TTP	Tactics, Techniques and Procedures
 TTP	Trusted Third Parties (authority or agent trusted by others)
 TTR	Time to Resolve (business metric)
 TTS	Text (transcription) and Text to Speech
@@ -5968,10 +5986,10 @@ W-UP	Wireline access User Plane protocol (5G-RG and W-AGF via Y4 interface)
 w3	World Wide Web ("internet", "www", "w3")
 W3C	World Wide Web Consortium (standards organization for World Wide Web, www.w3.org)
 W4	IRS form to calculate amount of tax to withhold (US tax document)
-WAAP	Web Application and API Protection (cybersecurity, framework)
+WAAP	Web Application and API Protection (cybersecurity: framework)
 WAAS	Wide Area Augmentation System
 WAE	Wireless Application Environment   (WAP Protocol stack: application layer)
-WAF	Web Application Firewall (cybersecurity, framework)
+WAF	Web Application Firewall (cybersecurity: framework)
 WAG	Wireless Access Gateway
 WAGF	Wireline Access Gateway Function (W-5GAN network function)
 WAN	Wide Area Network (large area network, covers 5-50 km))
@@ -6074,7 +6092,7 @@ WWDW	Wideband Wave Division Multiplexing
 WWE	World Wrestling Entertainment (sports association)
 WWI	Wireless World Initiative
 WWSF	WebRTC Web Server Function
-www	World Wide Web ("internet", "www", "w3", web-page prefix)
+www	World Wide Web ("internet", "www", "w3", web-page subdomain)
 wwww	World Wide Wireless Web (aka "4W)
 WYD	"what are you doing?"  (slang: casual, informal way to ask someone what they’re up to)
 WYSIWYG	What You See Is What You Get (commonly with document printing)
@@ -6084,13 +6102,13 @@ X2	eNodeB and eNodeB	4G LTE interface
 X2 	interface between eNodeB and eNodeB
 X2AP	X2 Application Protocol (4G LTE eNodeB-eNodeB interface, TS 36.423)
 XaaS	Anything as a Service (cloud concept)
-XAML	Extensible Application Markup Language (XML‑based language developed by Microsoft)
+XAML	Extensible Application Markup Language (XML-based language developed by Microsoft)
 Xbox	Microsoft gaming console (port 3074)
 XCAP	XML Configuration Access Protocol (RFC 4825)
 XCBC	Extended Cipher Block Chaining (cipher mode)
 xD	Extreme Digital Picture Card (memory card)
 XDMS	XML Document Management Server
-XDR	Extended Detection and Response (cybersecurity, framework)
+XDR	Extended Detection and Response (cybersecurity: framework, unified treat detection and response)
 xDSL	DSL variants:  ADSL, HDSL, IDSL, MDSL, MSDSL, RADSL, SDSL, VDSL
 XEN	open-source hypervisor/VMM
 XFS	journaling file system (Unix file system by SGI)
@@ -6115,7 +6133,7 @@ XPath	XML Path Language
 XR	Extended Reality, TS 26.928, immersive technologies: AR/VR/CG-CR/MR
 XRES	Expected Response (32-bit authentication vector, TS 33.102)
 XSD	XML Schema Definitions
-XSS	Cross-Site Scripting attack (cybersecurity, type of cyber attack)
+XSS	Cross-Site Scripting attack (cybersecurity: type of cyber attack)
 Y.3112	ITU-T:  Framework for support of network slicing in IMT-2020 network
 Y1	UE and untrusted non-3GPP access	5G interface
 Y2	N3IWF and untrusted non-3GPP access	5G interface
