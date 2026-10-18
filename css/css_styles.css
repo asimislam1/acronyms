@@ -6,14 +6,15 @@ body {
    background-color: F9F6EE;
    /* margin-left: 0%; */
 
-   /* background-image: url(./../images/yellow_crush.jpg); */
+   /* background-image: url(./../images/color_swirl_001.jpg); */
    background-color: #fcba04; /* incase image does not load: fcba04 */
          /* #fcba04     amber flame */
          /* #F0EAD6     eggshell */
          /* #E9DCC9     linen */
+   height: 100%;
    background-repeat: no-repeat; /* Prevent tiling */
    background-attachment: fixed; /* Keep image fixed during scroll */
-   background-size: cover; /* Scale to cover entire area */
+   background-size: cover;       /* Scale to cover entire area */
 }
 
 header {
