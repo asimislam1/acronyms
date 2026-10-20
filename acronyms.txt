@@ -1371,7 +1371,7 @@ DNACPR	Do Not Attempt CPR (medical:  do not perform CPR or other treatments if h
 DNAI	Data Network Access Identifier
 DNAR	Do Not Attempt Resuscitation (medical:  do not perform CPR or other treatments if heart stops)
 DNAT	Destination Network Address Translation
-DNC	Democratic National Committee (Democratic Party, US political party)
+DNC	Democratic National Committee       (US political party, Democratic Party)
 dnd	"do not disturb"  (slang: quick way to say unavailable, or want to avoid interruptions)
 DNF	Did Not Finish  (sports: driver started race but was unable to complete it)
 dng	Digital Negative (Adobe, image file format)
@@ -1440,6 +1440,7 @@ DS	DownStream
 DS-CDMA	Direct-Sequence Code-Division Multiple-Access
 DS-TT	Device-Side TSN Translator (TS 24.519)
 DS0	Digital Signal Zero, = 64 Kbps/channel, transmission rate for voice & data
+DSA	Democratic Socialists of America    (US political party, Progressive Party) 
 DSAC	Domain Specific Access Control (domain access during disaster, TS 22.011)
 DSCH	Downlink Shared Channel
 DSCP	Differentiated Services Code Point (6-bit field in IPv4/IPv6 packet for QoS)
@@ -2131,7 +2132,7 @@ Go	high-level compiled programing language (Google)
 GOAT	"Greatest Of All Time"  (slang: top performer in a field)
 GoC	Groups of Countries (ITU-T E.164)
 googol		number equal to 1 x 10^100
-GOP	Grand Old Party (Republican Party, US political party)
+GOP	"Grand Old Party", nickname for RNC (US political party, Republican Party)
 GoS	Grade of Service
 gov	.gov "dot gov", US governmental use (domain name suffix)
 Gp	SGSN and GGSN	2G GPRS interface
@@ -2391,7 +2392,7 @@ IAEA	International Atomic Energy Agency (nuclear energy organization, www.iaea.o
 IAID	Identity Association Identifier, part of DHCPv6 ClientID
 IAKA	Identification, Authentication and Key Agreement
 IAL	NTN Inter Aerial Link (link between airborne platforms)
-IAM	Identity and Access Management (secure access to company resources)
+IAM	Identity and Access Management (cybersecurity: CISSP domain; secure access to company resources)
 IANA	Internet Assigned Numbers Authority (organization for IP address allocation)
 IARU	International Amateur Radio Union (www.iaru.org)
 IAS	Internet Authentication Service
@@ -3895,6 +3896,7 @@ NTE	Network Terminating Equipment
 NTFS	New Technology File System (Windows file system)
 NTI	Network Temporary Identifier (UE identifier for UE-UTRAN signaling)
 NTIA	National Telecommunications and Information Administration
+NTLM	New Technology Local Area Network (Microsoft's authentication protocol for network access)
 NTM	Network Topology Mapper (SolarWinds product)
 NTN	Non-Terrestrial Networks, TR 38.821 (LEO, MEO, GEO, HEO, UAS, HAPS)
 NTP	Network Time Protocol (application layer, UDP, time synchronization, RFC 5905, port 123)
@@ -3926,6 +3928,7 @@ NW-TT	Network-Side TSN Translator (TS 24.519)
 NWDAF	Network Data Analytics Function (5G network functions, TS 23.501)
 NWDW	Narrowband Wave Division Multiplexing
 NWG	Network Working Group
+NXOS	Cisco's Linux-based network operating system
 NYSE	New York Stock Exchange (US stock market index)
 O-BCSM	Originating Basic Call State Model
 O-CSI	Originating CAMEL Subscription Information
@@ -4123,7 +4126,7 @@ OvS	Open vSwitch (open-source, production-quality, multilayer virtual switch, Ap
 OVSDB	Open Virtual Switch Database
 OVSF	Orthogonal Variable Spreading Factor
 OWA	Outlook Web Access (Microsoft Office Outlook web application)
-OWASP	Open Web Application Security Project (non-profit organization for web applications security, www.owasp.org)
+OWASP	Open Web Application Security Project (cybersecurity: non-profit organization for web applications security, www.owasp.org)
 OWL	Web Ontology Language
 OXC	Optical Cross-Connect
 p-ANI	Pseudo-ANI Automatic Number Identification (non-NANP caller number sent to PSAP)
@@ -4705,6 +4708,7 @@ RNA	Ribo-Nucleic Acid (single-strand of DNA with instructions to make proteins)
 RNAU	RAN-based Notification Area Update
 RNAV	Area Navigation  (aviation, IFR method allowing flights along a desired path)
 RNC	Radio Network Controller (3G UMTS)
+RNC	Republican National Committee       (US political party, Republican Party)
 RND	Random
 RNG	Random Number Generator
 RNIS	Radio Network Information Service
@@ -5055,7 +5059,7 @@ SID	Service/Session/Subscriber Identifier
 SID	Shared Information/Data (TR 32.828)
 SIDF	Subscription Identifier De-concealing Function
 SIDR	Secure Inter-Domain Routing
-SIEM	Security Information and Event Management (cybersecurity: framework)
+SIEM	Security Information and Event Management (cybersecurity: applications that collects & analyzes data)
 SIF	signaling Information Field
 SIFT	Scale-Invariant Feature Transform (algorithm to detect and describe features in images)
 SIG	Bluetooth Special Interest Group (BlueTooth standards organization, www.bluetooth.com)
