@@ -399,7 +399,7 @@ ARIMA	Auto-Regressive Integrated Moving Average (statistics: model for time seri
 ARIN	American Registerty for Internet Numbers (ICANN RIR)
 ARJ	Advanced RAR (file format, supports data compression and error correction)
 ARM	Adjustable-Rate Mortgage (US, mortgage interest rate that changes after an initial fixed period)
-ARM	Advanced RISC Machines (British semiconductor and software company)
+ARM	Advanced RISC Machines (RISC instruction set, developed by Acorn Computers)
 ARM	Asynchronous Response Mode
 ARP	Address Resolution Protocol (Layer 2 & 3, RFC 826)
 ARP	Allocation and Retention Priority (5G QoS = 5G QFI + ARP)
@@ -427,6 +427,7 @@ ASF	Apache Software Foundation (non-profit organization for open-source projects
 ASI	Superintelligence Artificial Intelligence (AI beyond human capability)
 ASIC	Application Specific Integrated Circuit
 ASK	Amplitude Shift Keying                     (digital signal modulation technique)
+ASM	Assembly Language (low-level programming language, symbolic machine code)
 ASME	Access Security Management Entity
 ASMG	Arab Spectrum Management Group (ITU WRC group)
 ASML	Advanced Semiconductor Materials Lithography (Dutch photo-lithography company)
@@ -943,6 +944,7 @@ Class B	 IPv4  128.0.0.0, 191.255.255.255  subnet: 255.255.0.0    /16
 Class C	 IPv4  192.0.0.0, 223.255.255.255  subnet: 255.255.255.0  /24
 Class D	 IPv4  224.0.0.0, 239.255.255.255  reserved for multicast groups, not individual hosts
 Class E	 IPv4  240.0.0.0, 255.255.255.255  reserved for experimental and research purposes
+CLB	Configurable Logic Block (smallest programmable logic unit in an FPGA)
 CLDR	Common Locale Data Repository (TUS prject for locale data in XML, cldr.unicode.org)
 CLEC	Competitive Local Exchange Carrier
 CLI	Calling Line Identity
@@ -950,11 +952,13 @@ CLI	Command Line Interface (any window with input prompt)
 CLI	Cross-Link Interference
 CLIP	Calling Line Identification Presentation
 CLIR	Calling Line Identification Restriction
+CLK	Clock (clock signal that synchronizes operations)
 CLLI	Common Language Location Identifier (11-digits Central Office code)
 CLM	Contract Lifecycle Management (end to end contract management)
 CLO	Chief Legal Officer (executive position)
 CLOB	Character Large Object (information storage in databases)
 CloudWatch	AWS real-time resource monitor (AWS service)
+CLR	Clear (active-low clear/reset input that forces a register’s output to a known state)
 CLS	see "3CLS", Communications, Computing, Control, Localization, Sensing
 CM	Configuration Management (business process)
 CM	Connection Management    (mobile network procedure)
@@ -1158,6 +1162,7 @@ CTIA	Cellular Telecommunications and Internet Association
 CTIO	Chief Technology Information Officer (executive position)
 CTO	Chief Technology Officer (executive position)
 CTR	Counter (cipher mode)
+CTRRAF	Cybersecurity, Technology: Risk, Resilience and Assurance Framework
 CTS	Charging Trigger Function
 CTS	Clear To Send        (RS-232 line)
 CU	Centralized Unit: SDAP,RRC,PDCP (air/antenna-RU-DU-CU-RIC-CORE)
@@ -2146,6 +2151,7 @@ GPO	Group Policy Object (container with configuration, permissions, etc. for Act
 GPON	Gigabit Passive Optical Network (ITU-T G.984)
 GPOS	General-Purpose Operating System (used for personal computers)
 GPP	General Purpose Processer (CPU)
+GPR	General Purpose Register (store data temporarily during CPU processing)
 GPRS	General Packet Radio Service (2.5G GPRS, TS 23.060, GMSK)
 GPS	Global Positioning System (satellite-based navigation system)
 GPSI	Generic Public Subscription Identifier
@@ -2161,6 +2167,7 @@ GPU	Graphics Processing Unit (processor: parallel, for graphics and AI)
 Gr	SGSN and HLR 		2G GPRS interface, user profile
 Gr	SGSN and HLR/AuC	3G UMTS interface
 gr8	"great"  (numeronym)
+grawlix	"profanitype", used in writing to censor or obscure profanity or swear word
 GRC	Governance, Risk and Compliance (approach to ensure compliance with regulatory requirements)
 GRE	Generic Routing Encapsulation (RFC 2784, RFC 2890)
 GRE	Graduate Record Examination (US, graduate admissions exam)
@@ -3174,6 +3181,7 @@ LTO	Local Time Offset
 LTV	Loan-to-Value Ratio (US, loan amount divided by property’s value)
 LU	Location Update
 LUR	Location Update Response
+LUT	Look-Up Table (small memory block that implements any Boolean function)
 LVF	Location Validation Function
 LVN	Licensed Vocational Nurse (certification, clinical healthcare)
 LWA	LTE-WLAN Aggregation
@@ -3217,7 +3225,9 @@ MAPCON	Multiple-Access PDN Connectivity
 MAPDU	Multi-Access Packet Data Unit (TS 23.793 Release 16)
 MAPE	Mean Absolute Percentage Error (statistics: evaluation metric, lower is better)
 MapReduce	programming model for big data processing, see "map" and "reduce"
+MAR	Memory Address Register (holds address of memory location to access)
 Marisat	Maritime Telecommunications Satellites (1973-1981)
+MAS TRM	Multi-Asset Transaction Risk Management (financial: risk assessment for asset classes)
 MASG	Mobile Aggregation Site Gateway
 MASINT	Measurement and Signature Intelligence (from scientific observations)
 MATLAB	MATrix LABoratory (programming language developed by MathWorks)
@@ -3281,6 +3291,7 @@ MDN	Mobile Directory Number (10-digit dialed mobile number)
 MDN	Mozilla Developer Network (free, open-source platform for web technologies)
 mDNS	Multicast Domain Name System (RFC 6762, DNS-SD message)
 MDP	Markov Decision Processes (AI: unsupervised ML model, reinforcement learning)
+MDR	Memory Data Register (holds data ready to be read from or written to memory)
 MDR	Message Definition Reports, describes ISO20022 message technical structure
 MDS	Meta Data Server
 MDS	Multi-media Distribution Service
@@ -3654,6 +3665,7 @@ NAT	Network Address Translation (RFC 3022)
 NaT	Not a Time (missing value in data)
 NATAS	National Academy of Television Arts and Sciences
 NATO	North Atlantic Treaty Organization (intergovernmental military alliance, www.nato.int))
+NATS	North American Transportation Services (trucking and logistics company)
 Nausf	5G Service-Based Interface exhibited by AUSF
 NAVIC	Navigation Indian Constellation (Indian GPS)
 NAVSTAR	Navigation Satellite Timing and Ranging
@@ -4103,6 +4115,7 @@ OSP	Open Stack Platform
 OSPF	Open Shortest Path First (network layer, interior gateway routing, link state, RFC 2328, AD=110)
 OSS	Open Source Software
 OSS	Operation and Support Subsystem
+OSWE	Offensive Security Web Expert (cybersecurity: certification)
 OSWG	Oversight Work Group
 OSWP	Offensive Security Wireless Professional (cybersecurity: certification)
 OT	Operational Technology
@@ -4193,7 +4206,7 @@ PCH	Paging Channel (PHY-MAC transport channel)
 PCI	Payment Card Industry (organizations involved in payment systems)
 PCI	Peripheral Component Interconnect (connection between PC components)
 PCI	Physical Cell Identifier
-PCI-DSS	Payment Card Industry Data Security Standard (cybersecurity: requirements for PCI)
+PCI DSS	Payment Card Industry Data Security Standard (cybersecurity: payment data security)
 PCI-SIG	Peripheral Component Interconnect Special Interest Group (PCI industry consortium, www.pcisig.com)
 PCI-SSC	Peripheral Component Interconnect Security Standards Council (PCI compliance authority)
 PCID	Physical Cell Identity
@@ -4568,6 +4581,7 @@ RAT	Reverse Address and Port Translation (aka RAPT)
 RAU	Routing Area Update
 RB	Resource Block, radio: 12 consecutive subcarriers in frequency domain
 RBAC	Role-Based Access Control
+RBI	Reserve Bank of India (India’s central bank regulator)
 RbM	Risk-based Monitoring
 RBOC	Regional Bell Operating Company
 RBS	Radio Base Station (3G UMTS: "NodeB", "RBS" is not used)
@@ -4607,6 +4621,7 @@ RedHat	Linux distribution and enterprise solution developed by RedHat/IBM
 RedShift	Amazon big data analytics & data warehouse on cloud (AWS service)
 reduce	shuffle, sort, reduce (big data processing concept)
 ReFS	Resilient File System (Windows Server 2012 file system format based on COW)
+REG	Register (storage element that holds data until the next clock edge)
 REGEX	Regular Expression, pattern search in computer languages
 ReiserFS	Reiser Family File Systems (file system)
 REIT	Real Estate Investment Trusts (financial investment instrument)
@@ -4777,7 +4792,8 @@ RSSI	Received Signal Strength Indication (signal power, dBm, 2G, 3G and LTE)
 RST	ReSeT (TCP/IP message)
 RSTD	Reference Signal Time Difference
 RSTP	Rapid Spanning Tree Protocol (routing protocol, IEEE 802.1w)
-RSU	Road-Side Unit
+RSU	Restricted Stock Units (form of employee compensation with a vesting period)
+RSU	Road-Side Unit (fixed wireless communication device installed along roads)
 RSV	Respiratory Syncytial Virus (medical: vaccine for lungs and respiratory virus)
 rsvp	French: "repondez s'il vous plait",  English: "please reply" (common abbreviation)
 RSVP	Resource Reservation Protocol (RFC 2205)
@@ -4788,6 +4804,7 @@ RTDR	Roaming Traffic Data Report (GSMA spec TD.91)
 rtf	Rich Text Format file (file extension)
 RTFM	"read the f**king manual"  (slang: reply to a question whose answer is patently obvious)
 RTK	Real-Time Kinematic
+RTL	Register Transfer Language (use to describe micro-operations in CPUs)
 RTM	Rear Transition Modules (enables I/O connectivity without disturbing front-panel wiring)
 RTMFP	Real-Time Media Flow Protocol
 RTMI	Radio Telefono Mobile Integrato
