@@ -1,4 +1,3 @@
-%	CSS/HTML styles:  relative to parent element's size
 .arpa	Infrastructure Top-Level Domain (internet domains)
 .NET	open source computer software framework for Windows, Linux and macOS
 0D	SCALER,  Zero Dimension:  rank 0, magnitude only, no direction (e.g. speed, speed)
@@ -288,6 +287,7 @@ AiE	Artificial Intelligence Engineer (certification, ARTiBA AI professional)
 AIN	Advanced Intelligent Network (North America)
 AIO	"am i overreacting?"   (slang: asking if emotional reaction is justified)
 AIoT	Artificial Intelligence of Things
+AIPAC	American Israel Public Affairs Committee (US pro-Israel lobbying group)
 AIR	Authentication Information Request (DIAMETER message, MME to HSS)
 air-interface	connecting UE and Access Network
 Airflow	Apache's platform that schedules and monitors workflow
@@ -368,6 +368,7 @@ APDU	Application Protocol Data Unit
 APFS	Apple File System (Apple file system for macOS/iOS, optimized for SSDs)
 APG	Adjunct Processor Group
 API	Application Programming Interface
+APIDS	Application Protocol-Based Intrusion Detection System (cybersecurity)
 APM	Access Policy Manager
 APN	Access Point Name (name of gateway between telecommunication and computer networks)
 APNIC	Asia-Pacific Network Information Center (ICANN RIR)
@@ -405,7 +406,7 @@ ARP	Address Resolution Protocol (Layer 2 & 3, RFC 826)
 ARP	Allocation and Retention Priority (5G QoS = 5G QFI + ARP)
 ARPA	Advanced Research Projects Agency (United States, see also DARPA)
 ARPA	American Rescue Plan Act of 2021 (US healthcare law)
-ARPANET	Advanced Research Projects Agency Network
+ARPANET	Advanced Research Projects Agency Network (1969 DARPA project, precursor to the internet)
 ARPF	Authentication Credential Repository and Processing Function
 ARPU	Average Revenue Per Unit (business metric)
 ARQ	Automatic Repeat Query/Request (error control for data transmission, OSI layer 2 & 4)
@@ -809,7 +810,7 @@ CCTrCH	Common Control Transport Channel
 CCTV	Closed-Circuit Television
 CCU	Channel Codec Unit
 CCV	Card Code Verification     (3-4 digits code on credit/debit cards, aka CCV,CID,CSC,CVC,CVD,CVV)
-CD	Certificate of Deposit (financial investment instrument)
+CD	Certificate of Deposit (finance: low-risk, fixed-return bank deposit)
 CD	Compact Disk (type of optical DAS hardware)
 CD	Continuous Deployment (business process)
 CD-NOMA	Code Domain-Non-Orthogonal Multiple Access
@@ -830,6 +831,7 @@ cdmaOne	IS-95, 2G CDMA-based digital cellular technology (TIA IS-95)
 CDN	Content Delivery Network (geographically distributed network of servers)
 CDO	Chief Data Officer (executive position)
 CDO	Chief Diversity Officer (executive position)
+CDO	Collateralized Debt Obligation (finance: structured financial product)
 CDP	Cisco Discovery Protocol  (Cisco: proprietary data link layer protocol)
 CDPD	Cellular Digital Packet Data
 CDR	Charging Data Record  (same as UDR, billing/usage, TS 32.295)
@@ -838,6 +840,7 @@ CDR	Common Data Representation (CORBA)
 CDRAM	Cache DRAM (RAM classification, specialized DRAM with on-chip cache)
 CDROM	Compact Disk Read Only Memory
 CDRW	Compact Disk Rewritable
+CDS	Credit Default Swaps (finance: contracts that insure against defaults)
 CDT	US Central  Daylight Time, UTC-5 (2nd SUN in MAR to 1st SUN in NOV)
 CE	Common Era year (same as "AD", "Anno Domini", but without religious connotations)
 CE	Congestion Experienced
@@ -919,7 +922,7 @@ CIRT	Computer Incident Response Team
 CIS	Center for Internet Security (nonprofit organization, www.cisecurity.org)
 CIS	Commonwealth of Independent States (Russia + 8 surrounding countries)
 CIS	Container Ingress Service
-CISA	Cybersecurity and Infrastructure Security Agency (US security agency)
+CISA	Cybersecurity and Infrastructure Security Agency (US federal agency, responsible for protecting the nation’s critical infrastructure from cyber and physical threats)
 CISC	Complex Instruction Set Computer (ISA classification for processor architecture)
 CISM	Certified Information Security Manager (cybersecurity: certification)
 CISO	Chief Information Security Officer (cybersecurity: executive position)
@@ -1018,6 +1021,7 @@ com	command file extension, similar to ".exe".  text file with commands for OS
 COM	Component Object Model (Microsoft programming language-neutral interface)
 COMAC	Converged Multi-Access and Core
 COMINT	Communications Intelligence (from intercepting communication)
+COMINT	Communications Systems (SIGINT, focused on human communications, e.g. phone, online)
 COMMAND.COM	default command-line interpreter for MS-DOS and Windows
 CoMP	Coordinated Multipoint (3GPP Release 11)
 CompTIA	Computing Technology Industry Association (non-profit IT organization, www.comptia.org)
@@ -1124,6 +1128,7 @@ CSI-RS	Channel State Information Reference Signal
 CSIM	CDMA Subscriber Identity Module
 CSIP	Common Specification for Information Packages
 CSIP	Continuous Service Improvement Program
+CSIRT	Computer Security Incident Response Team (cybersecurity: specialized group of cybersecurity experts)
 CSK	Color Shift Keying                         (light signal modulation technique)
 CSM	Content Services Module
 CSMA	Carrier Sense Multiple Access
@@ -1150,12 +1155,14 @@ csv	Comma Separated Values (file extension)
 CT	Computerized Tomography (medical scan, X-Ray technology)
 CT	Cordless Telephony
 CT	Core Network and Terminals (TSG in 3GPP)
+CTA	Call To Action (marketing: text designed to prompt response or sale)
 CTAP	Client to Authenticator Protocol (FIDO open specifications)
 CTC	Call for TeChnologies
 CTC	Cost to the Company (business term)
 CTDMA	Code Time Division Multiple Access
 CTF	Capture the Flag (type of video or real-life game)
 CTF	Charging Trigger Function
+CTF	Cyber Threat Framework (cybersecurity:  US government cybersecurity framework)
 CTI	Centre for Testing and Interoperability (ETSI)
 CTI	Cyber Threat Intelligence (cybersecurity: motives, tactics, techniques and procedures)
 CTIA	Cellular Telecommunications and Internet Association
@@ -1221,7 +1228,8 @@ DAG	Directed Acyclical Graphs
 DAMPS	Digital Advanced Mobile Phone System (IS-54, IS-123, 2G AMPS, FDMA & TDMA)
 DANE	DNS-based Authentication of Named Entities
 DAPS	Dual Active Protocol Stack (TS 38.300)
-DARPA	US Defense Advanced Research Projects Agency
+DARPA	Defense Advanced Research Projects Agency (US DoD research agency, developed ARPANET, GPS, drones, mRNA, stealth, etc., 1958)
+DARVO	Deny, Attack, Reverse Victim and Offender (medical: individuals or institutions attempting to deflect blame)
 DAS	Direct-Attached Storage (ISM data storage, physically connected)
 DAS	Distributed Antenna System
 DASH	Dynamic Adaptive Streaming over HTTP (TS 26.247)
@@ -1596,13 +1604,14 @@ EDID	Extended Display Identification Data (metadata format for display devices, 
 EDMG	Enhanced Directional Multi-Gigabit (IEEE 802.11ay standard)
 EDO-DRAM	Extended Data Out DRAM (RAM classification, older DRAM variant)
 EDP	Event Detection Point
-EDR	Endpoint Detection and Response (cybersecurity: framework)
+EDR	Endpoint Detection and Response (cybersecurity: monitor behavior and support containment)
 EDR	Enhanced Data Rate (Bluetooth)
 EDR	Event Data Record
 EDT	US Eastern  Daylight Time, UTC-4 (2nd SUN in MAR to 1st SUN in NOV)
 edu	.edu "dot edu", educational use (domain name suffix)
 EEA	EPS Encryption Algorithm
 EEA	European Economic Area
+EEAT	Experience, Expertise, Authoritativeness and Trust (Google's content quality and credibility indicators)
 EEC	Ethernet Equipment slave Clock
 EEG	Electro-Encephalography (medical: electrical activity of scalp)
 EEPROM	Electrically Erasable Programmable Read-Only Memory (non-volitile, reprogrammable memory)
@@ -1645,11 +1654,12 @@ ELF	Executable and Linkable Format
 ELF	Extremely Low Frequency
 eli5	"explain like i’m 5"  (slang: reddit forum)
 ELIN	Emergency Location Identification Number
+ELINT	Electronic Emissions (SIGINT, focused on non-communication electronic signals, e.g. radar, weapons)
 ELINT	Electronic Intelligence (from intercepting electronics)
 ELK	ElasticSearch, Logstash and Kibana (big data)
 ELSUR	Electronic Surveillance Data Management System (DCSNet repository)
 ELU	Exponential Linear Unit		(AI: activation function in NN, introduces non-linearity)
-em	CSS/HTML styles:  element with scalable size relative to parent font size
+em	CSS/HTML styles:  element with scalable size relative to parent font size, same as "%"
 EM	Electro-Magnetic
 EM	Element Management
 EM	Expectation-Maximization (AI: unsupervised ML model, clustering)
@@ -1773,7 +1783,7 @@ eta	"estimated time of arrival"
 ETB	End of Transmission Block
 etc.	Latin: "et cetera",  English: "or", "so forth"
 etcd	key value store system used in Kubernetes
-ETF	Exchange-Traded Funds (financial investment instrument)
+ETF	Exchange-Traded Funds (finance: diversified, tradable fund)
 ETH	Ethereum (crypto-asset, ethereum.org)
 ETHERNET	Communication Protocol Standard (IEEE 802.3)
 ETL	Extract, Transform, Load (prepare raw data for analytics)
@@ -1902,6 +1912,7 @@ FinCEN	Financial Crimes Enforcement Network (banking: US Treasury bureau, www.fi
 finna	going to, intending to (slang)
 FIPS	Federal Information Processing Standards (US standards published by NIST, csrc.nist.gov)
 FIRST	Forum of International Response and Security Teams
+FISINT	Foreign Instrumentation Signals (SIGINT, focused on telemetry and instrumentation signals, e.g. missles, aircraft)
 FISMA	Federal Information Security Modernization Act of 2014 (cybersecurity: US security compliance framework)
 FL	Forward Link (from fixed location to end user)
 FL	NTN Feeder Link (HAPS to CN)
@@ -2046,6 +2057,7 @@ Gbps	Gigabits (or bytes) per Second
 GBR	Guaranteed Bit Rate
 GCC	Group Call Control (TS 44.068)
 GCC	Gulf Cooperation Council (Middle East economic union)
+GCHQ	Government Communications Headquarters (cybersecurity: UK intelligence and cyber security agency)
 GCI	Global Cable Identifier
 GCIH	GIAC Certified Incident Handler (cybersecurity: GIAC certification)
 GCJ	GNU Compiler for Java
@@ -2099,6 +2111,7 @@ GICA	Group Identification Code Administrator (ITU-T E.164)
 gif	Graphics Interchange Format (image file extension)
 giga-	G,  10 power   9	- numeric, see also "prefix"
 GIJ	GNU Interpreter for Java
+GIPDRR	Govern, Identify, Protect, Detect, Respond, Recover (cybersecurity: core functions of NIST CSF)
 GIS	Geographic Information Systems (all things related to geospatial data)
 GKE	Google Kubernetes Engine  (managed Kubernetes service by Google)
 GLAAD	Gay and Lesbian Alliance Against Defamation (social organization, www.glaad.org))
@@ -2238,7 +2251,7 @@ Hadoop	Apache open-framework for big data storage and data analysis
 HADR	High Availability and Disaster Recovery
 HAL	Hardware Abstraction Layer
 HaLow	     802.11ah  2016  RF:   2.4/5 GHz   data rate:  347 Mbps   range:    1000 km
-HALT	Hungry, Angry, Lonely and Tired (medical: self-check to identify basic emotional states)
+HALT	Hungry, Angry, Lonely and Tired (medical: self-check to identify emotional states)
 HAM	Amateur Radio Service (world-wide radio service: AM,FM,SSB,CW,digital)
 HAN	Home Area Network (computer network)
 HANA	High-performance ANalytic Appliance (in-memory, column-oriented RDBMS by SAP)
@@ -2274,7 +2287,7 @@ HEAD	get headers in GET		- RFC 9110,  HTTP method or verb
 hecto-	h,  10 power   2	- numeric, see also "prefix"
 HEENT	Head, Eyes, Ears, Nose and Throat exam (medical: standard part of a physical exam)
 HELM	Holistic Evaluation of Language Models (AI: evaluation benchmark for LLMs)
-HELOC	Home Equity Line of Credit (finance, using home as collateral for loan)
+HELOC	Home Equity Line of Credit (finance: using home as collateral for loan)
 HeNB	Home eNB (evolved-NodeB)
 HEO	High Elliptical Orbit satellites (400 km to 50,000 km orbit)
 HetNet	Heterogeneous Networks (3GPP Release 11)
@@ -2292,6 +2305,7 @@ Hib	Haemophilus Influenzae Type B (medical: vaccine for lungs and respiratory vi
 HIBS	High Altitude IMT Base Stations (station at 20 to 50 km)
 HID	Hughes Identification Devices (US company providing PAC & IAC products eg: badges)
 HID	Human Interface Device (ex: keyboard, mouse, joystick)
+HIDS	Host Intrusion Detection System (cybersecurity)
 HiFi	High-Fidelity (audio, high-quality of audio reproduction)
 HIP	Host Identity Protocol (RFC 4423)
 HIPAA	Health Insurance Portability and Accountability Act (US medical privacy law)
@@ -2322,6 +2336,7 @@ hPa	pressure in "hecto-Pascal"	1 hPa =  100 Pa		meteorology
 HPC	High Performance Computing
 HPCC	High-Performance Computing Cluster (open-source big data tool)
 hPCRF	home Policy and Charging Rules Function
+HPE	Hewlett Packard Enterprise (US multinational IT company, 2015-present, www.hpe.com)
 HPLMN	Home Public Land Mobile Network
 HPQC	Hewlett-Packard Quality Center (test management tool)
 HPV	Human Papilloma-Virus (medical: vaccine for cancers and warts virus)
@@ -2472,7 +2487,7 @@ IDN ccTLD	Internationalized Country Code Top-Level Domains (internet domains)
 IDNA	Internationalizing Domain Names in Applications (handle internationalized domain names)
 IDPR	Inter-Domain Policy Routing Protocol (RFC 1479)
 IDRC	International Development Research Centre
-IDS	Intrusion Detection System (cybersecurity:  security monitor & detection tool)
+IDS	Intrusion Detection System (cybersecurity:  tool that monitors suspicious activity))
 IDSL	hybrid of ISDN and DSL (144 kbps Mbps downstream and upstream)
 IE	Information Element (message parameters)
 IE	Internet Explorer (Microsoft web browser)
@@ -2741,7 +2756,7 @@ IPP	Internet Printing Protocol (network printing, port 631)
 IPR	Intellectual Property Rights
 IPS	In-Plane Switching panels (video display technology)
 IPS	Internet Protocol Suite (communication protocols)
-IPS	Intrusion Prevention System (cybersecurity: monitor and blocks tool)
+IPS	Intrusion Prevention System (cybersecurity: tool that monitors and blocks suspicious activity)
 IPSec	Internet Protocol Security (network layer, authentication and encryption protocol suite)
 IPTV	Internet Protocol Television
 IPUPS	Inter-PLMN User Plane Security
@@ -2776,6 +2791,7 @@ IrDA	Infrared Data Association  (standards organization, www.irda.org)
 IRI	Internationalized Resource Identifiers (IP protocol standard build on URI, RFC 3987)
 IRL	"in real life"  (slang: off-line events, happening outside the digital world)
 IRM	Insider Risk Management (cybersecurity: framework)
+IRP	Incident Response Plan (cybersecurity: plan to detect, contain, and resolve different attack types)
 IRP	Integration Reference Point (TR 32.828)
 IRPA	International Radiation Protection Association
 IRR	Internal Rate of Return (business metric)
@@ -2826,6 +2842,7 @@ ISO	International Organization for Standardization (standards organization, www.
 iso	Optical Disc Image (ISO 9660 file system used with CD-ROM media)
 ISO-9000	International Standard 9000 (requirements for Quality Management and Quality Assurance, www.asq.org/quality-resources/iso-9000)
 ISO-9001	International Standard 9001 (requirements for Quality Management System, www.asq.org/quality-resources/iso-9001)
+ISO/IEC 27001	International Organization for Standardization/International Electrotechnical Commission (cybersecurity:  framework, www.iso.org/standard/27001)
 ISO20022	Electronic Data Interchange in Financial Services (ISO standard)
 ISOC	Internet Society (American non-profit organization)
 ISP	Internet Service Provider
@@ -2904,6 +2921,7 @@ JFS	Journaled File System (Unix file system for IBM for AIX)
 JIRA	software application for issue tracking and project management
 JIT	Just In Time (compiler that translates JVM into machine code)
 JLS	Java Language Specification
+JPCERT	Japan’s Computer Emergency Response Team Coordination Center (cybersecurity:  Japan's CSIRT)
 jpeg	Joint Photographic Experts Group (image file extension)
 jpg	Joint Photographic Group (image file extension)
 JQL	Jira Query Language
@@ -3087,7 +3105,7 @@ LIDB	Line Information Database (billing information)
 LIF	Logical Interface
 LiFi	"Light Fidelity", IEEE 802.15.7, data via light signals and LED bulbs
 LIFO	Last-In, First-Out (scheduling algorithm)
-Linux	UNIX-like computer operating systems but without any UNIX code
+Linux	UNIX-like computer operating systems, but without any UNIX code (Linus Torvalds, 1991)
 LIPA	Local IP Access
 LIR	Local Internet Registry
 LISP	Locator/Identifier Separation Protocol (RFC 6830)
@@ -3291,6 +3309,7 @@ MDN	Mobile Directory Number (10-digit dialed mobile number)
 MDN	Mozilla Developer Network (free, open-source platform for web technologies)
 mDNS	Multicast Domain Name System (RFC 6762, DNS-SD message)
 MDP	Markov Decision Processes (AI: unsupervised ML model, reinforcement learning)
+MDR	Managed Detection and Response (cybersecurity: 24/7 cybersecurity service providers)
 MDR	Memory Data Register (holds data ready to be read from or written to memory)
 MDR	Message Definition Reports, describes ISO20022 message technical structure
 MDS	Meta Data Server
@@ -3632,6 +3651,7 @@ N5g-eir	5G Service-Based Interface exhibited by 5G-EIR
 N6	UPF and Data Network	5G interface
 N7	SMF and PCF	5G interface
 N8	UDM and AMF	5G interface
+n8n	"n-eight-n" or "nodemation" (AI: open-source workflow automation platform)
 N9	UPF and UPF	5G interface
 NA	North American (region)
 NA	Not Available (missing value in data) or Not Applicable in filling forms (na, n/a, N/A)
@@ -3691,6 +3711,7 @@ Ncol	Natural Colors                 (color model)
 NCP	Network Control Protocol (network layer protocol for PPP)
 NCR	National Cash Register corporation (US technology company)
 NCR	Non-Conformance Report  (record of anything that does not meet predefined standards)
+NCSC	National Cyber Security Center (cybersecurity: UK organization, protect digital infrastructure)
 ND	Neighbor Discovery, or Neighbor Discovery Protocol  (network layer, RFC 1970, 2461, 4861)
 NDA	Non-Disclosure Agreement (legal document, confidentiality agreement)
 NDC	National Destination Code (ITU-T E.164)
@@ -3777,6 +3798,7 @@ NICT	National Institute of Information and Communications Technology (www.nict.g
 NID	Network Identifier
 NID	Network Interface Device
 NIDD	Non-IP Data Delivery
+NIDS	Network Intrusion Detection System (cybersecurity)
 NIH	National Institutes of Health  (US federal agency)
 NIMA	National Imagery and Mapping Agency (now known as NGA)
 NIPC	National Infrastructure Protection Center
@@ -3785,6 +3807,7 @@ NIR	Non-Ionizing Radiation (insufficient energy to ionize atoms or molecules)
 NIRCam	Near Infrared Camera (instrument on JWST)
 NIS2	Network and Information Security Directive (EU cybersecurity legislation)
 NIST	National Institute of Standards and Technology (US standards agency, www.nist.gov)
+NIST SP 800-61	NIST official guidance for cybersecurity incident response (cybersecurity)
 NITRD	Networking and Information Technology Research and Development
 NITZ	Network Identity and Time Zone
 NKVD	Naródnyy Komissariát Vnútrennikh Del (Soviet interior ministry, 1934-1946)
@@ -3885,6 +3908,7 @@ NSI	Network Slice Instance
 NSI ID	Network Slice Instance Identifier
 NSIE	National Security Information Exchange
 NSLPI	NAS Signaling Low Priority Indication
+NSM	Network Security Monitoring (cybersecurity: monitor, analyze, by OISF)
 Nsmf	5G Service-Based Interface exhibited by SMF
 NSN	Nation Significant Number (ITU-T E.164)
 NSO	Network Service Orchestrator
@@ -3978,7 +4002,7 @@ OCPD	Over-Current Protection Device
 OCR	Optical Character Reader (printed text recognition)
 OCRA	OATH Challenge-Response Algorithm (RFC 6287, OTP algorithm)
 OCS	Online Charging System (prepaid services)
-OCSF	Open Cybersecurity Schema Framework  (security events definition and exchange)
+OCSF	Open Cybersecurity Schema Framework (cybersecurity: security events definition and exchange)
 OCT	Octal numbering system,       base 8: 0-7       (BIN, TER, OCT, DEC, HEX)
 OCTET	Unit of Information, 1 byte = 8 bits = 1 octet
 ODA	On-Device Activation
@@ -4014,6 +4038,7 @@ OG	original, "original gangster"  (slang: someone who’s respected, exceptional
 OGC	Open Geospatial Consortium (standards organization, www.ogc.org)
 OID	Object Identifier
 OISC	One Instruction Set Computer (ISA classification)
+OISF	Open Information Security Foundation (cybersecurity: nonprofit organization, oisf.net)
 OKR	Objectives and Key Results (framework for objectives, results, progress and teams)
 OLA	Operational Level Agreement
 OLAP	On-Line Analytical Processing (data processing concept)
@@ -4293,6 +4318,7 @@ PICH	Page Indicator Channel
 PICMG	PCI Industrial Computer Manufacturers Group (consortium for high-performance computing, www.picmg.org)
 pico-	p,  10 power -12	- numeric, see also "prefix"
 PID	Physical Interface Device (ex: force feedback joystick)
+PIDS	Protocol-Based Intrusion Detection System (cybersecurity)
 PIFI	Personally Identifiable Financial Information
 Pig	Apache high level querying interface
 PII	Personally Identifiable Information (individual's identity information)
@@ -4373,6 +4399,7 @@ POV	"point of view"  (slang: show a scenario from a specific perspective)
 PP	Poly-Propylene, or Styrofoam (type of plastic)
 PPAC	Paging Permission with Access Control (TS 22.098)
 PPACA	Patient Protection and Affordable Care Act (obsolete, now known as "ACA")
+PPC	Pay-Per-Click (digital marketing: paid advertising model)
 PPD	Paging Policy Differentiation
 PPDR	Public Protection and Disaster Relief
 PPF	Paging Proceed Flag
@@ -4624,7 +4651,7 @@ ReFS	Resilient File System (Windows Server 2012 file system format based on COW)
 REG	Register (storage element that holds data until the next clock edge)
 REGEX	Regular Expression, pattern search in computer languages
 ReiserFS	Reiser Family File Systems (file system)
-REIT	Real Estate Investment Trusts (financial investment instrument)
+REIT	Real Estate Investment Trusts (finance: company that owns and operates income-producing real estate)
 ReLU	Rectified Linear Unit 		(AI: activation function in NN, introduces non-linearity)
 rem	CSS/HTML styles:  root element with scalable size relative to root font size
 REPL	Read, Evaluate, Print, Loop
@@ -5022,13 +5049,16 @@ SEI	Software Engineering Institute (US DoD funded research & development center,
 SEI	Subscriber Experience Insight (field test tool)
 SEID	Session Endpoint Identifier
 SELU	Scaled Exponential Linear Unit	(AI: activation function in NN, introduces non-linearity)
+SEM	Search Engine Marketing (digital marketing: increases website visibility on SERP)
 SEM	Simultaneous Equations Models (statistics: set of linear simultaneous equations)
 SeNB	Secondary evolved NodeB
 SEND	Secure Neighbor Discovery protocol  (extension of NDP, RFC 6794)
+SEO	Search Engine Optimization (digital marketing: increase online visibility & traffic)
 SEO	Search Engine Optimization (URL ranking/optimization algorithm)
 SEP	Signaling End Point
 SEP	Summary of Economic Projections (FED's report on US economy)
 SEPP	Security Edge Protection Proxy (5G network function, TS 23.501, TS 33.517)
+SERP	Search Engine Results Page (response page generated by a search engine)
 SES	Simple Email Service
 SEVIS	Student and Exchange Visitor Information System (USCIS database)
 SEVP	Student and Exchange Visitor Program (USCIS program)
@@ -5081,7 +5111,7 @@ SIF	signaling Information Field
 SIFT	Scale-Invariant Feature Transform (algorithm to detect and describe features in images)
 SIG	Bluetooth Special Interest Group (BlueTooth standards organization, www.bluetooth.com)
 sigi	Country Code (ITU-T E.164)
-SIGINT	Signals Intelligence (from intercepting signals)
+SIGINT	Signals Intelligence (collection and analysis of electronic signals)
 Sigmoid	Sigmoid Function 		(AI: activation function in NN, introduces non-linearity)
 SIGTRAN	Signaling Transport (extension of SS7 protocol using IP/SCTP)
 SII	Spectrum Innovation Initiative (NSF spectrum utilization)
@@ -5144,6 +5174,7 @@ SMF	Single-Mode Fiber, uses one single ray of light to transmit data
 smh	"shaking my head"  (slang: express disbelief, frustration, or disapproval)
 SMI	Structure of Management Information (RFC 1065)
 SMLC	Serving Mobile Location Center
+SMM	Social Media Marketing (digital marketing: engaging users when they're online)
 SMO	Service Management & Orchestrator
 SMPP	Short Message Peer to Peer
 SMPS	Switch Mode Power Supply  (high-frequency switching)
@@ -5182,7 +5213,7 @@ SOA	Start of Authority (DNS record type: locates specific services)
 SOAC	Service Order Analysis and Control System
 SOAC	Survivable Airborne Operations Center (US military)
 SOAP	Simple Object Access Protocol (W3C, XML protocol over HTTP, web services)
-SOAR	Security Orchestration, Automation and Response (cybersecurity: framework)
+SOAR	Security Orchestration, Automation and Response (cybersecurity: automate repetitive tasks)
 SOC	Security Operations Center (cybersecurity: centralized team and facility)
 SOC	Service Oriented Core
 SoC	System on a Chip (PoP configured integrated chip)
@@ -5345,6 +5376,7 @@ STP	Shielded Twisted Pair (twisted-pair cable)
 STP	Signal Transfer Point (SS7 SP, network node)
 STP	Spanning Tree Protocol (routing protocol, loop prevention, RFC 7727, IEEE 802.1D)
 STR	Synchronous Transmit-Receive
+STRIDE	Spoofing, Tampering, Repudiation, Information Disclosure, Denial of Service, and Elevation of Privilege (cybersecurity:  framework developed by Microsoft)
 string		data type, composite:     sequence of characters ("Hello World")
 struct		data type, user-defined:  group of related fields
 STS	Synchronous Transport Signal (ANSI SONET, transport signal format)
@@ -5365,6 +5397,7 @@ SUL	Supplementary Uplink-Only band
 SUPI	Subscription Permanent Identifier (IMSI, NAI, GCI or GLI, TS 23.501)
 SUPL	Secure User Plane Location
 SURF	Speeded-Up Robust Features (algorithm to detect and describe keypoints in images)
+Suricata	open-source network analysis and threat detection software (cybersecurity: by OISF, suricata.io)
 sus	short for "suspicious"  (slang: somthing or someone that's shady, un-trustworthy or off)
 SUSE	Linux distribution developed by SUSE
 SUT	System Under Test
@@ -5393,6 +5426,7 @@ SYN-ACK	SYNchronize/ACKnowledgement (TCP/IP message)
 SyncE	Synchronous Ethernet (ITU-T Rec. G.8262, synchronization over Ethernet networks)
 sys	DOS & Windows system settings and variables file (file extension)
 SYSLOG	System Log
+syslog	system log (cybersecurity: tracks events generated by OS, RFC 5424 format)
 SysML	Systems Modeling Language (UML language for systems engineering)
 T&M	Time and Money, Test and Measurement
 T-BCSM	Terminating Basic Call State Model
@@ -6013,6 +6047,7 @@ VSV	Vesicular Stomatitis Virus (medical: viral infection)
 VSWR	Voltage Standing Wave Ratio
 VTP	VLAN Trunking Protocol (routing protocol)
 VTS	Vessel Traffic Service (marine traffic monitoring system)
+VUID	Voter Unique Identifier (identification number for voting in US elections)
 VULA	Virtual Unbundled Local Access
 VVM	Visual Voice Mail
 VVV	Volume, Velocity, Variety (big data concept)
