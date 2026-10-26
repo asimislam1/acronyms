@@ -4116,7 +4116,7 @@ OSEP	Offensive Security Experienced Penetration Tester (cybersecurity: certifica
 OSF	Open Software Foundation (Open Group, www.opengroup.org)
 OSG	Open Source Group
 OSHA	Occupational Safety and Health Administration (US agency for workplace safety, www.osha.gov)
-OSI	Open Systems Interconnection model (7 layers network communication model: "PDNTSPA")
+OSI	Open Systems Interconnection model (network communication model: 7 layers "PDNTSPA")
 OSI	Other System Information, SIB2-SIB9 (5G NR system information: MSI, RMSI, OSI)
 OSI layer 1	Physical	- medium:	BIT	     0s & 1s: hub, repeater, modem, cables
 OSI layer 2	Data Link	- switching:	FRAME	 MAC address: switching data within single network
@@ -5475,7 +5475,7 @@ TCL	Transaction Control Language (SQL command category)
 TCN	Topology Change Notification
 TCO	Total Cost of Ownership = CapEx + OpEx (business metric)
 TCP	Transmission Control Protocol (transport layer, RFC 793)
-TCP/IP	Transmission Control Protocol/Internet Protocol model (4 layers network communication model: "NITA")
+TCP/IP	Transmission Control Protocol/Internet Protocol model (network communication model: 4 layers "NITA")
 TCP/IP command	ipconfig	-current configuration
 TCP/IP command	ping		- check connectivity, usage: ping <name/ip addr>
 TCP/IP command	route print	- display/modify local routing table
