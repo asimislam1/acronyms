@@ -215,6 +215,7 @@ ACL	Annual Meeting of the Association for Computational Linguistics (AI: focused
 ACL	Anterior Cruciate Ligament  (medical: knee joint ligament)
 ACL	Asynchronous Connectionless Link
 ACLU	American Civil Liberties Union, nonprofit organization (www.aclu.org)
+ACME	Automatic Certificate Management Environment (cryptography protocol, RFC 8555)
 ACS	Access Control System
 ACTA	Administrative Council for Terminal Attachments
 AD	Active Directory (MicroSoft management service for users, computers, network, etc.)
@@ -402,9 +403,9 @@ ARJ	Advanced RAR (file format, supports data compression and error correction)
 ARM	Adjustable-Rate Mortgage (US, mortgage interest rate that changes after an initial fixed period)
 ARM	Advanced RISC Machines (RISC instruction set, developed by Acorn Computers)
 ARM	Asynchronous Response Mode
-ARP	Address Resolution Protocol (Layer 2 & 3, RFC 826)
+ARP	Address Resolution Protocol (maps IP address and MAC address, layer 2 & 3, RFC 826)
 ARP	Allocation and Retention Priority (5G QoS = 5G QFI + ARP)
-ARPA	Advanced Research Projects Agency (United States, see also DARPA)
+ARPA	Advanced Research Projects Agency (US DoD agency, funds high-risk, high-reward research)
 ARPA	American Rescue Plan Act of 2021 (US healthcare law)
 ARPANET	Advanced Research Projects Agency Network (1969 DARPA project, precursor to the internet)
 ARPF	Authentication Credential Repository and Processing Function
@@ -687,7 +688,7 @@ C3	Chrysler Comprehensive Compensation System
 C3I	Command, Control, Communications and Intelligence
 C6	Cloud, Cognition, Collaboration, Connectivity, Content, Context
 CA	Carrier Aggregation (combines frequency bands to increase bandwidth/data speed)
-CA	Certificate Authority
+CA	Certificate Authority (issues digital certificate for website authentication)
 CA-Polar	CRC Aided Polar (5G channel encoding technology)
 CAA	Certificate Authority Authorization (DNS record type: spcifies which certificate authority can issue SSL certificates)
 CaaS	Containers as a Service (cloud concept)
@@ -1135,8 +1136,9 @@ CSMA	Carrier Sense Multiple Access
 CSMF	Communication Service Management Function
 CSN	Connectivity Service Network
 CSO	Chief Security Office (executive position)
-CSP	Cloud Service Providers
+CSP	Cloud Service Providers (e.g. Amazon Web Services, Microsoft Azure, Google Cloud)
 CSP	Communication Service Provider, aka SP, TSP
+CSP	Content Security Policy (cybersecurity: security feature in web development)
 CSPDN	Circuit-Switched Public Data Network (ITU X.81)
 CSR	Create Session Request
 CSRC	Centralized Signaling and Routing Control
@@ -1688,6 +1690,7 @@ EMT	Emergency Medical Technician (medical: professional providing on-site medica
 EMT	Ethernet Multifunction Terminal (previously called "EMUX")
 EMTEL	Emergency Communications
 EMUX	Ethernet Multiplexer (now called "EMT")
+EMV	Europay, Mastercard, Visa (payment method based on smart payment cards standards)
 EN	E-UTRA New Radio (dual connectivity option)
 EN-DC	E-UTRA New Radio Dual Connectivity (5G Option 3, TS 38.300)
 EN-gNB	E-UTRA New Radio Next Generation Node B (dual connectivity option)
@@ -1778,6 +1781,7 @@ ESRI	Environmental Systems Research Institute (US company, GIS supplier)
 ESRK	Emergency Services Routing Key
 ESRM	Enterprise Security and Risk Management
 ESS	Extended Service Set (network with multiple AP-Access Point)
+EST	Enrollment over Secure Transport (cryptography protocol using X.509)
 EST	US Eastern  Standard Time, UTC-5 (2nd SUN in NOV to 1st SUN in MAR)
 eta	"estimated time of arrival"
 ETB	End of Transmission Block
@@ -2275,7 +2279,7 @@ HDF	High Density Fiberboard   (type of wood board, high strength, stronger than 
 HDFS	Hadoop Distributed File System (fault-tolerant data storage file system)
 HDHP	High Deductible Health Plan (US medical insurance plan)
 HDL	High-Density Lipoprotein     (good cholesterol, 60-80 mg/dL, removes cholesterol from arteries)
-HDLC	High-Level Data Link Control (ISO/IEC 13239:2002)
+HDLC	High-Level Data Link Control (ISO/IEC 13239:2002, OSI layer 2: data link)
 HDMI	High-Definition Multimedia Interface (digital interface for high-qulity audio & video)
 HDPE	High-Density Poly-Ethylene (type of plastic)
 HDR	High Data Rate
@@ -2848,6 +2852,7 @@ ISOC	Internet Society (American non-profit organization)
 ISP	Internet Service Provider
 ISPC	International Signaling Point Codes (ITU-T Q.708)
 ISR	Idle mode Signaling Reduction
+ISRG	Internet Security Research Group (non-profit, internet security corporation, www.isrg.org)
 ISRP	Inter-System Routing Policies (traffic distribution and routing rules)
 ISS	Integrated Security Systems (systems and strategies to protect people and infrastructure)
 ISSAP	Information Systems Security Architecture Professional (cybersecurity: certification by ISC2)
@@ -3032,25 +3037,6 @@ LASER	Light Amplification by Stimulated Emission of Radiation
 LASIK	Laser-Assisted In Situ Keratomileusis (corrective eye surgery)
 LATA	Local Access and Transport Area
 LatAm	Latin America (Mexico, Central America and South America)
-layer 1  	Physical Layer	   - medium:	   BIT     transmit serial bits
-layer 2  	Data Link Layer	   - switching:	   FRAME   organize bits to frame, node-to-node delivery
-layer 3  	Network Layer	   - routing:	   PACKET  packets from source to destination and inter-working
-layer 4  	Transport Layer	   - segmentation: SEGMENT end-to-end message delivery and error recovery
-layer 5  	Session Layer	   - data:	   DATA    establish, manage, terminate sessions
-layer 6  	Presentation Layer - data:	   DATA    translate, encrypt, compress
-layer 7  	Application Layer  - data:	   DATA    inter-process communication and sharing
-layer OSI 1	Physical Layer	   - medium:	   BIT     hub, repeater, modem, cables - USB, ATM
-layer OSI 2	Data Link Layer	   - switching:	   FRAME   switch, bridge - ARP, MAC, DSL, ethernet, PPP
-layer OSI 3	Network Layer	   - routing:	   PACKET  router - IP, ICMP, IGMP, ARP
-layer OSI 4	Transport Layer	   - segmentation: SEGMENT segments/TCP, datagrams/UDP - TCP, UDP, RCP, TLS
-layer OSI 5	Session Layer	   - data:	   DATA    manage sessions, security   RPC, PPTP
-layer OSI 6	Presentation Layer - data:	   DATA    translation, encryption, compression - JPEG, MPEG
-layer OSI 7	Application Layer  - data:	   DATA    services, applications, interfaces - HTTP, FTP, DNS
-layer TCP/IP 1	Physical Layer	   - medium:	   BIT	     hub, repeater, modem, cables - USB, ATM
-layer TCP/IP 2	Data Link Layer    - switching:	   FRAME     switch - ARP, MAC, DSL, ethernet, PPP
-layer TCP/IP 3	Network Layer	   - routing:	   DATAGRAM  router - IP, ICMP, IGMP, ARP
-layer TCP/IP 4	Transport Layer	   - segmentation: SEGMENT   port number:  UDP, TCP, SCTP, TLS/SSL
-layer TCP/IP 5	Application Layer  - data:   	   MESSAGES  DNS, FTP, DHCP, HTTP, SMTP, TELNET
 LB	Load Balancer
 LBA	Load Balancer Agent
 LBGTQIA+	Lesbian, Gay, Bisexual, Transgender, Queer Or Questioning, Intersex, Asexual, plus
@@ -3221,8 +3207,7 @@ Ma	AS and I-CSCF		IMS interface
 MA	English: "Master of Arts", Latin: "Magister Artium" (graduate degree)
 MA-PDU	Multi-Access Protocol Data Unit
 MaaS	Metal as a Service (cloud concept: machines, CPU, discs, networks, etc.)
-MAC	MAC Address: unique ID of any connected machine (on NIC card, eg: 00:1A:2B:3C:4d:5E)
-MAC	Media Access Control (Layer 2 Data Link)  (TS 44.060)
+MAC	Media Access Control (Layer 2, "MAC Address: unique ID of NIC card, eg: 00:1A:2B:3C:4d:5E)
 MAC	Medium Access Control (UE-eNodeB, layer 2, TS 38.321)
 MAC	Message Authentication Code (integrity check mechanism, RFC 7151)
 MACD	Moving Average Convergence Divergence (stock market trading indicators)
@@ -3708,7 +3693,7 @@ NCI	New Radio Cell Identity
 NCIS	Network Controlled Interactive Service
 NCM	Network Configuration Manager (SolarWinds product)
 Ncol	Natural Colors                 (color model)
-NCP	Network Control Protocol (network layer protocol for PPP)
+NCP	Network Control Protocol (protocol for PPP, OSI layer 2: data link)
 NCR	National Cash Register corporation (US technology company)
 NCR	Non-Conformance Report  (record of anything that does not meet predefined standards)
 NCSC	National Cyber Security Center (cybersecurity: UK organization, protect digital infrastructure)
@@ -3793,7 +3778,7 @@ NHL	National Hockey League (sports league)
 NI	Network Intelligence
 NIB	Network in a Box, e.g. private networks
 nibble		memory size	4 bits	1/2 byte, rare
-NIC	Network Interface Card (PCIe endpoint, unique MAC, networking & CPU offloads)
+NIC	Network Interface Card (hardware connecting device to network, with unique MAC address, eg: 00:1A:2B:3C:4d:5E)
 NICT	National Institute of Information and Communications Technology (www.nict.go.jp/en/index.html)
 NID	Network Identifier
 NID	Network Interface Device
@@ -4131,8 +4116,15 @@ OSEP	Offensive Security Experienced Penetration Tester (cybersecurity: certifica
 OSF	Open Software Foundation (Open Group, www.opengroup.org)
 OSG	Open Source Group
 OSHA	Occupational Safety and Health Administration (US agency for workplace safety, www.osha.gov)
-OSI	Open Systems Interconnection model (7 layers: "PDNTSPA")
+OSI	Open Systems Interconnection model (7 layers network communication model: "PDNTSPA")
 OSI	Other System Information, SIB2-SIB9 (5G NR system information: MSI, RMSI, OSI)
+OSI layer 1	Physical	- medium:	BIT	     0s & 1s: hub, repeater, modem, cables
+OSI layer 2	Data Link	- switching:	FRAME	 MAC address: switching data within single network
+OSI layer 3	Network		- routing:	PACKET	  IP address: routing data in networks
+OSI layer 4	Transport	- segmentation:	SEGMENT  port number: delivering data between devices
+OSI layer 5	Session		- data:	   	DATA     manage sessions, authentication, compression, checkpoints
+OSI layer 6	Presentation	- data:	   	DATA     opens/closes sessions, encryption, compression, data conversion
+OSI layer 7	Application	- data:	   	DATA     protocols for application services
 OSINT	Open Source Intelligence (any public information, www.osint.org)
 OSM	Open Source Management and Orchestration (MANO)
 OSOC	Universal Service Ordering Code
@@ -4941,6 +4933,7 @@ SBC	Server-Based Computing
 SBC	Session Border Controller (IMS)
 SBI	REST South-Bound Interface
 SBI	Service Based Interface
+SBI	System Information Blocks (network & configuration broadcast messages from base station to UE)
 SBN	Standard Book Numbering (9-digits, replaced by ISBN in 1970)
 SBU	Strategic Business Unit
 SC	Single Carrier system
@@ -5008,7 +5001,7 @@ SDHC	Secure Digital High Capacity Card (memory card)
 SDK	Software Development Kit (also called "devkit")
 SDL	Supplementary Downlink-Only band
 SDLC	Software Development Life Cycle
-SDLC	Synchronous Data Link Control (IBM, 1975. layer 2 protocol for SNA traffic)
+SDLC	Synchronous Data Link Control (SNA traffic, OSI layer 2: data link, IBM 1975)
 SDM	Space Division Multiplexing
 SDN	Software Defined Network
 SDNS	Secure Data Network System (NSA program for security protocols)
@@ -5191,6 +5184,7 @@ SMTP	Simple Mail Transfer Protocol (application layer, sending emails, RFC 821, 
 SN	Secondary Node, radio (handles user plane traffic)
 SN	Sequence Number
 SN	Subscriber Number
+SNA	Systems Network Architecture (communication architecture developed by IBM in 1974)
 SNAP	Sub-Network Access Protocol
 SNAT	Secure Network Address Translation
 SNDC	SubNetwork Dependent Convergence (TS 23.060)
@@ -5481,12 +5475,17 @@ TCL	Transaction Control Language (SQL command category)
 TCN	Topology Change Notification
 TCO	Total Cost of Ownership = CapEx + OpEx (business metric)
 TCP	Transmission Control Protocol (transport layer, RFC 793)
-TCP/IP	Transmission Control Protocol/Internet Protocol model (5 layers: "PDNTA")
+TCP/IP	Transmission Control Protocol/Internet Protocol model (4 layers network communication model: "NITA")
 TCP/IP command	ipconfig	-current configuration
 TCP/IP command	ping		- check connectivity, usage: ping <name/ip addr>
 TCP/IP command	route print	- display/modify local routing table
 TCP/IP command	tracert		- display path to destination <hostaddr>
 TCP/IP command 	netstat		- display sessions, connections and open port
+TCP/IP layer 1a	 Network	- medium	BIT	      0s & 1s: hub, repeater, modem, cables
+TCP/IP layer 1b	 Network	- switching	FRAME     MAC address: switching data within single network
+TCP/IP layer 2	 Internet	- routing	PACKET	   IP address: routing data in networks
+TCP/IP layer 3	 Transport	- segmentation	SEGMENT	  port number: delivering data between devices
+TCP/IP layer 4	 Application	- data		DATA	     services: application services
 TD-SCDMA	Time Division-Synchronous Code Division Multiple Access (China)
 TDAG	Telecommunication Development Advisory Group
 TDaP	Tetanus, Diphtheria, acellular Pertussis  (medical: vaccine for lockjaw, diphtheria and whooping cough)
@@ -5533,8 +5532,8 @@ TI	Transaction Identifier
 TI-LFA	Topology Independent Loop-Free Alternate  (RFC 9860)
 TIA	"thanks in advance", "that is all", "take it away"  (slang: context matters)
 TIA	Telecommunications Industry Association (trade association information and communications, tiaonline.org)
-Tier 1	first contact
-Tier 2	more senior than Tier 1
+Tier 1	first contact of customer support
+Tier 2	more senior than Tier 1 customer support
 TIF	Translation Information Flag
 tiff	Tagged Image File Format (image file extension)
 TIFU	"today i f**ked up"  (slang: personal mistake or embarrassing moment)
@@ -5553,7 +5552,7 @@ TLDR	"too long;didn’t read" (slang: summarize and skip the lengthy content)
 TLDs	Top-Level Domains (highest level in hierarchical Domain Name System)
 TLIV	Type Length Instance Value
 TLLI	Temporary Logical Link Identity (TS 23.003)
-TLS	Transport Layer Security (RFC 8446)
+TLS	Transport Layer Security (cryptographic protocol for secure comminication, RFC 8446, www.tlswg.org)
 TLV	Type, Length, Value
 TM	Telecom Management
 TM	Trademark
@@ -5830,7 +5829,7 @@ UML	Unified Modeling Language (visual modeling language)
 uMTC	critical Machine-Type Communications
 UMTS	Universal Mobile Telecommunications System (TS 23.101, 3G-WCDMA+GSM/GPRS)
 UMVUE	Uniformly Minimum-Variance Unbiased Estimator (statistics: evaluation metric)
-UN	United Nations - international organization (www.un.org)
+UN	United Nations (international organization, www.un.org)
 undecillion	number equal to 1 x 10^36 (US, short scale), 1 x 10^66 (EU, large scale)
 UNI	User-Network Interface (switch to end-user)
 union		data type, user-defined:  store different data types in the same memory space
@@ -5857,9 +5856,9 @@ URN	Uniform Resource Name (RFC 7255)
 URR	Usage Reporting Rule (SMF rules to UPF)
 URRP-AMF	UE Reachability Request Parameter for AMF
 URSP	UE Route Selection Policy (TS 23.503)
-US	United States, US or U.S.
+US	United States, US or U.S. or USA
 US	UpStream
-USA	United States of America
+USA	United States of America, US or U.S. or USA
 USAF	United States Air Force (US military)
 USAID	U.S. Agency for International Development (US federal agency)
 USART	Universal Synchronous and Asynchronous Receiver-Transmitter (synchronous serial communication device)
@@ -5873,7 +5872,7 @@ USD	United States Dollar (currency)
 USDA	US Department of Agriculture (US federal agency)
 USIM	Universal Subscriber Identity Module (TS 31.102)
 USMCA	United States-Mexico-Canada Agreement
-USNG	United States National Grid (geographic notation for longitude & latitude)
+USNG	United States National Grid (UTM-based location reference system)
 USP	Universal Signaling Point (Nortel)
 USP	User Services Platform (BBF TR-369)
 USPP	Universal Subscriber Profile Platform
@@ -6176,6 +6175,7 @@ WYD	"what are you doing?"  (slang: casual, informal way to ask someone what they
 WYSIWYG	What You See Is What You Get (commonly with document printing)
 x-Haul	fronthaul, backhaul and mid-haul combined (5G concept)
 X.25	ITU packet-switching protocol for WAN (published in 1976)
+X.509	public key certificate format (cryptography, www.itu.int/rec/T-REC-X.509)
 X2	eNodeB and eNodeB	4G LTE interface
 X2 	interface between eNodeB and eNodeB
 X2AP	X2 Application Protocol (4G LTE eNodeB-eNodeB interface, TS 36.423)
