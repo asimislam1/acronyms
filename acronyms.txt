@@ -449,8 +449,8 @@ ASTM	American Society for Testing and Materials (standards organization, www.ast
 ASVS	Application Security Verification Standard (OWASP’s open framework for security controls)
 AT	Access Terminal (end user equipment)
 AT&T	American Telephone and Telegraph Inc. (US telecommunications company)
-ATA	Advanced Technology Attachment (hard-disk interface)
-ATAPI	Advanced Technology Attachment with Packet Interface (hard-disk interface)
+ATA	Advanced Technology Attachment (hard drive interface)
+ATAPI	Advanced Technology Attachment with Packet Interface (hard drive interface)
 ATC	Air Traffic Control (aviation)
 ATCA	Advanced Telecom Computing Architecture (high-performance, carrier-grade telecommunications systems)
 ATCF	Access Transfer Control Function (IMS)
@@ -462,6 +462,7 @@ ATG	Air to Ground
 ATGW	Access Transfer Gateway (IMS)
 ATIM	Announcement Traffic Indication Message
 ATIS	Alliance for Telecommunications Industry Solutions, USA (standards organization, www.atis.org)
+ATK	Accessibility Toolkit (open source software library by GNOME Project)
 ATM	"at the moment" (slang: doing, feeling, or experiencing sonething right now)
 ATM	Asynchronous Transfer Mode (TDM switching, 53-byte units "cells")
 ATM	Automated Teller Machine (banking)
@@ -590,7 +591,7 @@ BIG-IP	F5 Product: traffic manager, firewall, policy, DNS
 BIN	Bank Identification Number   (banking: part of PAN digits)
 BIN	Binary numbering system,      base 2: 0-1       (BIN, TER, OCT, DEC, HEX)
 BIND	Berkeley Internet Name Domain
-BIOS	Basic Input Output System (motherboard firmware, performs POST and reads MBR, legacy.  See UEFI)
+BIOS	Basic Input Output System (motherboard firmware, performs POST and reads MBR, legacy, see also "UEFI")
 BIPA	Biometric Information Privacy Act (state law in Illinois, regulates biometric data)
 BIPM	Bureau International des Poids et Mesures (maintains UTC)
 BIPRI	United International Bureaux for Protection of Intellectual Property, 1893-1970
@@ -717,6 +718,7 @@ CAMM	Compression Attached Memory Module DIMM (RAM classification, memory module,
 CAN	Campus Area Network (computer network)
 CAN	CANcel
 CAN	Connectivity Access Network
+CAN	Controller Area Network (communication protocol for microcontrollers and devices)
 CAP	CAMEL Application Part (TS 29.078)
 CAP	Carrierless Amplitude Phase Modulation     (digital signal modulation technique, variant of QAM)
 cap	indicate that someone is lying, exaggerating, or making a false statement (slang: "no cap" is opposite)
@@ -824,6 +826,7 @@ cda	CD Audio Track (media file extension)
 CDC	Centers for Disease Control and Prevention (US federal agency)
 CDD	Customer Due Diligence (banking: ongoing monitoring to detect unusual or suspicious activity)
 CDE	Cardholder Data Environment (digital wallet environment)
+CDE	Common Desktop Environment (desktop environment for Unix and OpenVMS)
 CDF	Charging Data Function
 CDF	Cumulative Distribution Function (statistics)
 CDG	CDMA Development Group
@@ -963,6 +966,7 @@ CLLI	Common Language Location Identifier (11-digits Central Office code)
 CLM	Contract Lifecycle Management (end to end contract management)
 CLO	Chief Legal Officer (executive position)
 CLOB	Character Large Object (information storage in databases)
+CloudHSM	Cloud Hardware Secure Module (secure storage computing device for keys, encryption and decryption)
 CloudWatch	AWS real-time resource monitor (AWS service)
 CLR	Clear (active-low clear/reset input that forces a register’s output to a known state)
 CLS	see "3CLS", Communications, Computing, Control, Localization, Sensing
@@ -1046,6 +1050,7 @@ Corp.	"Corporation", business owned by shareholders
 CORR	Correlation (statistics)
 CORS	Cross-Origin Resource Sharing (HTTP-header based mechanism)
 cos	cosine    = adjacent/hypotenuse  (trignometric function, right-angled triangle)
+COSE	Common Open Software Environment (obsolete, 1993 initiative for Unix, see TOG)
 cosh	hyperbolic cosine  = (e^x + e^-x)/2   (hyperbolic function, defined using hyperbola)
 CoSP	Communications Service Provider
 CoT	Chain of Thought (AI: prompt engineering technique for LLMs)
@@ -1623,7 +1628,7 @@ EEC	Ethernet Equipment slave Clock
 EEG	Electro-Encephalography (medical: electrical activity of scalp)
 EEPROM	Electrically Erasable Programmable Read-Only Memory (non-volitile, reprogrammable memory)
 EFF	Electronic Frontier Foundation (non-profit digital rights group, www.eff.org)
-EFI	Extensible Firmware Interface (firmware that initialized hardware and load OS, see also "UEFI")
+EFI	Extensible Firmware Interface (firmware standard that initializes hardware and loads OS, see also "UEFI")
 EFM	Ethernet in the First Mile
 EFR	Enhanced Full Rate (speech coding standard for GSM)
 EFS	Elastic File System (AWS service)
@@ -1644,7 +1649,7 @@ EIA	Electronic Industries Alliance (standards organization, dormant, 1924-2010)
 EIA	EPS Integrity Algorithm
 eICIC	enhanced Inter-Cell Interference Coordination
 EID	Electronic Invoicing Data (GSMA spec TD.72)
-EIDE	Enhanced Integrated Drive Electronics (hard-disk interface)
+EIDE	Enhanced Integrated Drive Electronics (hard drive interface)
 EIGRP	Enhanced Interior Gateway Routing Protocol (network layer, routing protocol, RFC 7868, AD=90/170)
 eIMTA	enhanced Interference Management and Traffic Adaptation
 EIN	Employer Identification Number, aka TIN, unique IRS number for business
@@ -1778,6 +1783,7 @@ ESMTP	Extended Simple Mail Transfer Protocol (RFC 1869)
 ESN	Electronic Serial Number (mobile ID in CDMA, new MEID)
 ESN 	Emergency Service Number
 ESOA	Enterprise Service Oriented Architecture
+ESP	EFI System Partition (partition ondata storage device with UEFI)
 ESP	Encapsulating Security Payload (RFC 4303)
 ESPN	Entertainment and Sports Programming Network (cable TV channel)
 ESQK	Emergency Services Query Key
@@ -1906,6 +1912,7 @@ FFS	Flash File Systems (file system for flash memory devices)
 FFT	Fast Fourier Transform (algorithm, math)
 FH	FrontHaul - transport between radio-RRU and radio-DU
 FHA	Federal Housing Administration (part of HUD, provides government-backed mortgage insurance)
+FHS	Filesystem Hierarchy Standard (directory structure and contents in Unix-like OS)
 FIA	Fédération Internationale de l'Automobile (sports: governing body for motor-sport)
 FIB	Fast Information Block (data burst of 256 bits)
 FIC	Fast Information Channel
@@ -2153,6 +2160,7 @@ GND	Ground (reference point for all voltages, between TX and RX, can be power gr
 GNN	Graph Neural Networks (AI: deep learning for graph-structured data)
 GNOC	Global Network Operations Center
 gNodeB	Next Generation Node B (5G network, TS 38.306 Rel-15 and onwards)
+GNOME	desktop environment for Linux and BSD by GNOME project, www.gnome.org
 GNSS	Global Navigation Satellite System
 GNU	GNU's Not Unix (recursive acronym, collection of free software)
 Go	high-level compiled programing language (Google)
@@ -2197,6 +2205,7 @@ gRPC	gRPC Remote Procedure Call (recursive acronym, Google, TCP/UDP, remote exec
 grTLD	Restricted Generic Top-Level Domains (internet domains)
 GRU	Gated Recurrent Units (AI: LSTM-like gating mechanism in RNN)
 GRU	Glavnoje Razvedyvatel'noje Upravlenije (Russian intelligence agency, 1992-present)
+GRUB	GNU Great Unified Bootloader (Unix-based operating systems boot loader)
 GRX	Global Roaming eXchange
 GS	ETSI Group Specification
 Gs	MSC/VLR and SGSN	3G UMTS interface
@@ -2228,6 +2237,7 @@ GTK	Group Temporal Key (IEEE 802.11i, RFC 3748)
 gTLD	generic Top-Level Domains (internet domains)
 GTM	Global Traffic Manager/Balancer (load balancer)
 GTP	GPRS Tunneling Protocol (GTP-C TS 29.274, GTP-U TS 29.281)
+GTP	GUID Partition Table (partitioning standard that supports large disks)
 GTP-C	eNodeB and SGW	4G LTE control plane interface
 GTP-C	MME and SGW	4G LTE interface
 GTP-U	eNodeB and SGW	4G LTE user plane interface
@@ -2240,6 +2250,7 @@ GUA	Global Unique Address (unique IP address across all internet)
 GUAMFI	see "GUAMI"
 GUAMI	Globally Unique AMF Identifier (5G, TS 23.003, 48-bits, PLMNID + AMFID)
 GUI	Graphical User Interface
+GUID	Globally Unique Identifier, also "UUID" (unique 128-bit value to identify objects, data or entities, RFC 4122)
 GUMMEI	Global Unique MME Identity (TS 23.003)
 GUTI	Global Unique Temporary Identifier (TS 23.003, 80-bits, PLMNID + AMFID + TMSI)
 GW	Gateway
@@ -2316,6 +2327,8 @@ HID	Hughes Identification Devices (US company providing PAC & IAC products eg: b
 HID	Human Interface Device (ex: keyboard, mouse, joystick)
 HIDS	Host Intrusion Detection System (cybersecurity)
 HiFi	High-Fidelity (audio, high-quality of audio reproduction)
+HIG	Human Interface Guidelines (guide to designing applications for GNOME)
+high-level, general-purpose, interpreted, dynamic programming language.
 HIP	Host Identity Protocol (RFC 4423)
 HIPAA	Health Insurance Portability and Accountability Act (US medical privacy law)
 HITL	Human oversight of AI systems
@@ -2482,7 +2495,7 @@ IDC	"i don’t care" (slang: indifference, lack of preference or emotional disen
 IDC	In Device Coexistence (3GPP Release 11)
 IDDD	International Direct Distance Dialing
 IDE	Integrated Development Environment (software development with user interface)
-IDE	Integrated Drive Electronics (hard-disk interface)
+IDE	Integrated Drive Electronics (hard drive interface)
 iDEN	integrated Digital Enhanced Network (2G GSM)
 IDFT	Inverse Discrete Fourier Transform (algorithm, math)
 IDGAK	"i don't give a f**k" (slang: don’t care about opinions, criticism, drama or situation)
@@ -2496,6 +2509,7 @@ IDN	Internationalized Domain Name (internet domains)
 IDN ccTLD	Internationalized Country Code Top-Level Domains (internet domains)
 IDNA	Internationalizing Domain Names in Applications (handle internationalized domain names)
 IDPR	Inter-Domain Policy Routing Protocol (RFC 1479)
+IDPS	Intrusion Detection and Prevention Systems (cybersecurity: tool that monitors and blocks suspicious activity)
 IDRC	International Development Research Centre
 IDS	Intrusion Detection System (cybersecurity:  tool that monitors suspicious activity))
 IDSL	hybrid of ISDN and DSL (144 kbps Mbps downstream and upstream)
@@ -2966,6 +2980,7 @@ kbps	Kilobit per second
 Kc	Ciphering Key (64-bit GSM ciphering key, TS 33.102)
 KDD	International Conference on Knowledge Discovery and Data Mining (AI: focused on data mining)
 KDDI	telecommunications operator, Japan
+KDE	graphical shell by the KDE community for Linux and BSD (www.kde.org)
 KDE	Kernel Density Estimation plot (statistics: overall shape of data distribution)
 KDF	Key Derivation Function
 KEDB	Known Error DataBase (ITIL)
@@ -3000,7 +3015,7 @@ KTS	Key Telephone System
 KTS	Knowledge Transfer Session (training)
 Kubernetes	open-source container orchestration platform, aka "k8s" (Greek: "helmsan", "pilot")
 KVI	Key Value Indicators (metrics)
-KVM	Kernel-based Virtual Machine
+KVM	Kernel-based Virtual Machine (Linux open-source virtualization technology)
 KYC	Know Your Customer (banking: verify customer identity, behavior and risk profile)
 L-W-CP	Legacy Wireline access Control Plane protocol (FN-RG and W-AGF)
 L-W-UP	Legacy Wireline access User    Plane protocol (FN-RG and W-AGF)
@@ -3513,7 +3528,7 @@ MSA	Mail/Message Submission Agent (MUA sends email to MSA, MSA sends emails to M
 MSA	Master Service Agreement (legal contract)
 MSAG	Master Street Address Guide (document mapping streets and ESN)
 MSAN	Multi-service access node (MSAN)
-mSATA	mini Serial Advanced Technology Attachment (hard-disk interface)
+mSATA	mini Serial Advanced Technology Attachment (hard drive interface)
 MSB	Most Significant Bit
 MSBB	Multi-Service BackBone
 MSC	Media Session Controller (IMS)
@@ -3542,6 +3557,7 @@ MSP	Mobile Service Providers
 MSP	Multi-Service Proxy
 MSPP	Multi-Service Provisioning Platform (TDM, packet & optical services)
 MSR	Multi-Standard Radio
+MSRC	Microsoft Security Response Center (cybersecurity: Microsoft's central hub for security issues)
 MSRN	Mobile Subscriber Roaming Number (only for terminating a call)
 MSRP	Message Session Relay Protocol
 MSS	Maximum Segment Size (TCP message parameter)
@@ -3951,7 +3967,7 @@ NVD	National Vulnerability Database (nvd.nist.gov)
 NVidia	US company: GPU, API, SoCs, performance & mobile computing
 nvm	"never mind" (slang: disregard a previous message or statement)
 NVMA	Non-Uniform Memory Access
-NVMe	Non-volatile Memory Express (hard-disk interface)
+NVMe	Non-volatile Memory Express (hard drive interface)
 NVP	Network Voice Protocol
 NVRAM	Non-Volatile Random-Access Memory  (memory: retains data even when power is off)
 NVT	Network Virtual Terminal  (log-in and interact with remote host on local terminal)
@@ -4086,6 +4102,7 @@ OPEC	Organization of Petroleum Exporting Countries (oil cartel of 13 countries)
 OpenACC	Open Accelerators (framework for parallel computing)
 OpenCL	Open Computing Language (framework for writing computer programs)
 OpenFlow	ONF communication protocol for SDN networking
+openGL	Open Graphics Library (API for rendering 2D and 3D vector graphics, www.opengl.org)
 OpenMP	Open Multi-Processing (API for multi-processing)
 OpenRAN	intelligent Radio Access Network (open source, O-RAN)
 OpenSearch	open-source analytics engine based on ElasticSearch by Amazon (big data, port 9200-9400)
@@ -4124,7 +4141,7 @@ OSC	Operations Support Center
 OSCP	Offensive Security Certified Professional (cybersecurity: certification)
 OSDL	Open Source Development Labs (non-profit technology consortium, obsolete, 2000-2007)
 OSEP	Offensive Security Experienced Penetration Tester (cybersecurity: certification)
-OSF	Open Software Foundation (Open Group, www.opengroup.org)
+OSF	Open Software Foundation (obsolete, see TOG)
 OSG	Open Source Group
 OSHA	Occupational Safety and Health Administration (US agency for workplace safety, www.osha.gov)
 OSI	Open Systems Interconnection model (network communication model: 7 layers "PDNTSPA")
@@ -4202,7 +4219,7 @@ PAR	Preventive Action Request
 PARC	Palo Alto Research Center, formerly Xerox PARC
 PAS	Packet Application Server
 PAT	Port Address Translation (RFC 2663, section 2.2)
-PATA	Parallel Advanced Technology Attachment (hard-disk interface)
+PATA	Parallel Advanced Technology Attachment (hard drive interface)
 PATCH	apply partial modifications	- RFC 9110,  HTTP method or verb
 PAwR	Periodic Advertising with Responses (BT periodic advertisements to multiple peripherals)
 PAWR	Platforms for Advanced Wireless Research (NSF initiative)
@@ -4546,6 +4563,8 @@ QEMU	Quick Emulator (free and open-source emulator)
 QER	QoS Enforcement Rule (SMF rules to UPF)
 QFI	QoS Flow Identifier (assigned by SMF for each QoS flow
 QLED	Quantum Light Emitting Diode (video display technology)
+qml	Qt Meta-object Language (file extension)
+QML	Qt Meta-object Language (user interface markup language, ".qml" extension)
 QMS	Quality Management System (ISO 9001, business processes, www.iso.org/standard/9001)
 QoE	Quality of Experience
 QoPE	Quality of Physical Experience
@@ -4858,9 +4877,10 @@ RTT	Round-Trip Time (ping time or latency)
 RTTVAR	Round-Trip Time Variation
 RTU	Remote Telemetry Unit
 RU	Radio Unit: PHY,RF (air/antenna-RU-DU-CU-RIC-CORE), aka RRH or RRU
-Ruby	interpreted high-level general-purpose programming language
+Ruby	object-oriented, general-purpose programming language
 RUDP	Reliable User Datagram Protocol
 RUIM	Removable User Identity Module (extends GSM SIM to CDMA)
+Rust	statically-typed, compiled programming language, for performance-critical applications 
 Rx	PCRF and PDN	4G LTE interface
 RX	Receive (input pin, receives signal from another device)
 RXD	Receive Data         (RS-232 line)
@@ -4902,6 +4922,7 @@ SACCH	Slow Associated Control Channel
 SACK	Selective ACKnowledgments
 SACM	Service Asset and Configuration Management (ITIL)
 SAE	Simultaneous Authentication of Equals (cybersecurity: WPA3, password-authenticated, cipher-key-sharing)
+SAE	Society of Automotive Engineers, now "SAE International" (professional association, www.sae.org)
 SAE	System Architecture Evolution (TS 33.401)
 SAEGW	System Architecture Evolution Gateway
 SAFe	Scaled Agile Framework
@@ -4937,7 +4958,7 @@ SASE	Stand-Alone Synchronization Equipment
 SASL	System Architecture Support Libraries
 SAT	Scholastic Assessment Test (US, college admissions exam)
 SAT	Site Acceptance Testing (acceptance testing)
-SATA	Serial Advanced Technology Attachment (hard-disk interface)
+SATA	Serial Advanced Technology Attachment (hard drive interface)
 SAToP	Structure-Agnostic TDM over Packet (RFC 4553)
 SAU	Simultaneously Attached Users
 savage	bold, ruthless, impressive (slang: someone who is confident, skilled, viciously cool)
@@ -4995,7 +5016,7 @@ SCP	Service Control Point (SS7 SP, intelligent network node)
 SCP	Special Containment Procedures (fictional secret organization, 	www.scp-wiki.wikidot.com)
 SCRUM	Agile process framework to manage product development
 SCS	Sub-Carrier Spacing (bandwidth spacing)
-SCSI	Small Computer Serial Interface (hard-disk interface)
+SCSI	Small Computer Serial Interface (hard drive interface)
 SCTP	Stream Control Transmission Protocol (transport layer, RFC 4960)
 SCUBA	Self-Contained Underwater Breathing Apparatus
 SCV	Speed, Consistency, Volume (big data concept)
@@ -5062,7 +5083,6 @@ SEM	Simultaneous Equations Models (statistics: set of linear simultaneous equati
 SeNB	Secondary evolved NodeB
 SEND	Secure Neighbor Discovery protocol  (extension of NDP, RFC 6794)
 SEO	Search Engine Optimization (digital marketing: increase online visibility & traffic)
-SEO	Search Engine Optimization (URL ranking/optimization algorithm)
 SEP	Signaling End Point
 SEP	Summary of Economic Projections (FED's report on US economy)
 SEPP	Security Edge Protection Proxy (5G network function, TS 23.501, TS 33.517)
@@ -5409,6 +5429,7 @@ SUPL	Secure User Plane Location
 SURF	Speeded-Up Robust Features (algorithm to detect and describe keypoints in images)
 Suricata	open-source network analysis and threat detection software (cybersecurity: by OISF, suricata.io)
 sus	short for "suspicious" (slang: somthing or someone that's shady, un-trustworthy or off)
+SUS	Single UNIX Specification (standard for operating systems compliance for "UNIX" trademark)
 SUSE	Linux distribution developed by SUSE
 SUT	System Under Test
 SUV	Sports Utility Vehicles (type of automobile)
@@ -5486,8 +5507,9 @@ TCaaS	Testing as a Service, or Threat/Traffic Control as a Service
 TCAP	Transaction Capabilities Application Part (ITU-T Q.771-Q.775)
 TCB	Transmission Control Block
 TCH	Traffic Channel
-Tcl	"tickle", free, high-level, interpreted programming language
+Tcl	"tickle",  see "Tcl/tk" (free, high-level, interpreted programming language for GUI)
 TCL	Transaction Control Language (SQL command category)
+Tcl/tk	"tickle/tee-kay" (high-level, interpreted programming language for building GUI
 TCN	Topology Change Notification
 TCO	Total Cost of Ownership = CapEx + OpEx (business metric)
 TCP	Transmission Control Protocol (transport layer, RFC 793)
@@ -5558,7 +5580,7 @@ time		data type, primitive:     temporal values (12:30:45)
 TIN	Taxpayer Identification Number, aka TIN, unique IRS number for business
 TIP	Telecom Infra Project (organization for 2G/3G/4G/5G OpenRAN)
 TISPAN	Telecom & Internet converged Services & Protocols for Advanced Networks (ES 282 003)
-Tk	"tee-kay", free, multi-language, widget toolkit for building GUIs
+Tk	"tee-kay", see "Tcl/tk" (free, high-level, interpreted programming language for GUI)
 TKIP	Temporal Key Integrity Protocol (WPA encryption key)
 TL1	Transaction Language 1
 TL;DR	"too long;didn’t read" (slang: summarize and skip the lengthy content)
@@ -5595,6 +5617,8 @@ TOA	Terms of Agreement (user agreement for services)
 TOEFL	Test of English as a Foreign Language (standardized test)
 TOF	Time of Flight (time an object, particle or wave to travel a distance in a medium)
 TOFU	Trust On First Use (cybersecurity: cryptographic authentication security model)
+TOG	The Open Group (consortium for open, vendor-neutral standards and certifications, www.opengroup.org)
+TOGAF	The Open Group Architecture Framework (enterprise architecture framework by TOG)
 TOH	Transport Overhead Bytes
 Token	smallest element of a program (keyword, identifier, constant, string, operator, etc.)
 TOL	test object list (list of testcases)
@@ -5607,7 +5631,7 @@ TOTP	Time-based One-Time Password (RFC 6238, time-synchronized OTP)
 TPA	Third-Party Administrator
 TPAO	Third-Party Assessment Organizations, aka "3PAO" (US DoD, entity that assesses cybersecurity compliance)
 TPC	Transmit Power Control
-TPM	Trusted Platform Module
+TPM	Trusted Platform Module (chip that securely stores passwords, certificates and encryption keys)
 TPNCP	Trunk Pack Network Control Protocol (AudioCodes' proprietary protocol)
 TPP	Trans-Pacific Partnership (free trade agreement among 12 Pacific economies)
 TPR	True Positive Rate (y-axis variable of ROC curve)
@@ -5811,7 +5835,7 @@ UDSF	Unstructured Data Storage Function (5G network function, TS 23.501, TS 29.5
 UDT	UDP-based Data Transfer Protocol
 UE	User Equipment (3G/4G/5G mobile), mobile phone + SIM card
 UEA	UMTS Encryption Algorithm (TS 33.102)
-UEFI	Unified Extensible Firmware Interface (firmware that initialized hardware and load OS)
+UEFI	Unified Extensible Firmware Interface (firmware standard that initializes hardware and loads OS)
 UFA	Unambiguous Finite Automata (finite machine)
 UFMC	Universal Filtered Multi-Carrier           (waveform modulation technique)
 UFO	Unidentified Flying Object (or UAPs)
@@ -5850,7 +5874,7 @@ UN	United Nations (international organization, www.un.org)
 undecillion	number equal to 1 x 10^36 (US, short scale), 1 x 10^66 (EU, large scale)
 UNI	User-Network Interface (switch to end-user)
 union		data type, user-defined:  store different data types in the same memory space
-UNIX	UNiplexed Information Computing System, multi-tasking, multi-user OS
+UNIX	UNiplexed Information Computing System (multi-tasking, multi-user computer operating systems by AT&T, 1969)
 UNSC	United Nations Security Council
 UP	User Plane (user, data, bearer, carrier or forwarding plane)
 UPC	Unified Packet Core (IMS)
@@ -5914,7 +5938,7 @@ UTS	Unicode Technical Standard (Unicode Consortium specification, www.unicode.or
 Uu	UE and EUTRAN	interface 4G LTE
 Uu	UE and NodeB	3G UMTS interface (MAC, RLC, BMC, PDCP, RRC)
 UUI	User to User Information
-UUID	Universally Unique Identifier (RFC 4122)
+UUID	Universally Unique Identifier (unique 128-bit value to identify objects, data or entities, RFC 4122)
 UuS	Uu Stratum (4G LTE UE and EUTRAN interface)
 UUT	Unit Under Test
 UV	Ultra-Violet radiation (wavelengths below 400 nm)
@@ -5975,7 +5999,7 @@ VFX	Visual Effects
 VGA	Video Graphics Array (640x480 pixels; 1.33:1 aspect ratio)
 VGCS	Voice Group Call Service (TS 43.068)
 vh	CSS/HTML styles:  Viewport Height,   1vh = 1% of browser window height
-VHD	Virtual Hard Disk
+VHD	Virtual Hard Disk (disk image file that behaves like a real hard drive)
 VHE	Virtual Home Environment
 VHF	Very High Frequency	 30 MHz - 300 MHz, radio, TV, FM
 VHTS	Very High Throughput Satellites
@@ -6064,6 +6088,7 @@ VSV	Vesicular Stomatitis Virus (medical: viral infection)
 VSWR	Voltage Standing Wave Ratio
 VTP	VLAN Trunking Protocol (routing protocol)
 VTS	Vessel Traffic Service (marine traffic monitoring system)
+VUE	Visual User Environment (desktop environment developed by Hewlett-Packard, discontinued)
 VUID	Voter Unique Identifier (identification number for voting in US elections)
 VULA	Virtual Unbundled Local Access
 VVM	Visual Voice Mail
