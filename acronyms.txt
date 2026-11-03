@@ -15,7 +15,7 @@
 1xEV-DO	Evolution for Data Only (3G CDMA2000, 1.25 MHz, TIA IS-856)
 1xRTT	single-carrier Radio Transmission Technology (CDMA bases, 2.5G)
 2.5G	GPRS -->  TDMA: EDGE, GPRS  and  CDMA: IS-95B
-2.75G	EDGE or E-GPRS
+2.75G	EDGE or E-GPRS 
 200	HTTP Status Code:  Ok			  - Successful,    request succeeded
 201	HTTP Status Code:  Created		  - Successful,    new resource created
 204	HTTP Status Code:  No Content		  - Successful,    request successful, no content to return
@@ -377,6 +377,7 @@ APOD	Astronomy Picture of the Day (website by NASA and Michigan Technology Unive
 APR	Annual Percentage Rate (US, annual cost of a loan including interest, points and fees)
 APRU	Average Revenue per User (business metric)
 APS	Automatic Protection Switching
+APT	Advanced Package Tool (package management tool for Debian-based Linux distributions)
 APT	Advanced Persistent Threat (cybersecurity)
 APT	Asia-Pacific Telecommunity (ITU WRC group)
 APV	Approach with Vertical guidance (aviation GPS)
@@ -499,6 +500,7 @@ avi	Audio Video Interleave (media file extension)
 AVIEN	Antivirus Information Exchange Network (cybersecurity collaborative platform)
 AVIEWS	Anti-Virus Information and Early Warning System (cybersecurity collaborative platform)
 AVL	Automatic Vehicle Location
+AVP	Associate Vice President (executive position)
 AVP	Audio Video Profile (RFC 3551)
 AVPROD	Audio-Visual Service Production (3GPP Release 17)
 AWG	American Wire Gauge (copper wire thickness number)
@@ -551,6 +553,7 @@ BCE	Before Common Era year (same as "BC", "before Christ", but without religious
 BCH	Broadcast Channel (PHY-MAC transport channel)
 BCL	Business Customer Location
 BCM	Bearer Control Mode
+BCP	Best Current Practice (IETF level of performance documents, RFC 1818)
 BCP	Business Continuity Plan
 BCSM	Basic Call State Model (MSC/VLR call model)
 BD	Billing Domain (billing device or system)
@@ -718,7 +721,7 @@ CAMM	Compression Attached Memory Module DIMM (RAM classification, memory module,
 CAN	Campus Area Network (computer network)
 CAN	CANcel
 CAN	Connectivity Access Network
-CAN	Controller Area Network (communication protocol for microcontrollers and devices)
+CAN	Controller Area Network (communication protocol for micro-controllers and devices)
 CAP	CAMEL Application Part (TS 29.078)
 CAP	Carrierless Amplitude Phase Modulation     (digital signal modulation technique, variant of QAM)
 cap	indicate that someone is lying, exaggerating, or making a false statement (slang: "no cap" is opposite)
@@ -1336,7 +1339,7 @@ DFT	Discrete Fourier Transform (algorithm, math)
 DFT-s-OFDM	Discrete Fourier Transform spread OFDM (UL)
 DFW	Dallas/Fort Worth (metroplex in Texas, US)
 DGL	Deep Graph Library (AI: GNN framework, research and development)
-DH	Diffie–Hellman (secure cryptographic keys exchange over public channel)
+DH	Diffie–Hellman (cybersecurity: secure cryptographic keys exchange over public channel)
 DHCP	Dynamic Host Configuration Protocol (application layer, IP address assignment, RFC 2131, port 67-server, 68-client)
 DHCPv6	Dynamic Host Configuration Protocol version 6 (RFC 8415)
 DHS	US Department of Homeland Security
@@ -1396,6 +1399,7 @@ DNAR	Do Not Attempt Resuscitation (medical:  do not perform CPR or other treatme
 DNAT	Destination Network Address Translation
 DNC	Democratic National Committee       (US political party, Democratic Party)
 dnd	"do not disturb" (slang: quick way to say unavailable, or want to avoid interruptions)
+DNF	Dandified YUM (package manager for RPM-based Linux distributions)
 DNF	Did Not Finish  (sports: driver started race but was unable to complete it)
 dng	Digital Negative (Adobe, image file format)
 DNIC	US Department of Defense Network Information Center
@@ -1436,6 +1440,7 @@ DPCH	Dedicated Physical Channel (UMTS frame/channel)
 DPDCH	Dedicated Physical Data Channel
 DPDK	Data Plane Development Kit
 DPI	Deep Packet Inspection
+dpkg	Debian Package (package manager for Debian-based Linux distributions, ".deb")
 DPMM	Dirichlet Process Mixture Models (AI: unsupervised ML model, clustering)
 DPO	Data Protection Officer (company position)
 DPP	Daily Peak Period (telecommunication metric)
@@ -1825,6 +1830,7 @@ EV-DO Rev. C	UMB (2007)
 EVC	Essential Video Coding
 EVDO	see EV-DO, Evolution for Data Only
 EVO	Evolution
+EVP	Executive Vice President (executive position)
 EVS	Enhanced Voice Services
 exa-	E,  10 power  18	- numeric, see also "prefix"
 exe	executable file, used to start a computer program
@@ -2085,6 +2091,7 @@ GCS	Geographic Coordinate System (coordinates on spherical model - see PCS)
 Gd	GPRS and SMS	2G GPRS interface
 GD	Gradient Descent (AI: ML optimization algorithm)
 GDDR	Graphics DDR SDRAM (RAM for high-bandwidth applications, such as GPUs)
+GDOI	Group Domain of Interpretation (cybersecurity: key-agreement protocol, RFC 6408)
 GDP	Gross Domestic Product (market value of a country at a specific time)
 GDPR	EU General Data Protection Regulation (data privacy & security laws, gdpr.eu)
 GEA	GPRS Encryption Algorithm
@@ -2541,7 +2548,7 @@ IIot	Industrial Internet of Things (industrial usage)
 IIRC	"if i recall correctly" (slang: share information while acknowledging uncertainty)
 IIS	Internet Information Services (Microsoft web server)
 IK	Integrity Key (authentication vector, TS 33.102)
-IKE	Internet Key Exchange Protocol (UDP, RFC 7296, port 500, aka ISAKMP)
+IKE	Internet Key Exchange protocol (cybersecurity: UDP, RFC 7296, port 500, aka ISAKMP)
 iLBC	Internet Low Bitrate Codec (audio coding format)
 ILD	Injection Laser Diode
 ILEC	Incumbent Local Exchange Carrier
@@ -2782,7 +2789,7 @@ IPR	Intellectual Property Rights
 IPS	In-Plane Switching panels (video display technology)
 IPS	Internet Protocol Suite (communication protocols)
 IPS	Intrusion Prevention System (cybersecurity: tool that monitors and blocks suspicious activity)
-IPSec	Internet Protocol Security (network layer, authentication and encryption protocol suite)
+IPSec	Internet Protocol Security (cybersecurity: network layer, authentication and encryption protocol suite)
 IPTV	Internet Protocol Television
 IPUPS	Inter-PLMN User Plane Security
 IPV	Inactivated Poliovirus Vaccine (medical: vaccine for poliomyelitis/polio virus)
@@ -2869,7 +2876,7 @@ ISO-9000	International Standard 9000 (requirements for Quality Management and Qu
 ISO-9001	International Standard 9001 (requirements for Quality Management System, www.asq.org/quality-resources/iso-9001)
 ISO/IEC 27001	International Organization for Standardization/International Electrotechnical Commission (cybersecurity:  framework, www.iso.org/standard/27001)
 ISO20022	Electronic Data Interchange in Financial Services (ISO standard)
-ISOC	Internet Society (American non-profit organization)
+ISOC	Internet Society (non-profit organization for open and safe ineternet, www.internetsociety.org)
 ISP	Internet Service Provider
 ISPC	International Signaling Point Codes (ITU-T Q.708)
 ISR	Idle mode Signaling Reduction
@@ -2937,6 +2944,7 @@ JAVA	OOP programming language with WORA (Oracle Corporation)
 JAVAC	Java programming language Compiler
 JAX-RS	Jakarta RESTful Web Services (REST services)
 JD	English: "Doctor of Jurisprudence" or "Doctor of Law", Latin: "Juris Doctorem" (graduate degree, law)
+JD	Job Description (requirements and outline of skills and responsibilities for a job)
 JDF	Java Development Kit
 JDM	Joint Design Manufacturers
 JEDEC	Joint Electron Device Engineering Council (microelectronics standards, www.jedec.org)
@@ -2978,6 +2986,7 @@ KAT	Known Answer Tests (cybersecurity: cryptographic validation method)
 kB	kilo-Byte	memory size, 10^3	1024 Bytes
 kbps	Kilobit per second
 Kc	Ciphering Key (64-bit GSM ciphering key, TS 33.102)
+KDC	Key Distribution Center (cybersecurity: reduce risks in exchanging keys)
 KDD	International Conference on Knowledge Discovery and Data Mining (AI: focused on data mining)
 KDDI	telecommunications operator, Japan
 KDE	graphical shell by the KDE community for Linux and BSD (www.kde.org)
@@ -2986,6 +2995,7 @@ KDF	Key Derivation Function
 KEDB	Known Error DataBase (ITIL)
 Keras	high-level API designed for simplicity and rapid prototyping (AI: deep learning)
 kernel	part of operating system that controls functions of hardware
+KEX	Key Exchange, Key Establishment (cybersecurity: exchanging cryptographic keys, RFC 9142)
 KGB	Komitet Gosudarstvennoy Bezopasnosti (Soviet security agency, 1954-1991)
 KHI	Karachi (major city in Pakistan, birth place of author :-)
 kHz	Kilo Hertz (thousand cycles per second)
@@ -2993,7 +3003,7 @@ Ki	128-bit Individual Subscriber Authentication Key
 Kibana 		dashboard tool for ElasticSearch (big data, ELK)
 kilo-	K,  10 power   3	- numeric, see also "prefix"
 Kinesis	processing and analyzing real-time streaming data (AWS service)
-KINK	Kerberized Internet Negotiation of Keys (RFC 4430)
+KINK	Kerberized Internet Negotiation of Keys (protocol for IPsec security association, RFC 4430)
 KISS	"Keep It Simple, Stupid"  (principle that promotes simplicity in design)
 km	Kilometers
 KML	Keyhole Markup Language (GIS: Google Earth data file, see also KMZ)
@@ -3985,6 +3995,7 @@ O-DU	O-RAN Distributed Unit (protocols: RLC, MAC, High-PHY)
 O-RAN	Open-Radio Access Network (centralized, virtual, open, www.o-ran.org)
 O-RU 	O-RAN Radio Unit, Low-PHY layer and RF processing
 OAI	Open Air Interface
+OAKLEY	Oakley Key Determination Protocol (cybersecurity: key-agreement protocol, RFC 2412)
 OAM	Operations Administration and Maintenance
 OAMP	Operations, Administration, Maintenance and Provisioning
 OASDI	Old-Age, Survivors and Disability Insurance Program (US, social security)
@@ -4044,7 +4055,7 @@ OFCS	Offline Charging System (postpaid services)
 OFDM	Orthogonal Frequency Division Multiplexing
 OFDMA	Orthogonal Frequency Division Multiple Access (4G LTE-downlink)
 off-hook	circuit in use, call in-progress
-OffSec	Offensive Security (cybersecurity)
+OffSec	Offensive Security (cybersecurity: proactively identifying and exploiting vulnerabilities to strengthen defenses)
 OFR	Office of Federal Register (prepare/publish US private/public laws)
 OG	original, "original gangster" (slang: someone who’s respected, exceptional, authentic)
 OGC	Open Geospatial Consortium (standards organization, www.ogc.org)
@@ -4352,6 +4363,7 @@ ping	TCP/IP command: check connectivity, usage: "ping <name/ip addr>"
 PIOPS	EBS Provisioned IOPS (AWS high performance cloud databases service)
 pip	package manager for Python packages & modules
 PIPEDA	Personal Information Protection and Electronic Documents Act (Canada)
+PIR	Public Interest Registry (ISOC non-profit organization, manages .org domain, www.pir.org)
 PIREP	Pilot Report  (aviation,  report of actual weather conditions encountered during flight)
 PIV	Personal Identity Verification (US Federal Employees and Contractors, FIPS 201-3)
 PJL	Page Job Language
@@ -4376,7 +4388,7 @@ PM	Phase Modulation                           (analog signal modulation techniqu
 PM	Project Management (business position)
 PMCH	Physical Multicast Channel
 PMD	Physical Medium Dependent
-PMF	Performance Measurement Function
+PMF	Performance Measurement Function (use to evaulate success of project, activity, etc.)
 PMI	Precoding Matric Indicator (telecommunication metric, SNR matrix to be used for downlink)
 PMI	Private Mortgage Insurance (insurance for mortgage lenders, not the borrower)
 PMIP	Proxy Mobile Internet Protocol (RFC 5213)
@@ -4497,7 +4509,7 @@ PSI	Public Service Identity
 psid	pound per square inch differential (pressure relative to somthing other than atmospheric pressure)
 psig	pressure in pound per square inch gauge (pressure relative to atmospheric pressure)
 PSK	Phase Shift Keying                         (digital signal modulation technique)
-PSK	Pre-Shared Key (WPA key, RFC 6617)
+PSK	Pre-Shared Key (cybersecurity: resistant to dictionary attack, RFC 6617)
 PSKC	Portable Symmetric Key Container (RFC 6030)
 PSL	Public Suffix List (catalog of Internet domain names, www.publicsuffix.org/list)
 PSM	Propensity Score Matching (statistics: evaluation model)
@@ -4562,6 +4574,7 @@ QED	Latin: "quod erat demonstrandum" in Latin,  English: "what was to be demonst
 QEMU	Quick Emulator (free and open-source emulator)
 QER	QoS Enforcement Rule (SMF rules to UPF)
 QFI	QoS Flow Identifier (assigned by SMF for each QoS flow
+QITA	Qualified, Interested, Trusted, Affordable (assess whether a candidate is viable)
 QLED	Quantum Light Emitting Diode (video display technology)
 qml	Qt Meta-object Language (file extension)
 QML	Qt Meta-object Language (user interface markup language, ".qml" extension)
@@ -4680,6 +4693,7 @@ REIT	Real Estate Investment Trusts (finance: company that owns and operates inco
 ReLU	Rectified Linear Unit 		(AI: activation function in NN, introduces non-linearity)
 rem	CSS/HTML styles:  root element with scalable size relative to root font size
 REPL	Read, Evaluate, Print, Loop
+REQ	Job Requisition (internal, approved request to hire for a specific role)
 REQ	Request or Requisition
 RES	Response
 REST	REpresentational State Transfer (web standard for APIs using HTTP, www.standards.rest)
@@ -4710,7 +4724,7 @@ RGNN	Recurrent Graph Neural Networks (AI: deep learning for graph-structured dat
 RGU	Revenue Generating Unit (business term)
 RGW	Relay Gateway
 RHB	Requirements Handbook (TIA TL9000 document)
-RHEL	Red Hat Enterprise Linux
+RHEL	Red Hat Enterprise Linux (commercial, enterprise-grade Linux distribution)
 RI	Rank Indicator (telecom metric, data layers supported for downlink)
 RI	Ring Indicator       (RS-232 line)
 RIC	RAN Intelligent Controller (air/antenna-RU-DU-CU-RIC-CORE)
@@ -4807,7 +4821,7 @@ RPG	Rocket Propelled Grenade (shoulder-fired missile weapon)
 RPG	Role Playing Game (type of video game)
 RPKI	Resource Public Key Infrastructure  (RFC 6480)
 rpm	revolutions per minute (metric)
-RPM	RPM Package Manager (recursive acronym, "Red Hat Package Manager")
+RPM	RPM Package Manager (recursive acronym, "Red Hat Package Manager", ".rpm")
 RPO	Recovery Point Objective (cybersecurity: "age of the data" that must be recoverable after an outage)
 RPSF	Reduced Power SubFrame (improves performance in macrocells)
 RPU	Revenue per User (business metric)
@@ -5159,6 +5173,7 @@ SIS	aka MI6, Secret Intelligence Service (UK foreign intelligence agency)
 SJN	Shortest Job Next (scheduling algorithm)
 SKD	Symmetric-Key Decryption
 SKE	Symmetric-Key Encryption
+SKEME	Secure Key Exchange Method for Internet (cybersecurity: key-agreement protocol)
 Skibidi Toilet	toilets with human heads that sing and attack (slang: brainrot, appeal lies in its absurdity)
 SKIP	Simple Key-Management for Internet Protocol (RFC 2356)
 SKMS	Service Knowledge Management System (ITIL)
@@ -5440,6 +5455,7 @@ SVG	Scalable Vector Graphics (graphics in XML format)
 SVGA	Super Video Graphics Array (800x600 pixels; 1.33:1 aspect ratio)
 SVM	Support Vector Machine (AI: supervised ML model)
 SVN	Storage Virtual Machines (formerly known as Vservers)
+SVP	Senior Vice President (executive position)
 SW	Software (programs to direct a computer to perform specific activities)
 SW-CDMA	Satellite Wideband Code Division Multiple Access
 SWAT	Special Weapons and Tactics (law enforcement unit)
@@ -6047,6 +6063,7 @@ VOR	VHF Omnidirectional Range (aviation, ground-based navigational aid)
 VORTAC	VHF Omnidirectional Range and Tactical Air Navigation (avaiation, ground-based navigational aid)
 VOTA	Virtual Over the Air
 VoWIFI	Voice over WIFI
+VP	Vice President (executive position)
 VP	Virtual Path
 VP9	royalty-free codec by Google, comparable to HEVC
 VPC	Virtual Path Connection
@@ -6234,6 +6251,7 @@ XDMS	XML Document Management Server
 XDR	Extended Detection and Response (cybersecurity: framework, unified treat detection and response)
 xDSL	DSL variants:  ADSL, HDSL, IDSL, MDSL, MSDSL, RADSL, SDSL, VDSL
 XEN	open-source hypervisor/VMM
+XFCE	desktop environment for Unix and Linux (www.xfce.org)
 XFS	journaling file system (Unix file system by SGI)
 XGBoost	Gradient Boost (AI: machine learning model)
 xhr	XMLHttpRequest file (web file extension)
@@ -6276,7 +6294,7 @@ yotta-	Y,  10 power  24	- numeric, see also "prefix"
 YSK	"you should know" (slang: highlight information that is helpful, relevant)
 Yt	N5CW and TWAP interface
 YTA	"you're the a**hole" (slang: reply to AITA, at fault or acted unreasonably)
-YUM	Yellowdog Updater, Modified (command-line package management utility for RPM-Linux)
+YUM	Yellowdog Updater Modified (package management tool for Redhat-based Linux distributions)
 Yw	TWAP and TWIF interface
 zazz	acronym file by AsimIslam, updated 20260915
 ZB	Zettabyte	memory size, 10^21	1,180,591,620,717,411,303,424 Bytes
