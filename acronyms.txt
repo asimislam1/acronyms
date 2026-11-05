@@ -25,6 +25,7 @@
 2G	1990s,  FDMA/TDMA,  BW: 200kHz, rate: 64 kbps, network: CS.  GSM, iDEN, IS-136, PDC, CDMA
 2SLS	Two-Stage Least Squares method (statistics: Simultaneous Equations Models)
 2SV	Two-Step Verification (two passwords or password & email link)
+3-GIS	GIS software platform used by telecom, electric, and gas organizations (www.3-gis.com)
 301	HTTP Status Code:  Moved Permanently	  - Redirection,   resource permanently moved to new URL
 302	HTTP Status Code:  Found		  - Redirection,   resource temporarily located at different URL
 304	HTTP Status Code:  Not Modified		  - Redirection,   cached version still valid
@@ -828,9 +829,11 @@ CD-XA	Compact Disk – Extended Architecture
 cda	CD Audio Track (media file extension)
 CDC	Centers for Disease Control and Prevention (US federal agency)
 CDD	Customer Due Diligence (banking: ongoing monitoring to detect unusual or suspicious activity)
+CDDL	Common Development and Distribution License (free, open-source software license)
 CDE	Cardholder Data Environment (digital wallet environment)
 CDE	Common Desktop Environment (desktop environment for Unix and OpenVMS)
 CDF	Charging Data Function
+CDF	Combined Distribution Frame (frame for connecting equipment to cables)
 CDF	Cumulative Distribution Function (statistics)
 CDG	CDMA Development Group
 CDM	Code Division Multiplexing
@@ -1251,6 +1254,7 @@ DAX	Data Analysis Expressions (Power BI library)
 DayZ	multiplayer, online survival game (port 2302, 2303 & 2304)
 DB	DataBase
 dB	Decibel (power/intensity ratio, dimensionless.  Used for any type of signal)
+DBA	Database Administrator (person or team managing DBMS)
 DBaaS	Database as a Service
 DbC	Design by Contract (approach for designing software)
 dBi	Decibel Isotropic (gain.  Used to evaluate efficiency and directionality)
@@ -1641,6 +1645,7 @@ EFS	Encrypting File System (secure file system)
 EFT	Electronic Funds Transfer (banking: digital movement of money)
 EFTA	European Free Trade Association (trade organization, www.efta.int)
 eg	Latin: "exempli gratia",  English: "for example"
+EGID	Effective Group ID (POSIX GID: used for file access checks)
 EGNOS	European Geostationary Navigation Overlay Service
 EGP	Exterior Routing Protocol (RFC 904)
 EGPRS	E-GPRS, Enhanced General Packet Radio Service (2.75G EDGE)
@@ -1818,6 +1823,7 @@ EU	European Union
 EUD	End User Device
 EUDI	European Union Digital Identity (digital wallet)
 eUICC	embedded Universal Integrated Circuit Card (TS 31.101)
+EUID	Effective User ID  (POSIX UID: ID used for permission checks)
 EUSPA	European Union Space Programme Agency
 EUT	Equipment Under Test
 EUTRAN	Evolved UMTS Terrestrial-Radio Access Network (4G LTE Air & Access, PS only)
@@ -2131,6 +2137,7 @@ Gi	GPRS and external PDN	IMS interface
 GIAC	Global Information Assurance Certification (cybersecurity: certification entity, www.giac.org)
 GIC	Group Identification Code (ITU-T E.164)
 GICA	Group Identification Code Administrator (ITU-T E.164)
+GID	Group Identifier   (POSIX numeric identifier)
 gif	Graphics Interchange Format (image file extension)
 giga-	G,  10 power   9	- numeric, see also "prefix"
 GIJ	GNU Interpreter for Java
@@ -2504,6 +2511,7 @@ IDDD	International Direct Distance Dialing
 IDE	Integrated Development Environment (software development with user interface)
 IDE	Integrated Drive Electronics (hard drive interface)
 iDEN	integrated Digital Enhanced Network (2G GSM)
+IDF	Intermediate Distribution Frame (frame for connecting equipment to cables)
 IDFT	Inverse Discrete Fourier Transform (algorithm, math)
 IDGAK	"i don't give a f**k" (slang: don’t care about opinions, criticism, drama or situation)
 IDK	"i don’t know" (slang: express uncertainty, lack of knowledge or indecision)
@@ -3113,10 +3121,12 @@ LEP	Limited English Proficiency (area requiring multi-language alerts)
 LF	Linux Foundation (non-profit organization for Linux development, www.linuxfoundation.org)
 LF	Low Frequency		 30 kHz - 300 kHz, radio
 LFA	Loop-Free Alternate  (RFC 7761)
+LFACS	Local Facility Administration and Control System (manages network facilities and services)
 LFN	Linux Foundation Networking (Linux Foundation’s open-source networking umbrella)
 LFSR	Linear Feedback Shift Register
 LGA	Land Grid Array (surface-mount packaging for integrated circuits)
 LGM	Large Geospatial Model (AI: GIS based model)
+LGPL	Lesser General Public License (GNU free-software license by FSF, www.gnu.org)
 LI	Lawful Intercept (TS 33.127)
 libpcap	pcap file format for Linus, macOS and BSD/Unix
 LIDAR	Light Imaging Detection and Ranging
@@ -3319,6 +3329,7 @@ MDBV	Maximum Data Burst Volume
 MDC	Massive Data Centers
 MDCT	Modified Discrete Cosine Transformation
 mdf	database's primary data file, system-defined (file extension)
+MDF	Main Distribution Frame (frame for connecting equipment to cables)
 MDF	Mediation and Delivery Function
 MDF	Medium Denisty Fiberboard (type of wood board, smooth surface)
 MDIO	Management Date Input/Output Interface
@@ -3501,6 +3512,7 @@ MPEG-2	H.263, ITU/ISO Moving Picture Experts Group codec
 MPEG-4	aka "MPEG-4 AVC", ITU/ISO Moving Picture Experts Group standcodecard (see also: H.264)
 MPG	Multi touch, Physics and Gestures (3rd generation user interfaces)
 MPI	Message Passing Interface (API for distributed process communication)
+MPL	Mozilla Public License (free, open-source copyleft license, www.mozilla.org/MPL)
 MPLS	Multi-Protocol Label Switching (network layer, routing protocol, RFC 3031)
 MPNN	Message Passing Neural Network (AI: deep learning for graph-structured data)
 MPO	Multi-Fiber Push-On (IEC 61754-7 & TIA-604-5, connectors for high-density networks)
@@ -4150,11 +4162,13 @@ OSA	Open Service Architecture
 OSB	Oriented Strand Board     (type of wood board, very high strength, stonger then HDF)
 OSC	Operations Support Center
 OSCP	Offensive Security Certified Professional (cybersecurity: certification)
+OSD	Open Source Definition (standard for open-source software by OSI)
 OSDL	Open Source Development Labs (non-profit technology consortium, obsolete, 2000-2007)
 OSEP	Offensive Security Experienced Penetration Tester (cybersecurity: certification)
 OSF	Open Software Foundation (obsolete, see TOG)
 OSG	Open Source Group
 OSHA	Occupational Safety and Health Administration (US agency for workplace safety, www.osha.gov)
+OSI	Open Source Initiative (organization that maintains OSD, www.opensource.org)
 OSI	Open Systems Interconnection model (network communication model: 7 layers "PDNTSPA")
 OSI	Other System Information, SIB2-SIB9 (5G NR system information: MSI, RMSI, OSI)
 OSI layer 1	Physical	- medium:	BIT	     0s & 1s: hub, repeater, modem, cables
@@ -4168,9 +4182,10 @@ OSINT	Open Source Intelligence (any public information, www.osint.org)
 OSM	Open Source Management and Orchestration (MANO)
 OSOC	Universal Service Ordering Code
 OSP	Open Stack Platform
+OSP	Outside Plant (communications equipment between MDF and end user)
 OSPF	Open Shortest Path First (network layer, interior gateway routing, link state, RFC 2328, AD=110)
-OSS	Open Source Software
-OSS	Operation and Support Subsystem
+OSS	Open Source Software (licensed software that is free to use, study, modify and distribute)
+OSS	Operation and Support Systems (systems to manage telecommunications networks)
 OSWE	Offensive Security Web Expert (cybersecurity: certification)
 OSWG	Oversight Work Group
 OSWP	Offensive Security Wireless Professional (cybersecurity: certification)
@@ -4352,6 +4367,7 @@ PICH	Page Indicator Channel
 PICMG	PCI Industrial Computer Manufacturers Group (consortium for high-performance computing, www.picmg.org)
 pico-	p,  10 power -12	- numeric, see also "prefix"
 PID	Physical Interface Device (ex: force feedback joystick)
+PID	Process ID         (POSIX numeric identifier: unique integer for each process)
 PIDS	Protocol-Based Intrusion Detection System (cybersecurity)
 PIFI	Personally Identifiable Financial Information
 Pig	Apache high level querying interface
@@ -4424,7 +4440,7 @@ POS	"piece of s**t" (slang: worthless or despicable person or thing)
 PoS	Packet over SONET/SDH (RFC 1661, data link layer)
 POS	Point of Sale (retail, sales tracked by barcode)
 POS	Point of Service (US medical insurance plan)
-POSIX	Portable Operating System Interface (IEEE standards for APIs)
+POSIX	Portable Operating System Interface (IEEE 1003.1 standards for APIs, www.posix.opengroup.org)
 POST	create new			- RFC 9110,  HTTP method or verb,  CRUD CREATE operation
 POST	Power-On Self Test (memory, CPU, peripheral check performed by BIOS at start-up)
 PostgreSQL	PostgreSQL Database (port 5432)
@@ -4439,6 +4455,7 @@ PPD	Paging Policy Differentiation
 PPDR	Public Protection and Disaster Relief
 PPF	Paging Proceed Flag
 PPI	Paging Policy Indicator
+PPID	Parent Process ID  (POSIX numeric identifier: ID of process that created it)
 ppm	parts per million
 PPO	Preferred Provider Organization (US medical insurance plan)
 PPP	Point-to-Point Protocol (RFC 1661)
@@ -4720,6 +4737,7 @@ RGARCH	Risk-Adjusted GARCH (statistics: time-varying volatility in time series)
 RGB	Red Green Blue                 (color model)
 RGBA	Red Green Blue Alpha           (color model)
 RGBD	Red Green Blue Depth           (color model)
+RGID	Real Group ID      (POSIX GID: primary group of the process)
 RGNN	Recurrent Graph Neural Networks (AI: deep learning for graph-structured data)
 RGU	Revenue Generating Unit (business term)
 RGW	Relay Gateway
@@ -4893,6 +4911,7 @@ RTU	Remote Telemetry Unit
 RU	Radio Unit: PHY,RF (air/antenna-RU-DU-CU-RIC-CORE), aka RRH or RRU
 Ruby	object-oriented, general-purpose programming language
 RUDP	Reliable User Datagram Protocol
+RUID	Real User ID       (POSIX UID: account that owns the process)
 RUIM	Removable User Identity Module (extends GSM SIM to CDMA)
 Rust	statically-typed, compiled programming language, for performance-critical applications 
 Rx	PCRF and PDN	4G LTE interface
@@ -5121,6 +5140,7 @@ SGCP	Signaling Gateway Control Protocol
 SGD	Stochastic Gradient Descent Classifier (AI: ML optimization algorithm)
 SGi	PGW and PDN	4G LTE interface
 SGI	Silicon Graphics Computer (US, high-performance computing manufacturer, 1981-2009)
+SGID	Saved Group ID     (POSIX GID: stores EGID when it is temporarily changed) 
 SGML	Standard Generalized Markup Language
 SGMP	Simple Gateway Monitoring Protocol (TCP/UDP, network management, RFC 1028, port 153)
 SgNB	Secondarg gNB (next generation NodeB)
@@ -5438,6 +5458,7 @@ SU	Single User
 SU-MIMO	Single-User Multiple-Input Multiple-Output
 SUA	SCCP User Adaptation (RFC 3868)
 SUCI	Subscription Concealed Identifier (5G identifier, TS 23.003)
+SUID	Saved User ID      (POSIX UID: stores EUID when it is temporarily changed)
 SUL	Supplementary Uplink-Only band
 SUPI	Subscription Permanent Identifier (IMSI, NAI, GCI or GLI, TS 23.501)
 SUPL	Secure User Plane Location
@@ -5595,6 +5616,7 @@ TIL	"today i learned" (slang: recently learned something interesting or surprisi
 time		data type, primitive:     temporal values (12:30:45)
 TIN	Taxpayer Identification Number, aka TIN, unique IRS number for business
 TIP	Telecom Infra Project (organization for 2G/3G/4G/5G OpenRAN)
+TIRKS	Trunks Integrated Record Keeping System (inventory and control for telephone network circuits)
 TISPAN	Telecom & Internet converged Services & Protocols for Advanced Networks (ES 282 003)
 Tk	"tee-kay", see "Tcl/tk" (free, high-level, interpreted programming language for GUI)
 TKIP	Temporal Key Integrity Protocol (WPA encryption key)
@@ -5861,7 +5883,7 @@ UHR	Ultra-High Reliability
 UI	User Interface
 UIA	UMTS Integrity Algorithm (TS 33.102)
 UICC	Universal Integrated Circuit Card (TS 31.101)
-UID	User Identification information
+UID	User Identifier    (POSIX numeric identifier)
 UIFN	Universal International Freephone Number
 UK	United Kingdom (Great Britain and Northern Ireland)
 UL	Uplink or Upload
@@ -6296,7 +6318,7 @@ Yt	N5CW and TWAP interface
 YTA	"you're the a**hole" (slang: reply to AITA, at fault or acted unreasonably)
 YUM	Yellowdog Updater Modified (package management tool for Redhat-based Linux distributions)
 Yw	TWAP and TWIF interface
-zazz	acronym file by AsimIslam, updated 20260915
+zazz	acronym file by AsimIslam, updated 20261103
 ZB	Zettabyte	memory size, 10^21	1,180,591,620,717,411,303,424 Bytes
 ZC	Zadoff–Chu, aka"FZC", complex-valued mathematical sequence applied to digital signal
 Zephyr	JIRA's test creation, execution, management environment
