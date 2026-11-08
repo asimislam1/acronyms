@@ -32,7 +32,7 @@
 365	Microsoft 365: Office Suite as cloud-based services
 3CLS	Communications, Computing, Control, Localization, Sensing
 3D	TENSOR, Three Dimensions: rank 2, 3D array of rows and columns (e.g. x,y,z axes.  cube)
-3DES	Triple Data Encryption Standard (cybersecurity: symmetric encryption algorithm, legacy)
+3DES	Triple Data Encryption Standard, or "TDES" (cybersecurity: symmetric encryption algorithm, RFC 1851, 1981, legacy)
 3DGS	3D Gaussian Splatting (photorealistic views in real-time using Gaussian ellipsoids)
 3DoF	Three Degrees of Freedom (pitch, yaw, roll)
 3FF	SIM Form Factor (FF), Micro SIM	15mm x 12mm x 0.76mm
@@ -172,7 +172,7 @@ A8	AN and PCF 	CDMA interface, user data
 A9	AN and PCF 	CDMA interface, connection information
 AA.80	Agreement for IP Packet eXchange (IPX) Services (GSMA)
 AAA	Active Antenna Array
-AAA	Authentication, Authorization and Accounting (logical access control, LAC)
+AAA	Authentication, Authorization and Accounting (cybersecurity: security framework; identity, permissions, track)
 AAAA	Address Record (DNS record type: maps domain to IPv6 address)
 AAAI	AAAI Conference on Artificial Intelligence (AI: focused on general AI)
 AACP	Advanced Airborne Command Post (US military)
@@ -216,7 +216,7 @@ ACL	Annual Meeting of the Association for Computational Linguistics (AI: focused
 ACL	Anterior Cruciate Ligament  (medical: knee joint ligament)
 ACL	Asynchronous Connectionless Link
 ACLU	American Civil Liberties Union, nonprofit organization (www.aclu.org)
-ACME	Automatic Certificate Management Environment (cryptography protocol, RFC 8555)
+ACME	Automatic Certificate Management Environment (cybersecurity: cryptography protocol, RFC 8555)
 ACS	Access Control System
 ACTA	Administrative Council for Terminal Attachments
 AD	Active Directory (MicroSoft management service for users, computers, network, etc.)
@@ -254,7 +254,7 @@ ADT	Abstract Data Type (objects defined by set of values and operations)
 AEC	Active Electrical Cable (copper cables for SFP or QSFP)
 AED	Automated External Defibrillator (medical: portable device for cardiac arrest, used during CPR)
 AEF	API Exposing Function
-AES	Advanced Encryption Standard (cybersecurity: symmetric encryption algorithm, NIST FIPS 197)
+AES	Advanced Encryption Standard (cybersecurity: symmetric encryption algorithm, NIST FIPS 197, 1998)
 AF	Application Function (5G network function, TS 23.501, TS 29.517)
 AFAIK	"as far as i know" (slang: information is believed to be correct, but not guaranteed)
 AFAIR	"as far as i remember" (slang: sharing information from memory)
@@ -342,7 +342,7 @@ AN	Access Network
 AN-AAA	Access Network-Authentication, Authorization and Accounting
 ANC	Access Node Controller (AN + PCF)
 ANCP	Access Node Control Protocol (RFC 7256, TCP-based control protocol, port: 6068)
-AND	logic gate, basic:      Y = A • B        def AND(a, b):  return a & b
+AND	logic operator:  basic:      Y = A • B        def AND(a, b):  return a & b
 ANDSF	Access Network Discovery and Selection Function (TS 23.402)
 ANI	Automatic Number Identification (caller number sent to PSAP)
 ANI	Narrow Artificial Intelligence (AI: specialized models for single tasks)
@@ -394,11 +394,12 @@ ARC	Audio Return Channel (audio signals from TV to audio devices)
 ArcGIS	GIS software by ERSI
 ARCH	Autoregressive Conditional Heteroskedasticity (statistics: time-varying volatility in time series)
 ARCNET	Attached Resource Computer NETwork (LAN protocols, IEEE 802.3)
-ARDL	Autoregressive Distributed Lag (math: time-series analysis)
+ARDL	Autoregressive Distributed Lag (mathematics: time-series analysis)
 Area 0	OSPF backbone area, 0.0.0.0 (OSPF network core, central hub for all routing information exchange)
 ARF	Analog Radio Frequency
 ARFCN	Absolute Radio Frequency Channel Number
 ARG	Automatic Repeat Request (TCP message)
+ARI	ACME Renewal Information (cybersecurity: protocol extenstion to ACME standard, RFC 9773)
 ARIMA	Auto-Regressive Integrated Moving Average (statistics: model for time series forecasting)
 ARIN	American Registerty for Internet Numbers (ICANN RIR)
 ARJ	Advanced RAR (file format, supports data compression and error correction)
@@ -488,6 +489,7 @@ ATV	All-Terrain Vehicle (type of automobile)
 AU	Access Unit (antenna components on tower, connects to UE)
 AuC	Area under Curve (statistics: evaluation metric)
 AuC	Authentication Center (2G GSM, 3G UMTS, 4G LTE, database)
+AUP	Acceptable Use Policy (guidelines and rules to define usage of resources)
 AUSF	Authentication Server Function (5G network function, TS 23.501, TS 29.509)
 AUTN	Authentication Token (authentication vector, TS 33.102)
 AUTOEXEC.BAT	system file, text batch file for automatic execution by OS
@@ -694,7 +696,7 @@ C3	Chrysler Comprehensive Compensation System
 C3I	Command, Control, Communications and Intelligence
 C6	Cloud, Cognition, Collaboration, Connectivity, Content, Context
 CA	Carrier Aggregation (combines frequency bands to increase bandwidth/data speed)
-CA	Certificate Authority (issues digital certificate for website authentication)
+CA	Certificate Authority (cybersecurity: issues and manages digital certificate)
 CA-Polar	CRC Aided Polar (5G channel encoding technology)
 CAA	Certificate Authority Authorization (DNS record type: spcifies which certificate authority can issue SSL certificates)
 CaaS	Containers as a Service (cloud concept)
@@ -705,6 +707,7 @@ CAD	Computer-Aided Design
 CAE	Chief Audit Executive (executive position)
 CAFM	Computer-Aided Facility Management
 CAG	Closed Access Group
+CAGG	Customer Aggregated Gateway Gateway (manage and aggregate customer service data)
 CAGR	Compound Annual Growth Rate (business metric)
 CAI	Charge Advice Information (TS 22.024)
 CAiBP	Chartered AI Business Professional (certification, ARTiBA AI transformation, ethics & governance))
@@ -722,7 +725,7 @@ CAMM	Compression Attached Memory Module DIMM (RAM classification, memory module,
 CAN	Campus Area Network (computer network)
 CAN	CANcel
 CAN	Connectivity Access Network
-CAN	Controller Area Network (communication protocol for micro-controllers and devices)
+CAN	Controller Area Network (message-based protocol for micro-controllers and devices, ISO 11898)
 CAP	CAMEL Application Part (TS 29.078)
 CAP	Carrierless Amplitude Phase Modulation     (digital signal modulation technique, variant of QAM)
 cap	indicate that someone is lying, exaggerating, or making a false statement (slang: "no cap" is opposite)
@@ -934,7 +937,7 @@ CIRT	Computer Incident Response Team
 CIS	Center for Internet Security (nonprofit organization, www.cisecurity.org)
 CIS	Commonwealth of Independent States (Russia + 8 surrounding countries)
 CIS	Container Ingress Service
-CISA	Cybersecurity and Infrastructure Security Agency (US federal agency, responsible for protecting the nation’s critical infrastructure from cyber and physical threats)
+CISA	Cybersecurity and Infrastructure Security Agency (US federal cybersecurity agency, www.cisa.gov)
 CISC	Complex Instruction Set Computer (ISA classification for processor architecture)
 CISM	Certified Information Security Manager (cybersecurity: certification)
 CISO	Chief Information Security Officer (cybersecurity: executive position)
@@ -1105,6 +1108,7 @@ CRFM	Center for Research on Foundation Models (AI: Stanford University initiativ
 CRG	Cable Residential Gateway
 CRISC	Certified in Risk and Information Systems Control (cybersecurity: certification in risk management)
 CRISPR	Clustered Regularly Interspaced Short Palindromic Repeats (family of DNA found in bacteria)
+CRL	Certificate Revocation Lists (cybersecurity: list of revoked digital certificates, RFC 5280)
 CRLF	Carriage-Return "\r", Line-Feed "\n" sequence
 CRM	Customer Relationship Management (business software)
 cRNC	controlling Radio Network Controller
@@ -1248,6 +1252,7 @@ DARVO	Deny, Attack, Reverse Victim and Offender (medical: individuals or institu
 DAS	Direct-Attached Storage (ISM data storage, physically connected)
 DAS	Distributed Antenna System
 DASH	Dynamic Adaptive Streaming over HTTP (TS 26.247)
+data		raw measurements, statistics and facts (DIKW)
 date		data type, primitive:     temporal values (2024-01-01)
 datetime	data type, primitive:     temporal values (2024-01-01, 12:30:45)
 DAX	Data Analysis Expressions (Power BI library)
@@ -1325,7 +1330,7 @@ DELETE	remove				- RFC 9110,  HTTP method or verb,  CRUD DELETE operation
 DEMUX	De-Multiplexer  (separates 1 signal into 2^n signals; one to many)
 DeNB	Donor eNB(evolved-NodeB)
 deprecated	definition: not recommended, better options available or impending upgrade
-DES	Data Encryption Standard (FIPS Publication 46-3, withdrawn in 2005)
+DES	Data Encryption Standard (cybersecurity: symmetric encryption algorithm, FIPS 46-3, 1975, obsolete)
 DETR	DEtection TRansformer (AI: deep learning model, object detection)
 Dev	Development (business term)
 DevOps	Development + Operations (business term)
@@ -1367,10 +1372,12 @@ DL	Direct Labor (directly contribute to revenue-generating activities)
 DL	Downlink or Download
 DL-SCH	Downlink Shared Channel (PHY-MAC transport channel)
 DLC	Downloadable Content
+DLD	Data Length Code
 DLD	Detailed-Level Design (detailed technical design document)
 DLL	Data Link Layer	(OSI layer 2, MAC and LLC)
 dll	Dynamic Link Library file (file extension)
 DLL	L2 Data Link Layer:	  framing, flow control, error control (DLL = MAC+LLC)
+DLM	Data Lifecycle Management (create, store, use, archive, destroy)
 DLP	Data Loss Prevention (cybersecurity: framework)
 DLP	Digital Light Processing (imaging and projection technology developed by TI)
 DLT	Distributed Ledger Technology (blockchain)
@@ -1449,6 +1456,7 @@ DPMM	Dirichlet Process Mixture Models (AI: unsupervised ML model, clustering)
 DPO	Data Protection Officer (company position)
 DPP	Daily Peak Period (telecommunication metric)
 DPU	Data Processing Unit     (processor: I/O, network and storage)
+DPV	Delegated Path Validation (cybersecurity: method to offload validating certificated to trusted server, RFC 3379)
 DQDB	Distributed-Queue Dual-Bus (distributed multi-access network, IEEE 802.6)
 DQPSK	Differential Quaternary Phase Shift Keying (digital signal modulation technique)
 DR	Disaster Recovery
@@ -1475,6 +1483,7 @@ DS-TT	Device-Side TSN Translator (TS 24.519)
 DS0	Digital Signal Zero, = 64 Kbps/channel, transmission rate for voice & data
 DSA	Data Structures and Algorithms (organized ways to store and manage data)
 DSA	Democratic Socialists of America    (US political party, Progressive Party) 
+DSA	Digital Signature Algorithm (cybersecurity: asymmetric encryption algorithm, FIPS 186, 1994)
 DSAC	Domain Specific Access Control (domain access during disaster, TS 22.011)
 DSCH	Downlink Shared Channel
 DSCP	Differentiated Services Code Point (6-bit field in IPv4/IPv6 packet for QoS)
@@ -1600,7 +1609,7 @@ ECIA	Electronic Components Industry Association
 ECIES	Elliptic Curve Integrated Encryption Scheme
 ECLAT	Equivalence Class Clustering and bottom-up Lattice Traversal (AI: unsupervised ML model, clustering)
 ECM	EPS Connection Management
-ECM	Error Correction Models (math: time-series analysis)
+ECM	Error Correction Models (mathematics: time-series analysis)
 ECMA	European Computer Manufacturers Association, now "ECMA International"  (standards organization, www.ecma-international.org)
 ECMAScript	ECMA scripting language specification (ECMA-262 Standard www.ecma-international.org)
 ECMP	Equal-Cost Multi-Path (routing strategy)
@@ -1614,6 +1623,7 @@ ECRF	Emergency Call Routing Function (RFC 5582)
 ECS	Elastic Container Service (AWS service)
 ECS	Enhanced Charging Function
 ECT	Explicit Congestion Notification (RFC 3168, network congestion)
+ECU	Electronic Control Unit (brain in modern electronics, controls specific systems)
 EDA	Event Driven Architecture
 EDA	Exploratory Data Analysis (AI: data visualization)
 EDC	Emergency Communications Division (see DHS)
@@ -1680,6 +1690,7 @@ ELINT	Electronic Emissions (SIGINT, focused on non-communication electronic sign
 ELINT	Electronic Intelligence (from intercepting electronics)
 ELK	ElasticSearch, Logstash and Kibana (big data)
 ELSUR	Electronic Surveillance Data Management System (DCSNet repository)
+ELT	Extract, Load, Transform (pipeline design used to move, store, process data)
 ELU	Exponential Linear Unit		(AI: activation function in NN, introduces non-linearity)
 em	CSS/HTML styles:  element with scalable size relative to parent font size, same as "%"
 EM	Electro-Magnetic
@@ -1811,7 +1822,7 @@ etcd	key value store system used in Kubernetes
 ETF	Exchange-Traded Funds (finance: diversified, tradable fund)
 ETH	Ethereum (crypto-asset, ethereum.org)
 ETHERNET	Communication Protocol Standard (IEEE 802.3)
-ETL	Extract, Transform, Load (prepare raw data for analytics)
+ETL	Extract, Transform, Load (pipeline design used to move, process, store data)
 eTLD	Effective Top-Level Domains (internet domain names, aka "PSL")
 ETR	Estimated Time of Restoration
 ETRS	European Terrestrial Reference System
@@ -1871,6 +1882,7 @@ FAQ	Frequently Asked Questions
 FAR	Federal Acquisition Regulation (US DoD, purchasing rules for the DoD)
 FAR	Fixed Assets Register
 FAR	Forwarding Action Rule (SMF rules to UPF)
+FAS	Frequency Assignment Subcommittee (US agency for federal spectrum assignments, NTIA)
 FAST	Features from Accelerated Segment Test (algorithm to detect strong changes in intensity)
 FAT	Factory Acceptance Test (acceptance testing)
 FAT	File Allocation Table  (file system, common on USB)
@@ -2302,7 +2314,7 @@ HCISPP	Healthcare Information Security and Privacy Professional (cybersecurity: 
 HCM	Human Capital Management (business software)
 HCS	Hierarchical Cell Structure
 HCS	Hyper-Converged Storage (data storage concept)
-HD	High Definition (high video quality)
+HD	High Definition (high quality)
 HD-ARC	High-Definition Audio Return Channel (HDMI audio connector for TV)
 HDD	Hard Disk Drive   (data storage: type of DAS hardware, hard drive)
 HDF	High Density Fiberboard   (type of wood board, high strength, stronger than MDF)
@@ -2463,6 +2475,7 @@ iBGP	internal Border Gateway Protocol  (routing protocol to exchange information
 ibid	Latin: "ibidem",  English: "in the same place"
 IBM	International Business Machines (US technology company)
 IBMDOS.COM	contains hardware-independent parts of operating system
+IBOC	In-Band On-Channel (transmitting digital and analog broadcast signals on same freqency)
 IBSA	India, Brazil and South Africa
 IBSS	Independent Basic Service Set (wireless devices connected without AP)
 IBU	Integrated Business Unit
@@ -2560,6 +2573,7 @@ IKE	Internet Key Exchange protocol (cybersecurity: UDP, RFC 7296, port 500, aka 
 iLBC	Internet Low Bitrate Codec (audio coding format)
 ILD	Injection Laser Diode
 ILEC	Incumbent Local Exchange Carrier
+ILM	Information Lifecycle Management (create, store, use, archive, destroy)
 ILNP	Identifier/Locator Network Protocol (RFC 6115)
 ILS	Instrument Landing System (aviation, short-range aircraft guidance system)
 ILT	Instructor Led Training
@@ -2601,6 +2615,7 @@ Industry 3.0	1969-2014:  computation, automation, electronics
 Industry 4.0	2015- now:  IoT, CPS, AI/ML, predictive analytics
 INES	International Nuclear and Radiological Event Scale (IAEA accident scale)
 inf	setup information file (file format for Microsoft Windows based OS, plain-text file)
+information	data with context (DIKW)
 INGO	International Non-Governmental Organization
 ini	Windows initialization configuration file (file extension)
 INIRC	International NIR Committee
@@ -2899,7 +2914,7 @@ ISSN	International Standard Serial Number (catalog number for periodical publica
 IST	India Standard Time, UTC+5:30
 ISUP	ISDN User Part (ITU Q.76x series)
 ISV	Independent Software Vendors
-IT	Information Technology
+IT	Information Technology (information: create, process, store, retrieve and transmit)
 ITAM	IT Asset Management (ITIL activity)
 ITAR	International Traffic in Arms Regulations (US State Department regulations for export of military items)
 ITIL	Information Technology Infrastructure Library (IT practices, www.axelos.com)
@@ -2963,6 +2978,12 @@ JFS	Journaled File System (Unix file system for IBM for AIX)
 JIRA	software application for issue tracking and project management
 JIT	Just In Time (compiler that translates JVM into machine code)
 JLS	Java Language Specification
+joins	a. INNER JOIN	- rows where there is a match in both tables
+joins	b. LEFT JOIN	- all rows from left  table, plus matching rows from right
+joins	c. RIGHT JOIN	- all rows from right table, plus matching rows from left
+joins	d. FULL OUTER JOIN	- all rows from both tables
+joins	e. CROSS JOIN	- every row from table A paired with every row from table B
+joins	f. SELF JOIN	- table joined to itself using different aliases
 JPCERT	Japan’s Computer Emergency Response Team Coordination Center (cybersecurity:  Japan's CSIRT)
 jpeg	Joint Photographic Experts Group (image file extension)
 jpg	Joint Photographic Group (image file extension)
@@ -3020,6 +3041,7 @@ KMS	Key Management Service (AWS service)
 KMZ	compressed KML file (GIS: Google Earth zipped KML file)
 KNIME	Konstanz Information Miner
 KNN	k-Nearest Neighbors (AI: supervised ML model)
+knowledge	organized understanding derived from information (DIKW)
 kPa	pressure in "kilo-Pascal"	1 kPa = 1000 Pa		engineering, HVAC, tires
 KPI	Key Performance Indicators (metrics)
 KQI	Key Quality Indicators
@@ -3172,7 +3194,7 @@ LOB	Line Of Business (business term)
 LoBF	Line of Best Fit (AI: supervised ML model)
 LOC	Localizer  (aviation, lateral guidance for runway approach)
 LoF	Loss of Frame
-logic gate	logic operations: AND, OR, NOT, NAND, NOR, XOR, XNOR
+logic	"logic operator" or "logic gate": AND, OR, NOT, NAND, NOR, XOR, XNOR
 Logstash	ETL tool for ElasticSearch (big data, ELK)
 LoI	Letter of Intent (agreements, roadmaps)
 lol	"laughing out loud" (slang: absolutely hilarious)
@@ -3319,11 +3341,11 @@ MCPTT	Mission Critical Push To Talk (TS 23.379)
 MCS	Modulation and Coding Scheme
 MCTS	Monte Carlo Tree Search (AI: unsupervised ML model, reinforcement learning)
 MCU	Media Control Unit
-MCU	Micro-Controller Unit (brains in modern electronics, plus built-in hardware peripherals)
+MCU	Micro-Controller Unit (brain in modern electronics, built-in hardware and messaging)
 MCX	Mission Critical Service
 MD	Doctor of Medicine (professional doctorate, medicine)
-MD4	Message-Digest algorithm 4 (128-bit hash value, encryption, compromised)
-MD5	Message-Digest algorithm 5 (128-bit hash value, encryption, RFC 1321)
+MD4	Message-Digest algorithm 4 (128-bit hash function, algorithm, compromised)
+MD5	Message-Digest algorithm 5 (RFC 2102, 128-bit hash function, algorithm, 1991, compromised)
 MDA	Mail Delivery Agent (MTA sends email to MDA, MDA sends it recipient's mailbox)
 MDBV	Maximum Data Burst Volume
 MDC	Massive Data Centers
@@ -3697,7 +3719,7 @@ NAK	Negative AKnowledge
 Namf	5G Service-Based Interface exhibited by AMF
 NAN	Neighborhood Area Network (computer network)
 NaN	Not a Number (missing value in data)
-NAND	logic gate, universal:  Y = (A • B)'     def NAND(a, b): return NOT(AND(a, b))
+NAND	logic operator:  universal:  Y = (A • B)'     def NAND(a, b): return NOT(AND(a, b))
 nano-	n,  10 power  -9	- numeric, see also "prefix"
 NANP	North American Numbering Plan
 NANPA	North American Numbering Plan Administrator
@@ -3877,9 +3899,9 @@ NodeZero	autonomous penetration-testing platform by Horizon3.ai
 NOIR	Name, Order, Interval, Ratio  (statistics: measurement scale)
 NOMA	Non-Orthogonal Multiple Access (5G technology)
 noob	beginner, amateur, inexperienced, aka n00b (slang: can be playful, humorous or derogatory)
-NOR	logic gate, universal:  Y = (A + B)'     def NOR(a, b):  return NOT(OR(a, b))
+NOR	logic operator:  universal:  Y = (A + B)'     def NOR(a, b):  return NOT(OR(a, b))
 NoSQL	any database designed outside of traditional relational model
-NOT	logic gate, basic:      Y = Ā            def NOT(a):     return 0 if a else 1
+NOT	logic operator:  basic:      Y = Ā            def NOT(a):     return 0 if a else 1
 NOTAM	Notice to Airmen (aviation, alerts pilots to temporary changes or hazards in airspace)
 np	"no problem" (slang: you’re welcome, it’s okay, don’t worry about it, happy to help)
 NP&E	Network Planning and Engineering
@@ -3965,21 +3987,21 @@ NTE	Network Terminating Equipment
 NTFS	New Technology File System (Windows file system)
 NTI	Network Temporary Identifier (UE identifier for UE-UTRAN signaling)
 NTIA	National Telecommunications and Information Administration
-NTLM	New Technology Local Area Network (Microsoft's authentication protocol for network access)
+NTIA	National Telecommunications and Information Administration (US telecommunications policy agency, www.ntia.gov)
+NTLM	New Technology Local Area Network (Microsoft's authentication protocol)
 NTM	Network Topology Mapper (SolarWinds product)
 NTN	Non-Terrestrial Networks, TR 38.821 (LEO, MEO, GEO, HEO, UAS, HAPS)
-NTP	Network Time Protocol (application layer, UDP, time synchronization, RFC 5905, port 123)
+NTP	Network Time Protocol (application layer, UDP, time sync, RFC 5905, port 123)
 NTSB	National Transportation Safety Board (US investigative agency)
 NTSC	National Television Standards Committee (television format)
-NTT	Nippon Telegraph and Telephone - DoCoMo, Japanese mobile operator
+NTT	Nippon Telegraph and Telephone, Japanese mobile operator (www.global.ntt)
 NUD	Neighbor Unreachability Detection
 Nudm	5G Service-Based Interface exhibited by UDM
 Nudr	5G Service-Based Interface exhibited by UDR
 Nudsf	5G Service-Based Interface exhibited by UDSF
 NUI	National USIM Identifier
 NUI	Network User Interface
-NUL	Null
-NULL	special value in programming, represents intentional absence of any object or data
+NULL	special value in programming, absence of any object or data
 NUM	Number, numbering systems:    BIN, TER, OCT, DEC, HEX
 NUMA	Non-Uniform Memory Architecture/Access
 numeric-3	three number code
@@ -4014,6 +4036,7 @@ OASDI	Old-Age, Survivors and Disability Insurance Program (US, social security)
 OASIS	Organization for the Advancement of Structured Information Standards (standards consortium, www.oasis-open.org)
 OAT	Operational Acceptance Testing (acceptance testing)
 OATH	Initiative for Open AuTHentication (collabaration for open standards for authentication)
+OBD	On-Board Diagnostics (vehicle's self-diagnostic and reporting capability)
 object		data type, all types:     everything is an object
 OBM	Original Brand Manufacturer
 OBP	Online Browsing Platform
@@ -4038,6 +4061,7 @@ OCR	Optical Character Reader (printed text recognition)
 OCRA	OATH Challenge-Response Algorithm (RFC 6287, OTP algorithm)
 OCS	Online Charging System (prepaid services)
 OCSF	Open Cybersecurity Schema Framework (cybersecurity: security events definition and exchange)
+OCSP	Online Certificate Status Protocol (cybersecurity: obtain status of digital certificates, RFC 9654)
 OCT	Octal numbering system,       base 8: 0-7       (BIN, TER, OCT, DEC, HEX)
 OCTET	Unit of Information, 1 byte = 8 bits = 1 octet
 ODA	On-Device Activation
@@ -4129,6 +4153,7 @@ openGL	Open Graphics Library (API for rendering 2D and 3D vector graphics, www.o
 OpenMP	Open Multi-Processing (API for multi-processing)
 OpenRAN	intelligent Radio Access Network (open source, O-RAN)
 OpenSearch	open-source analytics engine based on ElasticSearch by Amazon (big data, port 9200-9400)
+OpenSSL	open-source toolkit, implements SSL and TLS protocols (cybersecurity: generates keys, www.openssl.org)
 OpenVZ	Open Virtuozzo (Linux containers, OS level virtualization)
 OpEx	Operating Expenditure (business metric)
 OPM	Operations and Policy Manager
@@ -4147,7 +4172,7 @@ Option 6	5G, only 5G-nGB connected to EPC (very unlikely)
 Option 7	5G NSA, 4G-ng-eNB & 5G-gNB connected to 5GC (NGEN-DC)
 OPTIONS	describe communication options	- RFC 9110,  HTTP method or verb
 OQPSK	Offset Quadrature Phase Shift Keying       (digital signal modulation technique)
-OR	logic gate, basic:      Y = A + B        def OR(a, b):   return a | b
+OR	logic operator:  basic:      Y = A + B        def OR(a, b):   return a | b
 ORACH	ODMA Random Access Channel
 ORAN	O-RAN, Open-Radio Access Network (centralized, virtual, open, www.o-ran.org)
 Orange	Orange SA, aka France Télécom SA (French mobile operator)
@@ -4307,6 +4332,7 @@ PDC	Personal Digital Cellular (2G GSM, Japan)
 PDCA	Plan, Do, Check, Act (project model)
 PDCCH	Physical Downlink Control Channel (air interface channel)
 PDCP	Packet Data Convergence Protocol (UE-eNodeB, TS 25.323)
+PDE	Partial Differential Equation (mathematics: multivariable function with partial derivatives)
 PDF	Policy Decision Function
 pdf	Portable Document Format (file extension)
 PDF	Probability Density Function (statistics)
@@ -4353,7 +4379,7 @@ PGW	Packet Data Network Gateway (4G LTE)
 PHB	Per-Hop Behaviors (how each network device handles packets at every hop to provide QoS)
 PhD	English: "Doctor of Philosophy", Latin: "Philosophiae Doctor" (academic degree, research-oriented)
 PHDC	Personal Healthcare Device Class (ex: pulse monitor watch, fitbit)
-PHI	Protected Health Information (private information)
+PHI	Protected Health Information (personal data: physical, mental health)
 PHICH	Physical HARQ Indicator Channel (LTE downlink control channel)
 PHP	Hypertext Preprocessor (open-source server-side scripting language)
 PHS	Personal Handyphone System (pre-2G)
@@ -4371,7 +4397,7 @@ PID	Process ID         (POSIX numeric identifier: unique integer for each proces
 PIDS	Protocol-Based Intrusion Detection System (cybersecurity)
 PIFI	Personally Identifiable Financial Information
 Pig	Apache high level querying interface
-PII	Personally Identifiable Information (individual's identity information)
+PII	Personally Identifiable Information (personal data: contact or location)
 PIL	Python Image Library
 PIM	Protocol Independent Multicast  (RFC 7761)
 PIN	Personal Identification Number (cybersercurity, numeric code used for authentication)
@@ -4384,8 +4410,9 @@ PIREP	Pilot Report  (aviation,  report of actual weather conditions encountered 
 PIV	Personal Identity Verification (US Federal Employees and Contractors, FIPS 201-3)
 PJL	Page Job Language
 PKA	Packet Capture Agent
-PKE	Public Key Enabling (certificate authority)
-PKI	Public Key Infrastructure (certificate authority)
+PKCS	Public-Key Cryptography Standards (cybersecurity: OASIS PKI standards, docs.oasis-open.org/pkcs11/pkcs11-spec/v3.2/os)
+PKE	Public Key Enabling (cybersecurity: certificate authority)
+PKI	Public Key Infrastructure (cybersecurity: framework for keys, certificates and CAs/RAs)
 PLA	Programmable Logic Arrays (type of PLD)
 PLB	Personal Locator Beacon
 PLC	Programmable Logic Controllers (computer for electromechanical processes)
@@ -4623,12 +4650,14 @@ R6	BS and ASN-GW	WiMax: control and bearer
 R7	BS and ASN-GW	WiMax: AAA, policy
 R8	BS to BS	WiMax: control and bearer for hand-over
 RA	Random Access Preamble (TS 36.300, UE to radio)
+RA	Registration Authority (cybersecurity: verification step in PKI process)
 RA	Risk Assessment (part of company contingency plan)
 RA	Routing Area (LA --> many RA --> many URA)
 RA-RNTI	Random Access Radio Network Temporary Identifier
 RAB	Radio Access Bearer
 RAC	Real Application Clusters (Oracle DB software for clustering and high-availability)
 RAC	Routing Area Code
+RACE	Research and Development in Advanced Communications Technologies in Europe (EU programs in the 1990s)
 RACH	Random Access Channel (TS 36.300, PHY-MAC transport channel)
 RACI	Responsible, Accountable, Consulted, Informed (project model)
 RACS	Resource and Admission Control Subsystem (ETSI ES 282 003)
@@ -4756,6 +4785,7 @@ RIP	"Rest in Peace" (slang: failed, ruined or beyond repair; used humorously or 
 RIP	Request in Progress
 RIP	Routing Information Protocol (UDP, Layer 5, hop counts, RFC 1058 & 1723, port 520, AD=120)
 RIPE NCC	Réseaux IP Européens Network Coordination Centre (ICANN RIR)
+RIPEMD	RIPE Message Digest (hash function, algorithm, less popular than SHA)
 RIPv1	Routing Information Protocol version 1 (hop counts, classful,  does not support VLSM/CIDR)
 RIPv2	Routing Information Protocol version 2 (hop counts, classless, does supports VLSM/CIDR)
 RIR	Regional Internet Registry (organization managing internet number resources)
@@ -4858,7 +4888,7 @@ RRU	Remote Radio Unit (hardware, DAC/ADC and RF equipment, aka RRH or RU)
 RS	Recommended Standard (EIA standards)
 RS	Reference Signal, used both in uplink and downlink
 RS-232	Recommended Standard-232, EIA (interface and protocol between DTE and DCE)
-RSA	Rivest–Shamir–Adleman (cybersecurity: public-key asymmetric encryption algorithm, 1977)
+RSA	Rivest–Shamir–Adleman (cybersecurity: asymmetric encryption algorithm, RFC 8017, 1977)
 RSCP	Received Signal Code Power (signal power, dBm, 3G only)
 RSD	Relative Standard Deviation (statistics
 RSI	Relative Strength Index (stock market trading indicators)
@@ -4899,6 +4929,7 @@ RTO	Regional Transmission Organizations (non-profit, public-benefit corporations
 RTO	Retransmission Timeout
 RTOS	Real-Time Operating System (used in embedded application)
 RTP	Real-Time Transport Protocol (RFC 1889)
+RTR	Remote Transmission Request
 rTRP	relay Transmission and Reception Point
 RTS	Radio Transceiver Station (3G UMTS: "NodeB", "RTS" is not used)
 RTS	Real-Time Strategy (type of video game)
@@ -5061,6 +5092,7 @@ SDA	Serial Data Line (I2C wire, responsible for carrying data between devices)
 SDA	Software Defined Architecture
 SDAP	Service Data Adaptation Protocol (UE-eNodeB, layer 2, TS 37.324)
 SDCCH	Standalone Dedicated Control Channel
+SDD	Spec-Driven Development (software methodology where one detailed specification is single source of truth for architecture, code, tests)
 SDET	Software Development Engineer Test
 SDF	Service Data Flow (end-to-end packet flow with QFI)
 SDF	Software Defined Function
@@ -5149,7 +5181,9 @@ SGsAP	MME to MSC/VLR	4G LTE interface (TS 29.118)
 SGSN	Serving GPRS Support Node (2.5 GPRS, 3G UMTS)
 SGW	Serving Gateway (4G LTE)
 Sh	AS (SIP-AS or OSA-CSCF) and HSS		IMS interface
-SHA	Secure Hash Algorithm
+SHA-1	Secure Hash Algorithm-1    (RFC 4634, 160-bit hash function, algorithm, 1995, compromised)
+SHA-256	Secure Hash Algorithm-256  (RFC 6235, 256-bit hash function, algorithm, 2001, secure)
+SHA-512	Secure Hash Algorithm-512  (RFC 6235, 512-bit hash function, algorithm, 2001, secure)
 SHCCH	Shared Channel Control Channel
 SHCH	Shared Channel
 SHF	Super High Frequency	  3 GHz -  30 GHz, radio
@@ -5321,7 +5355,7 @@ SPF	Dijkstra's Shortest Path First algorithm (1956.  finds efficient path; routi
 SPI	Sensitive Personal Information
 SPI	Serial Peripheral Interface (short-distance connection protocol, wire: SCLK,MOSI,MISO,SS/CS)
 SPID	Subscriber Profile ID for RAT/Frequency Priority
-SPII	Sensitive Personally Identifiable Information (e.g. SSN, medical, ​financial, biometric, etc. data)
+SPII	Sensitive Personally Identifiable Information (personal data: SSN, ​financial, biometric, etc. data)
 SPLA	Service Provider License Agreement
 Splunk	cybersecurity platform for monitoring, detecting and responding to threats
 SPM	Software Project Management (business position)
@@ -5568,7 +5602,7 @@ TDCI	Tethering Detection Confidence Index (feature)
 TDD	Telecommunications Device for the Deaf
 TDD	Test Driven Development (Agile terminology)
 TDD	Time Division Duplexing mode
-TDES	"Triple-DES", Triple-Data Encryption Standard (FIPS Publication 46-3, withdrawn in 2005)
+TDES	Triple-Data Encryption Standard, or "3DES" (cybersecurity: symmetric encryption algorithm, RFC 1851, 1981, legacy)
 TDF	Traffic Detection Function
 TDF-C	Traffic Detection Function Control Plane function
 TDF-U	Traffic Detection Function User Plane function
@@ -5806,6 +5840,7 @@ TSTS	Triple SIM Triple Standby
 TSV	Through-Silicon Vias vertical connections through silicon wafer)
 TT	Time-Sensitive Networking Translator
 TT&C	Tracking, Telemetry and Control
+TTCAN	Time-Triggered communication on CAN protocol
 TTFF	Time to First Fix
 TTG	Tunnel Termination Gateway
 TTI	Traffic and Traveler Information
@@ -5856,6 +5891,7 @@ UAV	Unmanned Aerial Vehicle (drones, TR 22.829)
 UAW	Under-Water Acoustic communication
 UBIFS	Unsorted Block Image File System (flash-optimized file system)
 Ubuntu	Linux distribution developed by Canonical
+UCaaS	Unified Communications as a Service
 UCD	Unicode Character Database (define property, behavior and rule for all Unicode characters)
 UCI	Uplink Control Information
 UCS	Universal Coded Character Set (ISO/IEC 10646 standards for charachter encoding)
@@ -6079,7 +6115,7 @@ VOFDM	Vector Orthogonal Frequency Division Multiplexing
 VoI	Value on Investment (business metric)
 VoIMS	Voice & video over IMS (GSMA IR.92, IR.94 and IR.51)
 VoIP	Voice over Internet Protocol
-VoLTE	Voice over LTE
+VoLTE	Voice over LTE (HD voice calls directly over LTE data network)
 VoNR	Voice over 5G New Radio
 VOR	VHF Omnidirectional Range (aviation, ground-based navigational aid)
 VORTAC	VHF Omnidirectional Range and Tactical Air Navigation (avaiation, ground-based navigational aid)
@@ -6204,6 +6240,7 @@ WINS	Windows Internet Name Service (netBiOS to IP addr translation, MicroSoft)
 wip	"work in progress"  (business term)
 WIPO	UN World Intellectual Property Organization, 1970- (www.wipo.int)
 WireShark	network protocol analyzer (www.wireshark.org)
+wisdom		ability to apply knowledge with judgment and experience (DIKW)
 WISP	Wireless Internet Service Providers
 WKT	Well-Known Text (text markup language for SRS)
 WLA	Work Level Agreement (contract agreement)
@@ -6287,10 +6324,10 @@ XML	Extensible Markup Language (RFC 4825, file format)
 XMPP	Extensible Messaging and Presence Protocol
 Xn	interface between gNB and gNB
 XnAP	Xn Application Protocol (5G gNB-gNB interface, TS 38.423)
-XNOR	logic gate, derived:    Y = AB + A'B'    def XNOR(a, b): return NOT(XOR(a, b))
+XNOR	logic operator:  derived:    Y = AB + A'B'    def XNOR(a, b): return NOT(XOR(a, b))
 XNS	Xerox Network Systems Clearinghouse (name server, port 54)
 XOps	IT operations term, i.e. BizOps, DevOps, AIOps, DataOps, etc.
-XOR	logic gate, derived:    Y = A'B + AB'    def XOR(a, b):  return a ^ b
+XOR	logic operator:  derived:    Y = A'B + AB'    def XOR(a, b):  return a ^ b
 XP	Extreme Programming  (principle that promotes collaboration, simplicity and feedback)
 XPath	XML Path Language
 XR	Extended Reality, TS 26.928, immersive technologies: AR/VR/CG-CR/MR
