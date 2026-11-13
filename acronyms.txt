@@ -251,6 +251,7 @@ ADN	Application Delivery Networking
 adPaaS	application development Platform as a Service (cloud concept)
 ADRAM	Asynchronous DRAM (RAM classification, async timing)
 ADS-B	Automatic Dependent Surveillance–Broadcast (aviation: aircraft location broadcast)
+ADSE-X	Airport Surface Detection Equipment, Model X (aviation: FAA surface surveillance system)
 ADSL	Asymmetric Digital Subscriber Line (8 Mbps downstream, 1.5 Mbps upstream)
 ADT	Abstract Data Type (objects defined by set of values and operations)
 AEC	Active Electrical Cable (copper cables for SFP or QSFP)
@@ -288,6 +289,7 @@ AICPA	American Institute of Certified Public Accountants (professional organizat
 AIDC	Automatic Identification and Data Capture (barcode: product identification & data collection)
 AIDS	Acquired Immuno-Deficiency Syndrome (medical: viral infection)
 AiE	Artificial Intelligence Engineer (certification, ARTiBA AI professional)
+AIM	AOL Instant Messenger (instant messaging program by AOL, 1997-2017)
 AIN	Advanced Intelligent Network (North America)
 AIO	"am i overreacting?" (slang: asking if emotional reaction is justified)
 AIoT	Artificial Intelligence of Things
@@ -361,6 +363,7 @@ ANTIC	Alpha-Numeric Television Interface Controller
 AOC	Active Optical Cable (fiber cables for SFP or QSFP)
 AoC	Advice of Charge supplementary services (TS 22.086)
 AoE	Area of Effect
+AOL	America Online (web portal, created AIM, www.aol.com)
 AON	Active Optical Network
 AOR	Address of Record
 AP	Access Point (device that creates a WLAN, e.g. routers)
@@ -484,7 +487,7 @@ ATSSS	steering   - direct data traffic based on standby, priority, short-path, Q
 ATSSS	switching  - direct data traffic from one access network to another
 ATSSS-LL	Access Traffic Steering, Switching, Splitting-Low Layer
 ATT	American Telephone and Telegraph Inc. (see "AT&T")
-ATT&CK	Adversarial Tactics, Techniques and Common Knowledge (cybersecurity: framework, knowledge base, www.mitre.org))
+ATT&CK	Adversarial Tactics, Techniques and Common Knowledge (cybersecurity: knowledge base, www.attack.mitre.org)
 atto-	a,  10 power -18	- numeric, see also "prefix"
 ATU	African Telecommunications Union (ITU WRC group)
 ATU-R	ADSL Transceiver Unit-Remote
@@ -538,6 +541,7 @@ baPaas	business analytics Platform as a Service (cloud concept)
 BAR	Buffering Action Rule (SMF rules to UPF)
 Bar	pressure in "bar"		1 bar  = 100 kPa	atmospheric pressure
 BASE	Basic Availability, Soft-state, Eventual consistency (database concept)
+bash	Bourne Again Shell (CLI used in UNIX-like OS, 1989)
 BASIC	Beginner’s All-purpose Symbolic Instruction Code (computer language)
 bat	PC batch file (file extension)
 BAU	Bus Adapter Unit (interface)
@@ -828,7 +832,7 @@ CCU	Channel Codec Unit
 CCV	Card Code Verification     (3-4 digits code on credit/debit cards, aka CCV,CID,CSC,CVC,CVD,CVV)
 CD	Certificate of Deposit (finance: low-risk, fixed-return bank deposit)
 CD	Compact Disk (type of optical DAS hardware)
-CD	Continuous Deployment (business process)
+CD	Continuous Delivery/Deployment (software development methodology, see "CI/CD")
 CD-NOMA	Code Domain-Non-Orthogonal Multiple Access
 CD-R	Compact Disk – Recordable
 CD-WO	Compact Disk – Write Once
@@ -866,6 +870,7 @@ CE	Congestion Experienced
 CEA	Consumer Electronics Association (standards organization, www.cta.tech)
 CEF	Common Event Format  (log and data format, common in SIEM)
 CEH	Certified Ethical Hacker (cybersecurity: certificaton)
+CEL	Common Expression Language (language to enforce declarative rules, www.cel.dev)
 CELLID	Cell ID (identifier)
 CEM	Circuit Emulation
 CEMpPSN	CEM over Packet Switched Network
@@ -919,13 +924,13 @@ CHRO	Chief Human Resources Officer (executive position)
 cHTML	compact Hyper Text Markup Language
 CI	Cell Identity
 CI	Confidence Interval (statistics)
-CI	Continuous Integration (business process)
+CI	Continuous Integration (software development methodology, see "CI/CD")
 CI-COU	Controlled Introduction of Company Official Use device
-CI/CD	Continuous Integration/Continuous Deployment (business process)
+CI/CD	Continuous Integration, Continuous Delivery/Deployment (software development methodology that uses automation to build, test and release code)
 CIA	Central Intelligence Agency (US intelligence service)
 CIA	Confidentiality, Integrity and Availability, aka "CIA Triad" (cybersecurity: core principles)
 CIC	Circuit Identification Code (ITU-T Q.763)
-CICD	"CI/CD", Continuous Integration/Continuous Deployment (business process)
+CICD	"CI/CD", Continuous Integration, Continuous Delivery/Deployment (software development methodology that uses automation to build, test and release code)
 CID	Card Identification Number (3-4 digits code on credit/debit cards, aka CCV,CID,CSC,CVC,CVD,CVV)
 CID	Charge Identity (data record, CDR "serial number")
 CIDPRO	Certified Identity Professional (certifications by IDPro, www.idpro.org/cidpro)
@@ -972,7 +977,7 @@ CLB	Configurable Logic Block (smallest programmable logic unit in an FPGA)
 CLDR	Common Locale Data Repository (TUS prject for locale data in XML, cldr.unicode.org)
 CLEC	Competitive Local Exchange Carrier
 CLI	Calling Line Identity
-CLI	Command Line Interface (any window with input prompt)
+CLI	Command Line Interface (any window that provides user interface with OS)
 CLI	Cross-Link Interference
 CLIP	Calling Line Identification Presentation
 CLIR	Calling Line Identification Restriction
@@ -1010,6 +1015,7 @@ CMYK	Cyan Magenta Yellow Key/Black  (color model)
 CN	Core Network
 CNA	Certified Nursing Assistant (certification, healthcare)
 CNA	Cloud-Native Architecture
+CNA	CVE Numbering Authority (cybersecurity: entity that assigns CVE ID & published CVE Records, www.cve.org)
 CNAME	Canonical Name (DNS record type: creates alias from one domain to another)
 CNAP	Calling Name Presentation
 CNC	Centralized Network Configuration
@@ -1146,6 +1152,7 @@ CSFB	Circuit Switched Fall-Back (TS 23.272)
 CSG	Closed Subscriber Group
 CSG	Content Services Gateway  (Cisco: high-speed processing module for billing & traffic)
 CSGN	Cellular-IoT Serving Gateway Node
+csh	C Shell (CLI used in UNIX-like OS, 1978)
 CSI	CAMEL Subscription Information (subscriber CAMEL information in HLR)
 CSI	Continual Service Improvement (ITIL process)
 CSI-RS	Channel State Information Reference Signal
@@ -1215,7 +1222,8 @@ CV2X	Cellular Vehicle to Everything
 CVC	Card Verification Code     (3-4 digits code on credit/debit cards, aka CCV,CID,CSC,CVC,CVD,CVV)
 CVD	Card Verification Data     (3-4 digits code on credit/debit cards, aka CCV,CID,CSC,CVC,CVD,CVV)
 CVD	Coordinated Vulnerability Disclosure
-CVE	Common Vulnerabilities and Exposures (cybersecurity: identifying and cataloging known risks)
+CVE	Common Vulnerabilities and Exposures (cybersecurity: list of known risks, www.cve.org, by MITRE 1999)
+CVE ID	Common Vulnerabilities and Exposures Identifier (cybersecurity: entry in CVE list, www.cve.org)
 CVES	Core Virtual function Event Streaming
 CVM	Customer Value Maximization (real-time business service model)
 CVPR	Conference on Computer Vision and Pattern Recognition (AI: focused on image/vision AI) 
@@ -1259,6 +1267,7 @@ DARVO	Deny, Attack, Reverse Victim and Offender (medical: individuals or institu
 DAS	Direct-Attached Storage (ISM data storage, physically connected)
 DAS	Distributed Antenna System
 DASH	Dynamic Adaptive Streaming over HTTP (TS 26.247)
+DAST	Dynamic Application Security Testing (cybersecurity: automated vulnerability black-box testing)
 data		raw measurements, statistics and facts (DIKW)
 date		data type, primitive:     temporal values (2024-01-01)
 datetime	data type, primitive:     temporal values (2024-01-01, 12:30:45)
@@ -1339,8 +1348,9 @@ DeNB	Donor eNB(evolved-NodeB)
 deprecated	definition: not recommended, better options available or impending upgrade
 DES	Data Encryption Standard (cybersecurity: symmetric encryption algorithm, FIPS 46-3, 1975, obsolete)
 DETR	DEtection TRansformer (AI: deep learning model, object detection)
-Dev	Development (business term)
-DevOps	Development + Operations (business term)
+Dev	Development (software development methodology: software delivery)
+DevOps	Development, Operations (software development methodology, automates Dev and IT operations)
+DevSecOps	Development, Security and Operations (cybersecurity: integrates security in DevOps lifecycle)
 DEXs	Decentralized Exchanges (banking: peer-to-peer cryptocurrency trading platforms)
 DFA	Deterministic Finite Automaton/Acceptor (aka "FSM", "DFSM", "DFSA")
 DFARS	Defense Federal Acquisition Regulation Supplement (US DoD, purchasing rules for the DoD)
@@ -1473,6 +1483,7 @@ DRAC	Dynamic Resource Allocation Control
 DRAM	Dynamic Random Access Memory (memory: RAM classification, low cost, most common RAM)
 DRB	Data Radio Bearer (air-interface data packets)
 DRDA	Distributed Relational Database Architecture
+DREAD	Damage, Reproducibility, Exploitability, Affected users, Discoverability (cybersecurity: threat modeling approach)
 DRM	Digital Rights Management (management of legal access to digital content)
 DRNC	Drift Radio Network Controller
 DRNS	Drift Radio Network Subsystem
@@ -2203,6 +2214,7 @@ gNodeB	Next Generation Node B (5G network, TS 38.306 Rel-15 and onwards)
 GNOME	desktop environment for Linux and BSD by GNOME project, www.gnome.org
 GNSS	Global Navigation Satellite System
 GNU	GNU's Not Unix (recursive acronym, collection of free software)
+GNU utilities & libraries	provide essential commands and system functions
 Go	high-level compiled programing language (Google)
 GOAT	"Greatest Of All Time" (slang: top performer in a field)
 GoC	Groups of Countries (ITU-T E.164)
@@ -2439,9 +2451,9 @@ HSV	Hue, Saturation, Value         (color model, also called HSB)
 HTA	Heavier Than Air UAS
 HTB	Hack The Box (cybersecurity: training & certification platform)
 HTE	High Touch Engineer
-htm	Hyper Text Markup (WHATWG, markup for web page)
-html	Hyper Text Markup Language (WHATWG, markup language for web page)
-HTOM	High Touch Operations Manager (various companies)
+htm	Hyper Text Markup (WHATWG, markup language for web page)
+html	Hyper Text Markup Language (WHATWG, markup language for web page, www.html.spec.whatwg.org)
+HTOM	High Touch Operations Manager
 HTTP	Hypertext Transfer Protocol (application layer, TCP/UDP, unsecure web traffic, RFC-9110, port 80)
 HTTP 	crud:  create/POST, read/GET, update/PUT, delete/DELETE
 HTTP2	Hypertext Transfer Protocol version 2 (RFC-7540, TS 29.500, Layer 5)
@@ -2512,6 +2524,7 @@ ICI	Inter-Carrier Interference
 ICIC	Inter-Cell Interference Coordination
 ICICoS	International Conference on Informatics and Computational Sciences
 ICJ	International Court of Justice, English (UN judicial agency, www.icj-cij.org)
+ick	express disgust or distaste in casual conversation (slang:  "gives me the ick")
 ICLR	International Conference on Learning Representations (AI: focused on DL)
 ICM	Incident Chain Manager
 ICMETE	International Conference on Micro-Electronics and Telecommunication Engineering
@@ -3041,6 +3054,7 @@ KDE	Kernel Density Estimation plot (statistics: overall shape of data distributi
 KDF	Key Derivation Function
 KEDB	Known Error DataBase (ITIL)
 Keras	high-level API designed for simplicity and rapid prototyping (AI: deep learning)
+kernel	core of the operating system that manages hardware and system resources
 kernel	part of operating system that controls functions of hardware
 KEX	Key Exchange, Key Establishment (cybersecurity: exchanging cryptographic keys, RFC-9142)
 KGB	Komitet Gosudarstvennoy Bezopasnosti (Soviet security agency, 1954-1991)
@@ -3066,6 +3080,7 @@ KQI	Key Quality Indicators
 KRA	Key Responsibility Areas
 KRACK	Key Reinstallation Attack (cybersecurity: attacker reinstalls encyrption key in WPA2)
 KRI	Key Risk Indicators
+ksh	Korn Shell (CLI used in UNIX-like OS, by David Korn, 1983)
 KSI	Key Set Identifier (TS 33.102)
 KSU	Key System Unit
 KT	Knowledge Transfer (training session)
@@ -3473,7 +3488,7 @@ MIS	Management Information System
 MISC	Minimal Instruction Set Computer (ISA classification)
 MISO	Master In, Slave Out (SPI wire, carries data from slave to master)
 MitM	Man in the Middle attack (cybersecurity: type of cyber attack)
-MITRE ATT&CK	knowledge base built from real-world cyberattack (see "ATT&CK", www.mitre.org)
+MITRE	US non-profit R&D center: aviation, defense, cybersecurity, CVE, ATT&CK, etc.  www.mitre.org
 Mj	BGCF and MGCF		IMS interface
 Mk	BGCF/IMS ALG and BGCF	IMS interface
 ML	Machine Learning (data science)
@@ -4184,7 +4199,7 @@ OpenVZ	Open Virtuozzo (Linux containers, OS level virtualization)
 OpEx	Operating Expenditure (business metric)
 OPM	Operations and Policy Manager
 OPNFV	Open Platform for Network Functions Virtualization
-Ops	Operations (business term)
+Ops	Operations (software development methodology: IT operations)
 OPS	Operations per Second (metric)
 OPSEC	Operational Security
 Optical	digital audio cable (legacy, aka TOSLINK)
@@ -4213,6 +4228,7 @@ OS	Operating System
 OSA	Open Service Architecture
 OSB	Oriented Strand Board     (type of wood board, very high strength, stonger then HDF)
 OSC	Operations Support Center
+OSCAR	Open System for Communication in Realtime (protocol for AIM by AOL)
 OSCP	Offensive Security Certified Professional (cybersecurity: certification)
 OSD	Open Source Definition (standard for open-source software by OSI)
 OSDL	Open Source Development Labs (non-profit technology consortium, obsolete, 2000-2007)
@@ -4230,7 +4246,7 @@ OSI layer 4	Transport	- segmentation:	SEGMENT  port number: delivering data betw
 OSI layer 5	Session		- data:	   	DATA     manage sessions, authentication, compression, checkpoints
 OSI layer 6	Presentation	- data:	   	DATA     opens/closes sessions, encryption, compression, data conversion
 OSI layer 7	Application	- data:	   	DATA     protocols for application services
-OSINT	Open Source Intelligence (any public information, www.osint.org)
+OSINT	Open Source Intelligence (any public information, www.osint.org, www.osintframework.com)
 OSM	Open Source Management and Orchestration (MANO)
 OSOC	Universal Service Ordering Code
 OSP	Open Stack Platform
@@ -4255,6 +4271,7 @@ OTP	One-Time Password, or "OTAC" ((authentication: password valid for only one t
 OTP	Open Telecom Platform (middleware/libraries/tools written in Erlang programming language)
 OTT	Over the Top (audio/video/data using only IP network)
 OTX	Open Threat Exchange
+OUCH!	SANS' Institute monthly cybersecurity newsletter and podcast (www.sans.org/newsletters/ouch)
 OUI	Organizational Unique Identifier (manufacturer of NIC card, first 6-digits of MAC address)
 ovf	Open VM Format (virtual machine file extension)
 OVN	Open Virtual Network
@@ -4263,7 +4280,8 @@ OvS	Open vSwitch (open-source, production-quality, multilayer virtual switch, Ap
 OVSDB	Open Virtual Switch Database
 OVSF	Orthogonal Variable Spreading Factor
 OWA	Outlook Web Access (Microsoft Office Outlook web application)
-OWASP	Open Web Application Security Project (cybersecurity: non-profit organization for web applications security, www.owasp.org)
+OWASP	Open Worldwide  Application Security Project (cybersecurity: non-profit organization, www.owasp.org)
+OWASP Top 10	Top 10 Security Risks by OWASP, www.owasp.org/projects/top-ten
 OWE	Opportunistic Wireless Encryption (cybersecurity: WPA3, 2017, Wi-Fi unauthenticated but encrypted communication on open Wi-Fi networks, RFC-8110)
 OWL	Web Ontology Language
 OXC	Optical Cross-Connect
@@ -4296,6 +4314,7 @@ PAPR	Peak to Average Power Ratio
 PAR	Preventive Action Request
 PARC	Palo Alto Research Center, formerly Xerox PARC
 PAS	Packet Application Server
+PASTA	Process for Attack Simulation and Threat Analysis (cybersecurity: threat modeling approach)
 PAT	Port Address Translation (RFC-2663, section 2.2)
 PATA	Parallel Advanced Technology Attachment (hard drive interface)
 PATCH	apply partial modifications	- RFC-9110,  HTTP method or verb
@@ -5034,6 +5053,7 @@ SAN	Satellite Access Network, with ISL:  VSAT - SL - ISL - FL - gateway - CN/PDN
 SAN	Service Aware Network (SDN concept)
 SAN	Storage Area Networks (computer network, ISM data storage with switches, servers, storage)
 SANC	signaling Area/Network Codes
+SANS	Escal Institute of Advanced Technologies (US company specializing in cybersecurity, www.sans.org)
 SAOS	Service Aware Operating System
 SAP	Service Access Point
 SAP	Session Announcement Protocol
@@ -5055,6 +5075,7 @@ SAS	Statistical Analysis System (SAS Institute statistical software)
 SASE	Secure Access Service Edge
 SASE	Stand-Alone Synchronization Equipment
 SASL	System Architecture Support Libraries
+SAST	Static Application Security Testing  (cybersecurity: automated vulnerability white-box testing)
 SAT	Scholastic Assessment Test (US, college admissions exam)
 SAT	Site Acceptance Testing (acceptance testing)
 SATA	Serial Advanced Technology Attachment (hard drive interface)
@@ -5070,10 +5091,12 @@ SBI	REST South-Bound Interface
 SBI	Service Based Interface
 SBI	System Information Blocks (network & configuration broadcast messages from base station to UE)
 SBN	Standard Book Numbering (9-digits, replaced by ISBN in 1970)
+SBOM	Software Bill of Materials (machine-readable inventory inside a software product)
 SBU	Strategic Business Unit
 SC	Single Carrier system
 SC	Subscriber Connector (fiber optic cable connector)
 SC-FDMA	Single Carrier Frequency Division Multiple Access (4G LTE-uplink)
+SCA	Software Composition Analysis (cybersecurity: automated security process to analyze software)
 SCADA	Supervisory Control and Data Acquisition (control systems for remote eqiupment and processes)
 Scala	general-purpose, high-level programming language
 SCAP	Security Content Automation Protocol (NIST SP 800-126)
@@ -5217,11 +5240,13 @@ SGsAP	MME to MSC/VLR	4G LTE interface (TS 29.118)
 SGSN	Serving GPRS Support Node (2.5 GPRS, 3G UMTS)
 SGW	Serving Gateway (4G LTE)
 Sh	AS (SIP-AS or OSA-CSCF) and HSS		IMS interface
+sh	Bourne Shell (CLI used in UNIX-like OS, by Stephen Bourne, 1977)
 SHA-1	Secure Hash Algorithm-1    (RFC-4634, 160-bit hash function, algorithm, 1995, compromised)
 SHA-256	Secure Hash Algorithm-256  (RFC-6235, 256-bit hash function, algorithm, 2001, secure)
 SHA-512	Secure Hash Algorithm-512  (RFC-6235, 512-bit hash function, algorithm, 2001, secure)
 SHCCH	Shared Channel Control Channel
 SHCH	Shared Channel
+shell	command interpreter that processes user input
 SHF	Super High Frequency	  3 GHz -  30 GHz, radio
 ship	short for "relationship" (slang: support or imagine two people as a couple)
 shm	Shared Memory (Linux, temporary RAM file storage)
@@ -5480,6 +5505,7 @@ SSO	Sun-Synchronous Orbit (satellite orbit)
 SSO 	Single Sign-On (authentication: allows user to log in with a single ID)
 SSP	Signal or Service Switching Point (SS7 SP, network node)
 SSPL	Server Side Public License
+SSRF	Server-Side Request Forgeries ((cybersecurity: type of cyber attack)
 SSRS	SQL Server Reporting Services
 SSS	Secondary Synchronization Signal
 SSSAR	Service Specific Segmentation and Reassembly
@@ -5633,6 +5659,7 @@ TCP/IP layer 1b	 Network	- switching	FRAME     MAC address: switching data withi
 TCP/IP layer 2	 Internet	- routing	PACKET	   IP address: routing data in networks
 TCP/IP layer 3	 Transport	- segmentation	SEGMENT	  port number: delivering data between devices
 TCP/IP layer 4	 Application	- data		DATA	     services: application services
+tcsh	T Shell (CLI used in UNIX-like OS, 1983)
 TD-SCDMA	Time Division-Synchronous Code Division Multiple Access (China)
 TDAG	Telecommunication Development Advisory Group
 TDaP	Tetanus, Diphtheria, acellular Pertussis  (medical: vaccine for lockjaw, diphtheria and whooping cough)
@@ -5663,6 +5690,7 @@ TEMS	Travel and Expense Management System
 TensorFlow	open-source ML framework by Google (AI: deep learning)
 TER	Ternary numbering system,     base 8: 0-2       (BIN, TER, OCT, DEC, HEX)
 tera-	T,  10 power  12	- numeric, see also "prefix"
+terminal	interface used to access the shell
 TETRA	Trans-European Trunked Radio System (ETSI private mobile radio standard)
 Tez	Apache open-source framework for big data processing using MapReduce
 TF	TensorFlow (AI: machine learning library by Google)
@@ -5725,6 +5753,7 @@ TNI	Total Network Inventory (network inventory software)
 TNL	Transport Network Layer
 TNLA	Transport Network Layer Association
 TOA	Terms of Agreement (user agreement for services)
+TOC	Talk to OSCAR (protocol for AIM by AOL)
 TOEFL	Test of English as a Foreign Language (standardized test)
 TOF	Time of Flight (time an object, particle or wave to travel a distance in a medium)
 TOFU	Trust On First Use (cybersecurity: cryptographic authentication security model)
@@ -6355,7 +6384,7 @@ XFCE	desktop environment for Unix and Linux (www.xfce.org)
 XFS	journaling file system (Unix file system by SGI)
 XGBoost	Gradient Boost (AI: machine learning model)
 xhr	XMLHttpRequest file (web file extension)
-XHTML	eXtensible HyperText Markup Language
+XHTML	eXtensible HyperText Markup Language (WHATWG, markup language for web page)
 XIP	Execute-In-Place (execute programs directly from long-term storage, without copying to RAM)
 xkcd	webcomic by Randall Munroe, covers math, programming, science, romance (www.xkcd.com)
 xls	Microsoft Excel 97 to 2003 (file extension)
@@ -6408,6 +6437,7 @@ zip	compressed archive file (file extension)
 ZIP	Zone Improvement Plan (US ZIP code)
 Zookeeper	Apache distributed, open-source coordination service for distributed applications
 ZPF	Zone-Based Policy Firewall
+zsh	Z Shell (CLI used in UNIX-like OS, 1990)
 ZTNA	Zero Trust Network Access (cybersecurity: "never trust, always verify", identity-based controls for access)
 ZUC	core stream cipher named after Zu Chongzhi
 µTP	Micro Transport Protocol
