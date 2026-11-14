@@ -422,6 +422,7 @@ ARPU	Average Revenue Per Unit (business metric)
 ARQ	Automatic Repeat Query/Request (error control for data transmission, OSI layer 2 & 4)
 ARQ	Automatic Repeat Request (layer 2, TS 25.309)
 array		data type, composite:  ordered collection of elements, often same type ([1, 2, 3])
+ARTCC	(TRACONs), and Air Route Traffic Control Centers (aviation)
 ARTiBA	Artificial Intelligence Board of America (AI accreditation authority, Austin, Texas, USA)
 AS	Access Stratum (RRC and UP in UMTS and LTE)
 AS	Application Services
@@ -457,16 +458,17 @@ ASR5K	Aggregation Services Routers 5000 (Cisco router)
 ASTM	American Society for Testing and Materials (standards organization, www.astm.org)
 ASVS	Application Security Verification Standard (OWASP’s open framework for security controls)
 AT	Access Terminal (end user equipment)
-AT&T	American Telephone and Telegraph Inc. (US telecommunications company)
+AT&T	American Telephone and Telegraph Inc. (US telecommunications company, www.att.com)
 ATA	Advanced Technology Attachment (hard drive interface)
 ATAPI	Advanced Technology Attachment with Packet Interface (hard drive interface)
 ATC	Air Traffic Control (aviation)
 ATCA	Advanced Telecom Computing Architecture (high-performance, carrier-grade telecommunications systems)
 ATCF	Access Transfer Control Function (IMS)
+ATCT	Airport Traffic Control Towers (aviation)
 ATDD	Acceptance Test Driven Development (Agile terminology, acceptance testing)
 ATDM	Asynchronous Time Division Multiplexing, statistical TDM
 ATE	Automated Test Equipment
-ATF	Alcohol, Tobacco, Firearms and Explosives Bureau (US federal agency)
+ATF	Alcohol, Tobacco, Firearms and Explosives Bureau (US federal agency, www.atf.gov)
 ATG	Air to Ground
 ATGW	Access Transfer Gateway (IMS)
 ATIM	Announcement Traffic Indication Message
@@ -547,6 +549,7 @@ bat	PC batch file (file extension)
 BAU	Bus Adapter Unit (interface)
 BAU	Business Administration Unit (business term)
 BaU	Business as Usual (business term)
+BBC	British Broadcasting Corporation (British public service broadcaster)
 BBERF	Bearer Binding and Event Reporting Function
 BBF	Baseband Processing Function
 BBF	BroadBand Forum (standards organization, www.broadband-forum.org)
@@ -631,9 +634,9 @@ BMP	Boyevaya Mashina Pekhoty (Russian), "infantry fighting vehicle"
 bmp	Windows Bit-Map (image file extension)
 BNC	Bayonet Neill–Concelman (coaxial cable connector)
 BNG	Broadband Network Gateway
-BNSF	Burlington Northern and Santa Fe (US freight railways)
+BNSF	Burlington Northern and Santa Fe (US freight railways, www.bnsf.com)
 BoD	Bandwidth on Demand
-BoFA	Bank of America (US bank and financial services corporations)
+BoFA	Bank of America (US bank and financial services corporations, www.bankofamerica.com)
 BOLO	"be on the look out" (slang: alert people to watch for something important)
 bool		data type, primitive:  logical values (True, False)
 BOOTP	Bootstrap Protocol (UDP, port 67-server & 68-client)
@@ -775,13 +778,13 @@ CBCF	Cell Broadcast Centre Function
 CBDO	Chief Business Development Officer (executive position)
 CBIM	Common Baseline Information Model
 CBK	Common Body of Knowledge
-CBOE	Chicago Board Options Exchange (US financial options exchange market)
-CBP	US Customs and Border Protection (US federal agency)
+CBOE	Chicago Board Options Exchange (US financial options exchange market, www.cboe.com)
+CBP	US Customs and Border Protection (US federal agency, www.cbp.gov)
 CBR	Constant Bit Rate
 CBRA	Contention-Based Random Access (TS 38.300, Random Access Procedure)
 CBRS	Citizens Broadband Radio Service (private, two-way, short-distance radio service)
 CBS	Cell Broadcast Service (TS 23.041)
-CBS	Columbia Broadcasting System (US TV channel)
+CBS	Columbia Broadcasting System (US TV channel, www.cbs.com)
 CBSP	Cell Broadcast Service Protocol (TS 48.049)
 CBT	Cognitive Behavioral Therapy (medical: reshape negative thought-behavior cycles)
 CC	Carbon Copy (include recipients in email, visible)
@@ -838,7 +841,7 @@ CD-R	Compact Disk – Recordable
 CD-WO	Compact Disk – Write Once
 CD-XA	Compact Disk – Extended Architecture
 cda	CD Audio Track (media file extension)
-CDC	Centers for Disease Control and Prevention (US federal agency)
+CDC	Centers for Disease Control and Prevention (US federal agency, www.cdc.gov)
 CDD	Customer Due Diligence (banking: ongoing monitoring to detect unusual or suspicious activity)
 CDDL	Common Development and Distribution License (free, open-source software license)
 CDE	Cardholder Data Environment (digital wallet environment)
@@ -893,7 +896,7 @@ CFO	Carrier Frequency Offset
 CFO	Chief Financial Officer (executive position)
 CFP	Certified Financial Planner (certification, personal financial planning)
 CFP	Chartered Financial Analyst (certification, investment and portfolio management)
-CFPB	Consumer Financial Protection Bureau (US government agency)
+CFPB	Consumer Financial Protection Bureau (US government agency, www.consumerfinance.gov)
 CFQ	Completely Fair Queuing (Linux synchronous requests process)
 CFR	Code of Federal Regulations (codification of NARA/OFR regulations)
 CFRA	Contention Free Random Access (TS 38.300, Random Access Procedure)
@@ -927,7 +930,7 @@ CI	Confidence Interval (statistics)
 CI	Continuous Integration (software development methodology, see "CI/CD")
 CI-COU	Controlled Introduction of Company Official Use device
 CI/CD	Continuous Integration, Continuous Delivery/Deployment (software development methodology that uses automation to build, test and release code)
-CIA	Central Intelligence Agency (US intelligence service)
+CIA	Central Intelligence Agency (US intelligence service, www.cia.gov)
 CIA	Confidentiality, Integrity and Availability, aka "CIA Triad" (cybersecurity: core principles)
 CIC	Circuit Identification Code (ITU-T Q.763)
 CICD	"CI/CD", Continuous Integration, Continuous Delivery/Deployment (software development methodology that uses automation to build, test and release code)
@@ -1025,7 +1028,7 @@ CNF	Container Network Function (Cloud-Native)
 CNI	Container Network Interface
 CNIS	Cloud Native Infrastructure Solution
 CNMS	Converged Network Message Store
-CNN	Cable News Network (cable news channel)
+CNN	Cable News Network (US cable news channel, www.cnn.com)
 CNN	Convolutional Neural Networks (AI: deep learning architecture)
 CNP	Congestion Notification Packet
 CNTK	Cognitive Toolkit  (Microsoft's open source deep learning  framework)
@@ -1210,7 +1213,7 @@ CU-CP	Centralized Unit-Control Plane
 CU-DU	Centralized Unit-Distributed Unit
 CU-UP	Centralized Unit-User Plane
 CUC	Centralized User Configuration
-CUDA	Compute Unified Device Architecture (NVidia's parallel computing platform & API)
+CUDA	Compute Unified Device Architecture (NVidia's parallel computing platform & API, www.developer.nvidia.com/cuda)
 CUDIMM	Clocked Unbuffered DIMM (RAM classification, newer with higher clock rate)
 CUI	Controlled Unclassified Information (US DoD, unclassified information that may not be released to public)
 CUPS	Control-Plane User-Plane Separation (TS 23.214, TS 29.244)
@@ -1262,7 +1265,7 @@ DAG	Directed Acyclical Graphs
 DAMPS	Digital Advanced Mobile Phone System (IS-54, IS-123, 2G AMPS, FDMA & TDMA)
 DANE	DNS-based Authentication of Named Entities
 DAPS	Dual Active Protocol Stack (TS 38.300)
-DARPA	Defense Advanced Research Projects Agency (US DoD research agency, developed ARPANET, GPS, drones, mRNA, stealth, etc., 1958)
+DARPA	Defense Advanced Research Projects Agency (US DoD research agency, developed ARPANET, GPS, drones, mRNA, stealth, etc., 1958, www.darpa.mil)
 DARVO	Deny, Attack, Reverse Victim and Offender (medical: individuals or institutions attempting to deflect blame)
 DAS	Direct-Attached Storage (ISM data storage, physically connected)
 DAS	Distributed Antenna System
@@ -1330,7 +1333,7 @@ DDR5	Double Data Rate SDRAM 5 (2020,  8400 MHz,   64 MB/s, current, high-perform
 DDR6	Double Data Rate SDRAM 6 (2028,  high MHz,  134 MB/s, future)
 DDS	Digital Data Systems (organizations delivering IT solutions)
 DDS	Doctor of Dental Surgery (graduate degree)
-DEA	Drug Enforcement Administration (US federal agency)
+DEA	Drug Enforcement Administration (US federal agency, www.dea.gov)
 DEC	DECimal numbering system,     base 10: 0-9      (BIN, TER, OCT, DEC, HEX)
 DEC	Digital Equipment Corporation, US information technology company
 deci-	d,  10 power  -1	- numeric, see also "prefix"
@@ -1372,7 +1375,7 @@ DHS	US Department of Homeland Security
 DHT	Distributed Hash Table (used by BitTorret to store peer information)
 DIA	Direct Internet Acess (user - gateway - internet)
 Diameter	IP Protocol for Authentication, Authorization and Accounting (RFC-6733)
-DIB	Defense Industrial Base (US DoD, material and services provider for military forces)
+DIB	Defense Industrial Base (US DoD, providers of materials, products, and services to US military)
 DiD	Difference-in-Differences (statistics: evaluation model)
 DID	Direct Inward Dialing (call without going through switchboard)
 DIE	Debugging Information Entry
@@ -1403,7 +1406,7 @@ DM-RS	Demodulation Reference Signal
 DMA	Direct Memory Access
 DMaaP	Data Movement as a Platform
 DMD	Digital Micromirror Device (chip for DLP)
-DME	Distance Measuring Equipment (aviation, ground-based navigational distance aid)
+DME	Distance Measuring Equipment (aviation: ground-based navigational distance aid)
 DMG	Directional Multi-Gigabit (IEEE 802.11ad standard)
 DMI	Desktop Management Interface
 DMIG	Device Management Implementation Guide
@@ -1425,7 +1428,7 @@ DNACPR	Do Not Attempt CPR (medical:  do not perform CPR or other treatments if h
 DNAI	Data Network Access Identifier
 DNAR	Do Not Attempt Resuscitation (medical:  do not perform CPR or other treatments if heart stops)
 DNAT	Destination Network Address Translation
-DNC	Democratic National Committee       (US political party, Democratic Party)
+DNC	Democratic National Committee          (US political party, Democratic Party, www.democrats.org)
 dnd	"do not disturb" (slang: quick way to say unavailable, or want to avoid interruptions)
 DNF	Dandified YUM (package manager for RPM-based Linux distributions)
 DNF	Did Not Finish  (sports: driver started race but was unable to complete it)
@@ -1448,19 +1451,19 @@ Docker	open-source toolset to easily create container images
 DOCSIS	Data Over Cable Service Information Specification
 docx	Microsoft Word Open XML document (file extension)
 DOD	Direct Outward Dialing
-DoD	US Department of Defense (US military)
+DoD	US Department of Defense (US military, www.war.org)
 DoF	Degrees of Freedom (statistics)
 DOffset	Data Offset (TCP/IP header, 4-bits, indicates where the data begins)
 DoH	DNS over HTTPS (RFC-8484)
 DOHC	Double Overhead Camshaft (engine design with two camshafts in combustion chamber)
-DOJ	US Department of Justice (US federal department)
-DOL	Department of Labor (US federal department)
+DOJ	US Department of Justice (US federal department, www.justice.gov)
+DOL	Department of Labor (US federal department, www.dol.gov)
 DOM	Document Object Model (programming interface for web documents, W3C standard)
-DORA	Devops Research and Assessment
+DORA	DevOps Research and Assessment
 DORA	Digital Operational Resilience Act (cybersecurity: compliance standard)
 DoS	Denial of Service (cybersecurity: type of cyber attack)
 DOS	Disk Operating System (PC operating system)
-DOT	US Department of Transportation
+DOT	United States Department of Transportation (US government agency, www.transportation.gov)
 double		data type, primitive:     decimal numbers (3.14, -0.5)
 DP	Data Plane (see "UP, User Plane")
 DP	Detection Point (notifications to service logic)
@@ -1501,7 +1504,7 @@ DS-CDMA	Direct-Sequence Code-Division Multiple-Access
 DS-TT	Device-Side TSN Translator (TS 24.519)
 DS0	Digital Signal Zero, = 64 Kbps/channel, transmission rate for voice & data
 DSA	Data Structures and Algorithms (organized ways to store and manage data)
-DSA	Democratic Socialists of America    (US political party, Progressive Party) 
+DSA	Democratic Socialists of America       (US political party, Progressive Party, www.dsausa.org) 
 DSA	Digital Signature Algorithm (cybersecurity: asymmetric encryption algorithm, FIPS 186, 1994)
 DSAC	Domain Specific Access Control (domain access during disaster, TS 22.011)
 DSCH	Downlink Shared Channel
@@ -1510,6 +1513,7 @@ DSDA	Dual SIM Dual Active
 DSDS	Dual-SIM Dual-Standby
 DSKPP	Dynamic Symmetric Key Provisioning Protocol (RFC-6063)
 DSL	Digital Subscriber Line (128 kbps, internet through copper wire via DSL modem)
+DSL	Domain-Specific Language (domain specific programming language, i.e. HTML, SQL, MATLAB)
 DSLAM	Digital Subscriber Line Access Multiplexer (between DSL modem to PSTN/internet)
 DSM	Diagnostic and Statistical Manual of Mental Disorders (medical: handbook for mental disorders)
 DSP	Digital Service Provider (online media distributor)
@@ -1597,6 +1601,7 @@ EAPoL	Extensible authentication protocol over LAN (IEEE 802.11i, RFC-3748)
 EAR	Export Administration Regulations (administered by US Department of Commerce)
 EARFCN	E-UTRA/LTE Absolute Radio-Frequency Channel Number
 EAS	Emergency Alert System
+EASA	European Union Aviation Safety Agency (aviation: EU civil aviation agency, www.easa.europa.eu)
 EB	Exabyte		memory size, 10^18	1,152,921,504,606,846,976 Bytes
 EBA	European Banking Authority
 EBCDIC	Extended Binary Coded Decimal Interchange Code (IBM, encoding for digital systems, common)
@@ -1802,7 +1807,6 @@ ERC-721	Non-Fungible Token standard
 Erlang	traffic volume per hour, number of calls x duration (telecommunication metric)
 ERP	EAP Re-authentication Protocol (RFC-6696)
 ERP	Enterprise Resource Planning (business software)
-ERSI	Environmental Systems Research Institute (US GIS company)
 ES6	ECMAScript 2015, 6th version (standardization of JaveScript, released in 2015)
 ESA	Enterprise Service Architecture
 ESA	European Space Agency (intergovernmental agency for space, exploration and research)
@@ -1830,7 +1834,7 @@ ESP	Encapsulating Security Payload (RFC-4303)
 ESPN	Entertainment and Sports Programming Network (cable TV channel)
 ESQK	Emergency Services Query Key
 ESRD	Emergency Services Routing Digits
-ESRI	Environmental Systems Research Institute (US company, GIS supplier)
+ESRI	Environmental Systems Research Institute (US company, GIS supplier, www.esri.com)
 ESRK	Emergency Services Routing Key
 ESRM	Enterprise Security and Risk Management
 ESS	Extended Service Set (network with multiple AP-Access Point)
@@ -1885,7 +1889,7 @@ F-TEID	Fully Qualified Tunnel Endpoint Identifier (GTP, IP address + TEID)
 F1	Formula One (FIA's highest class of motor racing)
 F1AP	NG-RAN; F1 application protocol (TR 38.473)
 FA	Field Acceptance (acceptance testing)
-FAA	Federal Aviation Administration (US civil aviation agency)
+FAA	Federal Aviation Administration (aviation: US civil aviation agency, www.faa.gov)
 FaaS	Functions as a Service (cloud concept: stateless, event-triggered, ephemeral)
 FACH	Forward Access Channel
 FAE	Fuel Air Explosive: thermobaric or aerosol bomb (explosive weapon)
@@ -1913,11 +1917,11 @@ FAUSCH	Fast Uplink Signaling Chanel
 FAX	facsimile, transmission of scanned printed material
 FB	Fall-Back
 FBD	Function Block Diagram (graphical programming language used for PLC design)
-FBI	Federal Bureau of Investigation (US governmental agency)
+FBI	Federal Bureau of Investigation (US governmental agency, www.fbi.gov)
 FBMC	Filter Bank Multi-Carrier                  (waveform modulation technique)
 FC	Fiber Channel Connector (fiber optic cable connector)
 FCAPS	Fault, Configuration, Accounting, Performance, Security (ISO framework)
-FCC	Federal Communications Commission (US communications agency)
+FCC	Federal Communications Commission (US communications agency, www.fcc.gov)
 FCDM	Frequency Code Division Multiplexing
 FCF	Free Cash Flow (business metric)
 FCFC	First Come, First Choice (scheduling algorithm)
@@ -1928,10 +1932,10 @@ FCRAM	Fast Cycle DRAM (developed by Fujitsu and Toshiba)
 FCS	Frame Check Sequence (error detection)
 FD-MIMO	Full-Dimension Multiple-Input Multiple-Output
 FD.io	Fast Data-Input/Output (open-source project for high-speed, low-latency network data plane)
-FDA	US Food and Drug Administration (US federal agency)
+FDA	US Food and Drug Administration (US federal agency, www.fda.gov)
 FDD	Frequency Division Duplex mode
 FDDI	Fiber Distributed Data Interface
-FDIC	Federal Deposit Insurance Corporation (US government agency, insures bank deposits, promotes stability) 
+FDIC	Federal Deposit Insurance Corporation (US government agency, insures bank deposits, promotes stability, www.fdic.gov) 
 FDM	Frequency Division Multiplexing: TV/radio broadcast, DSL
 FDMA	Frequency Division Multiple Access (used 6IDLin AMPS, GSM)
 FDMI	Fixed Daily Measurement Interval (telecommunication metric)
@@ -1941,10 +1945,9 @@ FE	Front End (application front end)
 FEAPO	Federation of Enterprise Architecture Professional Organizations
 FEC	Forward Error Correction (TCP message)
 FED	Federal Reserve (central bank of the US)
-FedRAMP	Federal Risk and Authorization Management Program (US gov security framework)
-FedRAMP	Federal Risk and Authorization Management Program (US government program)
+FedRAMP	Federal Risk and Authorization Management Program (US government program, www.fedramp.gov)
 FeICIC	Further enhanced Inter-Cell Interference Coordination
-FEMA	US Federal Emergency Management Agency (US federal agency)
+FEMA	US Federal Emergency Management Agency (US federal agency, www.fema.gov)
 femto-	f,  10 power -15	- numeric, see also "prefix"
 FER	Frame Error (or Erasure) Rate
 FERC	Federal Energy Regulatory Commission (US agency, www.ferc.gov)
@@ -1971,6 +1974,7 @@ FIG	Fast Information Group
 FIN	FINish (TCP flag, 1-bit, no more data from sender, terminate connection)
 FinCEN	Financial Crimes Enforcement Network (banking: US Treasury bureau, www.fincen.gov)
 finna	going to, intending to (slang)
+FiOS	fiber-optic network for TV, internet and phone services by Verizon
 FIPS	Federal Information Processing Standards (US standards published by NIST, csrc.nist.gov)
 FIRST	Forum of International Response and Security Teams (www.first.org)
 FISINT	Foreign Instrumentation Signals (SIGINT, focused on telemetry and instrumentation signals, e.g. missles, aircraft)
@@ -1995,7 +1999,7 @@ FMC	Fixed Mobile Convergence (BBF MR-427)
 FMIF	Fixed Mobile Inter-Working Function
 FML	"f**k my life" (slang: something has gone wrong - often minor, but annoying)
 FMLA	Family and Medical Leave Act (US healthcare benefit)
-FMS	Flight Management System  (aviation, specialized computer system to automate in-flight tasks)
+FMS	Flight Management System  (aviation: specialized computer system to automate in-flight tasks)
 FN	Fixed Network
 FN	Frame Number
 FN-BRG	Fixed Network-Broadband Residential Gateway
@@ -2013,6 +2017,7 @@ FOIA	Freedom of Information Act (1967, US executive branch transparency law)
 FOIRL	Fiber-Optic Inter-Repeater Link (IEEE 802.3d, ethernet over fiber)
 FOMC	Federal Open Market Committee (monetary policymaking body of FED)
 FOMO	"fear of missing out" (slang: anxious feeling of missing fun, events or experiences)
+Forex	Foreign Exchange (global market where currencies are traded, aka "FX")
 format	information elements format TS 24.007 section 11.2.1.1
 FORTRAN	Formula Translation (computer language)
 FOSS	Free and Open Source Software (source code: public & free, to study, modify and distribute)
@@ -2062,7 +2067,7 @@ FSO	Free-Space Optical (wireless Line Of Sight optical communication)
 FSS	Fixed Satellite Services
 FTA	Free Trade Agreement
 FTAM	File Transfer, Access and Management
-FTC	Federal Trade Commission (US antitrust agency)
+FTC	Federal Trade Commission (US antitrust agency, www.ftc.gov)
 ftfy	"fixed that for you"
 FTM	Frame Tunnelling Mode (3GPP TS 27.001, TS 29.007)
 FTP	File Transfer Protocol (application layer, TCP, port 20-data & 21-control)
@@ -2088,6 +2093,8 @@ FWA	Fixed Wireless Access, CPE + WiFi router (5G use case)
 FWaaS	FireWall as a Service (cloud-based firewall provided by CSP)
 FWBB	Fixed Wireless Broad-Band
 FWD	Forward Link
+FX	Foreign Exchange (global market where currencies are traded, aka "Forex")
+FX	Special Effects (used in entertainment industry, aka SFX, SPFX, VFX or CGI)
 fya	for your action (business term)
 fye	for your evaluation (business term)
 FYI	"for your information" (slang: heads-up, update, or reminder, but no response or action required)
@@ -2187,7 +2194,7 @@ GLONASS	Globalnaya Navigazionnaya Sputnikovaya Sistema (Russian GPS)
 GLSB	Global Server Load Balancing
 GLUE	General Language Understanding Evaluation
 Glue	serverless ETL  (AWS service, moves and transforms data between S3 locations)
-GM	General Motors (US company)
+GM	General Motors (US company, www.gm.com)
 Gm	UE and P-CSCF, or between IP-PBX and P-CSCF	IMS interface
 GMA	Generic Multi-Access
 GMAC	Galois Message Authentication Code (cipher mode)
@@ -2219,13 +2226,13 @@ Go	high-level compiled programing language (Google)
 GOAT	"Greatest Of All Time" (slang: top performer in a field)
 GoC	Groups of Countries (ITU-T E.164)
 googol		number equal to 1 x 10^100
-GOP	"Grand Old Party", nickname for RNC (US political party, Republican Party)
+GOP	"Grand Old Party", nickname for RNC    (US political party, Republican Party, www.gop.com)
 GoS	Grade of Service
 gov	.gov "dot gov", US governmental use (domain name suffix)
 Gp	SGSN and GGSN	2G GPRS interface
 Gp	SGSN and GGSN	3G UMTS interface
 GPEN	GIAC Penetration Tester (cybersecurity: GIAC certification)
-GPGPU	General Purpose Graphics Processing Unit
+GPGPU	General Purpose computing on Graphics Processing Unit (perform CPU computations on GPUs)
 GPIO	General Purpose Input/Output
 GPL	GNU General Public License (free software license)
 GPO	Government Publishing Office (maintains text of US private/public laws)
@@ -2262,7 +2269,7 @@ GRX	Global Roaming eXchange
 GS	ETSI Group Specification
 Gs	MSC/VLR and SGSN	3G UMTS interface
 Gs	SGSN and MSC		2G GPRS interface, exchange database
-GSA	General Services Administration (US federal agency, manages functioning of federal agencies)
+GSA	General Services Administration (US agency, manages functioning of federal agencies, www.gsa.gov)
 GSC	Global Standards Collaboration
 GSCN	Global Synchronization Channel Number
 GSEC	GIAC Security Essentials Certification (cybersecurity: GIAC certification)
@@ -2372,10 +2379,10 @@ HFC	Hybrid Fiber/Coaxial (cable-telephony system)
 HFN	Hyper Frame Number (frame synchronization timer)
 HFS	Hierarchical File System (older version of macOS file system)
 HGNN	Heterogeneous Graph Neural Network (AI: deep learning for graph-structured data)
-HHS	US Department of Health and Human Services (US government)
+HHS	US Department of Health and Human Services (US government, www.hhs.gov)
 Hib	Haemophilus Influenzae Type B (medical: vaccine for lungs and respiratory virus)
 HIBS	High Altitude IMT Base Stations (station at 20 to 50 km)
-HID	Hughes Identification Devices (US company providing PAC & IAC products eg: badges)
+HID	Hughes Identification Devices (US company providing PAC & IAC products eg: badges, www.hidglobal.com)
 HID	Human Interface Device (ex: keyboard, mouse, joystick)
 HIDS	Host Intrusion Detection System (cybersecurity)
 HiFi	High-Fidelity (audio, high-quality of audio reproduction)
@@ -2459,7 +2466,7 @@ HTTP 	crud:  create/POST, read/GET, update/PUT, delete/DELETE
 HTTP2	Hypertext Transfer Protocol version 2 (RFC-7540, TS 29.500, Layer 5)
 HTTPS	Hypertext Transfer Protocol Secure (application layer, TCP/UDP, secure web traffic, port 443)
 HUD	Heads-Up Display
-HUD	Housing and Urban Development (US agency for housing policy and community development)
+HUD	Housing and Urban Development (US agency, housing policy and community development, www.hud.gov)
 HUMINT	Human Intelligence (from interpersonal contact)
 HV	High Volume
 HV	HyperVisor (virtual machine management, supervision & orchestration)
@@ -2499,7 +2506,7 @@ IBCF	Interconnection Border Control Functions (IMS, TS 29.238)
 IBFD	In-Band Full Duplex
 iBGP	internal Border Gateway Protocol  (routing protocol to exchange information within an AS, AD=200)
 ibid	Latin: "ibidem",  English: "in the same place"
-IBM	International Business Machines (US technology company)
+IBM	International Business Machines (US technology company, www.ibm.com)
 IBMDOS.COM	contains hardware-independent parts of operating system
 IBOC	In-Band On-Channel (transmitting digital and analog broadcast signals on same freqency)
 IBSA	India, Brazil and South Africa
@@ -2509,14 +2516,14 @@ IC	Identification Code (ITU-T E.164)
 IC	Integrated Circuit (michochip, or simple "chip")
 ICA	Independent Component Analysis (AI: unsupervised ML model, clustering)
 ICANN	Internet Corporation for Assigned Names and Numbers (www.icann.org)
-ICAO	International Civil Aviation Organization (aviation, UN standards agency for aviation)
+ICAO	International Civil Aviation Organization (aviation: UN standards agency for aviation)
 ICAT	Internet Categorization of Attacks Toolkit (now called "NVD")
 ICB	"I can't believe" (slang: express disbelief)
 ICCID	Integrated Circuit Card Identifier (SIM serial number, ITU E.118)
 ICCP	Inter-Chassis Communication Protocol
 ICD	International Classification of Diseases (WHO health/medical tool)
 ICE	Interactive Connectivity Establishment (RFC-8445)
-ICE	US Immigration and Customs Enforcement (US federal agency)
+ICE	US Immigration and Customs Enforcement (US federal agency, www.ice.gov)
 ICFRE	IMS Call Flow Resiliency Enhancement
 ICGW	Incoming Call GateWay
 Ici	IBCF and IBCF		IMS interface
@@ -2585,7 +2592,7 @@ if	interface, typically written as "i/f"
 IFFT	Inverse Fast Fourier Transform (algorithm, math)
 IFHO	Inter-Frequency Handover (4G LTE, IMS)
 IFOM	IP Flow Mobility
-IFR	Instrument Flight Rules (aviation, regulations for aircraft operation)
+IFR	Instrument Flight Rules (aviation: regulations for aircraft operation)
 IFTASK	DPDK Internal Forwarder (software I/O operations for VPC-DI)
 IGD	Internet Gateway Device
 IGMP	Internet Group Management Protocol (network layer, multicast management, RFC-1112)
@@ -2604,7 +2611,7 @@ ILD	Injection Laser Diode
 ILEC	Incumbent Local Exchange Carrier
 ILM	Information Lifecycle Management (create, store, use, archive, destroy)
 ILNP	Identifier/Locator Network Protocol (RFC-6115)
-ILS	Instrument Landing System (aviation, short-range aircraft guidance system)
+ILS	Instrument Landing System (aviation: short-range aircraft guidance system)
 ILT	Instructor Led Training
 IM-MGW	IMS–Media Gateway (IMS)
 IMAP	Internet Message Access Protocol (application layer, TCP, email management, RFC-1203, port 143 & 993)
@@ -2879,14 +2886,14 @@ IRP	Incident Response Plan (cybersecurity: plan to detect, contain, and resolve 
 IRP	Integration Reference Point (TR 32.828)
 IRPA	International Radiation Protection Association
 IRR	Internal Rate of Return (business metric)
-IRS	Inertial Reference System  (aviation, inertial navigation without external signals)
-IRS	Internal Revenue Service (US tax agency)
+IRS	Inertial Reference System  (aviation: inertial navigation without external signals)
+IRS	Internal Revenue Service (US tax agency, www.irs.gov)
 IRTF	Internet Research Task Force
 IRTP	Internet Reliable Transaction Protocol (RFC-938)
 IRTR	"I read the rules" (slang: user understands the rules and guidelines)
 IRTR	Infra-Red Transmitter & Receiver (lighting control systems)
 IRU	Indoor Radio Unit (ultra compact radio, power over LAN)
-IRU	Inertial Reference Unit  (aviation, inertial navigation without external signals)
+IRU	Inertial Reference Unit  (aviation: inertial navigation without external signals)
 IS-136	TIA Interim Standard 136, 2G TDMA based digital cellular technology
 IS-856	TIA Interim Standard 856, 3G High Rate Packet Data Air Interface (cdma2000)
 IS-95	TIA Interim Standard  95, 2G CDMA based digital cellular technology (cdmaOne)
@@ -3226,7 +3233,7 @@ LNS	Layer 2 Tunneling Protocol (L2TP) Network Server
 LOB	Large Object (information storage in databases)
 LOB	Line Of Business (business term)
 LoBF	Line of Best Fit (AI: supervised ML model)
-LOC	Localizer  (aviation, lateral guidance for runway approach)
+LOC	Localizer  (aviation: lateral guidance for runway approach)
 LoF	Loss of Frame
 logic	"logic operator" or "logic gate": AND, OR, NOT, NAND, NOR, XOR, XNOR
 Logstash	ETL tool for ElasticSearch (big data, ELK)
@@ -3487,7 +3494,7 @@ MIRI	Mid-Infrared Instrument (instrument on JWST)
 MIS	Management Information System
 MISC	Minimal Instruction Set Computer (ISA classification)
 MISO	Master In, Slave Out (SPI wire, carries data from slave to master)
-MitM	Man in the Middle attack (cybersecurity: type of cyber attack)
+MitM	Man in the Middle (cybersecurity: type of cyber attack)
 MITRE	US non-profit R&D center: aviation, defense, cybersecurity, CVE, ATT&CK, etc.  www.mitre.org
 Mj	BGCF and MGCF		IMS interface
 Mk	BGCF/IMS ALG and BGCF	IMS interface
@@ -3521,7 +3528,7 @@ mMIMO	massive Multiple-Input Multiple-Output (5G technology)
 MML	Man Machine Language
 MMLU	Massive Multitask Language Understanding (AI: evaluation benchmark for LLMs)
 MMO	Massively Multiplayer Online (type of video game)
-MMORPG	Massively Multiplayer Online Role-Playing Games
+MMORPG	Massively Multiplayer Online Role-Playing Games (RPG where player assumes multiple roles)
 MMR	Measles, Mumps and Rubella (medical: vaccine for pneumonia, encephalitis virus)
 MMS	Multimedia Messaging Service
 MMSE	Minimum Mean-Square Error (statistics: evaluation metric)
@@ -3678,10 +3685,12 @@ MTU	Maximum Transmission Unit (TCP/IP, largest size of a network packet)
 MU	Multiple Users
 mu-MIMO	multi user Multiple Input-Multiple Output (5G technology)
 MUA	Mail User Agent (MUA sends email to MSA, MSA sends emails to MTA)
+MUD	Multi-User Domain (multiplayer real-time virtual world, aka "MUSH")
 MUG	Message Usage Guidelines, defines ISO20022 message rules and usage
 MUI	Mobile User Identifier
 mURLLC	massive Ultra Reliable Low Latency Communication
 MURS	Multi-Use Radio Service
+MUSH	Multiplayer Online Games (multiplayer real-time virtual world, aka "MUD")
 MUX	Multiplexer  (combines 2^n signals into 1 signal; many to one)
 MVNA	Mobile Virtual Network Aggregator
 MVNE	Mobile Virtual Network Enabler
@@ -3769,7 +3778,7 @@ NARA	National Archives and Records Administration (prepare/publish US private/pu
 NAS	Network Access Server (VPN endpoint)
 NAS	Network-Attached Storage (ISM data storage, networked)
 NAS	Non-Access Stratum, 4G: eNodeB-MME, 5G: NR-AMF (layer 3, TS 24.501)
-NASA	National Aeronautics and Space Administration (US space agency)
+NASA	National Aeronautics and Space Administration (US space agency, www.nasa.gov)
 NASCAR	National Association for Stock Car Auto Racing, LLC (auto racing)
 NASDAQ	National Association of Securities Dealers Automated Quotations (IXIC)
 NASS	Network Attachment Subsystem
@@ -3802,7 +3811,7 @@ NCIS	Network Controlled Interactive Service
 NCM	Network Configuration Manager (SolarWinds product)
 Ncol	Natural Colors                 (color model)
 NCP	Network Control Protocol (protocol for PPP, OSI layer 2: data link)
-NCR	National Cash Register corporation (US technology company)
+NCR	National Cash Register (US technology company, www.ncrvoyix.com)
 NCR	Non-Conformance Report  (record of anything that does not meet predefined standards)
 NCSC	National Cyber Security Center (cybersecurity: UK organization, protect digital infrastructure)
 ND	Neighbor Discovery, or Neighbor Discovery Protocol  (network layer, RFC-1970, 2461, 4861)
@@ -3865,7 +3874,7 @@ NG-IN	Next Generation-Intelligent Networks
 NG-RAN	Next Generation Radio Access Network
 NG-U	Next Generation-User interface    (GTP-U protocol, NR RAN to UPF)
 NG.105	ENUM Guidelines for Service Providers and IPX Providers (GSMA)
-NGA	National Geospatial-Intelligence Agency (US government, Department of Defense GIS)
+NGA	National Geospatial-Intelligence Agency (US government, DoD GIS, www.nga.mil)
 NGA	Next Generation Access
 NGAP	Next Generation Application Protocol (for NAS messages, TS 38.413)
 NGC	Next Generation Core (AMF and UPF)
@@ -3892,7 +3901,7 @@ NID	Network Identifier
 NID	Network Interface Device
 NIDD	Non-IP Data Delivery
 NIDS	Network Intrusion Detection System (cybersecurity)
-NIH	National Institutes of Health  (US federal agency)
+NIH	National Institutes of Health  (US federal agency, www.nih.gov)
 NIMA	National Imagery and Mapping Agency (now known as NGA)
 NIPC	National Infrastructure Protection Center
 NIR	National Internet Registry (organization managing Internet resources, e.g. IP addresses)
@@ -3929,7 +3938,7 @@ NNTP	Network News Transfer Protocol (TCP, RFC-977, port 119)
 Nnwdaf	5G Service-Based Interface exhibited by NWDAF
 NO	Network Operator
 NOA	called party Nature of Address
-NOAA	National Oceanic and Atmospheric Administration (US meteorological agency)
+NOAA	National Oceanic and Atmospheric Administration (US meteorological agency, www.noaa.gov)
 NOC	Network Operations Center (also known as OMC)
 NodeB	Radio Transceiver Station (3G UMTS, NodeB: temporary name that became permanent)
 NodeJS	open-source JavaScript environment to create servers, web apps, command line tools and scripts
@@ -3941,7 +3950,7 @@ NOP	No Operation (UDP option, one-byte placeholder used a padding)
 NOR	logic operator:  universal:  Y = (A + B)'     def NOR(a, b):  return NOT(OR(a, b))
 NoSQL	any database designed outside of traditional relational model
 NOT	logic operator:  basic:      Y = Ā            def NOT(a):     return 0 if a else 1
-NOTAM	Notice to Airmen (aviation, alerts pilots to temporary changes or hazards in airspace)
+NOTAM	Notice to Airmen (aviation: alerts pilots to temporary changes or hazards in airspace)
 np	"no problem" (slang: you’re welcome, it’s okay, don’t worry about it, happy to help)
 NP&E	Network Planning and Engineering
 NPA	Numbering Plan Area (telephony, Area Code)
@@ -3986,7 +3995,7 @@ NRZ	Non-Return-to-Zero (encoding mechanisms)
 NRZI	Non-Return-to-Zero-Inverted (encoding mechanisms)
 NS	Name Server (DNS record type: specifies the nameservers for a domain)
 NS	Network Services (business term)
-NSA	National Security Agency (US Defense Department intelligence agency)
+NSA	National Security Agency (US Defense Department intelligence agency, www.nsa.gov)
 NSA	Non-Standalone, hybrid 4G and 5G network
 NSAP	Network Service Access Point
 NSAPI	Network Service Access Point Identifier
@@ -4031,7 +4040,7 @@ NTLM	New Technology Local Area Network (Microsoft's authentication protocol)
 NTM	Network Topology Mapper (SolarWinds product)
 NTN	Non-Terrestrial Networks, TR 38.821 (LEO, MEO, GEO, HEO, UAS, HAPS)
 NTP	Network Time Protocol (application layer, UDP, time sync, RFC-5905, port 123)
-NTSB	National Transportation Safety Board (US investigative agency)
+NTSB	National Transportation Safety Board (US investigative agency, www.ntsb.gov)
 NTSC	National Television Standards Committee (television format)
 NTT	Nippon Telegraph and Telephone, Japanese mobile operator (www.global.ntt)
 NUD	Neighbor Unreachability Detection
@@ -4047,7 +4056,7 @@ numeric-3	three number code
 numeronym	word, usually an abbreviation, composed partially or wholly of numerals, eg: b4, B2B, k8s, i18n
 numpy	Python package for Base N-dimensional array computing
 NVD	National Vulnerability Database (nvd.nist.gov)
-NVidia	US company: GPU, API, SoCs, performance & mobile computing
+NVidia	US company: GPU, API, SoCs, performance & mobile computing, www.NVidia.com
 nvm	"never mind" (slang: disregard a previous message or statement)
 NVMA	Non-Uniform Memory Access
 NVMe	Non-volatile Memory Express (hard drive interface)
@@ -4322,7 +4331,7 @@ PAwR	Periodic Advertising with Responses (BT periodic advertisements to multiple
 PAWR	Platforms for Advanced Wireless Research (NSF initiative)
 PB	Petabyte	memory size, 10^15	1,125,899,906,842,624 Bytes
 PBCH	Physical Broadcast Channel (air interface channel)
-PBN	Performance Based Navigation  (aviation, navigation based on performance of aircraft, ICAO Doc 9613)
+PBN	Performance Based Navigation  (aviation: navigation based on performance of aircraft, ICAO Doc 9613)
 PBQ	Performance-Based Questions (exam items designed to test real-world problems)
 PBS	Public Broadcasting Service (non-profit, educational TV channel in US)
 PBT	Pulse-Based Transmission                   (light signal modulation technique)
@@ -4452,13 +4461,14 @@ PIOPS	EBS Provisioned IOPS (AWS high performance cloud databases service)
 pip	package manager for Python packages & modules
 PIPEDA	Personal Information Protection and Electronic Documents Act (Canada)
 PIR	Public Interest Registry (ISOC non-profit organization, manages .org domain, www.pir.org)
-PIREP	Pilot Report  (aviation,  report of actual weather conditions encountered during flight)
+PIREP	Pilot Report  (aviation:  report of actual weather conditions encountered during flight)
 PIV	Personal Identity Verification (US Federal Employees and Contractors, FIPS 201-3)
 PJL	Page Job Language
 PKA	Packet Capture Agent
 PKCS	Public-Key Cryptography Standards (cybersecurity: OASIS PKI standards, docs.oasis-open.org/pkcs11/pkcs11-spec/v3.2/os)
 PKE	Public Key Enabling (cybersecurity: certificate authority)
 PKI	Public Key Infrastructure (cybersecurity: framework for keys, certificates and CAs/RAs)
+PLA	People's Liberation Army (China, military wing of the of CCP)
 PLA	Programmable Logic Arrays (type of PLD)
 PLB	Personal Locator Beacon
 PLC	Programmable Logic Controllers (computer for electromechanical processes)
@@ -4603,7 +4613,7 @@ PSI	Public Service Identity
 psid	pound per square inch differential (pressure relative to somthing other than atmospheric pressure)
 psig	pressure in pound per square inch gauge (pressure relative to atmospheric pressure)
 PSK	Phase Shift Keying                         (digital signal modulation technique)
-PSK	Pre-Shared Key (cybersecurity: resistant to dictionary attack, RFC-6617)
+PSK	Pre-Shared Key (cybersecurity: secret exchanged over secure channel for cryptography, RFC-9257)
 PSKC	Portable Symmetric Key Container (RFC-6030)
 PSL	Public Suffix List (catalog of Internet domain names, www.publicsuffix.org/list)
 PSM	Propensity Score Matching (statistics: evaluation model)
@@ -4616,7 +4626,7 @@ PST	US Pacific Standard Time, UTC-8 (2nd SUN in NOV to 1st SUN in MAR)
 PSTN	Public Switch Telephone Network (voice network)
 PSU	Power Supply Unit
 pt	CSS/HTML styles:  point with fixed precise size.  1 point = 1/72 of an inch
-PT	Penetration Testing (cybersecurity: simulates real-world attacks to exploit vulnerabilities and validate impact)
+PT	Penetration Testing (cybersecurity: simulates attacks to test security controls)
 PT-RS	Phase Tracking Reference Signal
 PTCRB	PCS Type Certification Review Board
 PTE	Path Terminating Element
@@ -4887,15 +4897,15 @@ RN	Registered Nurse (professional healthcare provider)
 RNA	RAN Notification Area
 RNA	Ribo-Nucleic Acid (single-strand of DNA with instructions to make proteins)
 RNAU	RAN-based Notification Area Update
-RNAV	Area Navigation  (aviation, IFR method allowing flights along a desired path)
+RNAV	Area Navigation  (aviation: IFR method allowing flights along a desired path)
 RNC	Radio Network Controller (3G UMTS)
-RNC	Republican National Committee       (US political party, Republican Party)
+RNC	Republican National Committee, or GOP  (US political party, Republican Party, www.gop.com)
 RND	Random
 RNG	Random Number Generator
 RNIS	Radio Network Information Service
 RNL	Radio Network Layer
 RNN	Recurrent Neural Networks (AI: deep learning architecture)
-RNP	Required Navigation Performance  (aviation, navigation specifications, ICAO Doc 8168)
+RNP	Required Navigation Performance  (aviation: navigation specifications, ICAO Doc 8168)
 RNS	Radio Network Subsystem (3G UMTS, RNC + NodeB)
 RNSAP	Radio Network System Application Protocol (TS 25.423)
 RNTI	Radio Network Temporary Identifier (allocated by UTRAN)
@@ -5185,7 +5195,7 @@ SEAL	Simple and Efficient Adaptation Layer
 SEBA	SDN-Enabled Broadband Access
 SEBoK	Systems Engineering Book of Knowledge (maintained by INCOSE)
 SEC	SDH Equipment Clock
-SEC	Securities and Exchange Commission (US financial agency)
+SEC	Securities and Exchange Commission (US financial agency, www.sec.gov)
 SEC	System Security Extensions
 sec	tangent   = hypotenuse/adjacent  (trignometric function, right-angled triangle)
 SEC+	CompTIA Security+ (cybersecurity: CompTIA certification)
@@ -5194,6 +5204,7 @@ SECAG	Security Assurance Group
 SECAM	Security Assurance Methodology
 SECAM	Sequential Color and Memory (television format)
 SECM	Spectral and Energy-Efficient Cooperative Multicast
+secret exchanged between over secure channel for cryptography
 SEG	Security Gateway (TS 33.210)
 segment	layer 4 PDU, L4 transport layer
 SeGW	Secure Gateway
@@ -5226,6 +5237,7 @@ SFN	System Frame Number (TS 36.331, frame synchronization timer)
 SFP	Small Form-Factor Pluggable (cables for networks)
 SFTP	Secure File Transfer Protocol (application layer, TCP, SSH ftp, port 22)
 SFW	"safe for work" (slang: contains non-offensive content, suitable for a public setting)
+SFX	Special Effects (used in entertainment industry, aka FX, SPFX, VFX or CGI)
 SG	Signaling Gateway (converts CCS messages from SS7 to SIGTRAN)
 SGCP	Signaling Gateway Control Protocol
 SGD	Stochastic Gradient Descent Classifier (AI: ML optimization algorithm)
@@ -5414,6 +5426,7 @@ SPDY	"speedy", communication protocol developed by Google for HTTP
 SPE	Single-Pair Ethernet (ethernet over single twisted pair)
 SPE	Synchronous Payload Envelope
 SPF	Dijkstra's Shortest Path First algorithm (1956.  finds efficient path; routing, GPS, etc.)
+SPFX	Special Effects (used in entertainment industry, aka FX, SFX, VFX or CGI)
 SPI	Sensitive Personal Information
 SPI	Serial Peripheral Interface (short-distance connection protocol, wire: SCLK,MOSI,MISO,SS/CS)
 SPID	Subscriber Profile ID for RAT/Frequency Priority
@@ -5465,7 +5478,7 @@ SS	Supplementary Services
 SS-CSI	Supplementary Service Notification CAMEL Subscription Information
 SS/CS	Slave Select/Chip Select (SPI wire, selects which slave device master communicates with)
 SS7	Signaling System No. 7 (ITU-T Q.76x series and TS 29.202)
-SSA	Social Security Administration (US federal agency)
+SSA	Social Security Administration (US federal agency, www.ssa.gov)
 SSAC	Service Specific Access Control (user access during disaster, TS 22.011)
 SSB	Single-Sideband Modulation                 (analog signal modulation technique)
 SSB	Synchronization and Signal Block
@@ -5588,6 +5601,7 @@ SWR	Standing Wave Ratio
 Sxa	SGW-C and SGW-U		4G LTE interface
 Sxb	PGW-C and PGW-U		4G LTE interface
 Sxc	TDF-C and TDF-U		4G LTE interface
+SYCL	open, royalty-free, cross-platform C++ abstraction layer (www.khronos.org/sycl)
 SYN	SYNchronize (TCP flag, 1-bit, used for synchronizing sequence number)
 SyncE	Synchronous Ethernet (ITU-T Rec. G.8262, synchronization over Ethernet networks)
 sys	DOS & Windows system settings and variables file (file extension)
@@ -5614,7 +5628,7 @@ TAC	Technical Assistance Center
 TAC	Tracking Area Code (identifier)
 TAC	Type Allocation Code
 TACACS	Terminal Access Controller Access Control System (TCP/UDP, port 49)
-TACAN	Tactical Air Navigation (aviation, military UHF radio navigation system)
+TACAN	Tactical Air Navigation (aviation: military UHF radio navigation system)
 TACS	Total Access Communication System (1G)
 TADIG	Transferred Account Data Interchange Group (GSMA spec TD.13)
 TAF	Terminal Adaptation Function (TS 27.001)
@@ -5702,7 +5716,7 @@ TFW	"that feeling when" (slang: express an emotional reaction or relatable momen
 TGARCH	Threshold GARCH (statistics: time-varying volatility in time series)
 TGIF	"thanks God it's Friday" (slang: celebrate end of workweek,  arrival of weekend)
 thx	"thanks" (slang: quickly express gratitude)
-TI	Texas Instruments Incorporated (US semiconductor company)
+TI	Texas Instruments Incorporated (US semiconductor company, www.ti.com)
 TI	Transaction Identifier
 TI-LFA	Topology Independent Loop-Free Alternate  (RFC-9860)
 TIA	"thanks in advance", "that is all", "take it away" (slang: context matters)
@@ -5782,6 +5796,7 @@ TR	Technical Report (3GPP document type, www.3gpp.org)
 TR 21.905	Vocabulary for 3GPP Specifications
 TRACE	perform loop-back test		- RFC-9110,  HTTP method or verb
 tracert	TCP/IP command:  display path to destination hostaddr>
+TRACON	Terminal Radar Approach Control Facilities (aviation)
 transport	connecting Access Network and Core Network (aka "backhaul")
 TRAP	event notification: unsolicited message from device to NMS (TCP/UDP, RFC-1215, port 162)
 TRAU	Transcoder and Rate Adapter Unit (compress/de-compress speech data)
@@ -5885,7 +5900,7 @@ TS 44.069	Broadcast Call Control (BCC) protocol
 TS 48.049	Base Station Controller - Cell Broadcast Centre (BSC-CBC) interface specification; Cell Broadcast Service Protocol (CBSP)
 TS 51.011	Specification of the Subscriber Identity Module - Mobile Equipment (SIM-ME) interface
 TS/SCI	Top Secret/Sensitive Compartmented Information (US security clearance)
-TSA	Transportation Security Administration (US agency of DHS, security of transportation systems)
+TSA	Transportation Security Administration (US agency, security of transportation systems, www.tsa.com)
 TSAG	Telecommunication Standardization Advisory Group (ITU, www.itu.int/en/ITU-T/tsag)
 TSB	Telecommunication Standardization Bureau (ITU, www.itu.int/en/ITU-T/info/tsb)
 TSC	Technical Steering Committee (standards committee)
@@ -6043,17 +6058,17 @@ URSP	UE Route Selection Policy (TS 23.503)
 US	United States, US or U.S. or USA
 US	UpStream
 USA	United States of America, US or U.S. or USA
-USAF	United States Air Force (US military)
-USAID	U.S. Agency for International Development (US federal agency)
+USAF	United States Air Force (US military, www.af.mil)
+USAID	US Agency for International Development (US federal agency, www.usaid.gov)
 USART	Universal Synchronous and Asynchronous Receiver-Transmitter (synchronous serial communication device)
 USAT	Universal Subscriber Identity Module Application Toolkit (TS 31.111)
 USB	Universal Serial Bus (www.usb.org)
 USB drive	data storage: aka "flash", "thumb", "zip" drive
 USC-ISI	University of Southern California’s Information Sciences Institute
 USCH	Uplink Shared Channel
-USCIS	US Citizenship and Immigration Services (US federal agency)
+USCIS	US Citizenship and Immigration Services (US federal agency, www.uscis.gov)
 USD	United States Dollar (currency)
-USDA	US Department of Agriculture (US federal agency)
+USDA	US Department of Agriculture (US federal agency, www.usda.gov)
 USIM	Universal Subscriber Identity Module (TS 31.102)
 USMCA	United States-Mexico-Canada Agreement
 USNG	United States National Grid (UTM-based location reference system)
@@ -6099,7 +6114,7 @@ V2V	Vehicle to Vehicle
 V2V	Vendor to Vendor
 V2X	Vehicle to Everything (TS 23.287)
 VA	Vertical Alignment Panels (video display technology)
-VA	Veterans Affairs (US department for military personnel)
+VA	Veterans Affairs (US department for military personnel, www.va.gov)
 VA	Vulnerability Assessment (cybersecurity: use automated tools to detect weaknesses, misconfigurations and exposures)
 VAAL	Video Adaptation at Application Layer
 VACL	VLAN Access Control List
@@ -6135,10 +6150,10 @@ vEPC	Virtualized Evolved Packet Core
 VER	version of the IP protocol (IP packet: “4” for IPv4, “6” for IPv6)
 VES	Virtual function Event Streaming (RESTful processing of JSON messages into DCAE)
 VESA	Video Electronics Standards Association (standards organization, www.vesa.org)
-VFR	Visual Flight Rules (aviation, regulations for aircraft operation)
+VFR	Visual Flight Rules (aviation: regulations for aircraft operation)
 VFS	Virtual File System
 VFSM	Virtual Finite-State Machine (FSM in virtual environment)
-VFX	Visual Effects
+VFX	Visual Effects (aka FX, SFX, SPFX or CGI)
 VGA	Video Graphics Array (640x480 pixels; 1.33:1 aspect ratio)
 VGCS	Voice Group Call Service (TS 43.068)
 vh	CSS/HTML styles:  Viewport Height,   1vh = 1% of browser window height
@@ -6186,7 +6201,7 @@ VoIMS	Voice & video over IMS (GSMA IR.92, IR.94 and IR.51)
 VoIP	Voice over Internet Protocol
 VoLTE	Voice over LTE (HD voice calls directly over LTE data network)
 VoNR	Voice over 5G New Radio
-VOR	VHF Omnidirectional Range (aviation, ground-based navigational aid)
+VOR	VHF Omnidirectional Range (aviation: ground-based navigational aid)
 VORTAC	VHF Omnidirectional Range and Tactical Air Navigation (avaiation, ground-based navigational aid)
 VOTA	Virtual Over the Air
 VoWIFI	Voice over WIFI
@@ -6403,7 +6418,7 @@ XPath	XML Path Language
 XR	Extended Reality, TS 26.928, immersive technologies: AR/VR/CG-CR/MR
 XRES	Expected Response (32-bit authentication vector, TS 33.102)
 XSD	XML Schema Definitions
-XSS	Cross-Site Scripting attack (cybersecurity: type of cyber attack)
+XSS	Cross-Site Scripting (cybersecurity: type of cyber attack)
 Y.3112	ITU-T:  Framework for support of network slicing in IMT-2020 network
 Y1	UE and untrusted non-3GPP access	5G interface
 Y2	N3IWF and untrusted non-3GPP access	5G interface
