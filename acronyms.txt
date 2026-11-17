@@ -249,6 +249,7 @@ ADM	Add-Drop Multiplexer
 ADMF	Administration Function
 ADN	Application Delivery Networking
 adPaaS	application development Platform as a Service (cloud concept)
+ADR	Alternative Dispute Resolution (law: structured processes to resolve disputes without litigation)
 ADRAM	Asynchronous DRAM (RAM classification, async timing)
 ADS-B	Automatic Dependent Surveillance–Broadcast (aviation: aircraft location broadcast)
 ADSE-X	Airport Surface Detection Equipment, Model X (aviation: FAA surface surveillance system)
@@ -405,6 +406,7 @@ Area 0	OSPF backbone area, 0.0.0.0 (OSPF network core, central hub for all routi
 ARF	Analog Radio Frequency
 ARFCN	Absolute Radio Frequency Channel Number
 ARG	Automatic Repeat Request (TCP message)
+Argon2id	hash algorithm (RFC-9106)
 ARI	ACME Renewal Information (cybersecurity: protocol extenstion to ACME standard, RFC-9773)
 ARIMA	Auto-Regressive Integrated Moving Average (statistics: model for time series forecasting)
 ARIN	American Registerty for Internet Numbers (ICANN RIR)
@@ -568,6 +570,7 @@ BCL	Business Customer Location
 BCM	Bearer Control Mode
 BCP	Best Current Practice (IETF level of performance documents, RFC-1818)
 BCP	Business Continuity Plan
+bcrypt	hash algorithm
 BCSM	Basic Call State Model (MSC/VLR call model)
 BD	Billing Domain (billing device or system)
 BD	Blu-ray Disk (type of optical DAS hardware)
@@ -1921,7 +1924,7 @@ FAST	Features from Accelerated Segment Test (algorithm to detect strong changes 
 FAT	Factory Acceptance Test (acceptance testing)
 FAT	File Allocation Table  (file system, common on USB)
 FAT32	File Allocation Table 32 (file system, common on USB)
-FATF	Financial Action Task Force, French: "GAFI" (banking: organization to combat money laundering, www.fatf-gafi.org)
+FATF	Financial Action Task Force (banking: organization to combat money laundering, "GAFI" in French, www.fatf-gafi.org)
 FAUSCH	Fast Uplink Signaling Chanel
 FAX	facsimile, transmission of scanned printed material
 FB	Fall-Back
@@ -2119,7 +2122,7 @@ GAA	Generic Authentication Architecture (TS 33.221)
 GAD	Geographical Area Description (TS 23.032)
 GAE	Google App Engine (cloud computing platform as a service)
 GAESP 	GenAI Expert Cybersecurity Professional (cybersecurity: certification in AI systems and governance)
-GAFI	Groupe d'Action Financière, English: "FATF" (banking: organization to combat money laundering, www.fatf-gafi.org)
+GAFI	Groupe d'Action Financière (banking: organization to combat money laundering, "FATF" in english, www.fatf-gafi.org)
 GALILEO	Global Navigation Satellite System (European Union)
 GAN	Generative Adversarial Networks (AI: deep learning architecture)
 GAN	Generic Access Network (TS 43.318)
@@ -2597,7 +2600,7 @@ IEEE	Institute of Electrical and Electronics Engineers (www.ieee.org)
 IELTS	International English Language Testing System (standardized test)
 iEN	Intelligent Edge Network
 IERS	International Earth Rotation and Reference Systems Service
-IESG	Internet Engineering Steering Group  (overall operations of IETF)
+IESG	Internet Engineering Steering Group  (overall operations of IETF, www.ietf.org/about/groups/iesg)
 IETF	Internet Engineering Task Force (www.ietf.org)
 if	interface, typically written as "i/f"
 IFFT	Inverse Fast Fourier Transform (algorithm, math)
@@ -3204,7 +3207,7 @@ LGA	Land Grid Array (surface-mount packaging for integrated circuits)
 LGM	Large Geospatial Model (AI: GIS based model)
 LGPL	Lesser General Public License (GNU free-software license by FSF, www.gnu.org)
 LI	Lawful Intercept (TS 33.127)
-libpcap	pcap file format for Linus, macOS and BSD/Unix
+libpcap	packet capture library for Linux, Unix and macOS (www.tcpdump.org)
 LIDAR	Light Imaging Detection and Ranging
 LIDB	Line Information Database (billing information)
 LIF	Logical Interface
@@ -3494,7 +3497,7 @@ MII	Major Industry Identifier    (banking: part of PAN digits)
 MIIT	Ministry of Industry and Information Technology (China)
 mil	.mil "dot mil", US military use (domain name suffix)
 milli-	m,  10 power  -3	- numeric, see also "prefix"
-MIME	Multipurpose Internet Mail Extensions (RFC-2046)
+MIME	Multipurpose Internet Mail Extensions (RFC-2045, RFC-2046)
 MIMO	Multiple Input Multiple Output (4G/5G antenna technology)
 MIN	Mobile Identification Number (10-digit mobile number)
 MINIX	mini-Linux, (light Unix OS for educational purposes by Andrew Tanenbaum in 1987, www.minix3.org)
@@ -3507,6 +3510,7 @@ MIRI	Mid-Infrared Instrument (instrument on JWST)
 MIS	Management Information System
 MISC	Minimal Instruction Set Computer (ISA classification)
 MISO	Master In, Slave Out (SPI wire, carries data from slave to master)
+MIT	Massachusetts Institute of Technology (education: private university, web.mit.edu)
 MitM	Man in the Middle (cybersecurity: type of cyber attack)
 MITRE	US non-profit R&D center: aviation, defense, cybersecurity, CVE, ATT&CK, etc.  www.mitre.org
 Mj	BGCF and MGCF		IMS interface
@@ -3971,7 +3975,7 @@ NPA	Numbering Plan Area (telephony, Area Code)
 NPB	Network Packer Broker
 NPBCH	Narrowband Physical Broadcast Channel (cell physical channel)
 NPC	"non-playable character" (slang: unoriginal, predictable or robotic person)
-Npcap	pcap file format for Windows (2013-present, improvement on "WinPcap")
+Npcap	packet capture library for Windows (2013-present, improvement on "WinPcap", www.npcap.com)
 Npcf	5G Service-Based Interface exhibited by PCF
 NPDCCH	Narrowband Physical Downlink Control Channel  (cell physical channel)
 NPDSCH	Narrowband Physical Downlink Shared  Channel  (cell physical channel)
@@ -4346,6 +4350,7 @@ PAwR	Periodic Advertising with Responses (BT periodic advertisements to multiple
 PAWR	Platforms for Advanced Wireless Research (NSF initiative)
 PB	Petabyte	memory size, 10^15	1,125,899,906,842,624 Bytes
 PBCH	Physical Broadcast Channel (air interface channel)
+PBKDF2	Password-Based Key Derivation Function 2 (RFC-6070, hash algorithm, FIPS compliant)
 PBN	Performance Based Navigation  (aviation: navigation based on performance of aircraft, ICAO Doc 9613)
 PBQ	Performance-Based Questions (exam items designed to test real-world problems)
 PBS	Public Broadcasting Service (non-profit, educational TV channel in US)
@@ -4356,7 +4361,8 @@ PC	Point Code (SS7 network node unique address, ANSI T1.111.8)
 PC-SAN	Parallel SCSI SAN (ISM data storage, host directly connected to storage via SCSI cables)
 PC5	SideLink (SL) new radio interface for D2D (TR 38.885)
 PCA	Principal Component Analysis (AI: unsupervised ML model, clustering)
-pcap	Packet CAPture (API for capturing network traffic.  See also: libpcap, WinPcap and Npcap)
+pcap	Packet Capture (API for capturing network traffic.  see "libpcap" and "Npcap")
+PCAPng	packet capture library, next generation. captures and stores packets and metadata
 PCB	Printed Circuit Board (flat laminate board with etched wiring.  aka PWB)
 PCB	Process Control Block
 PCBC	Propagating Cipher Block Chaining (cipher mode)
@@ -5164,6 +5170,7 @@ SCP	Service Communication Proxy (5G network function, TS 23.501, TS 23.501)
 SCP	Service Control Point (SS7 SP, intelligent network node)
 SCP	Special Containment Procedures (fictional secret organization, 	www.scp-wiki.wikidot.com)
 SCRUM	Agile process framework to manage product development
+scrypt	hash algorithm (RFC-7914)
 SCS	Sub-Carrier Spacing (bandwidth spacing)
 SCSI	Small Computer Serial Interface (hard drive interface)
 SCTP	Stream Control Transmission Protocol (transport layer, RFC-4960)
@@ -5666,6 +5673,7 @@ TB	Transport Block
 TBA	"to be announced" (slang: not yet finalized)
 TBC	"to be continued", "to be confirmed" (slang: not final yet, still needs more information)
 TBD	"to be determined", "to be decided" (slang: details are undecided or pending)
+TBE	To Be Expected (slang: something predictable or unsurprising)
 TBF	"to be fair" (slang: introduce a fair, balanced or nuanced perspective)
 TBH	"to be honest" (slang: introduce a genuine or candid opinion)
 TC	Transaction Capabilities
@@ -6340,7 +6348,7 @@ WiFi7	     802.11be  2024  RF: 2.4/5/6 GHz   data rate:   46 Mbps   range:  70-2
 WiFi8	     802.11bn  2028  RF:     tbd GHz   data rate:  100 Mbps   range:     tbd
 WiGig	     802.11ad  2012  RF:      60 GHz   data rate:   10 Gbps   range:      10 m
 wing	support someone as a friend (slang: also to improvise without preparation)
-WinPcap	pcap file format for Windows (1998-1999, obsolete, now using "Npcap")
+WinPcap	packet capture library for Windows (1998-1999, obsolete, now using "Npcap", www.winpcap.org)
 WinRAR	file archiver (file compresser since 1995)
 WINS	Windows Internet Name Service (netBiOS to IP addr translation, MicroSoft)
 wip	"work in progress"  (business term)
@@ -6404,6 +6412,7 @@ WYSIWYG	What You See Is What You Get (commonly with document printing)
 x-Haul	fronthaul, backhaul and mid-haul combined (5G concept)
 X.25	ITU packet-switching protocol for WAN (published in 1976)
 X.509	public key certificate format (cryptography, www.itu.int/rec/T-REC-X.509)
+X11	X Window System (windowing system for bitmap displays, www.x.org)
 X2	eNodeB and eNodeB	4G LTE interface
 X2 	interface between eNodeB and eNodeB
 X2AP	X2 Application Protocol (4G LTE eNodeB-eNodeB interface, TS 36.423)
@@ -6413,6 +6422,7 @@ Xbox	Microsoft gaming console (port 3074)
 XCAP	XML Configuration Access Protocol (RFC-4825)
 XCBC	Extended Cipher Block Chaining (cipher mode)
 xD	Extreme Digital Picture Card (memory card)
+XDG	X Desktop Group (desktop environment for X11, www.freedesktop.org)
 XDMS	XML Document Management Server
 XDR	Extended Detection and Response (cybersecurity: framework, unified treat detection and response)
 xDSL	DSL variants:  ADSL, HDSL, IDSL, MDSL, MSDSL, RADSL, SDSL, VDSL
