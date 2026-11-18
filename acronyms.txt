@@ -268,7 +268,7 @@ AFK	"away from keyboard" (slang: person is away from devices and is unable to re
 AFL-CIO	American Federation of Labor and Congress of Industrial Organizations (US trade union, aflcio.org)
 AFM	Advanced Firewall Manager
 AfNOG	African Network Operators Group
-AFRINIC	African Network Information Center (ICANN RIR)
+AFRINIC	African Network Information Center (RIR for Africa, www.afrinic.net)
 AFS	Andrew File System (distributed file system developed at Carnegie Mellon University in 1986)
 AG	"Aktiengesellschaft", public limited company, Germany
 Agentic AI	Autonomous Artificial Intelligence Systems (AI with minimal human supervision)
@@ -380,7 +380,7 @@ API	Application Programming Interface
 APIDS	Application Protocol-Based Intrusion Detection System (cybersecurity)
 APM	Access Policy Manager
 APN	Access Point Name (name of gateway between telecommunication and computer networks)
-APNIC	Asia-Pacific Network Information Center (ICANN RIR)
+APNIC	Asia-Pacific Network Information Center (RIR for Asia-Pacific, www.apnic.net)
 APOD	Astronomy Picture of the Day (website by NASA and Michigan Technology Univeristy, since 1995)
 APR	Annual Percentage Rate (US, annual cost of a loan including interest, points and fees)
 APRU	Average Revenue per User (business metric)
@@ -409,7 +409,7 @@ ARG	Automatic Repeat Request (TCP message)
 Argon2id	hash algorithm (RFC-9106)
 ARI	ACME Renewal Information (cybersecurity: protocol extenstion to ACME standard, RFC-9773)
 ARIMA	Auto-Regressive Integrated Moving Average (statistics: model for time series forecasting)
-ARIN	American Registerty for Internet Numbers (ICANN RIR)
+ARIN	American Registerty for Internet Numbers (RIR for North America, www.arin.net)
 ARJ	Advanced RAR (file format, supports data compression and error correction)
 ARM	Adjustable-Rate Mortgage (US, mortgage interest rate that changes after an initial fixed period)
 ARM	Advanced RISC Machines (RISC instruction set, developed by Acorn Computers)
@@ -2529,7 +2529,7 @@ IBU	Integrated Business Unit
 IC	Identification Code (ITU-T E.164)
 IC	Integrated Circuit (michochip, or simple "chip")
 ICA	Independent Component Analysis (AI: unsupervised ML model, clustering)
-ICANN	Internet Corporation for Assigned Names and Numbers (www.icann.org)
+ICANN	Internet Corporation for Assigned Names and Numbers (non-profit, RIR and internet operations, www.icann.org)
 ICAO	International Civil Aviation Organization (aviation: UN standards agency for aviation)
 ICAT	Internet Categorization of Attacks Toolkit (now called "NVD")
 ICB	"I can't believe" (slang: express disbelief)
@@ -2915,7 +2915,7 @@ IS-856	TIA Interim Standard 856, 3G High Rate Packet Data Air Interface (cdma200
 IS-95	TIA Interim Standard  95, 2G CDMA based digital cellular technology (cdmaOne)
 IS-IS	Intermediate System to Intermediate System (routing protocol, RFC-1142 & 1195, AD=115)
 ISA	Instruction Set Architecture (computer chip architecture)
-ISAC	Information Sharing and Analysis Center
+ISAC	Information Sharing and Analysis Center (cybersecurity: centralized resources for security-related information)
 ISAC	Integrated Sensing and Communication
 ISACA	Information Systems Audit and Control Association (professional association, www.isaca.org)
 ISACC	ICT Standards Advisory Council of Canada
@@ -3134,7 +3134,7 @@ LAA	Licensed Assisted Access
 LAC	Link Access Control
 LAC	Location Area Code
 LAC	Logical Access Control (tools/protocols for ID, authentication, authorization and accounting)
-LACNIC	Latin America and Caribbean Network Information Centre (ICANN RIR)
+LACNIC	Latin America and Caribbean Network Information Centre (RIR for Latin America and the Caribbean, www.lacnic.net)
 LACP	Link Aggregation Control Protocol (data layer, IEEE 802.3ad, 2000s.  see also PAgP)
 LADN	Local Area Data Network
 LAI	Location Area Identity  MCC(3 digits) + MNC(2/3 digits) + LAC(2 octets)
@@ -3215,7 +3215,7 @@ LiFi	"Light Fidelity", IEEE 802.15.7, data via light signals and LED bulbs
 LIFO	Last-In, First-Out (scheduling algorithm)
 Linux	UNIX-like computer operating systems, but without any UNIX code (Linus Torvalds, 1991)
 LIPA	Local IP Access
-LIR	Local Internet Registry
+LIR	Local Internet Registry (manage IP address allocated by RIR, usually ISPs)
 LISP	Locator/Identifier Separation Protocol (RFC-6830)
 list		data type, composite:     ordered collection of elements, often same type ([1, 2, 3])
 lit	exciting, fun, amazing (slang)
@@ -3922,7 +3922,7 @@ NIDS	Network Intrusion Detection System (cybersecurity)
 NIH	National Institutes of Health  (US federal agency, www.nih.gov)
 NIMA	National Imagery and Mapping Agency (now known as NGA)
 NIPC	National Infrastructure Protection Center
-NIR	National Internet Registry (organization managing Internet resources, e.g. IP addresses)
+NIR	National Internet Registry (RIR organization for IP allocation)
 NIR	Non-Ionizing Radiation (insufficient energy to ionize atoms or molecules)
 NIRCam	Near Infrared Camera (instrument on JWST)
 NIS2	Network and Information Security Directive (EU cybersecurity legislation)
@@ -4004,6 +4004,7 @@ NRM	Network Resource Model (TR 28.541)
 NRM	Normal Response Mode
 NRMC	National Risk Management Center  (part of CISA)
 nrn	"no reply necessary"
+NRO	Number Resource Organization (coordinating body for RIRs, www.nro.net)
 NRS	Narrowband Reference Signal (cell physical signal)
 NRSC	Network Reliability Steering Committee
 NRT	Neighboring Relation Table
@@ -4539,6 +4540,7 @@ PoMP	Principle of Minimal Privilege (authorize minimum access to accomplish task
 PON	Passive Optical Network
 PoP	Package on Package (integrated circuit packaging method)
 POP	Points of Presence
+PoP	Pyramid of Pain (cybersecurity: levels of difficult in accessing hardened systems)
 POP1	Post Office Protocol version 1 (TCP, retrieve emails, RFC-918)
 POP2	Post Office Protocol version 2 (TCP, retrieve emails, RFC-937,  port 109)
 POP3	Post Office Protocol version 3 (application layer, TCP, retrieve emails, RFC-1939, port 110)
@@ -4653,6 +4655,7 @@ PT-RS	Phase Tracking Reference Signal
 PTCRB	PCS Type Certification Review Board
 PTE	Path Terminating Element
 PTI	Procedure Transaction Id
+PTI	Public Technical Identifiers (ICANN affliate for IANA functions, pti.icann.org)
 PTK	Pairwise Transient Key (IEEE 802.11i, RFC-3748)
 PTM	Point to Multi-Point, aka PMP (broadcast communication)
 PTMSI	Packet-Temporary Mobile Subscriber Identity (TS 23.003, GPRS and UMTS networks)
@@ -4792,6 +4795,7 @@ RCS	Rich Communication Service (GSMA specification)
 RD	Regression Discontinuity Design (statistics: evaluation model)
 RD	Retained Data
 RDA	Remote Database Access
+RDAP	Registration Data Access Protocol (RFC STD 95, RIR query tool, search.arin.net/rdap)
 RDBMS	Relational Database Management System, i.e. MySQL, Oracle, DB2, etc.
 RDD	Resilient Distributed Dataset
 RDF	Resource Description Framework
@@ -4869,11 +4873,11 @@ RINGS	Resilient and Intelligent NextG Systems
 RIP	"Rest in Peace" (slang: failed, ruined or beyond repair; used humorously or dramatically)
 RIP	Request in Progress
 RIP	Routing Information Protocol (UDP, Layer 5, hop counts, RFC-1058 & 1723, port 520, AD=120)
-RIPE NCC	Réseaux IP Européens Network Coordination Centre (ICANN RIR)
+RIPE NCC  Réseaux IP Européens Network Coordination Centre (RIR forEurope, Middle East, parts of Central Asia, www.ripe.net)
 RIPEMD	RIPE Message Digest (hash function, algorithm, less popular than SHA)
 RIPv1	Routing Information Protocol version 1 (hop counts, classful,  does not support VLSM/CIDR)
 RIPv2	Routing Information Protocol version 2 (hop counts, classless, does supports VLSM/CIDR)
-RIR	Regional Internet Registry (organization managing internet number resources)
+RIR	Regional Internet Registry (RFC-7020, IANA nonprofit for IP resources, NRO:  ARIN, RIPE NCC, APNIC, LACNIC, and AFRINIC, aso.icann.org)
 RISC	Reduced Instruction Set Computer (ISA classification for processor architecture)
 RIT	Radio Interface Technologies
 rizz	charm, charisma, or the ability to attract someone (slang: romantic and social context)
@@ -5758,6 +5762,7 @@ time		data type, primitive:     temporal values (12:30:45)
 TIME	Timestamp (UDP option, two 4-byte unsigned timestamp fields)
 TIN	Taxpayer Identification Number, aka TIN, unique IRS number for business
 TIP	Telecom Infra Project (organization for 2G/3G/4G/5G OpenRAN)
+TIP	Threat Intelligence Platform (cybersecurity: application that collects and analyzes threat intelligence)
 TIRKS	Trunks Integrated Record Keeping System (inventory and control for telephone network circuits)
 TISPAN	Telecom & Internet converged Services & Protocols for Advanced Networks (ES 282 003)
 Tk	"tee-kay", see "Tcl/tk" (free, high-level, interpreted programming language for GUI)
@@ -6306,6 +6311,7 @@ WANA	West Asia and North Africa (region)
 WANET	Wireless Ad Hoc Network (type of decentralized wireless network)
 WAP	Wireless Application Protocol  (OMA protocol for web-content on mobile equipment)
 WAPE	Weighted Absolute Percentage Error (statistics: evaluation metric, lower is better)
+WARP	Warning, Advice and Reporting Point (cybersecurity: CVE advise or information service)
 WAS	GSMA Wholesale Agreements & Solutions Group
 WAS	Web Application Security
 wav	Audio for Windows (media file extension)
@@ -6337,6 +6343,7 @@ WG	Working Group (3GPP contribution-driven groups)
 WGS84	World Geodetic System 1984 (used in GPS)
 WHATWG	Web Hypertext Application Technology Working Group (www.whatwg.org)
 WHO	World Health Organization (UN agency for public health, www.who.int)
+WHOIS	text-based RIR query tool (RFC-3912, replaced by RDAP, search.arin.net)
 WiFi	"Wireless Fidelity", IEEE 802.11, data via radio waves using wifi router
 WiFi1	     802.11b   1999  RF:     2.4 GHz   data rate:   54 Mbps   range:     140 m
 WiFi2	     802.11a   1999  RF:       5 GHz   data rate:   54 Mbps   range:     120 m
