@@ -1,4 +1,3 @@
-
 .arpa	Infrastructure Top-Level Domain (internet domains)
 .NET	open source computer software framework for Windows, Linux and MacOS
 0D	SCALER,  Zero Dimension:  rank 0, magnitude only, no direction (e.g. speed, speed)
@@ -362,6 +361,7 @@ ANS	Authoritative Name Server (DNS server)
 ANSI	American National Standards Institute (standards organization, www.ansi.org)
 ANT	Another Neat Tool, by Apache
 ANTIC	Alpha-Numeric Television Interface Controller
+AO	Authorizing Official (person signing ATO)
 AOC	Active Optical Cable (fiber cables for SFP or QSFP)
 AoC	Advice of Charge supplementary services (TS 22.086)
 AoE	Area of Effect
@@ -483,7 +483,7 @@ ATM	Asynchronous Transfer Mode (TDM switching, 53-byte units "cells")
 ATM	Automated Teller Machine (banking)
 atm	pressure in "Atmosphere"	1 atm  = 101,325 Pa	vacuum, medical units
 ATMF	Asynchronous Transfer Mode Forum
-ATO	Authority to Operate
+ATO	Authorization to Operate (official management decision by AO for system operations)
 ATP	Acceptance Test Plan
 ATP	Application Transport Parameter
 ATS	Applicant Tracking System (software to automate and manage hiring processes)
@@ -582,7 +582,7 @@ Beam	Apache's model to define and execute data processing pipelines
 BEC	Binary Erasure Channel
 BEC	Business Email Compromise (cybersecurity: phishing email)
 BEEP	Blocks Extensible Exchange Protocol (RFC-4227)
-BEP	BitTorrent Enhancement Proposal (bittorrent.org)
+BEP	BitTorrent Enhancement Proposal (formal design document, bittorrent.org)
 BER	Bit Error Rate
 BERT	Bidirectional Encoder Representations from Transformers (AI: 2018 NLP model by Google, language understanding)
 BESS	Battery Energy Storage System
@@ -618,7 +618,7 @@ BIPS	Billion Instruction Per Second
 BISYNC	Binary Synchronous Communication
 bit	layer 1 PDU, L1 physical layer
 bit	unit of information:  1 byte = 8 bits = 1 octet, bit = 0/1, yes/no, true/false, on/off
-BitTorrent	file sharing P2P protocol (BEP 3, bittorrent.org)
+BitTorrent	file sharing P2P protocol (BEP-3, bittorrent.org)
 BIU	Bus Interface Unit
 BizDevOps	Business, Development, Operations (business term)
 BJT	Bipolar Junction Transistor (three terminal semiconductor device; emitter, base and collector)
@@ -882,7 +882,7 @@ CDT	US Central Daylight Time, UTC-5 (2nd SUN in MAR to 1st SUN in NOV)
 CE	Common Era year (same as "AD", "Anno Domini", but without religious connotations)
 CE	Congestion Experienced
 CEA	Consumer Electronics Association (standards organization, www.cta.tech)
-CEF	Common Event Format (log and data format, common in SIEM)
+CEF	Common Event Format (log and data format, key-value pairs, common in SIEM)
 CEH	Certified Ethical Hacker (cybersecurity: certification)
 CEL	Common Expression Language (language to enforce declarative rules, www.cel.dev)
 CELLID	Cell ID (identifier)
@@ -1990,7 +1990,7 @@ FiOS	fiber-optic network for TV, internet and phone services by Verizon
 FIPS	Federal Information Processing Standards (US standards published by NIST, www.csrc.nist.gov)
 FIRST	Forum of International Response and Security Teams (www.first.org)
 FISINT	Foreign Instrumentation Signals (SIGINT, focused on telemetry and instrumentation signals, e.g. missles, aircraft)
-FISMA	Federal Information Security Modernization Act of 2014 (cybersecurity: US security compliance framework)
+FISMA	Federal Information Security Modernization Act (cybersecurity: US framework, www.cisa.gov)
 FL	Forward Link (from fixed location to end user)
 FL	NTN Feeder Link (HAPS to CN)
 flac	Free Lossless Audio Codec (media file extension)
@@ -2080,7 +2080,7 @@ FSO	Free-Space Optical (wireless Line Of Sight optical communication)
 FSS	Fixed Satellite Services
 FTA	Free Trade Agreement
 FTAM	File Transfer, Access and Management
-FTC	Federal Trade Commission (US antitrust agency, www.ftc.gov)
+FTC	Federal Trade Commission (US federal agency:  protects consumers and promotes fair competition, www.ftc.gov)
 ftfy	"fixed that for you"
 FTM	Frame Tunneling Mode (3GPP TS 27.001, TS 29.007)
 FTP	File Transfer Protocol (application layer, TCP, port 20-data & 21-control)
@@ -2204,6 +2204,7 @@ GKE	Google Kubernetes Engine (Kubernetes services managed by Google)
 GLAAD	Gay and Lesbian Alliance Against Defamation (social organization, www.glaad.org)
 Glacier	storage service (AWS service: storage, archive storage)
 glaze	excessive, cringe-worthy, insincere praise (slang: aka "glazing")
+GLBA	Gramm-Leach-Bliley Act (US law: governs how financial institutions handle NPI)
 GLI	Global Line Identifier
 GLONASS	Globalnaya Navigazionnaya Sputnikovaya Sistema (Russian GPS)
 GLSB	Global Server Load Balancing
@@ -2516,6 +2517,7 @@ IAM	Identity and Access Management (cybersecurity: CISSP domain; secure access t
 IANA	Internet Assigned Numbers Authority (organization coordinating IP address allocation, www.iana.org)
 IARU	International Amateur Radio Union (www.iaru.org)
 IAS	Internet Authentication Service
+IASB	International Accounting Standards Board (develops and issues IFRS standards, , www.ifrs.org)
 IATA	International Air Transport Association (aviation standards)
 IBAN	International Bank Account Number, 34-digits (banking)
 IBCF	Interconnection Border Control Functions (IMS, TS 29.238)
@@ -2609,6 +2611,7 @@ IFFT	Inverse Fast Fourier Transform (algorithm, math)
 IFHO	Inter-Frequency Handover (4G LTE, IMS)
 IFOM	IP Flow Mobility
 IFR	Instrument Flight Rules (aviation: regulations for aircraft operation)
+IFRS	International Financial Reporting Standards (set of accounting rules, www.ifrs.org)
 IFTASK	DPDK Internal Forwarder (software I/O operations for VPC-DI)
 IGD	Internet Gateway Device
 IGMP	Internet Group Management Protocol (network layer, multicast management, RFC-1112, port 339)
@@ -2860,7 +2863,7 @@ IPMI	Intelligent Platform Management Interface
 IPMN	Interactive Protocol for Mobile Networking
 IPMP	IP network Multi-Pathing (Solaris fault and load control for NICs)
 IPng	Internet Protocol Next Generation
-IPO	Initial Public Offering (offering share/stocks to public)
+IPO	Initial Public Offering (private company coverts to public company by offering shares)
 IPP	Internet Printing Protocol (network printing, port 631)
 IPR	Intellectual Property Rights
 IPS	In-Plane Switching panels (video display technology)
@@ -3982,7 +3985,7 @@ Npcf	5G Service-Based Interface exhibited by PCF
 NPDCCH	Narrowband Physical Downlink Control Channel  (cell physical channel)
 NPDSCH	Narrowband Physical Downlink Shared  Channel  (cell physical channel)
 NPE	Network Processing Element
-NPI	Non-Sensitive Personal Information
+NPI	Nonpublic Personal Information (personally identifiable financial information)
 NPI	Numbering Plan Indicator
 NPN	Negative-Positive-Negative transistor layers  (uses electorns as carriers, turns on with positive volatage)
 NPN	Non-Public Network (TS 22.261 Release 16)
@@ -5228,7 +5231,7 @@ SEAL	Simple and Efficient Adaptation Layer
 SEBA	SDN-Enabled Broadband Access
 SEBoK	Systems Engineering Book of Knowledge (maintained by INCOSE)
 SEC	SDH Equipment Clock
-SEC	Securities and Exchange Commission (US financial agency, www.sec.gov)
+SEC	Securities and Exchange Commission (US federal agency: regulates securities www.sec.gov)
 SEC	System Security Extensions
 sec	tangent   = hypotenuse/adjacent  (trigonometric  function, right-angled triangle)
 SEC+	CompTIA Security+ (cybersecurity: CompTIA certification)
@@ -5442,7 +5445,7 @@ SOR	Steering of Roaming
 SORM	System for Operative Investigative Activities (Russia's surveillance system)
 SOS	Latin: "si opus sit", English: "if there is need" (Morse code distress signal)
 SOW	Statement Of Work (contract agreement)
-SOX	Sarbanes-Oxley Act of 2002 (yearly compliance audit)
+SOX	Sarbanes-Oxley Act of 2002 (US law: prevents fraudulent accounting and financial practices)
 SP	Service Provider, aka CSP or TSP
 SP	Signaling Points (SS7 network node)
 Sp	SPR and PCRF (DIAMETER)		interface 4G LTE
@@ -5552,6 +5555,7 @@ SSO	Sun-Synchronous Orbit (satellite orbit)
 SSO 	Single Sign-On (authentication: allows user to log in with a single ID)
 SSP	Signal or Service Switching Point (SS7 SP, network node)
 SSPL	Server Side Public License
+SSPP	System Security and Privacy Plan (cybersecurity: document demonstrating compliance with NIST SP 800-53)
 SSRF	Server-Side Request Forgeries (cybersecurity: type of cyber-attack)
 SSRS	SQL Server Reporting Services
 SSS	Secondary Synchronization Signal
@@ -5640,8 +5644,8 @@ SYN	SYNchronize (TCP flag, 1-bit, used for synchronizing sequence number)
 SyncE	Synchronous Ethernet (ITU-T Rec. G.8262, synchronization over Ethernet networks)
 sys	DOS & Windows system settings and variables file (file extension)
 SYSLOG	System Log
-syslog	system log (cybersecurity: tracks events generated by OS, RFC-5424 format)
-SysML	Systems Modeling Language (UML language for systems engineering)
+Syslog	system log (RFC-5424, protocol for logging event messages, )
+SysML	Systems Modeling Language (UML language for systems engineering.  port 514 plaintext, port 6514 encrypted)
 T&M	Time and Money, Test and Measurement
 T-BCSM	Terminating Basic Call State Model
 T-carrier	(US) Transmission System, replaced by all IP networks
@@ -6128,9 +6132,9 @@ UTM	UAS Traffic Management
 UTM	Unified Thread Management (cybersecurity: multiple security functions in a single platform)
 UTM	Universal Transverse Mercator (geographic notation for longitude & latitude)
 UTM	Urchin Tracking Module, tracking text added to URL
-uTorrent	file sharing P2P protocol (BEP 29, bittorrent.org)
+uTorrent	file sharing P2P protocol (BEP-29, bittorrent.org)
 UTP	Unshielded Twisted Pair (twisted-pair cable)
-uTP	uTorrent Transport Protocol (BEP 29, bittorrent.org)
+uTP	uTorrent Transport Protocol (BEP-29, bittorrent.org)
 UTRAN	UMTS Radio Access Networks (TS 25.401, 3G RNC & Node B)
 UTS	Unicode Technical Standard (Unicode Consortium specification, www.unicode.org)
 Uu	UE and EUTRAN	interface 4G LTE
@@ -6451,7 +6455,7 @@ xkcd	webcomic by Randall Munroe, covers math, programming, science, romance (www
 xls	Microsoft Excel 97 to 2003 (file extension)
 xlsx	Microsoft Excel Open XML (file extension)
 xMBB	extreme Mobile Broad-Band
-XML	Extensible Markup Language (RFC-4825, file format)
+XML	Extensible Markup Language (RFC-4825, designed to store, transport and structure data)
 XMPP	Extensible Messaging and Presence Protocol
 Xn	interface between gNB and gNB
 XnAP	Xn Application Protocol (5G gNB-gNB interface, TS 38.423)
