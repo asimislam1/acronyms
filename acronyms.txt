@@ -199,7 +199,7 @@ ABS	Absolute value or modulus (mathematics: non-negative, real number, magnitude
 ABS	Acrylonitrile Butadiene Styrene (thermoplastic polymer used in consumer products, automotive, plumbing and electronics)
 ABS	Almost Blank Subframe (reduces interference in macrocells)
 ABS	Anti-lock Braking System (prevents automobile wheels from locking during abrupt stops)
-AC	Alternating Current
+AC	Alternating Current (electrical current reverses its direction at regular intervals)
 AC	Application Context
 AC/DC	Alternating Current/Direct Current
 ACA	Affordable Care Act (US health care act from March 2010, aka "ObamaCare)
@@ -213,7 +213,7 @@ ACH	Automatic Clearing House, NACHA network (banking: used to transfer funds ele
 ACIA	5G Alliance for Connected Industries and Automation (non-profit for 5G adoption, www.5G-acia.org)
 ACID	Atomicity, Consistency, Isolation, Durability (database concept)
 ACK	ACKnowledgement (TCP flag, 1-bit, confirms packet successful received)
-ACL	Access Control List
+ACL	Access Control List (permission rules for resources and actions)
 ACL	Annual Meeting of the Association for Computational Linguistics (AI: focused on NLP)
 ACL	Anterior Cruciate Ligament  (medical: knee joint ligament)
 ACL	Asynchronous Connectionless Link
@@ -270,7 +270,7 @@ AFM	Advanced Firewall Manager
 AfNOG	African Network Operators Group
 AFRINIC	African Network Information Center (RIR for Africa, www.afrinic.net)
 AFS	Andrew File System (distributed file system developed at Carnegie Mellon University in 1986)
-AG	"Aktiengesellschaft", public limited company, Germany
+AG	"Aktiengesellschaft" (Germany, any public limited company)
 Agentic AI	Autonomous Artificial Intelligence Systems (AI with minimal human supervision)
 AGF	Access Gateway Function (BBF TR-456)
 AGI	General Artificial Intelligence (AI: human-level artificial intelligence)
@@ -331,7 +331,7 @@ AMA	"ask me anything" (slang: reddit Q&A forum)
 AMBER	America’s Missing: Broadcast Emergency Response (US missing person alert)
 AMBR	Aggregate Maximum Bit Rate
 AMC	Adaptive Modulation and Coding
-AMD	Advanced Micro Devices (computer processor manufacturer)
+AMD	Advanced Micro Devices (US semiconductor company, Santa Clara, California, www.amd.com)
 AMDEX	AI and ML Design & Engineering Excellence Framework (ARTiBA)
 AMF	Access and Mobility Function (5G network function, TS 23.501, TS 29.518)
 AMFID	AMF Identifier, AMF Region ID (8-bits) + AMF Set ID (10-bits) + AMF Set ID (6-bits)
@@ -446,7 +446,7 @@ ASK	Amplitude Shift Keying                     (digital signal modulation techni
 ASM	Assembly Language (low-level programming language, symbolic machine code)
 ASME	Access Security Management Entity
 ASMG	Arab Spectrum Management Group (ITU WRC group)
-ASML	Advanced Semiconductor Materials Lithography (Dutch photo-lithography company)
+ASML	Advanced Semiconductor Materials Lithography (Dutch photo-lithography company, www.asml.com)
 ASN	Access Service Network (WiMAX, IEEE 802.16)
 ASN	Autonomous System Number (routing area, using IGP or EGP)
 ASN-GW	Access Service Network-GateWay (WiMAX, IEEE 802.16)
@@ -655,6 +655,7 @@ BR	Bit Rate
 BRAS	Broadband Remote Access Server
 BRAS	Broadband Remote Access Server (ISP edge device, provides AAA, IP assignment, QoS, encryption, etc.)
 BRB	be right back (slang: signal a short, temporary pause in conversation or activity)
+BRE	Basic Regular Syntax (POSIX regex used in tools like grep, sed and awk)
 BRG	Broadband Residential Gateway
 BRI	ISDN Basic Rate Interface (2 B-channels and 1 D-channel)
 BRIEF	Binary Robust Independent Elementary Features (binary descriptor encoder for image keypoints)
@@ -1123,6 +1124,7 @@ CQI	Channel Quality Indicator (telecommunication metric, quality of downlink cha
 Cr	AS and MRFC-(media a control)		IMS interface
 CR	Change Request (formal request for a change to be made)
 CRA	Coordinated Robust Authentication
+CRADA	Cooperative Research And Development Agreement (agreement between a government and another entity for R&D)
 CRAN	see "C-RAN"
 CRB	Common Resource Block (TS 38.211, NR Channels)
 CRBN	Charging Rule Base Name
@@ -1297,7 +1299,7 @@ DBMS	Database Management System
 DBoR	DataBase of Record
 DBSCAN	Density-Based Spatial Clustering of Applications with Noise (AI: unsupervised ML model, clustering)
 DC	Data Center
-DC	Direct Current
+DC	Direct Current (electrical current in a singular direction, positive to negative)
 DC	Dual Connectivity (3GPP Release 15)
 DC-NR	Dual Connectivity-New Radio
 DCA	Digital Commons Architecture
@@ -1345,7 +1347,6 @@ DDS	Digital Data Systems (organizations delivering IT solutions)
 DDS	Doctor of Dental Surgery (graduate degree)
 DEA	Drug Enforcement Administration (US federal agency, www.dea.gov)
 DEC	DECimal numbering system,     base 10: 0-9      (BIN, TER, OCT, DEC, HEX)
-DEC	Digital Equipment Corporation (US information technology company)
 deci-	d,  10 power  -1	- numeric, see also "prefix"
 DECOR	Dedicated Core Networks
 DECT	Digital Enhanced Cordless Telecommunications
@@ -1620,9 +1621,10 @@ EBG	Economic Board Groningen
 eBGP	external Border Gateway Protocol  (routing protocol between ASs, AD=20)
 EBI	EPS Bearer Identity
 EBITDA	Earnings Before Interest, Taxes, Depreciation and Amortization (business metric)
-EBM	Event Based Monitoring
+EBM	Event-Based Monitoring (method of tracking and responding to specific events or incidents)
 eBPF	extended Berkeley Packet Filter (kernel mechanism for network filtering and monitoring)
 EBS	Elastic Block Storage (AWS service: network-attached block storage)
+EBS	Event-Based surveillance (used to detect signs of potential public health threats)
 Ec/Io	Downlink Carrier-To-Interference Ratio (signal quality, dB, 2G, 3G & LTE)
 Ec/No	Received Energy from CPICH per chip (Ec) over Noise Density (No)
 EC2	Elastic Compute Cloud (AWS service: compute, virtual servers)
@@ -1815,6 +1817,7 @@ ERC	Ethereum Request for Comments (ethereum.org/en/developers/docs/standards)
 ERC-1155	Multi-Token standard
 ERC-20	Token standard (ethereum.org/en/developers/docs/standards)
 ERC-721	Non-Fungible Token standard
+ERE	Extended Regular Syntax (POSIX regex used in tools like grep, sed and awk)
 Erlang	traffic volume per hour, number of calls x duration (telecommunication metric)
 ERP	EAP Re-authentication Protocol (RFC-6696)
 ERP	Enterprise Resource Planning (business software)
@@ -1875,6 +1878,7 @@ EUSPA	European Union Space Programme Agency
 EUT	Equipment Under Test
 EUTRAN	Evolved UMTS Terrestrial-Radio Access Network (4G LTE Air & Access, PS only)
 eUu	UE and eNodeB	4G LTE interface
+EUV	Extreme ultraviolet (electromagnetic radiation with wavelengths from 10 nm to 121 nm)
 EUVL	Extreme Ultra-Violet Lithography (photolithography, at below 20 nm, ~13.5 nm)
 EV-DO	Evolution for Data Only (3G CDMA2000, TIA IS-856)
 EV-DO Rev. A	VoIP (2004)
@@ -2215,7 +2219,7 @@ Gm	UE and P-CSCF, or between IP-PBX and P-CSCF	IMS interface
 GMA	Generic Multi-Access
 GMAC	Galois Message Authentication Code (cipher mode)
 GMAC	Gigabit Ethernet Media Access Control
-GmbH	"Gesellschaft mit beschränkter Haftung", limited liability company, Germany
+GmbH	"Gesellschaft mit beschränkter Haftung" (Germany: any limited liability company)
 GMDSS	Global Maritime Distress Safety System (developed by IMO)
 GMK	Group Master Key (IEEE 802.11i, RFC-3748)
 GML	Geography Markup Language (OGC defined XML grammar for GIS)
@@ -2401,7 +2405,7 @@ Hib	Haemophilus Influenzae Type B (medical: vaccine for lungs and respiratory vi
 HIBS	High Altitude IMT Base Stations (station at 20 to 50 km)
 HID	Hughes Identification Devices (US company providing PAC & IAC products eg: badges, www.hidglobal.com)
 HID	Human Interface Device (ex: keyboard, mouse, joystick)
-HIDS	Host Intrusion Detection System (cybersecurity)
+HIDS	Host-based Intrusion Detection System (cybersecurity: security software installed on an individual device)
 HiFi	High-Fidelity (audio, high-quality of audio reproduction)
 HIG	Human Interface Guidelines (guide to designing applications for GNOME)
 high-level, general-purpose, interpreted, dynamic programming language.
@@ -2489,6 +2493,7 @@ HV	High Volume
 HV	HyperVisor (virtual machine management, supervision & orchestration)
 HVAC	Heating, Ventilation and Air Conditioning
 HVD	Hosted Virtual Desktop
+HVDC	High-Voltage DC (electrical current power systems operating at high voltages, typically > 1,500 Volts)
 HVM	Hardware Virtualized Machines
 HW	Hardware (mechanical components of a computer)
 HWB	Hue Whiteness Blackness        (color model)
@@ -2853,6 +2858,7 @@ IPBB	Internet Protocol Broadband (2G technology to deliver broadband services wi
 IPC	Inter-Process Communication (data sharing between processes or systems)
 ipconfig	TCP/IP command: current configuration
 IPCP	Internet Protocol Control Protocol (RFC-1332, establishing and configuring IP over PPP)
+IPFIX	network flow protocol (REC-7011: collect, export, analyze summarized traffic data)
 IPFW	IP FireWall
 IPI	Internet Protocol Intelligence
 IPLMN	Interrogating Public Land Mobile Network
@@ -3016,6 +3022,7 @@ IXIC	Nasdaq Composite (US stock market index)
 IXP	Internet Exchange Points
 IYKYK	"If You Know, You Know" (slang: signal insider knowledge or shared experience)
 Izi	TrGW and TrGW		IMS interface
+J-Flow	network flow protocol (Juniper: collect, export, analyze summarized traffic data)
 j/k	"just kidding", "joking" (slang: previous statement not meant to be taken seriously)
 J1	same as T1 with slight modifications.  Used in Japan
 J2EE	Java 2 Platform, Enterprise Edition (Java specifications introduced in 1999)
@@ -3048,7 +3055,7 @@ jpg	Joint Photographic Group (image file extension)
 JQL	Jira Query Language
 JRE	Java Runtime Environment (package with software to run Java program)
 JS	JavaScript (programming language for web pages)
-json	JavaScript Object Notation (RFC-7464, text, attribute-pair file extension)
+json	JavaScript Object Notation (RFC-8259, text, attribute-pair file extension, www.json.org)
 JSON-RPC	JavaScript Object Notation-Remote Procedure Call (stateless protocol)
 JSR-311	Java API for RESTful web services
 JSYK	"just so you know" (slang: casual way to share information or a heads-up)
@@ -3068,6 +3075,7 @@ K-mean	K-means clustering (AI: unsupervised ML model, clustering)
 k8s	Kubernetes, 'numeronym' (open-source container orchestration platform, Greek: "helmsan", "pilot")
 Kafka	Apache distributed event streaming platform
 KAG	Knowledge Augmented Generation (AI: provides AI answers with traceable reasoning)
+Kali	Linux distribution by OffSec, designed for cybersecurity, www.kali.org
 KASME	Key Access Security Management Entries (authentication vector)
 KASUMI	block cipher used in GSM, GPRS and UMTS (TS 35.202)
 KAT	Known Answer Tests (cybersecurity: cryptographic validation method)
@@ -3215,6 +3223,7 @@ LI	Lawful Intercept (TS 33.127)
 libpcap	packet capture library for Linux, Unix and MacOS (www.tcpdump.org)
 LIDAR	Light Imaging Detection and Ranging
 LIDB	Line Information Database (billing information)
+LIDP	Laser-Induced Discharge Plasma (high-energy, ionized gas, used in EUVL)
 LIF	Logical Interface
 LiFi	"Light Fidelity", IEEE 802.15.7, data via light signals and LED bulbs
 LIFO	Last-In, First-Out (scheduling algorithm)
@@ -3235,6 +3244,7 @@ LLD	Low-Level Design (component-level design document)
 LLDP	Link Layer Discovery Protocol (network topology discovery, IEEE 802.1ab)
 LLE	Locally Linear Embedding (AI: unsupervised ML model, clustering)
 LLM	Large Language Model (AI: neural network trained on massive text datasets, NLP model)
+LLNL	Lawrence Livermore National Laboratory (US government R&D center, Livermore, California, www.llnl.gov)
 LLS	Low Layer Split
 LMA	Local Mobility Anchor
 LMAO	"laughing my ass off" (slang)
@@ -3517,7 +3527,7 @@ MISC	Minimal Instruction Set Computer (ISA classification)
 MISO	Master In, Slave Out (SPI wire, carries data from slave to master)
 MIT	Massachusetts Institute of Technology (education: private university, web.mit.edu)
 MitM	Man in the Middle (cybersecurity: type of cyber-attack)
-MITRE	US non-profit R&D center: aviation, defense, cybersecurity, CVE, ATT&CK, etc.  www.mitre.org
+MITRE	R&D center (US non-profit: aviation, defense, cybersecurity, CVE, ATT&CK, etc., www.mitre.org)
 Mj	BGCF and MGCF		IMS interface
 Mk	BGCF/IMS ALG and BGCF	IMS interface
 ML	Machine Learning (data science)
@@ -3662,7 +3672,7 @@ MSK	Master Session Key (IEEE 802.11i, RFC-3748)
 MSK	Minimum Shift Keying                       (digital signal modulation technique)
 MSLD	Maritime Survivor Locating Device
 MSM	Multi-Site Management (software)/Mobile Software Management
-MSNBC	Microsoft/National Broadcasting Company (cable TV channel)
+MSNBC	Microsoft + National Broadcasting Company, "MSNOW" (cable TV channel, www.ms.now)
 MSP	Managed Service Provider (deliver IT services: network administration, help desk, cloud, etc.)
 MSP	Mobile Service Providers
 MSP	Multi-Service Proxy
@@ -3808,7 +3818,7 @@ NAT	Network Address Translation (RFC-3022)
 NaT	Not a Time (missing value in data)
 NATAS	National Academy of Television Arts and Sciences
 NATO	North Atlantic Treaty Organization (intergovernmental military alliance, www.nato.int)
-NATS	North American Transportation Services (trucking and logistics company)
+NATS	North American Transportation Services (trucking and logistics company, www.nalogistics.com)
 Nausf	5G Service-Based Interface exhibited by AUSF
 NAVIC	Navigation Indian Constellation (Indian GPS)
 NAVSTAR	Navigation Satellite Timing and Ranging
@@ -3816,7 +3826,7 @@ NB	Naive Bayes (AI: supervised ML model)
 NB-IoT	Narrow-Band Internet of Things, 3GPP LPWAN radio technology standard 
 NBA	National Basketball Association (North America sports league)
 NBAP	Node-B Application Protocol (3G UMTS, TS 25.433)
-NBC	National Broadcasting Company (TV channel)
+NBC	National Broadcasting Company (US TV channel, www.nbc.com)
 nbd	"no big deal" or "humble-bragging" (slang: downplay accomplishment, favor or gift)
 NBD	Next Business Day
 NBI	REST North-Bound Interface
@@ -3868,6 +3878,7 @@ NetBIOS-DGM	NetBIOS-Datagram Distribution Service (supports connectionless commu
 NetBIOS-NS	NetBIOS-Name Service (name registration and resolution.  port 137)
 NetBIOS-SSN	NetBIOS-Session Service (supports connection-oriented communication.  port 139)
 NetCo	Network Corporation, MNO sharing RAN with another MNO
+NetFlow	network flow protocol (Cisco: collect, export, analyze summarized traffic data)
 netstat	TCP/IP command: display sessions, connections and open port
 network 1G 	AMPS -->  FDMA: 450-900 MHz
 network 2.5G 	GPRS -->  TDMA: EDGE, GPRS & CDMA: IS-95B
@@ -3913,6 +3924,7 @@ NGN	Next Generation Network
 NGO	Non-Governmental Organization (entity that is not part of a government)
 NGSF	Next-Generation Smart Factory
 NGSO	Non-Geostationary Satellite Orbit, i.e. LEO or MEO
+NHIMG	Non-Human Identity Management Group (cybersecurity: research organization, www.nhimg.org)
 NHL	National Hockey League (sports league)
 NI	Network Intelligence
 NIB	Network in a Box, e.g. private networks
@@ -3922,7 +3934,7 @@ NICT	National Institute of Information and Communications Technology (www.nict.g
 NID	Network Identifier
 NID	Network Interface Device
 NIDD	Non-IP Data Delivery
-NIDS	Network Intrusion Detection System (cybersecurity)
+NIDS	Network-based Intrusion Detection System (cybersecurity: security software that collects and monitors network traffic)
 NIH	National Institutes of Health (US federal agency, www.nih.gov)
 NIMA	National Imagery and Mapping Agency (now known as NGA)
 NIPC	National Infrastructure Protection Center
@@ -3932,7 +3944,7 @@ NIRCam	Near Infrared Camera (instrument on JWST)
 NIS2	Network and Information Security Directive (EU cybersecurity legislation)
 NIST	National Institute of Standards and Technology (US standards agency, www.nist.gov)
 NIST SP 800-61	NIST official guidance for cybersecurity incident response (cybersecurity)
-NITRD	Networking and Information Technology Research and Development
+NITRD	Networking and Information Technology Research and Development (US R&D in computing, networking and software, www.nitrd.gov)
 NITZ	Network Identity and Time Zone
 NKVD	Naródnyy Komissariát Vnútrennikh Del (Soviet interior ministry, 1934-1946)
 nLoS	near-Line of Sight (tranmission by reflection or diffraction)
@@ -3986,6 +3998,7 @@ NPDSCH	Narrowband Physical Downlink Shared  Channel (cell physical channel)
 NPE	Network Processing Element
 NPI	Nonpublic Personal Information (personally identifiable financial information)
 NPI	Numbering Plan Indicator
+NPM	Network Performance Monitoring (tracking, analyzing and managing network resources)
 NPN	Negative-Positive-Negative transistor layers  (uses electorns as carriers, turns on with positive volatage)
 NPN	Non-Public Network (TS 22.261 Release 16)
 NPO	Non-Profit Organization
@@ -4034,7 +4047,7 @@ NSI	Network Slice Instance
 NSI ID	Network Slice Instance Identifier
 NSIE	National Security Information Exchange
 NSLPI	NAS Signaling Low Priority Indication
-NSM	Network Security Monitoring (cybersecurity: monitor, analyze, by OISF)
+NSM	Network Security Monitoring (cybersecurity: continuous collection and analysis of network traffic)
 Nsmf	5G Service-Based Interface exhibited by SMF
 NSN	Nation Significant Number (ITU-T E.164)
 NSO	Network Service Orchestrator
@@ -4047,6 +4060,7 @@ NSSMF	Network Slice Subnet Management Function
 NSSP	Network Slice Selection Policy
 NSSS	Narrowband Secondary Synchronization Signal (cell physical signal)
 NSTAC	US Department of Homeland Security’s National Security Telecommunications Advisory Committee
+NSTC	National Science and Technology Council (US executive council for science and technology policy)
 NSTISSI	National Security Telecommunications and Information Systems Security Instruction
 NSWO	Non Seamless WLAN Offload
 NT	Network Terminator
@@ -4079,7 +4093,7 @@ numeric-3	three number code
 numeronym	word, usually an abbreviation, composed partially or wholly of numerals, eg: b4, B2B, k8s, i18n
 numpy	Python package for Base N-dimensional array computing
 NVD	National Vulnerability Database (nvd.nist.gov)
-NVidia	US company: GPU, API, SoCs, performance & mobile computing, www.NVidia.com
+NVidia	"en-VID-ee-yah" (US semiconductor, GPU, AI, API, SoC, Santa Clara, California, www.NVidia.com)
 nvm	"never mind" (slang: disregard a previous message or statement)
 NVMA	Non-Uniform Memory Access
 NVMe	Non-volatile Memory Express (hard drive interface)
@@ -4165,7 +4179,7 @@ OFCS	Offline Charging System (postpaid services)
 OFDM	Orthogonal Frequency Division Multiplexing
 OFDMA	Orthogonal Frequency Division Multiple Access (4G LTE-downlink)
 off-hook	circuit in use, call in-progress
-OffSec	Offensive Security (cybersecurity: proactively identifying and exploiting vulnerabilities to strengthen defenses)
+OffSec	Offensive Security (cybersecurity: company offering certifications and Kali Linux, www.offsec.com)
 OFR	Office of Federal Register (prepare/publish US private/public laws)
 OG	original, "original gangster" (slang: someone who’s respected, exceptional, authentic)
 OGC	Open Geospatial Consortium (standards organization, www.ogc.org)
@@ -4210,7 +4224,7 @@ OOB	Out-of-Band
 OOBE	Out Of Band Emission
 OODA	Observe, Orient, Decide, Act (medical: decision-making cycle to manage stress, clarify thought)
 OOK	ON/OFF Keying
-Ookla	US company, provides software for internet speed analysis
+Ookla	US company provides software for internet speed analysis, www.speedtest.com
 ooo	"out of office"  (business term: unavailable due to vacation, business travel or personal reasons)
 OOP	Object Oriented Programming (concepts of "classes" and "objects")
 OOS	Out Of Service (or Synchronization)
@@ -4287,6 +4301,7 @@ OSP	Outside Plant (communications equipment between MDF and end user)
 OSPF	Open Shortest Path First (network layer, interior gateway routing, link state, RFC-2328, AD=110)
 OSS	Open Source Software (licensed software that is free to use, study, modify and distribute)
 OSS	Operation and Support Systems (systems to manage telecommunications networks)
+OSTP	Office of Science and Technology Policy (US executive council for science and technology)
 OSWE	Offensive Security Web Expert (cybersecurity: certification)
 OSWG	Oversight Work Group
 OSWP	Offensive Security Wireless Professional (cybersecurity: certification)
@@ -4402,6 +4417,7 @@ PCO	Protocol Configuration Option
 PCP	Port Control Protocol
 PCP	Primary Care Physicians (US medical insurance - main doctor)
 PCPCH	Physical Common Packet Channel
+PCRE	PerL-Compatible Regular Expression (POSIX regex used in tools like grep, sed and awk)
 PCRF	Policy and Charging Rules Function (4G LTE)
 PCS	Personal Communications Service (part of CMRS)
 PCS	Physical Coding Sublayer
@@ -4783,7 +4799,7 @@ RAU	Routing Area Update
 RB	Resource Block, radio: 12 consecutive subcarriers in frequency domain
 RBAC	Role-Based Access Control (cybersecurity: access control, permissions based on user roles)
 RBI	Reserve Bank of India (India’s central bank regulator)
-RbM	Risk-based Monitoring
+RBM	Risk-based Monitoring (medical: method for supervising clinical trials)
 RBOC	Regional Bell Operating Company
 RBS	Radio Base Station (3G UMTS: "NodeB", "RBS" is not used)
 RBS	Robbed-Bit Signaling (scheme to provide maintenance/signaling services)
@@ -4824,7 +4840,7 @@ RedShift	Amazon big data analytics & data warehouse on cloud (AWS service)
 reduce	shuffle, sort, reduce (big data processing concept)
 ReFS	Resilient File System (Windows Server 2012 file system format based on COW)
 REG	Register (storage element that holds data until the next clock edge)
-REGEX	Regular Expression, pattern search in computer languages
+REGEX	Regular Expression (match, find, or manipulate text in programming languages)
 ReiserFS	Reiser Family File Systems (file system)
 REIT	Real Estate Investment Trusts (finance: company that owns and operates income-producing real estate)
 ReLU	Rectified Linear Unit 		(AI: activation function in NN, introduces non-linearity)
@@ -5237,6 +5253,7 @@ SECAG	Security Assurance Group
 SECAM	Security Assurance Methodology
 SECAM	Sequential Color and Memory (television format)
 SECM	Spectral and Energy-Efficient Cooperative Multicast
+SecOps	Security Operations (cybersecurity)
 secret exchanged between over secure channel for cryptography
 SEG	Security Gateway (TS 33.210)
 segment	layer 4 PDU, L4 transport layer
@@ -5264,6 +5281,7 @@ SFC	System File Checker (Windows scan & repair tool)
 SFD	Start Frame Delimiter (ethernet frame preamble)
 SFE	Store and Forward Engine
 SFI	Slot Format Indicator
+sFlow	network flow protocol (RFC-3176: collect, export, analyze summarized traffic data)
 SfM	Structure from Motion (computer vision technique, reconstructs 3D space from 2D images)
 SFN	Single Frequency Network
 SFN	System Frame Number (TS 36.331, frame synchronization timer)
@@ -5331,6 +5349,7 @@ SIPTO	Selected IP Traffic Offload
 SIR	Signal to Interference Ratio
 SIRT	Security Incident Response Team (cybersecurity: specialized group of cybersecurity experts, aka CSIRT, IHT)
 SIS	aka MI6, Secret Intelligence Service (UK foreign intelligence agency)
+SISAL	Streams and Iteration in a Single Assignment Language (programing language, outputs dataflow graphs)
 SJN	Shortest Job Next (scheduling algorithm)
 SKD	Symmetric-Key Decryption
 SKE	Symmetric-Key Encryption
@@ -5465,6 +5484,7 @@ SPI	Sensitive Personal Information
 SPI	Serial Peripheral Interface (short-distance connection protocol, wire: SCLK,MOSI,MISO,SS/CS)
 SPID	Subscriber Profile ID for RAT/Frequency Priority
 SPII	Sensitive Personally Identifiable Information (personal data: SSN, ​financial, biometric, etc. data)
+SPL	Search Processing Language (query language used for machine-generated data)
 SPLA	Service Provider License Agreement
 Splunk	cybersecurity platform for monitoring, detecting and responding to threats
 SPM	Software Project Management (business position)
@@ -5545,6 +5565,7 @@ SSIS	SQL Server Integration Services
 SSL	Secure Sockets Layer (TCP/IP model: Layer 4 Transport, RFC-7568)
 SSM	Subscriber Services Module
 SSM	Synchronization Status Message
+SSMB	Steady-State Microbunching (produce coherent radiation from electron beams, used in EUVL)
 SSMS	Microsoft SQL Server Management Studio
 SSN	Social Security Number (US, SPII data, personal identification, XXX-XX-XXXX format)
 SSO	Standards Setting Organization
@@ -5609,7 +5630,7 @@ SUL	Supplementary Uplink-Only band
 SUPI	Subscription Permanent Identifier (IMSI, NAI, GCI or GLI, TS 23.501)
 SUPL	Secure User Plane Location
 SURF	Speeded-Up Robust Features (algorithm to detect and describe keypoints in images)
-Suricata	open-source network analysis and threat detection software (cybersecurity: by OISF, suricata.io)
+Suricata	open-source IDS, IPS and network analysis tool (cybersecurity: by OISF, suricata.io)
 sus	short for "suspicious" (slang: something or someone that's shady, un-trustworthy or off)
 SUS	Single UNIX Specification (standard for operating systems compliance for "UNIX" trademark)
 SUSE	Linux distribution developed by SUSE
@@ -5950,7 +5971,7 @@ TSCTSF	Time Sensitive Communication Time Synchronization Function
 TSDANC	Technical Information, Symptoms, Diagnostics, Action, Next Action, Comments
 TSG	Technical Specification Groups (RAN, CT and SA)
 TSK	Transient Session Key (IEEE 802.11i, RFC-3748)
-TSMC	Taiwan Semiconductor Manufacturing Company Limited (semiconductor manufacturer)
+TSMC	Taiwan Semiconductor Manufacturing Company Limited (semiconductor manufacturer, www.tsmc.com)
 TSN	Time-Sensitive Networking (IEEE 802.1Qcc, TS 24.519)
 TSN	Transmission Sequence Number (32-bit number in SCTP)
 TSO	TCP Segmentation Offload (NIC feature, splits large TCP packets, instead of the CPUs)
@@ -6023,6 +6044,7 @@ UDC	User Data Convergence (TS 23.335)
 UDF	Universal Disk Format (file system for optical media, DVD, Blu-ray disc)
 UDIMM	Unbuffered DIMM (RAM classification, most common PC DIMM)
 UDM	Unified Data Management (5G network function, TS 23.501, TS 29.503)
+UDM	Unified Data Model (normalized data from various disparate data sources)
 UDMA	Ultra Direct Memory Access
 UDN	Ultra-Dense small cell Network
 UDP	User Datagram Protocol (transport layer, RFC-9868, port 301)
@@ -6402,7 +6424,7 @@ WSL	Windows Subsystem for Linux (Windows feature that can run GNU/Linux environm
 WSN	Wireless Sensor Network
 WSP	Wireless Service Provider
 WSP	Wireless Session Protocol          (WAP Protocol stack: session layer)
-WSRD	Wireless Spectrum R&D Interagency Working Group
+WSRD	Wireless Spectrum R&D Interagency Working Group (US R&D under NITRD)
 WTA	Women's Tennis Association (sports: organizing body)
 WTDC	World Telecommunications Development Conference
 WTF	"what the f**k" (slang: expression of incredulity or annoyance)
@@ -6444,6 +6466,7 @@ XDMS	XML Document Management Server
 XDR	Extended Detection and Response (cybersecurity: framework, unified treat detection and response)
 xDSL	DSL variants:  ADSL, HDSL, IDSL, MDSL, MSDSL, RADSL, SDSL, VDSL
 XEN	open-source hypervisor/VMM
+XES	eXtensible Event Stream (IEEE 1849-2023, language to transport, store and exchange event data, www.xes-standard.org)
 XFCE	desktop environment for Unix and Linux (www.xfce.org)
 XFS	journaling file system (Unix file system by SGI)
 XGBoost	Gradient Boost (AI: machine learning model)
@@ -6475,7 +6498,8 @@ Y4	FN-RG and W-AGF		5G interface
 Y5	5G-RG and W-AGF		5G interface
 YAFFS	Yet Another Flash File System (flash-optimized file system)
 YAGNI	"You Aren’t Gonna Need It"  (software principle to implement features only when needed)
-YAML	YAML Ain't Markup Language (human-readable language used for configuration)
+YAML	YAML Ain't Markup Language (human-readable language for configuration, data exchange and structured data, www.yaml.org)
+YARA-L	Google Security Operations’ structured query and detection rule language
 YARN	Yet Another Resource Negotiator (Hadoop resource manager)
 YB	Yottabyte	memory size, 10^24	1,208,925,819,614,629,174,706,176 Bytes
 yeet	throwing something forcefully (slang: also to convey excitement, enthusiasm or surprise)
