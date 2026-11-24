@@ -1,5 +1,7 @@
+%	modulus (Python operator: returns the remainder of the division between two numbers)
 .arpa	Infrastructure Top-Level Domain (internet domains)
 .NET	open source computer software framework for Windows, Linux and MacOS
+//	floor division "//" (Python operator: returns largest integer less than or equal to exact division result)
 0D	SCALER,  Zero Dimension:  rank 0, magnitude only, no direction (e.g. speed, speed)
 100	HTTP Status Code:  Continue		  - Informational, request received and processed
 1000BASE-T	Gigabit Ethernet for LAN over twisted-pair cabling (RJ-45 connector)
@@ -212,6 +214,7 @@ ACDC	Application specific Congestion control for Data Communication (TS 22.011)
 ACH	Automatic Clearing House, NACHA network (banking: used to transfer funds electronically)
 ACIA	5G Alliance for Connected Industries and Automation (non-profit for 5G adoption, www.5G-acia.org)
 ACID	Atomicity, Consistency, Isolation, Durability (database concept)
+ACK	ACKnowledge			  6 0x06 (ASCII/ISO 1745 control character)
 ACK	ACKnowledgement (TCP flag, 1-bit, confirms packet successful received)
 ACL	Access Control List (permission rules for resources and actions)
 ACL	Annual Meeting of the Association for Computational Linguistics (AI: focused on NLP)
@@ -582,6 +585,8 @@ Beam	Apache's model to define and execute data processing pipelines
 BEC	Binary Erasure Channel
 BEC	Business Email Compromise (cybersecurity: phishing email)
 BEEP	Blocks Extensible Exchange Protocol (RFC-4227)
+BEL	BELl				  7 0x07 (ASCII/ISO 1745 control character)
+BEOL	Back-End-of-Line (semiconductor manufacturing stage,   FEOL > MEOL > BEOL)
 BEP	BitTorrent Enhancement Proposal (formal design document, bittorrent.org)
 BER	Bit Error Rate
 BERT	Bidirectional Encoder Representations from Transformers (AI: 2018 NLP model by Google, language understanding)
@@ -660,6 +665,7 @@ BRG	Broadband Residential Gateway
 BRI	ISDN Basic Rate Interface (2 B-channels and 1 D-channel)
 BRIEF	Binary Robust Independent Elementary Features (binary descriptor encoder for image keypoints)
 BRLLC	Broadband Reliable Low Latency Communication
+BS	BackSpace			  8 0x08 (ASCII/ISO 1745 control character)
 BS	Base Station (antenna + RRU + BBU + cabling)
 BS	English: "Bachelor of Science", Latin: "Scientiarum Baccalaureus" (undergraduate degree)
 BSA	Bank Secrecy Act (banking: US law requiring compliance with AML, 1970)
@@ -696,7 +702,7 @@ Byte	unit of information:  1 byte = 8 bits = 1 octet, bit = 0/1, yes/no, true/fa
 C	Celsius    (temperature:  C = (F-32) x 5/9,   0C freezing water, 100C boiling water)
 C	general-purpose, machine-independent programming language
 C	HLR and MSC/GMSC	2G GSM interface
-c	speed of light:  299,792,458 meters/sec or 186,282 miles/sec
+c	speed of light in vacuum = 299,792,458 m/s 		(Universal constant: basis for SI meter)
 C#	C-Sharp, high-level programming language
 C++	general-purpose, object-oriented, machine-independent programming language
 C-DRX	Connected State Discontinuous Reception
@@ -746,7 +752,7 @@ CAMA	Centralized Automated Message Accounting
 CAMEL	Customized Applications for Mobile network Enhanced Logic (TS 23.078)
 CAMM	Compression Attached Memory Module DIMM (RAM classification, memory module, small profile, Dell)
 CAN	Campus Area Network (computer network)
-CAN	CANcel
+CAN	CANcel				 24 0x18 (ASCII/ISO 1745 control character)
 CAN	Connectivity Access Network
 CAN	Controller Area Network (message-based protocol for micro-controllers and devices, ISO 11898)
 CAP	CAMEL Application Part (TS 29.078)
@@ -1122,7 +1128,9 @@ CPU	Central Processing Unit (processor: general purpose for computers)
 CPW	Client Project Workbook
 CQI	Channel Quality Indicator (telecommunication metric, quality of downlink channel)
 Cr	AS and MRFC-(media a control)		IMS interface
+CR	Carriage Return			 13 0x0D (ASCII/ISO 1745 control character)
 CR	Change Request (formal request for a change to be made)
+CR LF	Carriage Return Line Feed (move cursor to start of current line and move to next line)
 CRA	Coordinated Robust Authentication
 CRADA	Cooperative Research And Development Agreement (agreement between a government and another entity for R&D)
 CRAN	see "C-RAN"
@@ -1218,7 +1226,7 @@ CTO	Chief Technology Officer (executive position)
 CTR	Counter (cipher mode)
 CTRRAF	Cybersecurity, Technology: Risk, Resilience and Assurance Framework
 CTS	Charging Trigger Function
-CTS	Clear To Send        (RS-232 line)
+CTS	Clear To Send        (RS-232 line & IEEE 802.11, flow control: TX ready to send data)
 CU	Centralized Unit: SDAP,RRC,PDCP (air/antenna-RU-DU-CU-RIC-CORE)
 CU	Control Unit (directs flow of data and instructions between components)
 CU-CP	Centralized Unit-Control Plane
@@ -1302,6 +1310,10 @@ DC	Data Center
 DC	Direct Current (electrical current in a singular direction, positive to negative)
 DC	Dual Connectivity (3GPP Release 15)
 DC-NR	Dual Connectivity-New Radio
+DC1	Device Control 1  XON		 17 0x11 (ASCII/ISO 1745 control character)
+DC2	Device Control 2		 18 0x12 (ASCII/ISO 1745 control character)
+DC3	Device Control 3  XOFF		 19 0x13 (ASCII/ISO 1745 control character)
+DC4	Device Control 4		 20 0x14 (ASCII/ISO 1745 control character)
 DCA	Digital Commons Architecture
 DCAE	Data Collection Analytics and Events
 DCCH	Dedicated Control Channel (MAC-RLC logical channel)
@@ -1355,7 +1367,7 @@ DEFLATE	lossless data compression algorithm (RFC-1951, uses LZ77 and Huffman cod
 DEI	Diversity, Equity and Inclusion   (US, frameworks to promote the fair treatment of all people)
 DEI	Drop Eligible Indicator
 deka-	da, 10 power   1	- numeric, see also "prefix"
-DEL	DELete
+DEL	Delete				127 0x7F (ASCII/ISO 1745 control character)
 DELETE	remove				- RFC-9110,  HTTP method or verb,  CRUD DELETE operation
 DEMUX	De-Multiplexer  (separates 1 signal into 2^n signals; one to many)
 DeNB	Donor eNB(evolved-NodeB)
@@ -1406,6 +1418,7 @@ DL-SCH	Downlink Shared Channel (PHY-MAC transport channel)
 DLC	Downloadable Content
 DLD	Data Length Code
 DLD	Detailed-Level Design (detailed technical design document)
+DLE	Data Link Escape		 16 0x10 (ASCII/ISO 1745 control character)
 DLL	Data Link Layer	(OSI layer 2, MAC and LLC)
 dll	Dynamic Link Library file (file extension)
 DLL	L2 Data Link Layer:	  framing, flow control, error control (DLL = MAC+LLC)
@@ -1577,6 +1590,7 @@ DX	Digital Transformation (business term)
 Dx	I-CSCF and SLF		IMS interface
 DXC	Digital Cross Connect
 DynamoDB	NoSQL DB with seamless scalability (AWS service: database)
+e	Elementary charge 	 = 1.602176634×10^-19 C 	(Universal constant: charge of an electron)
 E	MSC and MSC/GMSC	2G GSM interface
 E	MSC/VLR and GMSC	3G UMTS interface
 E-carrier	(Europe) Ethernet Carrier, replaced by all IP networks
@@ -1733,6 +1747,7 @@ ELU	Exponential Linear Unit		(AI: activation function in NN, introduces non-line
 em	CSS/HTML styles:  element with scalable size relative to parent font size, same as "%"
 EM	Electro-Magnetic (one of four fundamental forces, electric field and magnetic field)
 EM	Element Management
+EM	End of Medium			 25 0x19 (ASCII/ISO 1745 control character)
 EM	Expectation-Maximization (AI: unsupervised ML model, clustering)
 EMA	Exponential Moving Average (stock market trading indicators)
 EMAC	Ethernet Media Access Control
@@ -1771,7 +1786,7 @@ ENDC	aka EN-DC, E-UTRA New Radio Dual Connectivity (5G Option 3, TS 38.300)
 ENI	Experimental Networked Intelligence
 eNodeB	Evolved NodeB, aka eNB    (4G LTE radio, E-UTRAN, TS 36.300 Rel-8 to Rel-15)
 eNPN	enhanced Non-Public Network (3GPP Release 17)
-ENQ	ENQuiry
+ENQ	ENQuiry				  5 0x05 (ASCII/ISO 1745 control character)
 eNS	enhancements for Network Analytics
 ENS	Enterprise Network Services
 ENT	Ears, Nose and Throat exam (medical: standard part of a physical exam)
@@ -1785,12 +1800,13 @@ eod	"end of day"  (business term: "cob" is more common)
 EOF	End Of Frame
 EoF	Enterprise of the Future
 EoL	End of Life (product lifecycle milestone)
+EOL	End Of Line "0x0D" + "0x0A" (end of one line of text, CR+LF)
 EOL	End of Options List (UDP option, indicates there are no more options)
 EoM	End of Maintenance (product lifecycle milestone)
 EOM	Extra-Ocular Movements (medical: standard part of a physical exam, for eyes)
 EoS	End of Sale (product lifecycle milestone)
 EoSL	End of Service Life (product lifecycle milestone)
-EoT	End of Transmission
+EOT	End Of Transmission		  4 0x04 (ASCII/ISO 1745 control character)
 EOTP	Encrypted One-Time Pad (encrypted OTP)
 EPA	Environmental Protection Agency (US federal agency for environmental protection, www.epa.gov)
 EPC	Evolved Packet Core (4G LTE Core: MME, HSS, SGW/PGW, PCRF, PCEF)
@@ -1826,7 +1842,7 @@ ESA	Enterprise Service Architecture
 ESA	European Space Agency (intergovernmental agency for space, exploration and research)
 ESAGE	Enhanced Space Alternating Generalized Expectation-Maximization
 eSBA	enhanced Service Based Architecture
-ESC	ESCape
+ESC	ESCape				 27 0x1B (ASCII/ISO 1745 control character)
 ESCO	Emergency Service Central Office
 ESD	Electro-Static Discharge
 eSE	embedded Secure Elements
@@ -1855,7 +1871,7 @@ ESS	Extended Service Set (network with multiple AP-Access Point)
 EST	Enrollment over Secure Transport (cryptography protocol using X.509)
 EST	US Eastern Standard Time,  UTC-5 (2nd SUN in NOV to 1st SUN in MAR)
 eta	"estimated time of arrival"
-ETB	End of Transmission Block
+ETB	End of Transmission Block	 23 0x17 (ASCII/ISO 1745 control character)
 etc.	Latin: "et cetera", English: "or", "so forth"
 etcd	key value store system used in Kubernetes
 ETF	Exchange-Traded Funds (finance: diversified, tradable fund)
@@ -1868,7 +1884,7 @@ ETRS	European Terrestrial Reference System
 ETSI	European Telecommunications Standards Institute, Europe (standards organization, www.etsi.org)
 ETV	Extra-Terrestrial Vehicle (space crafts launched from Earth)
 ETWS	Earthquake and Tsunami Warning System (TS 22.168)
-ETX	End of Text
+ETX	End of TeXt			  3 0x03 (ASCII/ISO 1745 control character)
 EU	European Union
 EUD	End User Device
 EUDI	European Union Digital Identity (digital wallet)
@@ -1965,11 +1981,13 @@ FedRAMP	Federal Risk and Authorization Management Program (US government program
 FeICIC	Further enhanced Inter-Cell Interference Coordination
 FEMA	US Federal Emergency Management Agency (US federal agency, www.fema.gov)
 femto-	f,  10 power -15	- numeric, see also "prefix"
+FEOL	Front-End-of-Line (semiconductor manufacturing stage,  FEOL > MEOL > BEOL)
 FER	Frame Error (or Erasure) Rate
 FERC	Federal Energy Regulatory Commission (US agency, www.ferc.gov)
 FET	Filed Effect Transistor (terminal semiconductor device; source, drain and gate)
 FEU	Front End Unit
 FF	Form Factor (SIM physical sizes: 2FF, 3FF, 4FF, MFF2)
+FF	Form Feed			 12 0x0C (ASCII/ISO 1745 control character)
 FFA	First Field Application
 ffs	"for further study"
 FFS	Flash File Systems (file system for flash memory devices)
@@ -2071,6 +2089,7 @@ FRR	Fast Reroute (routing, RFC-7490)
 FRS	Family Radio Service
 FRS	Functional Requirements Specification
 FRU	Field Replaceable Unit
+FS	File Separator			 28 0x1C (ASCII/ISO 1745 control character)
 FS	Financial Services
 FSA	Finite State Automaton (aka "FSM")
 FSA	Flexible Spending Accounts (US healthcare benefit)
@@ -2116,6 +2135,7 @@ fya	for your action (business term)
 fye	for your evaluation (business term)
 FYI	"for your information" (slang: heads-up, update, or reminder, but no response or action required)
 FZC	Frank–Zadoff–Chuaka, aka "ZC", complex-valued digital signal sequence
+G	Gravitational constant 	 = 6.67430×10^11 m^3·kg^-1·s^-2 (Universal constant: gravitational attraction)
 G	VLR and VLR	2G GSM interface
 G.711	Pulse code modulation (PCM) of voice frequencies (ITU, VoIP protocol)
 G.722	7 kHz audio-coding within 64 Kbit/s (ITU, VoIP protocol)
@@ -2288,6 +2308,7 @@ GRU	Glavnoje Razvedyvatel'noje Upravlenije (Russian intelligence agency, 1992-pr
 GRUB	GNU Great Unified Bootloader (Unix-based operating systems boot loader)
 GRX	Global Roaming eXchange
 GS	ETSI Group Specification
+GS	Group Separator			 29 0x1D (ASCII/ISO 1745 control character)
 Gs	MSC/VLR and SGSN	3G UMTS interface
 Gs	SGSN and MSC		2G GPRS interface, exchange database
 GSA	General Services Administration (US agency, manages functioning of federal agencies, www.gsa.gov)
@@ -2340,6 +2361,7 @@ Gx	PCRF and PCEF		4G LTE interface
 Gx	PGW and PCEF		4G LTE interface
 Gxb	PCRF and IP Network	4G LTE interface
 Gy	PGW and OCS	(DIAMETER)	interface 4G LTE
+h	Planck constant 	 = 6.62607015×10^34 J·s 	(Universal constant: defines energy quanta)
 H.248	MEGACO-MEdia GAteway and COntrol (ITU, VoIP protocol, RFC-5125)
 H.264	aka "MPEG-4 AVC", ITU/ISO motion-compensated video compression codec (see also: AVC & H.264)
 H.323	Packet-based multimedia communications systems (ITU, VoIP protocol)
@@ -2476,6 +2498,7 @@ HST	Hubble Space Telescope (orbit at 347 miles/559 km)
 HSTS	HTTP Strict Transport Security (RFC-6797)
 HSUPA	High Speed Uplink Packet Access
 HSV	Hue, Saturation, Value         (color model, also called HSB)
+HT	Horizontal Tab			  9 0x09 (ASCII/ISO 1745 control character)
 HTA	Heavier Than Air UAS
 HTB	Hack The Box (cybersecurity: training & certification platform)
 HTE	High Touch Engineer
@@ -2502,7 +2525,7 @@ I-CSCF	Interrogator-Call Session Control Function (IMS)
 I-frame	Information frame (HDLC frames: I, S, U)
 I-RNTI	Inactive Radio Network Temporary Identifier
 i/f	interface
-I/O	Input/Output
+I/O	Input/Output (communication between a system and an external system)
 i10n	"localization" (numeronym: adapting to languages, regional and technical requirements)
 i18n	"internationalization" (numeronym: adapting to languages, regional and technical requirements)
 I2C	Inter-Integrated Circuit (short-distance connection protocol, wire: SCL,SDA,MCU)
@@ -2578,7 +2601,7 @@ iDAS	indoor Distributed Antenna System
 IDC	"i don’t care" (slang: indifference, lack of preference or emotional disengagement)
 IDC	In Device Coexistence (3GPP Release 11)
 IDDD	International Direct Distance Dialing
-IDE	Integrated Development Environment (software development with user interface)
+IDE	Integrated Development Environment (software application writing, testing and debugging code)
 IDE	Integrated Drive Electronics (hard drive interface)
 iDEN	integrated Digital Enhanced Network (2G GSM)
 IDF	Intermediate Distribution Frame (frame for connecting equipment to cables)
@@ -3070,6 +3093,7 @@ JVM	Java Virtual Machine (JVM code + libraries + JVM interpreter + machine code)
 JVMS	Java Virtual Machine Specification
 JWST	James Webb Space Telescope (orbits at L2: 930k miles/1.5 Mkm)
 JWT	JSON Web Token (RFC-7523, authentication)
+k	Boltzmann constant 	 = 1.380649×10^-12²³ J/K 	(Universal constant: temperature to energy)
 K	Kelvin     (temperature:  K = C + 273.15,     0K absolute zero, -273.15C)
 K-mean	K-means clustering (AI: unsupervised ML model, clustering)
 k8s	Kubernetes, 'numeronym' (open-source container orchestration platform, Greek: "helmsan", "pilot")
@@ -3209,6 +3233,7 @@ LEMF	Law Enforcement Monitoring Facility
 LEO	Low Earth Orbit satellites (160 km to 2,000 km orbit)
 LEOSAR	Low Earth Orbiting Search and Rescue
 LEP	Limited English Proficiency (area requiring multi-language alerts)
+LF	Line Feed			 10 0x0A (ASCII/ISO 1745 control character)
 LF	Linux Foundation (non-profit organization for Linux development, www.linuxfoundation.org)
 LF	Low Frequency		 30 kHz - 300 kHz, radio
 LFA	Loop-Free Alternate (RFC-7761)
@@ -3276,6 +3301,7 @@ LoS	Line of Sight
 LoS	Loss of Signal
 LoST	Location to Service Translation protocol (RFC-5222)
 LoWPAN	Low-Power Wireless Personal Area Networks
+Lp	Planck length 	   = 1.616255×10^−35 m  (smallest meaningful length in current physics)
 LPC	Linear Predictive Coding (speech coding standard for GSM)
 LPDDR	Low-Power Double Data Rate (RAM classification)
 LPF	Low Pass Filter
@@ -3464,6 +3490,7 @@ MENAT	Middle East and North Africa, Turkey (region)
 MeNB	Master evolved NodeB
 MEng	Master of Engineering (graduate degree, focused on applied engineering)
 MEO	Medium Earth Orbit satellites (2,000 km to <35,786 km orbit)
+MEOL	Middle-End-of-Line (semiconductor manufacturing stage, FEOL > MEOL > BEOL)
 MEOSAR	Medium Earth Orbiting Search and Rescue
 MEPM	Multi-Access Edge Computing Platform Manager
 MER	Message Error Rate
@@ -3600,6 +3627,7 @@ MoU	Memorandum of Understanding (formal agreement, collaboration)
 mov	QuickTime Movie (media file extension)
 MP	MP, MPPP, MLPPP: Multilink Point-to-Point Protocol (RFC-1990)
 Mp	MRFP and MRFC		IMS interface
+mp	Planck mass   	   = 2.176434×10^8   kg (unusual “mid-range” mass)
 mp2	MPEG-1 Audio Layer 2,   compression:  6:1 to  8:1  (media file extension)
 mp3	MPEG-1/2 Audio Layer 3, compression: 10:1 to 12:1  (media file extension)
 mp4	MPEG-4 Part 14 (media file extension)
@@ -3794,7 +3822,7 @@ NACK	Negative Acknowledgement
 Naf	5G Service-Based Interface exhibited by AF
 NAFTA	North American Free Trade Agreement ("ALENA" in French)
 NAI	Network Access Identifier (5G identifier, RFC-7542)
-NAK	Negative AKnowledge
+NAK	Negative AcKnowledge		 21 0x15 (ASCII/ISO 1745 control character)
 Namf	5G Service-Based Interface exhibited by AMF
 NAN	Neighborhood Area Network (computer network)
 NaN	Not a Number (missing value in data)
@@ -3862,6 +3890,7 @@ NEC	Network Edge Computing (services located closer to end users)
 NEDA	National Electronic Distributors Association (standards organization, dormant, 1981-2010)
 NEF	Network Exposure Function (5G network function, TS 23.501, TS 29.522)
 NEHO	Network Evaluated Hand Over
+NEL	NExt Line
 NEMO	Network Mobility
 NENA	National Emergency Number Association (www.nena.org)
 NEP	Network Equipment Providers
@@ -4086,6 +4115,7 @@ Nudr	5G Service-Based Interface exhibited by UDR
 Nudsf	5G Service-Based Interface exhibited by UDSF
 NUI	National USIM Identifier
 NUI	Network User Interface
+NUL	NULl				  0 0x00 ((ASCII/ISO 1745 control character)
 NULL	special value in programming, absence of any object or data
 NUM	Number, numbering systems:    BIN, TER, OCT, DEC, HEX
 NUMA	Non-Uniform Memory Architecture/Access
@@ -4996,6 +5026,7 @@ RRM	Radio Resource Management (TS 36.553)
 RRR	Required Rate of Return (business metric)
 RRU	Remote Radio Unit (hardware, DAC/ADC and RF equipment, aka RRH or RU)
 RS	Recommended Standard (EIA standards)
+RS	Record Separator		 30 0x1E (ASCII/ISO 1745 control character)
 RS	Reference Signal, used both in uplink and downlink
 RS-232	Recommended Standard-232, EIA (interface and protocol between DTE and DCE)
 RSA	Rivest–Shamir–Adleman (cybersecurity: asymmetric encryption algorithm, RFC-8017, 1977)
@@ -5045,7 +5076,7 @@ RTR	Remote Transmission Request
 rTRP	relay Transmission and Reception Point
 RTS	Radio Transceiver Station (3G UMTS: "NodeB", "RTS" is not used)
 RTS	Real-Time Strategy (type of video game)
-RTS	Request To Send      (RS-232 line)
+RTS	Request To Send      (RS-232 line & IEEE 802.11, flow control: RX ready to recieve data)
 RTSP	Real-Time Streaming Protocol (TCP/UDP, streaming multimedia, RFC-7826, port 554)
 RTT	Radio Transmission Technology
 RTT	Round-Trip Time (ping time or latency)
@@ -5273,6 +5304,7 @@ SEPP	Security Edge Protection Proxy (5G network function, TS 23.501, TS 33.517)
 SEQ	SEQuence Number (TCP flag, 1-bit, unique number assigned to each segment)
 SERP	Search Engine Results Page (response page generated by a search engine)
 SES	Simple Email Service
+sesh	"session" (slang: a gathering or meetup of any kind)
 SEVIS	Student and Exchange Visitor Information System (USCIS database)
 SEVP	Student and Exchange Visitor Program (USCIS program)
 SF	Service Function
@@ -5317,6 +5349,7 @@ SHOE	Simple HTML Ontology Extensions
 SHS	Secure Hash Standard (cybersecurity: hash algorithms, FIPS 180-4)
 SI	French: "Système international",  English: "International System of Units".  aka "metric system"
 Si	IM-SSF and HSS		IMS interface
+SI	Shift In			 15 0x0F (ASCII/ISO 1745 control character)
 SI	Study Item (3GPP request for features/technical specs to be studied/developed)
 SI	System Integrator
 SIB	System Information Block (TS 36.331)
@@ -5432,6 +5465,7 @@ SNS	Smart Networks and Services
 SNSSAI	S-NSSAI, Single Network Slice Selection Assistance Information (5G NSSF)
 SO	"significant other" (slang: boyfriend, girlfriend, partner or spouse)
 SO	Service Operation (request/response, subscribe/notify, TS 23.502)
+SO	Shift Out			 14 0x0E (ASCII/ISO 1745 control character)
 SO-DIMM	Small Outline DIMM (RAM classification, smaller profile for limited space)
 SOA	Service Oriented Architecture
 SOA	Start of Authority (DNS record type: locates specific services)
@@ -5446,6 +5480,7 @@ SOC 2	Service Organization Control (cybersecurity: compliance standard)
 SoD	Separation of Duties (divide responsibilities, prevents one user control over all processes)
 SOF	Start of Frame (RFC-2687 hdlc, IEEE 802.3 ethernet)
 SoftMax	smooth approximation function 	(AI: activation function in NN, introduces non-linearity)
+SOH	Start Of Heading		  1 0x01 (ASCII/ISO 1745 control character)
 SOHC	Single Overhead Camshaft (engine design with one camshafts in combustion chamber)
 SOHO	Small Office/Home Office
 SoL	Safety of Life service (top priority GPS service)
@@ -5464,6 +5499,7 @@ SOW	Statement Of Work (contract agreement)
 SOX	Sarbanes-Oxley Act of 2002 (US law: prevents fraudulent accounting and financial practices)
 SP	Service Provider, aka CSP or TSP
 SP	Signaling Points (SS7 network node)
+SP	SPace				 32 0x20 (ASCII/ISO 1745 control character)
 Sp	SPR and PCRF (DIAMETER)		interface 4G LTE
 SP-AF	Secured Packet Application Function (TS 29.544)
 SPARC	Scalable Processor Architecture (Sun Microsystems' RISC chip)
@@ -5586,8 +5622,11 @@ ST	Straight-Tip connector (fiber optic cable connector)
 STA	Station (any wireless device - laptops, tablets, phones, etc.)
 STaaS	Storage as a Service
 STD-T109	Japanese V2X standard (similar to IEEE 802.11p, V2X)
+STDERR	standard ERROR   (data channel or stream: send out diagnostic or error messages)
 STDEV	Standard Deviation (statistics)
+STDIN	standard INPUT   (data channel or stream: receive data)
 STDM	Synchronous Time Division Multiplexing
+STDOUT	standard OUTPUT  (data channel or stream: send out data)
 STEAM	Science, Technology, Engineering, Arts and Mathematics (education)
 STEM	Science, Technology, Engineering and Mathematics (education)
 STIF	Security Technical Implementation Guides (DoD guidelines)
@@ -5620,10 +5659,11 @@ STS-192		STS-192, SONET	 9,953.28 Mbps	(same as SONET OC-192 and SDH STM-64)
 STS-768		STS-768, SONET	39,813.12 Mbps	(same as SONET OC-768 and SDH STM-256)
 STT	Speech to Text
 STUN	Session Traversal Utilities for Network Address Translation
-STX	Start of Text
+STX	Start of TeXt			  2 0x02 (ASCII/ISO 1745 control character)
 SU	Single User
 SU-MIMO	Single-User Multiple-Input Multiple-Output
 SUA	SCCP User Adaptation (RFC-3868)
+SUB	SUBstitute			 26 0x1A (ASCII/ISO 1745 control character)
 SUCI	Subscription Concealed Identifier (5G identifier, TS 23.003)
 SUID	Saved User ID      (POSIX UID: stores EUID when it is temporarily changed)
 SUL	Supplementary Uplink-Only band
@@ -5659,6 +5699,7 @@ Sxb	PGW-C and PGW-U		4G LTE interface
 Sxc	TDF-C and TDF-U		4G LTE interface
 SYCL	open, royalty-free, cross-platform C++ abstraction layer (www.khronos.org/sycl)
 SYN	SYNchronize (TCP flag, 1-bit, used for synchronizing sequence number)
+SYN	SYnchronous Idle		 22 0x16 (ASCII/ISO 1745 control character)
 SyncE	Synchronous Ethernet (ITU-T Rec. G.8262, synchronization over Ethernet networks)
 sys	DOS & Windows system settings and variables file (file extension)
 SYSLOG	System Log
@@ -5772,6 +5813,8 @@ TFTP	Trivial File Transfer Protocol (UDP, simple file transfer, RFC-1350, port 6
 TFW	"that feeling when" (slang: express an emotional reaction or relatable moment online)
 TGARCH	Threshold GARCH (statistics: time-varying volatility in time series)
 TGIF	"thanks God it's Friday" (slang: celebrate end of workweek, arrival of weekend)
+than	is used for comparisons (grammer)
+then	refers to time or a sequence of events (grammer)
 thx	"thanks" (slang: quickly express gratitude)
 TI	Texas Instruments Incorporated (US semiconductor company, www.ti.com)
 TI	Transaction Identifier
@@ -5843,6 +5886,8 @@ torrent	P2P method of distributing files over internet, BitTorrent protocol
 ToS	Type of Service
 TOSLINK	Toshiba Link (digital audio connector, legacy, aka Optical)
 TOTP	Time-based One-Time Password (RFC-6238, time-synchronized OTP)
+Tp	Planck temperature = 1.416784×10^32  K  (highest theoretically possible temperature)
+tp	Planck time 	   = 5.391247×10^−44 s  (smallest meaningful time in current physics)
 TPA	Third-Party Administrator
 TPAO	Third-Party Assessment Organizations, aka "3PAO" (US DoD, entity that assesses cybersecurity compliance)
 TPC	Transmit Power Control
@@ -6021,6 +6066,7 @@ TXT	Text Record (DNS record type: stores optional data or information as text)
 txt	unformatted text file (file extension)
 TZ	Time Zone
 U-frame	Unnumbered frame (HDLC frames: I, S, U)
+U.S.	United States, US or U.S. or USA
 U2F	Universal 2nd Factor (FIDO open specifications)
 UAB	Unsynchronized Access-Backhaul
 UAC	User Agent Client
@@ -6118,6 +6164,7 @@ URN	Uniform Resource Name (persistent, location-independent name of resource, RF
 URR	Usage Reporting Rule (SMF rules to UPF)
 URRP-AMF	UE Reachability Request Parameter for AMF
 URSP	UE Route Selection Policy (TS 23.503)
+US	Unit Separator			 31 0x1F (ASCII/ISO 1745 control character)
 US	United States, US or U.S. or USA
 US	UpStream
 USA	United States of America, US or U.S. or USA
@@ -6311,6 +6358,7 @@ VSS	Volume Shadow Copy Service (Windows backup feature, copies data without inte
 vSSF	virtual Service Switching Function
 VSV	Vesicular Stomatitis Virus (medical: viral infection)
 VSWR	Voltage Standing Wave Ratio
+VT	Vertical Tab			 11 0x0B (ASCII/ISO 1745 control character)
 VTP	VLAN Trunking Protocol (routing protocol)
 VTS	Vessel Traffic Service (marine traffic monitoring system)
 VUE	Visual User Environment (desktop environment developed by Hewlett-Packard, discontinued)
@@ -6483,6 +6531,8 @@ Xn	interface between gNB and gNB
 XnAP	Xn Application Protocol (5G gNB-gNB interface, TS 38.423)
 XNOR	logic operator:  derived:    Y = AB + A'B'    def XNOR(a, b): return NOT(XOR(a, b))
 XNS	Xerox Network Systems Clearinghouse (name server, port 54)
+XOFF	Transmit Off (receiver signals the sender to pause  transmission, see DC3)
+XON	Transmit On  (receiver signals the sender to resume transmission, see DC1)
 XOps	IT operations term, i.e. BizOps, DevOps, AIOps, DataOps, etc.
 XOR	logic operator:  derived:    Y = A'B + AB'    def XOR(a, b):  return a ^ b
 XP	Extreme Programming  (principle that promotes collaboration, simplicity and feedback)
@@ -6529,3 +6579,5 @@ zsh	Z Shell (CLI used in UNIX-like OS, 1990)
 ZTNA	Zero Trust Network Access (cybersecurity: "never trust, always verify", identity-based controls for access)
 ZUC	core stream cipher named after Zu Chongzhi
 µTP	Micro Transport Protocol
+ħ	Reduced Planck constant  = 1.054571817×10^-34³⁴ J·s 	(Universal constant: quantum angular momentum)
+Λ	Cosmological constant 	 = ~1.09×10^-52 m^-2 		(Universal constant: describes dark energy density)
