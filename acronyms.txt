@@ -17,7 +17,7 @@
 1xEV-DO	Evolution for Data Only (3G CDMA2000, 1.25 MHz, TIA IS-856)
 1xRTT	single-carrier Radio Transmission Technology (CDMA bases, 2.5G)
 2.5G	GPRS -->  TDMA: EDGE, GPRS  and  CDMA: IS-95B
-2.75G	EDGE or E-GPRS 
+2.75G	EDGE or E-GPRS
 200	HTTP Status Code:  Ok			  - Successful,    request succeeded
 201	HTTP Status Code:  Created		  - Successful,    new resource created
 204	HTTP Status Code:  No Content		  - Successful,    request successful, no content to return
@@ -158,21 +158,13 @@
 8P8C	RJ connector:  8-physical contacts (max) and 8-contacts (actual)
 8T8R	8 Transmit and 8 Receive antenna elements (cell array)
 A	Address Record (DNS record type: maps domain to IPv4 address)
-A	MSC/VLR	and BSC		2G GSM interface
-A	MSC/VLR and GERAN	3G UMTS interface
 A-GNSS	Assisted Global Navigation Satellite Systems
 A-Key	Authentication Key (64-bit key used for authentication, CAVE algorithm)
 A-link	SS7  Access:   STP to SSP or SCP
 A/D	Analog/Digital
-A10	PCF and PDSN 	CDMA interface, user data
-A11	PCF and PDSN 	CDMA interface, transport data
-A12	AN-AAA and PCF 	CDMA interface, authentication information
-A14	AN and PCF 	CDMA interface, session & mobility information
 A2A	Agent-to-Agent Communication Protocol (AI: open protocol for AI agents to access tasks over HTTP)
 A3C	Asynchronous Advantage Actor-Critic (AI: unsupervised ML model, reinforcement learning)
-A5	Stream Cipher (over-the-air communication privacy)
-A8	AN and PCF 	CDMA interface, user data
-A9	AN and PCF 	CDMA interface, connection information
+A5	Stream Cipher (symmetric-key encryption algorithm, common in OTA communications)
 AA.80	Agreement for IP Packet eXchange (IPX) Services (GSMA)
 AAA	Active Antenna Array
 AAA	Authentication, Authorization and Accounting (cybersecurity: framework; identity, permissions, tracking)
@@ -285,7 +277,6 @@ AH	Authentication Header (RFC-2402)
 AHRS	Attitude and Heading Reference System (system providing an object's orientation)
 AHS	Adaptive HTTP Streaming
 AI	Artificial Intelligence (data science)
-Ai	interface between MSC and PSTN (CDMA, MFC-R2 and ISUP standards)
 AI/ML	Artificial Intelligence/Machine Learning (data science)
 AIA	Authentication Information Answer (DIAMETER message, HSS to MME)
 AICH	Acquisition Indicator Channel (UMTS frame/channel)
@@ -526,7 +517,6 @@ AWTP	Advanced Wireless Test Platforms
 AYIYA	Anything In Anything (protocol to manage tunneling between IP networks)
 AZMP	Azureus Extended Messaging Protocol (BitTorrent extension protocols)
 Azure	MicroSoft cloud solution (IaaS and PaaS services)
-B	MSC and VLR	2G GSM interface
 B-channel	ISDN PRI 64 kbps, voice and data
 B-ISDN	Broadband Integrated Services Digital Network
 B-link	SS7  Bridge:   quad links interconnecting peer-pair STPs
@@ -701,7 +691,6 @@ BYOD	Bring Your Own Device (cybersecurity)
 Byte	unit of information:  1 byte = 8 bits = 1 octet, bit = 0/1, yes/no, true/false, on/off
 C	Celsius    (temperature:  C = (F-32) x 5/9,   0C freezing water, 100C boiling water)
 C	general-purpose, machine-independent programming language
-C	HLR and MSC/GMSC	2G GSM interface
 c	speed of light in vacuum = 299,792,458 m/s 		(Universal constant: basis for SI meter)
 C#	C-Sharp, high-level programming language
 C++	general-purpose, object-oriented, machine-independent programming language
@@ -1127,7 +1116,6 @@ CPS	Cyber-Physical Systems: computer, network and physical process
 CPU	Central Processing Unit (processor: general purpose for computers)
 CPW	Client Project Workbook
 CQI	Channel Quality Indicator (telecommunication metric, quality of downlink channel)
-Cr	AS and MRFC-(media a control)		IMS interface
 CR	Carriage Return			 13 0x0D (ASCII/ISO 1745 control character)
 CR	Change Request (formal request for a change to be made)
 CR LF	Carriage Return Line Feed (move cursor to start of current line and move to next line)
@@ -1258,12 +1246,10 @@ CWDM	Coarse Wavelength Division Multiplexing
 CWND	Congestion Window, cwnd=cwnd+mss (TCP message parameter)
 CWR	Congestion Window Reduced (TCP, 1-bit, notifies sender if congestion detected)
 CWSP	NIST Cybersecurity White Paper (cybersecurity: www.csrc.nist.gov/publications/cswp)
-Cx	CSCF and HSS		IMS interface
 CX	Customer Experience
+CXO	Chief X Officer (C-suite leaders, “X” is a specific executive like CEO, CFO, COO)
 CYA	"cover your ass" (slang: protecting yourself from blame by keeping records or proof)
 CYMK	Cyan, Magenta, Yellow, Black   (color model)
-D	HLR and VLR		2G GSM interface
-D	MSC/VLR and HLR/AuC	3G UMTS interface
 D-AMPS	Digital Advanced Mobile Phone System (2G, TIA IS-54 and IS-136)
 D-channel	ISDN PRI 64 kbps, signaling, data and X.25 packet network
 D-link	SS7  Diagonal: quad links interconnecting mated-pair STPs
@@ -1587,12 +1573,9 @@ DWARF	standardized debugging data format
 DWDM	Dense Wavelength Division Multiplexing (optical multiplexing technology)
 DWPI	Derwent World Patents Index, global patent and grants database
 DX	Digital Transformation (business term)
-Dx	I-CSCF and SLF		IMS interface
 DXC	Digital Cross Connect
 DynamoDB	NoSQL DB with seamless scalability (AWS service: database)
 e	Elementary charge 	 = 1.602176634×10^-19 C 	(Universal constant: charge of an electron)
-E	MSC and MSC/GMSC	2G GSM interface
-E	MSC/VLR and GMSC	3G UMTS interface
 E-carrier	(Europe) Ethernet Carrier, replaced by all IP networks
 E-EDID	Enhanced-Extended Display Identification Data (metadata format for display devices, VESA standards)
 E-GPRS	Enhanced General Packet Radio Service (2.75G EDGE)
@@ -1913,7 +1896,6 @@ exif	Exchangeable Image File (image file extension)
 ext	Extended File System (Linux file system, 1992)
 ext2	Second Extended File System (Linux file system, 1993)
 ext4	Fourth Extended File System (Linux file system, 2008)
-F	EIR and MSC/GMSC	2G GSM interface
 F	Fahrenheit (temperature:  F = C x 9/5 + 32,  32F freezing water, 212F boiling water)
 F-link	SS7  Fully:    SSP to SSP or SCP
 f-OFDM	filtered Orthogonal Frequency Division Multiplexing
@@ -2136,7 +2118,6 @@ fye	for your evaluation (business term)
 FYI	"for your information" (slang: heads-up, update, or reminder, but no response or action required)
 FZC	Frank–Zadoff–Chuaka, aka "ZC", complex-valued digital signal sequence
 G	Gravitational constant 	 = 6.67430×10^11 m^3·kg^-1·s^-2 (Universal constant: gravitational attraction)
-G	VLR and VLR	2G GSM interface
 G.711	Pulse code modulation (PCM) of voice frequencies (ITU, VoIP protocol)
 G.722	7 kHz audio-coding within 64 Kbit/s (ITU, VoIP protocol)
 G7	Group of Seven: Canada, France, Germany, Italy, Japan, UK and US
@@ -2157,8 +2138,6 @@ GARS	Global Area Reference System (geographic notation for longitude & latitude)
 GAT	Graph Attention Network (AI: deep learning for graph-structured data)
 GB	Gigabyte	memory size, 10^9	1,073,741,824 Bytes
 GB	Gradient Boosting (AI: supervised ML model)
-Gb	SGSN and BSS	2G GPRS interface
-Gb	SGSN and GERAN	3G UMTS interface
 GBC	General-purpose and Base-band Computing
 GBIC	Gigabit interface converter
 GBO	Global Business Operations (business term)
@@ -2175,7 +2154,6 @@ GCN	Graph Convolutional Network (AI: deep learning for graph-structured data)
 GCP	Gateway Control Protocol (RFC-3525)
 GCP	Google Cloud Platform
 GCS	Geographic Coordinate System (coordinates on spherical model - see PCS)
-Gd	GPRS and SMS	2G GPRS interface
 GD	Gradient Descent (AI: ML optimization algorithm)
 GDDR	Graphics DDR SDRAM (RAM for high-bandwidth applications, such as GPUs)
 GDOI	Group Domain of Interpretation (cybersecurity: key-agreement protocol, RFC-6408)
@@ -2213,8 +2191,6 @@ GGNN	Gated Graph Neural Networks (AI: deep learning for graph-structured data)
 GGP	Gateway to Gateway Protocol (RFC-823)
 GGSN	Gateway GPRS Support Node (2G GSM, 3G UMTS)
 GHz	Giga Hertz (billion cycles per second)
-Gi	GGSN and PDN	2G GPRS interface
-Gi	GPRS and external PDN	IMS interface
 GIAC	Global Information Assurance Certification (cybersecurity: certification entity, www.giac.org)
 GIC	Group Identification Code (ITU-T E.164)
 GICA	Group Identification Code Administrator (ITU-T E.164)
@@ -2235,7 +2211,6 @@ GLSB	Global Server Load Balancing
 GLUE	General Language Understanding Evaluation
 Glue	serverless ETL  (AWS service, moves and transforms data between S3 locations)
 GM	General Motors (US company, www.gm.com)
-Gm	UE and P-CSCF, or between IP-PBX and P-CSCF	IMS interface
 GMA	Generic Multi-Access
 GMAC	Galois Message Authentication Code (cipher mode)
 GMAC	Gigabit Ethernet Media Access Control
@@ -2251,8 +2226,6 @@ GMRS	General Mobile Radio Service
 GMSC	Gateway Mobile Switching Center (2G GSM, 3G UMTS)
 GMSK	Gaussian Minimum Shift Keying              (digital signal modulation technique)
 GMT	Greenwich Mean Time (until 1972, now called UTC)
-Gn	SGSN and GGSN		2G GPRS interface
-Gn	SGSN and SGSN/GGSN	3G UMTS interface
 gNB	Next Generation Node B (5G network, TS 38.306 Rel-15 and onwards)
 GND	Ground (reference point for all voltages, between TX and RX, can be power ground or signal ground)
 GNN	Graph Neural Networks (AI: deep learning for graph-structured data)
@@ -2270,8 +2243,6 @@ googol		number equal to 1 x 10^100
 GOP	"Grand Old Party", nickname for RNC    (US political party, Republican Party, www.gop.com)
 GoS	Grade of Service
 gov	.gov "dot gov", US governmental use (domain name suffix)
-Gp	SGSN and GGSN	2G GPRS interface
-Gp	SGSN and GGSN	3G UMTS interface
 GPEN	GIAC Penetration Tester (cybersecurity: GIAC certification)
 GPGPU	General Purpose computing on Graphics Processing Unit (perform CPU computations on GPUs)
 GPIO	General Purpose Input/Output
@@ -2294,8 +2265,6 @@ GPT-4	OpenAI LLM model, MAR2023   undisclosed, 8k-32k tokens:  text+images, adva
 GPT-5	OpenAI LLM model, AUG2025   undisclosed,  200k+ tokens:  text+images+audio+video+code, advanced reasoning, planning
 gPTP	generalized Precision Time Protocol (IEEE 802.1as)
 GPU	Graphics Processing Unit (processor: parallel, for graphics and AI)
-Gr	SGSN and HLR 		2G GPRS interface, user profile
-Gr	SGSN and HLR/AuC	3G UMTS interface
 gr8	"great"  (numeronym)
 grawlix	"profanitype", used in writing to censor or obscure profanity or swear word
 GRC	Governance, Risk and Compliance (approach to ensure compliance with regulatory requirements)
@@ -2309,8 +2278,6 @@ GRUB	GNU Great Unified Bootloader (Unix-based operating systems boot loader)
 GRX	Global Roaming eXchange
 GS	ETSI Group Specification
 GS	Group Separator			 29 0x1D (ASCII/ISO 1745 control character)
-Gs	MSC/VLR and SGSN	3G UMTS interface
-Gs	SGSN and MSC		2G GPRS interface, exchange database
 GSA	General Services Administration (US agency, manages functioning of federal agencies, www.gsa.gov)
 GSC	Global Standards Collaboration
 GSCN	Global Synchronization Channel Number
@@ -2357,9 +2324,6 @@ GUTI	Global Unique Temporary Identifier (TS 23.003, 80-bits, PLMNID + AMFID + TM
 GW	Gateway
 GWCN	Gateway Core Network (TS 23.251)
 GWP	Gross World Product, gross national income of all countries
-Gx	PCRF and PCEF		4G LTE interface
-Gx	PGW and PCEF		4G LTE interface
-Gxb	PCRF and IP Network	4G LTE interface
 Gy	PGW and OCS	(DIAMETER)	interface 4G LTE
 h	Planck constant 	 = 6.62607015×10^34 J·s 	(Universal constant: defines energy quanta)
 H.248	MEGACO-MEdia GAteway and COntrol (ITU, VoIP protocol, RFC-5125)
@@ -2499,7 +2463,7 @@ HSTS	HTTP Strict Transport Security (RFC-6797)
 HSUPA	High Speed Uplink Packet Access
 HSV	Hue, Saturation, Value         (color model, also called HSB)
 HT	Horizontal Tab			  9 0x09 (ASCII/ISO 1745 control character)
-HTA	Heavier Than Air UAS
+HTA	Heavier Than Air UAS (lift through fixed wings, spinning rotors, or hybrid designs)
 HTB	Hack The Box (cybersecurity: training & certification platform)
 HTE	High Touch Engineer
 htm	Hyper Text Markup (WHATWG, markup language for web page)
@@ -2572,7 +2536,6 @@ ICE	Interactive Connectivity Establishment (RFC-8445)
 ICE	US Immigration and Customs Enforcement (US federal agency, www.ice.gov)
 ICFRE	IMS Call Flow Resiliency Enhancement
 ICGW	Incoming Call GateWay
-Ici	IBCF and IBCF		IMS interface
 ICI	Inter-Carrier Interference
 ICIC	Inter-Cell Interference Coordination
 ICICoS	International Conference on Informatics and Computational Sciences
@@ -2708,139 +2671,6 @@ INMARSAT	International Maritime Satellite Organization
 InP	Infrastructure Provider
 INS	Inertial Navigation Systems (system providing an object's position, orientation and velocity)
 int		data type, primitive:     integers, whole numbers (42, -7)
-interface 2G GPRS	Gb	SGSN and BSS
-interface 2G GPRS	Gd	GPRS and SMS
-interface 2G GPRS	Gi	GGSN and PDN
-interface 2G GPRS	Gn	SGSN and GGSN
-interface 2G GPRS	Gp	SGSN and GGSN
-interface 2G GPRS	Gr	SGSN and HLR 	user profile
-interface 2G GPRS	Gs	SGSN and MSC	exchange database
-interface 2G GPRS	Um	MS and BSS
-interface 2G GSM	A	BSC and MSC/VLR
-interface 2G GSM	B	MSC and VLR
-interface 2G GSM	C	HLR and MSC/GMSC
-interface 2G GSM	D	HLR and VLR
-interface 2G GSM	E	MSC and MSC/GMSC
-interface 2G GSM	F	EIR and MSC/GMSC
-interface 2G GSM	G	VLR and VLR
-interface 2G GSM	H	HLR and AuC
-interface 2G GSM	I	HLR and SCP
-interface 2G GSM	Um	MS and BTS
-interface 3G UMTS	A	MSC/VLR and GERAN
-interface 3G UMTS	Abis	BSC and BTS (TS 08.51)
-interface 3G UMTS	D	MSC/VLR and HLR/AuC
-interface 3G UMTS	E	MSC/VLR and GMSC
-interface 3G UMTS	Gb	SGSN and GERAN
-interface 3G UMTS	GERAN	GSM EDGE Radio Access Network (2G RAN)
-interface 3G UMTS	Gn	SGSN and SGSN/GGSN
-interface 3G UMTS	Gp	SGSN and GGSN
-interface 3G UMTS	Gr	SGSN and HLR/AuC
-interface 3G UMTS	Gs	MSC/VLR and SGSN
-interface 3G UMTS	Iu	RNC and MSC
-interface 3G UMTS	Iub	NodeB and RNC (UTRAN)
-interface 3G UMTS	IuCS	RNC and MSC/VLR, MGW
-interface 3G UMTS	IuPS	RNC and SGSN
-interface 3G UMTS	Iur	RNC and RNC (UTRAN)
-interface 3G UMTS	UTRAN	UMTS Radio Access Networks (3G RAN)
-interface 3G UMTS	Uu	UE and NodeB
-interface 4G LTE	E-UTRAN	Evolved UMTS Terrestrial-Radio Access Network (4G RAN)
-interface 4G LTE	eUu	UE and eNodeB
-interface 4G LTE	GTP-U	eNodeB and SGW
-interface 4G LTE	Gx	PCRF and PCEF
-interface 4G LTE	Gx	PGW and PCEF
-interface 4G LTE	Gxb	PCRF and IP Network
-interface 4G LTE	Gy	PGW and OCS (DIAMETER)
-interface 4G LTE	Rx	PCRF and PDN
-interface 4G LTE	S1-MME	eNodeB and MME (S1AP)
-interface 4G LTE	S1-U	eNodeB and SGW
-interface 4G LTE	S10 	MME and MME
-interface 4G LTE	S11	MME and SGW
-interface 4G LTE	S2a	PGW and PDN-GW + trusted non-3GPP network
-interface 4G LTE	S2b	PGW and PDN-GW + ePDG
-interface 4G LTE	S2c	PGW and PDN-GW + trusted/untrusted, 3GPP/non-3GPP
-interface 4G LTE	S5	SGW and PGW (S5 and S8)
-interface 4G LTE	S6a	MME and HSS
-interface 4G LTE	S7	PGW and PCRF
-interface 4G LTE	S8	SGW and PGW (S5 and S8)
-interface 4G LTE	SGi	PGW and PDN
-interface 4G LTE	Sp	SPR and PCRF (DIAMETER)
-interface 4G LTE	Sxa	SGW-C and SGW-U
-interface 4G LTE	Sxb	PGW-C and PGW-U
-interface 4G LTE	Sxc	TDF-C and TDF-U
-interface 4G LTE	Uu	UE and EUTRAN
-interface 4G LTE	X2	eNodeB and eNodeB
-interface 5G		N1	UE and AMF (NAS protocol)
-interface 5G		N10	UDM and SMF
-interface 5G		N11	AMF and SMF
-interface 5G		N12	AMF and AUSF
-interface 5G		N13	UDM and AUSF
-interface 5G		N14	AMF and AMF
-interface 5G		N15	PCF and AMF
-interface 5G		N16	SMF and SMF
-interface 5G		N17	AMF and 5G-EIR
-interface 5G		N18	NF and UDSF
-interface 5G		N2	RAN (gNB) and AMF
-interface 5G		N20	SMSF and AMF
-interface 5G		N21	SMSF and UDM
-interface 5G		N22	AMF and NSSF
-interface 5G		N23	PCF and NWDAF
-interface 5G		N24	PCF and PCF
-interface 5G		N26	AMF and MME
-interface 5G		N27	NRF and NRF
-interface 5G		N3	RAN (gNB) and UPF
-interface 5G		N31	NSSF and NSSF
-interface 5G		N32	SEPP and SEPP
-interface 5G		N33	NEF and AF
-interface 5G		N34	NSSF and NWDAF
-interface 5G		N35	UDM and UDR
-interface 5G		N36	PCF and UDR
-interface 5G		N37	NEF and UDR
-interface 5G		N4	SMF and UPF
-interface 5G		N40	SMF and CHF
-interface 5G		N5	PCF and AF
-interface 5G		N50	AMF and CBCF/PWS
-interface 5G		N6	UPF and Data Network
-interface 5G		N7	SMF and PCF
-interface 5G		N8	UDM and AMF
-interface 5G		N9	UPF and UPF
-interface 5G		Y1	UE and untrusted non-3GPP access
-interface 5G		Y2	N3IWF and untrusted non-3GPP access
-interface 5G		Y4	5G-RG and W-AGF
-interface 5G		Y5	FN-RG and W-AGF
-interface CDMA		A10	PCF and PDSN user data
-interface CDMA		A11	PCF and PDSN transport data
-interface CDMA		A12	AN-AAA and PCF authentication information
-interface CDMA		A14	AN and PCF session & mobility information
-interface CDMA		A8	AN and PCF user data
-interface CDMA		A9	AN and PCF connection information
-interface IMS		Cr	AS and MRFC-(media a control)
-interface IMS		Cx	CSCF and HSS
-interface IMS		Dx	I-CSCF and SLF
-interface IMS		Gi	GPRS and external PDN
-interface IMS		Gm	UE and P-CSCF, or between IP-PBX and P-CSCF
-interface IMS		Ici	IBCF and IBCF
-interface IMS		ISC	CSCF and AS, or between CSCF and MRB
-interface IMS		Ix	IBCF and TrGW
-interface IMS		Izi	TrGW and TrGW
-interface IMS		Le	AS and GMLC
-interface IMS		Ma	AS and I-CSCF
-interface IMS		Mb	IMS media transport to IP network services
-interface IMS		Mf	transit function and AS
-interface IMS		Mg	MGCF and CSCF
-interface IMS		Mi	CSCF and BGCF
-interface IMS		Mj	BGCF and MGCF
-interface IMS		Mk	BGCF/IMS ALG and BGCF
-interface IMS		Mm	IBCF/CSCF/BGCF/IMS ALG and IMS network
-interface IMS		Mp	MRFP and MRFC
-interface IMS		Mr	CSCF and MRFC
-interface IMS		Mr'	AS and MRFC-(session control)
-interface IMS		Ms	IBCF and AS
-interface IMS		Mw	CSCF and CSCF
-interface IMS		Mx	CSCF/BGCF and IBCF
-interface IMS		Rc	AS and MRB
-interface IMS		Sh	AS (SIP-AS or OSA-CSCF) and HSS
-interface IMS		Si	IM-SSF and HSS
-interface IMS		Ut	UE and Application Server
 interface SS7		A-link	Access:   STP to SSP or SCP
 interface SS7		B-link	Bridge:   quad links interconnecting peer-pair STPs
 interface SS7		C-link	Cross:    interconnect mated-pair STPs
@@ -2854,7 +2684,7 @@ interface WiMax		R4	MS and ASN	- control and bearer, mobility
 interface WiMax		R5	CSN and NSP	- control and bearer, inter-networking
 interface WiMax		R6	BS and ASN-GW	- control and bearer
 interface WiMax		R7	BS and ASN-GW	- AAA, policy
-interface WiMax		R8	BS to BS	- control and bearer for hand-over
+interface WiMax		R8	BS to BS	- control and beare r for hand-over
 INTERPOL	International Criminal Police Organization ("ICPO")
 interrupt	exception generated by hardware
 IO	Input/Output, typically written as "I/O"
@@ -3025,7 +2855,6 @@ Iub	NodeB and RNC	3G UMTS interface (UTRAN)
 IuCS	RNC and MSC/VLR, MGW	3G UMTS interface
 IUI	International USIM Identifier
 IuPS	RNC and SGSN		3G UMTS interface
-Iur	RNC and RNC	3G UMTS interface (UTRAN)
 IV	Instrumental Variables (statistics: evaluation model)
 IV	Latin: "Intra-Venous", English: "within a vein" (medical)
 IVAS	Immersive Voice and Audio Services
@@ -3038,13 +2867,11 @@ IVR	Interactive Voice Response
 IWF	Inter-Working Function
 IWMSC	Inter-Working Mobile Switching Center
 IWSN	Industrial Wireless Sensor Network
-Ix	IBCF and TrGW		IMS interface
 IXC	Inter-eXchange Carrier (long-distance carrier)
 Ixia	US company providing test and simulation platforms
 IXIC	Nasdaq Composite (US stock market index)
 IXP	Internet Exchange Points
 IYKYK	"If You Know, You Know" (slang: signal insider knowledge or shared experience)
-Izi	TrGW and TrGW		IMS interface
 J-Flow	network flow protocol (Juniper: collect, export, analyze summarized traffic data)
 j/k	"just kidding", "joking" (slang: previous statement not meant to be taken seriously)
 J1	same as T1 with slight modifications.  Used in Japan
@@ -3223,7 +3050,6 @@ LDoS	Last Day of Support (product lifecycle milestone)
 LDPC	Low Density Parity Check
 LDPE	Low-Density Poly-Ethylene (type of plastic)
 LDR	"long-distance relationship" (slang)
-Le	AS and GMLC		IMS interface
 LEA	Law Enforcement Agencies (TS 33.127)
 LEC	Local Exchange Carrier (Central Office carrier, phone company)
 LED	Light Emitting Diode (semiconductor light emitter and video display technology)
@@ -3330,7 +3156,7 @@ LSHMSFOAIDMT	"laughing so hard my sombrero falls off and i drop my taco" (slang)
 LSI	Large-Scale Integration	      (integrated chip with  10,000s transistors, 1970s)
 LSTM	Long-Short-Term Memory Networks (AI: deep learning RNN architecture)
 LTA	Leave Travel Allowance (travel expense)
-LTA	Lighter Than Air (UAS)
+LTA	Lighter Than Air UAS (balloon drone or autonomous blimp, uses buoyant gases)
 LTC	Leave Travel Concession (travel expense)
 Ltd.	"Limited", business with limited shareholder liability
 LTE	Long Term Evolution (4G LTE, OFDMA & SC-FDMA)  E-UTRAN + EPC + IMS
@@ -3367,7 +3193,6 @@ M2M	Machine to Machine communication
 M2PA	MTP User Peer to Peer Adaptation Layer
 M2UA	Message Transfer Part 2 User Adaptation Layer (RFC-3331)
 M3UA	Message Transfer Part (MTP) 3 User Adaptation Layer (RFC-4666)
-Ma	AS and I-CSCF		IMS interface
 MA	English: "Master of Arts", Latin: "Magister Artium" (graduate degree)
 MA-PDU	Multi-Access Protocol Data Unit
 MaaS	Metal as a Service (cloud concept: machines, CPU, discs, networks, etc.)
@@ -3402,7 +3227,6 @@ MATLAB	MATrix LABoratory (programming language developed by MathWorks)
 matplotlib	Python package for 2D plotting
 MAUI	.NET Multi-platform App UI (Microsoft cross-platform framework)
 Maven	Apache software project management and comprehension tool
-Mb	IMS media transport to IP network services	IMS interface
 MB	Megabyte	memory size, 10^6	1,048,576 Bytes
 MBA	Master of Business Administration (graduate degree, business)
 mBaaS	mobile Backend as a Service (cloud concept, aka "BaaS")
@@ -3507,7 +3331,6 @@ MFBR	Maximum Flow Bit Rate
 MFC	Multiple Frequency Compelled (standard from 60s)
 MFF	Modern Form Factor (eSIM physical sizes: 2FF, 3FF, 4FF, MFF2)
 MFF2	SIM Form Factor (FF), eSIM	5mm x 6mm x 1mm
-Mg	MGCF and CSCF		IMS interface
 MGC	Media Gateway Controller (TS 29.232)
 MGCF	Media Gateway Control Function (IMS)
 MGCP	Media Gateway Control Protocol (RFC-2705)
@@ -3521,7 +3344,6 @@ MH	MidHaul   - transport between radio-DU and radio-CU
 MHA	Mast Head Amplifier (radio antenna amplifier)
 MHB	Measurements Handbook (TIA TL9000 document)
 MHz	Mega Hertz (million cycles per second)
-Mi	CSCF and BGCF		IMS interface
 MI5	Military Intelligence, Section 5 (UK domestic intelligence agency)
 MI6	aka SIS, Military Intelligence, Section 6 (UK foreign intelligence agency)
 MIB	Management Information Base (RFC-1066)
@@ -3555,8 +3377,6 @@ MISO	Master In, Slave Out (SPI wire, carries data from slave to master)
 MIT	Massachusetts Institute of Technology (education: private university, web.mit.edu)
 MitM	Man in the Middle (cybersecurity: type of cyber-attack)
 MITRE	R&D center (US non-profit: aviation, defense, cybersecurity, CVE, ATT&CK, etc., www.mitre.org)
-Mj	BGCF and MGCF		IMS interface
-Mk	BGCF/IMS ALG and BGCF	IMS interface
 ML	Machine Learning (data science)
 MLA	Modern Language Association (association for language, www.mla.org)
 MLB	Mobility Load Balancing
@@ -3569,7 +3389,6 @@ MLOps	Machine Learning Operations, data engineering + machine learning + DevOps
 MLPPP	MP, MPPP, MLPPP: Multilink Point-to-Point Protocol (RFC-1990)
 MLSE	Maximum-Likelihood Sequence Estimator
 MLTS	Multi-line telephone system
-Mm	IBCF/CSCF/BGCF/IMS ALG and IMS network		IMS interface
 MM	Mobility Management (procedure)
 MMC	Multi-Media Card
 mmdb	MaxMind GeoIP2 DataBase file (IP geolocation and network information)
@@ -3626,7 +3445,6 @@ MOSI	Master Out, Slave In (SPI wire, carries data from master to slave)
 MoU	Memorandum of Understanding (formal agreement, collaboration)
 mov	QuickTime Movie (media file extension)
 MP	MP, MPPP, MLPPP: Multilink Point-to-Point Protocol (RFC-1990)
-Mp	MRFP and MRFC		IMS interface
 mp	Planck mass   	   = 2.176434×10^8   kg (unusual “mid-range” mass)
 mp2	MPEG-1 Audio Layer 2,   compression:  6:1 to  8:1  (media file extension)
 mp3	MPEG-1/2 Audio Layer 3, compression: 10:1 to 12:1  (media file extension)
@@ -3649,8 +3467,6 @@ MPS	Multimedia Priority Service
 MPTCP	Multi-Path Transmission Control Protocol (RFC-8684)
 MQ	message broker service for Apache ActiveMQ and RabbitMQ (Amazon service)
 MQTT	Message Queuing Telemetry Transport (network protocol M2M and IoT, www.mqtt.org)
-Mr	AS and MRFC-(session control)		IMS interface
-Mr	CSCF and MRFC		IMS interface
 MR	Mixed Reality (hybrid reality: digital/real objects coexist/interact in real-time)
 MR-DC	Multi-Radio Dual Connectivity
 MRAM	Magnetoresistive RAM (memory: uses magnetic storage to store data)
@@ -3670,7 +3486,6 @@ MRP	Market Representation Partner
 MRU	Maximum Receive Unit
 MRU	Multiple Resource Units
 MS	English: "Master of Science", Latin: "Magister Scientiarum" (graduate degree)
-Ms	IBCF and AS		IMS interface
 MS	Mobile Station (2G GSM, 3G UMTS), mobile equipment + SIM card (TS 02.07)
 MS-DOS	MicroSoft–Disk Operating System (PC operating system)
 MSA	Mail/Message Submission Agent (MUA sends email to MSA, MSA sends emails to MTA)
@@ -3759,7 +3574,6 @@ MVNO	Mobile Virtual Network Operator
 MVP	"most valuable player" (slang: person who carried the moment, helped the most)
 MVP	Minimum Viable Product (business term, incremental development)
 MVUE	Minimum-Variance Unbiased Estimator (statistics: evaluation metric)
-Mw	CSCF and CSCF		IMS interface
 MW	MicroWave  (electomagnetic radiation: wavelengths between radio and infrared waves, 300MHz-300GHz)
 MWAA	Managed Workflows for Apache Airflow (AWS service: setup, operation and scaling of Apache Airflow workflows in the cloud)
 MWAM	Multiprocessor WAN Application Module (Cisco: IOS application module)
@@ -3767,7 +3581,6 @@ MWAN	Mesh Wide Area Network (decentralized WAN architecture
 MWC	Mobile World Congress (trade show organized by GSMA)
 MWD	Message Waiting Data, HLR flag for SMS
 MWN	Municipal Wireless Network (type of MAN network)
-Mx	CSCF/BGCF and IBCF	IMS interface
 MX	Mail Exchange (DNS record type: directs e-mails to mail servers)
 MX	Message XML in SWIFT financial messages (ISO20022, see also legacy MT)
 MXF	Material Exchange Format (container format for professional digital video and audio media)
@@ -3776,44 +3589,10 @@ N-AMPS	Narrowband Advanced Mobile Phone System (2G)
 N-ISDN	Narrowband Integrated Services Digital Network
 n/a	"not available" (missing value in data) or "not applicable" in filling forms (na, n/a, NA, N/A)
 n00b	beginner, amateur, inexperienced, aka noob (slang: can be playful, humorous or derogatory)
-N1	UE and AMF	5G interface  (NAS protocol)
-N10	UDM and SMF	5G interface
-N11	AMF and SMF	5G interface
-N12	AMF and AUSF	5G interface
-N13	UDM and AUSF	5G interface
-N14	AMF and AMF	5G interface
-N15	PCF and AMF	5G interface
-N16	SMF and SMF	5G interface
-N17	AMF and 5G-EIR	5G interface
-N18	NF and UDSF	5G interface
-N2	RAN (gNB) and AMF	5G interface
-N20	SMSF and AMF	5G interface
-N21	SMSF and UDM	5G interface
-N22	AMF and NSSF	5G interface
-N23	PCF and NWDAF	5G interface
-N24	PCF and PCF	5G interface
-N26	AMF and MME	5G interface
-N27	NRF and NRF	5G interface
-N3	RAN (gNB) and UPF	5G interface
-N31	NSSF and NSSF	5G interface
-N32	SEPP and SEPP	5G interface
-N33	NEF and AF	5G interface
-N34	NSSF and NWDAF	5G interface
-N35	UDM and UDR 	5G interface
-N36	PCF and UDR	5G interface
-N37	NEF and UDR 	5G interface
 N3IWF	Non-3GPP Inter-Working Function (TS 23.501 sec 4.2.8, untrusted non-3GPP access)
-N4	SMF and UPF	5G interface
-N40	SMF and CHF	5G interface
-N5	PCF and AF	5G interface
-N50	AMF and CBCF/PWS	5G interface
 N5CW	Non-5G-Capable over WLAN (3GPP Release 16)
 N5g-eir	5G Service-Based Interface exhibited by 5G-EIR
-N6	UPF and Data Network	5G interface
-N7	SMF and PCF	5G interface
-N8	UDM and AMF	5G interface
 n8n	"n-eight-n" or "nodemation" (AI: open-source workflow automation platform)
-N9	UPF and UPF	5G interface
 na	"not available" (missing value in data) or "not applicable" in filling forms (na, n/a, NA, N/A)
 NA	North American (region)
 NAB	Network Address Book
@@ -4774,8 +4553,6 @@ QWERTY	standard layout on English-language typewriters and keyboards
 QZSS	Quasi-Zenith Satellite System (Japanese GPS)
 R	high-level programming language for statistical computing and visualization
 R&D	Research and Development
-R1	MS and ASN	WiMax: air interface
-R2	MS and CSN	WiMax: authentication, authorization and IP management
 R2	R2 Score (statistics: evaluation metric, higher is better)
 r2	r^2, R-squared or coefficient of determination (statistics: evaluation metric)
 R2	Register Type 2 (MFC standard from 60s)
@@ -4833,7 +4610,6 @@ RBM	Risk-based Monitoring (medical: method for supervising clinical trials)
 RBOC	Regional Bell Operating Company
 RBS	Radio Base Station (3G UMTS: "NodeB", "RBS" is not used)
 RBS	Robbed-Bit Signaling (scheme to provide maintenance/signaling services)
-Rc	AS and MRB		IMS interface
 RCA	Radio Corporation of America jack (type of connector)
 RCA	Root Cause Analysis (analyze and identify causes of problems)
 RCAF	RAN Congestion Awareness Function
@@ -5088,7 +4864,6 @@ RUDP	Reliable User Datagram Protocol
 RUID	Real User ID       (POSIX UID: account that owns the process)
 RUIM	Removable User Identity Module (extends GSM SIM to CDMA)
 Rust	statically-typed, compiled programming language, for performance-critical applications 
-Rx	PCRF and PDN	4G LTE interface
 RX	Receive (input pin, receives signal from another device)
 RXD	Receive Data         (RS-232 line)
 RZ	Return-to-Zero (encoding mechanisms)
@@ -5099,20 +4874,8 @@ S-NAPTR	Straightforward-Naming Authority PoinTeR
 S-NSSAI	Single Network Slice Selection Assistance Information (5G NSSF)
 s-RNTI	serving-Radio Network Temporary Identifier (allocated by serving-UTRAN)
 S/W	Software (programs to direct a computer to perform specific activities)
-S1-MME	eNodeB and MME	4G LTE interface (S1AP), also called "S1-C"
-S1-U	eNodeB and SGW	4G LTE interface
-S10 	MME and MME	4G LTE interface
-S11	MME and SGW	4G LTE interface
 S1AP	S1 Application Protocol, 4G LTE interface eNodeB-MME (TS 36.413)
-S2a	PGW and PDN-GW + trusted non-3GPP network		interface 4G LTE
-S2b	PGW and PDN-GW + ePDG					interface 4G LTE
-S2c	PGW and PDN-GW + trusted/untrusted, 3GPP/non-3GPP	interface 4G LTE
 S3	Simple Storage Service (AWS service: storage, object/BLOB storage)
-S5	SGW and PGW (S5 and S8)	4G LTE interface
-S6a	MME and HSS	4G LTE interface (Diameter protocol)
-S6d	SGSN and HSS	4G LTE interface (Diameter protocol)
-S7	PGW and PCRF	4G LTE interface
-S8	SGW and PGW (S5 and S8)	4G LTE interface
 SA	5g Stand-Alone (network with all 5G elements)
 SA	Service Area
 SA	Services and Systems Aspects (TSG in 3GPP)
@@ -5324,17 +5087,14 @@ SFX	Special Effects (used in entertainment industry, aka FX, SPFX, VFX or CGI)
 SG	Signaling Gateway (converts CCS messages from SS7 to SIGTRAN)
 SGCP	Signaling Gateway Control Protocol
 SGD	Stochastic Gradient Descent Classifier (AI: ML optimization algorithm)
-SGi	PGW and PDN	4G LTE interface
 SGI	Silicon Graphics Computer (US, high-performance computing manufacturer, 1981-2009)
 SGID	Saved Group ID     (POSIX GID: stores EGID when it is temporarily changed) 
 SGML	Standard Generalized Markup Language
 SGMP	Simple Gateway Monitoring Protocol (TCP/UDP, network management, RFC-1028, port 153)
 SgNB	Secondarg gNB (next generation NodeB)
-SGs	MME and MSC/VLR			4G LTE interface (SGsAP protocol)
 SGsAP	MME to MSC/VLR	4G LTE interface (TS 29.118)
 SGSN	Serving GPRS Support Node (2.5 GPRS, 3G UMTS)
 SGW	Serving Gateway (4G LTE)
-Sh	AS (SIP-AS or OSA-CSCF) and HSS		IMS interface
 sh	Bourne Shell (CLI used in UNIX-like OS, by Stephen Bourne, 1977)
 SHA-1	Secure Hash Algorithm-1    (RFC-4634, 160-bit hash function, algorithm, 1995, compromised)
 SHA-256	Secure Hash Algorithm-256  (RFC-6235, 256-bit hash function, algorithm, 2001, secure)
@@ -5348,7 +5108,6 @@ shm	Shared Memory (Linux, temporary RAM file storage)
 SHOE	Simple HTML Ontology Extensions
 SHS	Secure Hash Standard (cybersecurity: hash algorithms, FIPS 180-4)
 SI	French: "Système international",  English: "International System of Units".  aka "metric system"
-Si	IM-SSF and HSS		IMS interface
 SI	Shift In			 15 0x0F (ASCII/ISO 1745 control character)
 SI	Study Item (3GPP request for features/technical specs to be studied/developed)
 SI	System Integrator
@@ -5411,7 +5170,6 @@ SLP	Single Data Link Protocol
 SLPI	Service Logic Program Instance
 SLR	Simple Linear Regression (AI: supervised ML model)
 SLS	Service-Level Specification
-SLsAP	MME to SMLC	4G LTE interface
 SM	Security Management (NMS process)
 SM	Session Management (procedure)
 SMA	Simple Moving Average (stock market trading indicators)
@@ -5500,7 +5258,6 @@ SOX	Sarbanes-Oxley Act of 2002 (US law: prevents fraudulent accounting and finan
 SP	Service Provider, aka CSP or TSP
 SP	Signaling Points (SS7 network node)
 SP	SPace				 32 0x20 (ASCII/ISO 1745 control character)
-Sp	SPR and PCRF (DIAMETER)		interface 4G LTE
 SP-AF	Secured Packet Application Function (TS 29.544)
 SPARC	Scalable Processor Architecture (Sun Microsystems' RISC chip)
 Spark	Apache open-source parallel processing framework for big data
@@ -5694,9 +5451,6 @@ Swift	Apache OpenStack cloud storage platform, BLOB storage (large binary object
 SWIFT	Society for Worldwide Interbank Financial Telecommunication or BIC (banking)
 SWOT	Strengths, Weaknesses, Opportunities and Threats (business metric)
 SWR	Standing Wave Ratio
-Sxa	SGW-C and SGW-U		4G LTE interface
-Sxb	PGW-C and PGW-U		4G LTE interface
-Sxc	TDF-C and TDF-U		4G LTE interface
 SYCL	open, royalty-free, cross-platform C++ abstraction layer (www.khronos.org/sycl)
 SYN	SYNchronize (TCP flag, 1-bit, used for synchronizing sequence number)
 SYN	SYnchronous Idle		 22 0x16 (ASCII/ISO 1745 control character)
@@ -5919,93 +5673,6 @@ TS	Technical Specification (3GPP document type, www.3gpp.org)
 TS	Tip, Sleeve (type of connector)
 TS	Top Secret (US security clearance)
 TS	Traffic Server
-TS 08.51	Base Station Controller - Base Transceiver Station (BSC-BTS) Interface General Aspects
-TS 22.016	International Mobile station Equipment Identities (IMEI)
-TS 23.003	Numbering, addressing and identification
-TS 23.060	General Packet Radio Service (GPRS); Service description; Stage 2
-TS 23.071	Location Services (LCS); Service description; Stage 1
-TS 23.203	Policy and Charging Control Architecture
-TS 23.214	Architecture enhancements for control and user plane separation of EPC nodes
-TS 23.216	Single Radio Voice Call Continuity (SRVCC); Stage 2
-TS 23.226	Global text telephony (GTT); Stage 2
-TS 23.228	IP Multimedia Subsystem (IMS); Stage 2
-TS 23.234	3GPP system to Wireless Local Area Network (WLAN) Inter-Working; System description
-TS 23.246	Multimedia Broadcast/Multicast Service (MBMS); Architecture and functional description
-TS 23.335	User Data Convergence (UDC); Technical realization and information flows; Stage 2
-TS 23.379	Functional architecture and information flows to support Mission Critical Push to Talk (MCPTT); Stage 2
-TS 23.401	General Packet Radio Service (GPRS) enhancements for Evolved Universal Terrestrial Radio Access Network (E-UTRAN) access
-TS 23.501	System architecture for the 5G System (5GS)
-TS 23.502	Procedures for the 5G System (5GS)
-TS 24.008	Core network protocols; Stage 3
-TS 24.312	Access Network Discovery and Selection Function (ANDSF) Management Object (MO)
-TS 24.501	Non-Access-Stratum (NAS) protocol for 5G System (5GS); Stage 3
-TS 25.309	UMTS; FDD enhanced uplink; Overall description; Stage 2
-TS 25.413	UTRAN Iu interface Radio Access Network Application Part (RANAP) signaling
-TS 25.419	UTRAN Iu-BC interface: Service Area Broadcast Protocol (SABP)
-TS 25.433	UTRAN Iub interface Node B Application Part (NBAP) signaling
-TS 29.002	Mobile Application Part (MAP) specification
-TS 29.060	General Packet Radio Service (GPRS); GPRS Tunnelling Protocol (GTP) across the Gn and Gp interface
-TS 29.061	Inter-Working between the Public Land Mobile Network (PLMN) supporting packet based services and Packet Data Networks (PDN)
-TS 29.165	Inter-IMS Network to Network Interface (NNI)
-TS 29.212	Policy and Charging Control (PCC); Reference points
-TS 29.214	Policy and charging control over Rx reference point
-TS 29.232	Media Gateway Controller (MGC) - Media Gateway (MGW) interface; Stage 3
-TS 29.244	Interface between the Control Plane and the User Plane nodes (CUPS)
-TS 29.272	Evolved Packet System (EPS); Mobility Management Entity (MME) and Serving GPRS Support Node (SGSN) related interfaces based on Diameter protocol
-TS 29.274	3GPP Evolved Packet System (EPS); Evolved General Packet Radio Service (GPRS) Tunnelling Protocol for Control plane (GTPv2-C); Stage 3
-TS 29.303	Domain Name System Procedures; Stage 3
-TS 29.500	5G System; Technical Realization of Service Based Architecture; Stage 3
-TS 29.502	5G System; Session Management Services; Stage 3
-TS 29.503	5G System; Unified Data Management Services; Stage 3
-TS 29.504	5G System; Unified Data Repository Services; Stage 3
-TS 29.509	5G System; Authentication Server Services; Stage 3
-TS 29.511	5G System; Equipment Identity Register Services; Stage 3
-TS 29.513	5G System; Policy and Charging Control signaling flows and QoS parameter mapping; Stage 3
-TS 29.515	5G System; Gateway Mobile Location Services; Stage 3
-TS 29.517	5G System; Application Function Event Exposure Service; Stage 3
-TS 29.518	5G System; Access and Mobility Management Services; Stage 3
-TS 29.522	5G System; Network Exposure Function Northbound APIs; Stage 3
-TS 29.526	5G System; Network Slice-Specific Authentication and Authorization (NSSAA) services; Stage 3
-TS 29.531	5G System; Network Slice Selection Services; Stage 3
-TS 29.540	5G System; SMS Services; Stage 3
-TS 29.544	5G System; Secured Packet Application Function (SP-AF) services; Stage 3
-TS 29.555	Inter-5G Direct Discovery Name Management Function (DDNMF) signaling aspects; Stage 3
-TS 29.562	5G System; Home Subscriber Server (HSS) services; Stage 3
-TS 29.564	5G System; User Plane Function Services; Stage 3
-TS 29.572	5G System; Location Management Services; Stage 3
-TS 29.598	Unstructured data storage services
-TS 31.103	Characteristics of the IP Multimedia Services Identity Module (ISIM) application
-TS 32.240	Telecommunication management; Charging management; Charging architecture and principles
-TS 32.500	Self-Organizing Networks (SON); Concepts and requirements
-TS 32.511	Automatic Neighbor Relation (ANR) management; Concepts and Requirements
-TS 33.221	Generic Authentication Architecture (GAA); Support for subscriber certificates
-TS 33.501	Security architecture and procedures for 5G System
-TS 33.517	5G Security Assurance Specification (SCAS) for the Security Edge Protection Proxy (SEPP) network product class
-TS 36.300	Evolved Universal Terrestrial Radio Access (E-UTRA) and Evolved Universal Terrestrial Radio Access Network (E-UTRAN); Overall description; Stage 2
-TS 36.321	Evolved Universal Terrestrial Radio Access (E-UTRA); Medium Access Control (MAC) protocol specification
-TS 36.322	Radio Link Control (RLC) protocol specification
-TS 36.331	NR; Radio Resource Control (RRC); Protocol specification
-TS 36.413	S1 Application Protocol (S1AP)
-TS 36.423	Evolved Universal Terrestrial Radio Access Network (E-UTRAN); X2 Application Protocol (X2AP)
-TS 37.324	Service Data Adaptation Protocol (SDAP) specification
-TS 37.340	E-UTRA and NR; Multi-connectivity; Overall description; Stage-2
-TS 38.101	NR; User Equipment (UE) radio transmission and reception; Part 1: Range 1 Standalone
-TS 38.104	NR; Base Station (BS) radio transmission and reception
-TS 38.211	NR; Physical channels and modulation
-TS 38.300	NR; NR and NG-RAN Overall Description; Stage 2
-TS 38.306	NR; User Equipment (UE) radio access capabilities
-TS 38.321	NR; Medium Access Control (MAC) protocol specification
-TS 38.322	NR; Radio Link Control (RLC) protocol specification
-TS 38.323	NR; Packet Data Convergence Protocol (PDCP) specification
-TS 38.413	NG-RAN; NG Application Protocol (NGAP)
-TS 38.473	NG-RAN; F1 application protocol (F1AP)
-TS 38.801	Study on new radio access technology: Radio access architecture and interfaces
-TS 43.318	Generic Access Network (GAN); Stage 2
-TS 44.060	General Packet Radio Service (GPRS); Mobile Station (MS) - Base Station System (BSS) interface; Radio Link Control / Medium Access Control (RLC/MAC) protocol
-TS 44.068	Group Call Control (GCC) protocol
-TS 44.069	Broadcast Call Control (BCC) protocol
-TS 48.049	Base Station Controller - Cell Broadcast Centre (BSC-CBC) interface specification; Cell Broadcast Service Protocol (CBSP)
-TS 51.011	Specification of the Subscriber Identity Module - Mobile Equipment (SIM-ME) interface
 TS/SCI	Top Secret/Sensitive Compartmented Information (US security clearance)
 TSA	Transportation Security Administration (US agency, security of transportation systems, www.tsa.com)
 TSAG	Telecommunication Standardization Advisory Group (ITU, www.itu.int/en/ITU-T/tsag)
@@ -6127,8 +5794,6 @@ ULP	Upper-Layer Protocol
 ULPC	Upper-Layer Protocol Configuration
 ULR	Update Location Request (DIAMETER message, MME to HSS)
 ULSI	Ultra-Large-Scale Integration (integrated chip with million+ transistors, mid-1980s)
-Um	MS and BSS	2G GPRS interface
-Um	MS and BTS	2G GSM interface
 UM	Unacknowledged Mode - Radio Link Control mode (TS 38.322)
 UMB	Ultra Mobile Broadband (4G defunct technology)
 UMH	Upstream Multicast Hop
@@ -6187,7 +5852,6 @@ USP	User Services Platform (BBF TR-369)
 USPP	Universal Subscriber Profile Platform
 USSD	Unstructured Supplementary Service Data
 USSR	Union of Soviet Socialist Republics (1922-1991, now called CIS)
-Ut	UE and Application Server	IMS interface
 UT	User Terminal
 UTC	Universal Time Coordinated (Zulu Time)
 UTDOA	Uplink Time Difference of Arrival
@@ -6204,8 +5868,6 @@ UTP	Unshielded Twisted Pair (twisted-pair cable)
 uTP	uTorrent Transport Protocol (BEP-29, bittorrent.org)
 UTRAN	UMTS Radio Access Networks (TS 25.401, 3G RNC & Node B)
 UTS	Unicode Technical Standard (Unicode Consortium specification, www.unicode.org)
-Uu	UE and EUTRAN	interface 4G LTE
-Uu	UE and NodeB	3G UMTS interface (MAC, RLC, BMC, PDCP, RRC)
 UUI	User to User Information
 UUID	Universally Unique Identifier (unique 128-bit value to identify objects, data or entities, RFC-4122)
 UuS	Uu Stratum (4G LTE UE and EUTRAN interface)
@@ -6499,9 +6161,6 @@ x-Haul	fronthaul, backhaul and mid-haul combined (5G concept)
 X.25	ITU packet-switching protocol for WAN (published in 1976)
 X.509	public key certificate format (cryptography, www.itu.int/rec/T-REC-X.509)
 X11	X Window System (windowing system for bitmap displays, www.x.org)
-X2	eNodeB and eNodeB	4G LTE interface
-X2 	interface between eNodeB and eNodeB
-X2AP	X2 Application Protocol (4G LTE eNodeB-eNodeB interface, TS 36.423)
 xA26	acronym file by AsimIslam, updated 20261119
 XaaS	Anything as a Service (cloud concept)
 XAML	Extensible Application Markup Language (XML-based language developed by Microsoft)
@@ -6527,8 +6186,6 @@ xlsx	Microsoft Excel Open XML (file extension)
 xMBB	extreme Mobile Broad-Band
 XML	Extensible Markup Language (RFC-4825, designed to store, transport and structure data)
 XMPP	Extensible Messaging and Presence Protocol
-Xn	interface between gNB and gNB
-XnAP	Xn Application Protocol (5G gNB-gNB interface, TS 38.423)
 XNOR	logic operator:  derived:    Y = AB + A'B'    def XNOR(a, b): return NOT(XOR(a, b))
 XNS	Xerox Network Systems Clearinghouse (name server, port 54)
 XOFF	Transmit Off (receiver signals the sender to pause  transmission, see DC3)
@@ -6542,10 +6199,6 @@ XRES	Expected Response (32-bit authentication vector, TS 33.102)
 XSD	XML Schema Definitions
 XSS	Cross-Site Scripting (cybersecurity: type of cyber-attack)
 Y.3112	ITU-T:  Framework for support of network slicing in IMT-2020 network
-Y1	UE and untrusted non-3GPP access	5G interface
-Y2	N3IWF and untrusted non-3GPP access	5G interface
-Y4	FN-RG and W-AGF		5G interface
-Y5	5G-RG and W-AGF		5G interface
 YAFFS	Yet Another Flash File System (flash-optimized file system)
 YAGNI	"You Aren’t Gonna Need It"  (software principle to implement features only when needed)
 YAML	YAML Ain't Markup Language (human-readable language for configuration, data exchange and structured data, www.yaml.org)
@@ -6559,10 +6212,8 @@ YOLO	"you only live once" (slang: used to justify taking risks, enjoying life, s
 YOLO	You Only Look Once (AI: deep learning model)
 yotta-	Y,  10 power  24	- numeric, see also "prefix"
 YSK	"you should know" (slang: highlight information that is helpful, relevant)
-Yt	N5CW and TWAP interface
 YTA	"you're the a**hole" (slang: reply to AITA, at fault or acted unreasonably)
 YUM	Yellowdog Updater Modified (package management tool for Redhat-based Linux distributions)
-Yw	TWAP and TWIF interface
 ZB	Zettabyte	memory size, 10^21	1,180,591,620,717,411,303,424 Bytes
 ZBFW	Zone Based Firewall (groups network interfaces into logical “zones” and applies firewall policies)
 ZC	Zadoff–Chu, aka"FZC", complex-valued mathematical sequence applied to digital signal
