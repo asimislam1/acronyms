@@ -1,0 +1,349 @@
+A	MSC/VLR	and BSC		2G GSM interface
+A	MSC/VLR and GERAN	3G UMTS interface
+A10	PCF and PDSN 	CDMA interface, user data
+A11	PCF and PDSN 	CDMA interface, transport data
+A12	AN-AAA and PCF 	CDMA interface, authentication information
+A14	AN and PCF 	CDMA interface, session & mobility information
+A8	AN and PCF 	CDMA interface, user data
+A9	AN and PCF 	CDMA interface, connection information
+Ai	interface between MSC and PSTN (CDMA, MFC-R2 and ISUP standards)
+B	MSC and VLR	2G GSM interface
+C	HLR and MSC/GMSC	2G GSM interface
+Cr	AS and MRFC-(media a control)		IMS interface
+Cx	CSCF and HSS		IMS interface
+D	HLR and VLR		2G GSM interface
+D	MSC/VLR and HLR/AuC	3G UMTS interface
+Dx	I-CSCF and SLF		IMS interface
+E	MSC and MSC/GMSC	2G GSM interface
+E	MSC/VLR and GMSC	3G UMTS interface
+F	EIR and MSC/GMSC	2G GSM interface
+G	VLR and VLR	2G GSM interface
+Gb	SGSN and BSS	2G GPRS interface
+Gb	SGSN and GERAN	3G UMTS interface
+Gd	GPRS and SMS	2G GPRS interface
+Gi	GGSN and PDN	2G GPRS interface
+Gi	GPRS and external PDN	IMS interface
+Gm	UE and P-CSCF, or between IP-PBX and P-CSCF	IMS interface
+Gn	SGSN and GGSN		2G GPRS interface
+Gn	SGSN and SGSN/GGSN	3G UMTS interface
+Gp	SGSN and GGSN	2G GPRS interface
+Gp	SGSN and GGSN	3G UMTS interface
+Gr	SGSN and HLR 		2G GPRS interface, user profile
+Gr	SGSN and HLR/AuC	3G UMTS interface
+Gs	MSC/VLR and SGSN	3G UMTS interface
+Gs	SGSN and MSC		2G GPRS interface, exchange database
+Gx	PCRF and PCEF		4G LTE interface
+Gx	PGW and PCEF		4G LTE interface
+Gxb	PCRF and IP Network	4G LTE interface
+Ici	IBCF and IBCF		IMS interface
+interface 2G GPRS	Gb	SGSN and BSS
+interface 2G GPRS	Gd	GPRS and SMS
+interface 2G GPRS	Gi	GGSN and PDN
+interface 2G GPRS	Gn	SGSN and GGSN
+interface 2G GPRS	Gp	SGSN and GGSN
+interface 2G GPRS	Gr	SGSN and HLR 	user profile
+interface 2G GPRS	Gs	SGSN and MSC	exchange database
+interface 2G GPRS	Um	MS and BSS
+interface 2G GSM	A	BSC and MSC/VLR
+interface 2G GSM	B	MSC and VLR
+interface 2G GSM	C	HLR and MSC/GMSC
+interface 2G GSM	D	HLR and VLR
+interface 2G GSM	E	MSC and MSC/GMSC
+interface 2G GSM	F	EIR and MSC/GMSC
+interface 2G GSM	G	VLR and VLR
+interface 2G GSM	H	HLR and AuC
+interface 2G GSM	I	HLR and SCP
+interface 2G GSM	Um	MS and BTS
+interface 3G UMTS	A	MSC/VLR and GERAN
+interface 3G UMTS	Abis	BSC and BTS (TS 08.51)
+interface 3G UMTS	D	MSC/VLR and HLR/AuC
+interface 3G UMTS	E	MSC/VLR and GMSC
+interface 3G UMTS	Gb	SGSN and GERAN
+interface 3G UMTS	GERAN	GSM EDGE Radio Access Network (2G RAN)
+interface 3G UMTS	Gn	SGSN and SGSN/GGSN
+interface 3G UMTS	Gp	SGSN and GGSN
+interface 3G UMTS	Gr	SGSN and HLR/AuC
+interface 3G UMTS	Gs	MSC/VLR and SGSN
+interface 3G UMTS	Iu	RNC and MSC
+interface 3G UMTS	Iub	NodeB and RNC (UTRAN)
+interface 3G UMTS	IuCS	RNC and MSC/VLR, MGW
+interface 3G UMTS	IuPS	RNC and SGSN
+interface 3G UMTS	Iur	RNC and RNC (UTRAN)
+interface 3G UMTS	UTRAN	UMTS Radio Access Networks (3G RAN)
+interface 3G UMTS	Uu	UE and NodeB
+interface 4G LTE	E-UTRAN	Evolved UMTS Terrestrial-Radio Access Network (4G RAN)
+interface 4G LTE	eUu	UE and eNodeB
+interface 4G LTE	GTP-U	eNodeB and SGW
+interface 4G LTE	Gx	PCRF and PCEF
+interface 4G LTE	Gx	PGW and PCEF
+interface 4G LTE	Gxb	PCRF and IP Network
+interface 4G LTE	Gy	PGW and OCS (DIAMETER)
+interface 4G LTE	Rx	PCRF and PDN
+interface 4G LTE	S1-MME	eNodeB and MME (S1AP)
+interface 4G LTE	S1-U	eNodeB and SGW
+interface 4G LTE	S10 	MME and MME
+interface 4G LTE	S11	MME and SGW
+interface 4G LTE	S2a	PGW and PDN-GW + trusted non-3GPP network
+interface 4G LTE	S2b	PGW and PDN-GW + ePDG
+interface 4G LTE	S2c	PGW and PDN-GW + trusted/untrusted, 3GPP/non-3GPP
+interface 4G LTE	S5	SGW and PGW (S5 and S8)
+interface 4G LTE	S6a	MME and HSS
+interface 4G LTE	S7	PGW and PCRF
+interface 4G LTE	S8	SGW and PGW (S5 and S8)
+interface 4G LTE	SGi	PGW and PDN
+interface 4G LTE	Sp	SPR and PCRF (DIAMETER)
+interface 4G LTE	Sxa	SGW-C and SGW-U
+interface 4G LTE	Sxb	PGW-C and PGW-U
+interface 4G LTE	Sxc	TDF-C and TDF-U
+interface 4G LTE	Uu	UE and EUTRAN
+interface 4G LTE	X2	eNodeB and eNodeB
+interface 5G		N1	UE and AMF (NAS protocol)
+interface 5G		N10	UDM and SMF
+interface 5G		N11	AMF and SMF
+interface 5G		N12	AMF and AUSF
+interface 5G		N13	UDM and AUSF
+interface 5G		N14	AMF and AMF
+interface 5G		N15	PCF and AMF
+interface 5G		N16	SMF and SMF
+interface 5G		N17	AMF and 5G-EIR
+interface 5G		N18	NF and UDSF
+interface 5G		N2	RAN (gNB) and AMF
+interface 5G		N20	SMSF and AMF
+interface 5G		N21	SMSF and UDM
+interface 5G		N22	AMF and NSSF
+interface 5G		N23	PCF and NWDAF
+interface 5G		N24	PCF and PCF
+interface 5G		N26	AMF and MME
+interface 5G		N27	NRF and NRF
+interface 5G		N3	RAN (gNB) and UPF
+interface 5G		N31	NSSF and NSSF
+interface 5G		N32	SEPP and SEPP
+interface 5G		N33	NEF and AF
+interface 5G		N34	NSSF and NWDAF
+interface 5G		N35	UDM and UDR
+interface 5G		N36	PCF and UDR
+interface 5G		N37	NEF and UDR
+interface 5G		N4	SMF and UPF
+interface 5G		N40	SMF and CHF
+interface 5G		N5	PCF and AF
+interface 5G		N50	AMF and CBCF/PWS
+interface 5G		N6	UPF and Data Network
+interface 5G		N7	SMF and PCF
+interface 5G		N8	UDM and AMF
+interface 5G		N9	UPF and UPF
+interface 5G		Y1	UE and untrusted non-3GPP access
+interface 5G		Y2	N3IWF and untrusted non-3GPP access
+interface 5G		Y4	5G-RG and W-AGF
+interface 5G		Y5	FN-RG and W-AGF
+interface CDMA		A10	PCF and PDSN user data
+interface CDMA		A11	PCF and PDSN transport data
+interface CDMA		A12	AN-AAA and PCF authentication information
+interface CDMA		A14	AN and PCF session & mobility information
+interface CDMA		A8	AN and PCF user data
+interface CDMA		A9	AN and PCF connection information
+interface IMS		Cr	AS and MRFC-(media a control)
+interface IMS		Cx	CSCF and HSS
+interface IMS		Dx	I-CSCF and SLF
+interface IMS		Gi	GPRS and external PDN
+interface IMS		Gm	UE and P-CSCF, or between IP-PBX and P-CSCF
+interface IMS		Ici	IBCF and IBCF
+interface IMS		ISC	CSCF and AS, or between CSCF and MRB
+interface IMS		Ix	IBCF and TrGW
+interface IMS		Izi	TrGW and TrGW
+interface IMS		Le	AS and GMLC
+interface IMS		Ma	AS and I-CSCF
+interface IMS		Mb	IMS media transport to IP network services
+interface IMS		Mf	transit function and AS
+interface IMS		Mg	MGCF and CSCF
+interface IMS		Mi	CSCF and BGCF
+interface IMS		Mj	BGCF and MGCF
+interface IMS		Mk	BGCF/IMS ALG and BGCF
+interface IMS		Mm	IBCF/CSCF/BGCF/IMS ALG and IMS network
+interface IMS		Mp	MRFP and MRFC
+interface IMS		Mr	CSCF and MRFC
+interface IMS		Mr'	AS and MRFC-(session control)
+interface IMS		Ms	IBCF and AS
+interface IMS		Mw	CSCF and CSCF
+interface IMS		Mx	CSCF/BGCF and IBCF
+interface IMS		Rc	AS and MRB
+interface IMS		Sh	AS (SIP-AS or OSA-CSCF) and HSS
+interface IMS		Si	IM-SSF and HSS
+interface IMS		Ut	UE and Application Server
+Iur	RNC and RNC	3G UMTS interface (UTRAN)
+Ix	IBCF and TrGW		IMS interface
+Izi	TrGW and TrGW		IMS interface
+Le	AS and GMLC		IMS interface
+Ma	AS and I-CSCF		IMS interface
+Mb	IMS media transport to IP network services	IMS interface
+Mg	MGCF and CSCF		IMS interface
+Mi	CSCF and BGCF		IMS interface
+Mj	BGCF and MGCF		IMS interface
+Mk	BGCF/IMS ALG and BGCF	IMS interface
+Mm	IBCF/CSCF/BGCF/IMS ALG and IMS network		IMS interface
+Mp	MRFP and MRFC		IMS interface
+Mr	AS and MRFC-(session control)		IMS interface
+Mr	CSCF and MRFC		IMS interface
+Ms	IBCF and AS		IMS interface
+Mw	CSCF and CSCF		IMS interface
+Mx	CSCF/BGCF and IBCF	IMS interface
+N1	UE and AMF	5G interface  (NAS protocol)
+N10	UDM and SMF	5G interface
+N11	AMF and SMF	5G interface
+N12	AMF and AUSF	5G interface
+N13	UDM and AUSF	5G interface
+N14	AMF and AMF	5G interface
+N15	PCF and AMF	5G interface
+N16	SMF and SMF	5G interface
+N17	AMF and 5G-EIR	5G interface
+N18	NF and UDSF	5G interface
+N2	RAN (gNB) and AMF	5G interface
+N20	SMSF and AMF	5G interface
+N21	SMSF and UDM	5G interface
+N22	AMF and NSSF	5G interface
+N23	PCF and NWDAF	5G interface
+N24	PCF and PCF	5G interface
+N26	AMF and MME	5G interface
+N27	NRF and NRF	5G interface
+N3	RAN (gNB) and UPF	5G interface
+N31	NSSF and NSSF	5G interface
+N32	SEPP and SEPP	5G interface
+N33	NEF and AF	5G interface
+N34	NSSF and NWDAF	5G interface
+N35	UDM and UDR 	5G interface
+N36	PCF and UDR	5G interface
+N37	NEF and UDR 	5G interface
+N4	SMF and UPF	5G interface
+N40	SMF and CHF	5G interface
+N5	PCF and AF	5G interface
+N50	AMF and CBCF/PWS	5G interface
+N6	UPF and Data Network	5G interface
+N7	SMF and PCF	5G interface
+N8	UDM and AMF	5G interface
+N9	UPF and UPF	5G interface
+R1	MS and ASN	WiMax: air interface
+R2	MS and CSN	WiMax: authentication, authorization and IP management
+Rc	AS and MRB		IMS interface
+Rx	PCRF and PDN	4G LTE interface
+S1-MME	eNodeB and MME	4G LTE interface (S1AP), also called "S1-C"
+S1-U	eNodeB and SGW	4G LTE interface
+S10 	MME and MME	4G LTE interface
+S11	MME and SGW	4G LTE interface
+S2a	PGW and PDN-GW + trusted non-3GPP network		interface 4G LTE
+S2b	PGW and PDN-GW + ePDG					interface 4G LTE
+S2c	PGW and PDN-GW + trusted/untrusted, 3GPP/non-3GPP	interface 4G LTE
+S5	SGW and PGW (S5 and S8)	4G LTE interface
+S6a	MME and HSS	4G LTE interface (Diameter protocol)
+S6d	SGSN and HSS	4G LTE interface (Diameter protocol)
+S7	PGW and PCRF	4G LTE interface
+S8	SGW and PGW (S5 and S8)	4G LTE interface
+SGi	PGW and PDN	4G LTE interface
+SGs	MME and MSC/VLR			4G LTE interface (SGsAP protocol)
+Sh	AS (SIP-AS or OSA-CSCF) and HSS		IMS interface
+Si	IM-SSF and HSS		IMS interface
+SLsAP	MME to SMLC	4G LTE interface
+Sp	SPR and PCRF (DIAMETER)		interface 4G LTE
+Sxa	SGW-C and SGW-U		4G LTE interface
+Sxb	PGW-C and PGW-U		4G LTE interface
+Sxc	TDF-C and TDF-U		4G LTE interface
+TS 08.51	Base Station Controller - Base Transceiver Station (BSC-BTS) Interface General Aspects
+TS 22.016	International Mobile station Equipment Identities (IMEI)
+TS 23.003	Numbering, addressing and identification
+TS 23.060	General Packet Radio Service (GPRS); Service description; Stage 2
+TS 23.071	Location Services (LCS); Service description; Stage 1
+TS 23.203	Policy and Charging Control Architecture
+TS 23.214	Architecture enhancements for control and user plane separation of EPC nodes
+TS 23.216	Single Radio Voice Call Continuity (SRVCC); Stage 2
+TS 23.226	Global text telephony (GTT); Stage 2
+TS 23.228	IP Multimedia Subsystem (IMS); Stage 2
+TS 23.234	3GPP system to Wireless Local Area Network (WLAN) Inter-Working; System description
+TS 23.246	Multimedia Broadcast/Multicast Service (MBMS); Architecture and functional description
+TS 23.335	User Data Convergence (UDC); Technical realization and information flows; Stage 2
+TS 23.379	Functional architecture and information flows to support Mission Critical Push to Talk (MCPTT); Stage 2
+TS 23.401	General Packet Radio Service (GPRS) enhancements for Evolved Universal Terrestrial Radio Access Network (E-UTRAN) access
+TS 23.501	System architecture for the 5G System (5GS)
+TS 23.502	Procedures for the 5G System (5GS)
+TS 24.008	Core network protocols; Stage 3
+TS 24.312	Access Network Discovery and Selection Function (ANDSF) Management Object (MO)
+TS 24.501	Non-Access-Stratum (NAS) protocol for 5G System (5GS); Stage 3
+TS 25.309	UMTS; FDD enhanced uplink; Overall description; Stage 2
+TS 25.413	UTRAN Iu interface Radio Access Network Application Part (RANAP) signaling
+TS 25.419	UTRAN Iu-BC interface: Service Area Broadcast Protocol (SABP)
+TS 25.433	UTRAN Iub interface Node B Application Part (NBAP) signaling
+TS 29.002	Mobile Application Part (MAP) specification
+TS 29.060	General Packet Radio Service (GPRS); GPRS Tunnelling Protocol (GTP) across the Gn and Gp interface
+TS 29.061	Inter-Working between the Public Land Mobile Network (PLMN) supporting packet based services and Packet Data Networks (PDN)
+TS 29.165	Inter-IMS Network to Network Interface (NNI)
+TS 29.212	Policy and Charging Control (PCC); Reference points
+TS 29.214	Policy and charging control over Rx reference point
+TS 29.232	Media Gateway Controller (MGC) - Media Gateway (MGW) interface; Stage 3
+TS 29.244	Interface between the Control Plane and the User Plane nodes (CUPS)
+TS 29.272	Evolved Packet System (EPS); Mobility Management Entity (MME) and Serving GPRS Support Node (SGSN) related interfaces based on Diameter protocol
+TS 29.274	3GPP Evolved Packet System (EPS); Evolved General Packet Radio Service (GPRS) Tunnelling Protocol for Control plane (GTPv2-C); Stage 3
+TS 29.303	Domain Name System Procedures; Stage 3
+TS 29.500	5G System; Technical Realization of Service Based Architecture; Stage 3
+TS 29.502	5G System; Session Management Services; Stage 3
+TS 29.503	5G System; Unified Data Management Services; Stage 3
+TS 29.504	5G System; Unified Data Repository Services; Stage 3
+TS 29.509	5G System; Authentication Server Services; Stage 3
+TS 29.511	5G System; Equipment Identity Register Services; Stage 3
+TS 29.513	5G System; Policy and Charging Control signaling flows and QoS parameter mapping; Stage 3
+TS 29.515	5G System; Gateway Mobile Location Services; Stage 3
+TS 29.517	5G System; Application Function Event Exposure Service; Stage 3
+TS 29.518	5G System; Access and Mobility Management Services; Stage 3
+TS 29.522	5G System; Network Exposure Function Northbound APIs; Stage 3
+TS 29.526	5G System; Network Slice-Specific Authentication and Authorization (NSSAA) services; Stage 3
+TS 29.531	5G System; Network Slice Selection Services; Stage 3
+TS 29.540	5G System; SMS Services; Stage 3
+TS 29.544	5G System; Secured Packet Application Function (SP-AF) services; Stage 3
+TS 29.555	Inter-5G Direct Discovery Name Management Function (DDNMF) signaling aspects; Stage 3
+TS 29.562	5G System; Home Subscriber Server (HSS) services; Stage 3
+TS 29.564	5G System; User Plane Function Services; Stage 3
+TS 29.572	5G System; Location Management Services; Stage 3
+TS 29.598	Unstructured data storage services
+TS 31.103	Characteristics of the IP Multimedia Services Identity Module (ISIM) application
+TS 32.240	Telecommunication management; Charging management; Charging architecture and principles
+TS 32.500	Self-Organizing Networks (SON); Concepts and requirements
+TS 32.511	Automatic Neighbor Relation (ANR) management; Concepts and Requirements
+TS 33.221	Generic Authentication Architecture (GAA); Support for subscriber certificates
+TS 33.501	Security architecture and procedures for 5G System
+TS 33.517	5G Security Assurance Specification (SCAS) for the Security Edge Protection Proxy (SEPP) network product class
+TS 36.300	Evolved Universal Terrestrial Radio Access (E-UTRA) and Evolved Universal Terrestrial Radio Access Network (E-UTRAN); Overall description; Stage 2
+TS 36.321	Evolved Universal Terrestrial Radio Access (E-UTRA); Medium Access Control (MAC) protocol specification
+TS 36.322	Radio Link Control (RLC) protocol specification
+TS 36.331	NR; Radio Resource Control (RRC); Protocol specification
+TS 36.413	S1 Application Protocol (S1AP)
+TS 36.423	Evolved Universal Terrestrial Radio Access Network (E-UTRAN); X2 Application Protocol (X2AP)
+TS 37.324	Service Data Adaptation Protocol (SDAP) specification
+TS 37.340	E-UTRA and NR; Multi-connectivity; Overall description; Stage-2
+TS 38.101	NR; User Equipment (UE) radio transmission and reception; Part 1: Range 1 Standalone
+TS 38.104	NR; Base Station (BS) radio transmission and reception
+TS 38.211	NR; Physical channels and modulation
+TS 38.300	NR; NR and NG-RAN Overall Description; Stage 2
+TS 38.306	NR; User Equipment (UE) radio access capabilities
+TS 38.321	NR; Medium Access Control (MAC) protocol specification
+TS 38.322	NR; Radio Link Control (RLC) protocol specification
+TS 38.323	NR; Packet Data Convergence Protocol (PDCP) specification
+TS 38.413	NG-RAN; NG Application Protocol (NGAP)
+TS 38.473	NG-RAN; F1 application protocol (F1AP)
+TS 38.801	Study on new radio access technology: Radio access architecture and interfaces
+TS 43.318	Generic Access Network (GAN); Stage 2
+TS 44.060	General Packet Radio Service (GPRS); Mobile Station (MS) - Base Station System (BSS) interface; Radio Link Control / Medium Access Control (RLC/MAC) protocol
+TS 44.068	Group Call Control (GCC) protocol
+TS 44.069	Broadcast Call Control (BCC) protocol
+TS 48.049	Base Station Controller - Cell Broadcast Centre (BSC-CBC) interface specification; Cell Broadcast Service Protocol (CBSP)
+TS 51.011	Specification of the Subscriber Identity Module - Mobile Equipment (SIM-ME) interface
+Um	MS and BSS	2G GPRS interface
+Um	MS and BTS	2G GSM interface
+Ut	UE and Application Server	IMS interface
+Uu	UE and EUTRAN	interface 4G LTE
+Uu	UE and NodeB	3G UMTS interface (MAC, RLC, BMC, PDCP, RRC)
+X2	eNodeB and eNodeB	4G LTE interface
+X2AP	X2 Application Protocol (4G LTE eNodeB-eNodeB interface, TS 36.423)
+Xn	interface between gNB and gNB
+XnAP	Xn Application Protocol (5G gNB-gNB interface, TS 38.423)
+Y1	UE and untrusted non-3GPP access	5G interface
+Y2	N3IWF and untrusted non-3GPP access	5G interface
+Y4	FN-RG and W-AGF		5G interface
+Y5	5G-RG and W-AGF		5G interface
+Yt	N5CW and TWAP interface
+Yw	TWAP and TWIF interface
