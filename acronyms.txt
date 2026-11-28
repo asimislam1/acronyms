@@ -231,7 +231,7 @@ AD	Administrative Distance:  200	iBGP
 AD	Administrative Distance:  255	unusable
 AD	Latin: "Anno Domini", English: "in the year of our Lord", events after birth of Christ
 ad hoc	Latin: "to this",  English: "for this purpose", "as-needed"
-Ada	structured, statically typed, object-oriented high-level programming language
+Ada	structured, statically typed, object-oriented high-level programming language (www.adaic.org)
 ADAS	Advanced Driver Assistance Systems
 adb	Android Debug Bridge
 ADC	Analog-to-Digital
@@ -374,6 +374,7 @@ APG	Adjunct Processor Group
 APG	APT Conference Preparatory Group (ITU WRC group)
 API	Application Programming Interface
 APIDS	Application Protocol-Based Intrusion Detection System (cybersecurity)
+APK	Android Package Kit (Android file format used to distribute and install apps)
 APM	Access Policy Manager
 APN	Access Point Name (name of gateway between telecommunication and computer networks)
 APNIC	Asia-Pacific Network Information Center (RIR for Asia-Pacific, www.apnic.net)
@@ -394,6 +395,7 @@ AR-15	ArmaLite Rifle 15 (assault rifle)
 ARB	Architecture Review Board
 ARC	Advanced RAN Coordination
 ARC	Audio Return Channel (audio signals from TV to audio devices)
+ARC	Authenticated Received Chain (RFC-8617, email authentication protocol)
 ArcGIS	GIS software by ERSI
 ARCH	Autoregressive Conditional Heteroskedasticity (statistics: time-varying volatility in time series)
 ARCNET	Attached Resource Computer NETwork (LAN protocols, IEEE 802.3)
@@ -437,7 +439,8 @@ ASF	Apache Software Foundation (non-profit organization for open-source projects
 ASI	Superintelligence Artificial Intelligence (AI beyond human capability)
 ASIC	Application Specific Integrated Circuit
 ASK	Amplitude Shift Keying                     (digital signal modulation technique)
-ASM	Assembly Language (low-level programming language, symbolic machine code)
+asm	Assembly Language (file extension)
+ASM	Assembly Language (low-level programming language, symbolic machine code, 1947)
 ASME	Access Security Management Entity
 ASMG	Arab Spectrum Management Group (ITU WRC group)
 ASML	Advanced Semiconductor Materials Lithography (Dutch photo-lithography company, www.asml.com)
@@ -472,6 +475,7 @@ ATGW	Access Transfer Gateway (IMS)
 ATIM	Announcement Traffic Indication Message
 ATIS	Alliance for Telecommunications Industry Solutions, USA (standards organization, www.atis.org)
 ATK	Accessibility Toolkit (open source software library by GNOME Project)
+ATLAS	Adversarial Threat Landscape for AI Systems (cybersecurity:  MITRE knowledge base, threatatlas.ai)
 ATM	"at the moment" (slang: doing, feeling, or experiencing something right now)
 ATM	Asynchronous Transfer Mode (TDM switching, 53-byte units "cells")
 ATM	Automated Teller Machine (banking)
@@ -538,7 +542,7 @@ BAR	Buffering Action Rule (SMF rules to UPF)
 Bar	pressure in "bar"		1 bar  = 100 kPa	atmospheric pressure
 BASE	Basic Availability, Soft-state, Eventual consistency (database concept)
 bash	Bourne Again Shell (CLI used in UNIX-like OS, 1989)
-BASIC	Beginner’s All-purpose Symbolic Instruction Code (computer language)
+BASIC	Beginner’s All-purpose Symbolic Instruction Code (1964, programming language, en.wikibooks.org/wiki/BASIC_Programming)
 bat	PC batch file (file extension)
 BAU	Bus Adapter Unit (interface)
 BAU	Business Administration Unit (business term)
@@ -602,6 +606,7 @@ BICC	Bearer Independent Call Control (ITU Q.1901)
 BICN	Bearer Independent circuit-switched Core Network (TS 23.205)
 BID	Bridge Identifier
 BIG-IP	F5 Product: traffic manager, firewall, policy, DNS
+BIMI	Brand Indicators for Message Identification (logo next to authenticated emails)
 BIN	Bank Identification Number   (banking: part of PAN digits)
 BIN	Binary numbering system,      base 2: 0-1       (BIN, TER, OCT, DEC, HEX)
 BIND	Berkeley Internet Name Domain
@@ -690,10 +695,10 @@ BYOB	"bring your own bottle/booze" (slang: guests should bring their preferred b
 BYOD	Bring Your Own Device (cybersecurity)
 Byte	unit of information:  1 byte = 8 bits = 1 octet, bit = 0/1, yes/no, true/false, on/off
 C	Celsius    (temperature:  C = (F-32) x 5/9,   0C freezing water, 100C boiling water)
-C	general-purpose, machine-independent programming language
+C	general-purpose, machine-independent programming language (1972, www.c-language.org)
 c	speed of light in vacuum = 299,792,458 m/s 		(Universal constant: basis for SI meter)
-C#	C-Sharp, high-level programming language
-C++	general-purpose, object-oriented, machine-independent programming language
+C#	C-Sharp, high-level programming language (Microsoft, 2000, learn.microsoft.com/en-us/dotnet/csharp)
+C++	general-purpose, object-oriented, machine-independent programming language (1985, www.isocpp.org)
 C-DRX	Connected State Discontinuous Reception
 C-link	SS7  Cross:    interconnect mated-pair STPs
 C-RAN	Cloud (virtualized) Radio Access Network or Centralized Radio Access Network
@@ -944,6 +949,7 @@ CID	Card Identification Number (3-4 digits code on credit/debit cards, aka CCV,C
 CID	Charge Identity (data record, CDR "serial number")
 CIDPRO	Certified Identity Professional (certifications by IDPro, www.idpro.org/cidpro)
 CIDR	Classless Inter-Domain Routing (RFC-4632, also see "VLSM")
+CIEM	Cloud Infrastructure Entitlement Management (cybersecurity: manages and optimizes IAM)
 CIFS	Common Internet File System (file-sharing protocol, port 445, same as SMB)
 CIJ	Cour Internationale de Justice, French (UN judicial agency, www.icj-cij.org)
 CIM	Common Information Model (data modeling standard)
@@ -1028,6 +1034,7 @@ CNA	Cloud-Native Architecture
 CNA	CVE Numbering Authority (cybersecurity: entity that assigns CVE ID & published CVE Records, www.cve.org)
 CNAME	Canonical Name (DNS record type: creates alias from one domain to another)
 CNAP	Calling Name Presentation
+CNAPP	Cloud-Native Application Protection Platform (cybersecurity: integrates CSPM, CWPP, CIEM, KPSM, DSPM)
 CNC	Centralized Network Configuration
 CNC	Computer Numerical Control (computer-controlled tool for machining materials, CAD/CAM)
 CNCF	Cloud-Native Computing Foundation (part of Linux foundation, www.cncf.io)
@@ -1045,7 +1052,7 @@ CoAP	Constrained Application Protocol
 COAX	Coaxial Cable (for Ethernet and similar networks)
 cob	"close of business"  (business term: end of business day)
 COBIT	Control Objectives for Information and Related Technologies (ISACA IT framework)
-COBOL	Common Business Oriented Language (programming language)
+COBOL	Common Business Oriented Language programming language (1960)
 COBRA	Consolidated Omnibus Budget Reconciliation Act of 1985 (US healthcare law)
 COBS	Consistent Overhead Byte Stuffing (encoding algorithm)
 COCO	Common Objects in Context (large-scale computer vision dataset)
@@ -1056,7 +1063,7 @@ COLA	Cost of Living Adjustment (US, annual increase to certain benefits.  Based 
 COLI	Connected Line Identity
 com	.com, "dot com", commercial entity, now unrestricted (domain name suffix)
 com	command file extension, similar to ".exe".  text file with commands for OS
-COM	Component Object Model (Microsoft programming language-neutral interface)
+COM	Component Object Model (Microsoft programming language-neutral interface, 2021)
 COMAC	Converged Multi-Access and Core
 COMINT	Communications Intelligence (from intercepting communication)
 COMINT	Communications Systems (SIGINT, focused on human communications, e.g. phone, online)
@@ -1181,6 +1188,7 @@ CSP	Cloud Service Providers (e.g. Amazon Web Services, Microsoft Azure, Google C
 CSP	Communication Service Provider, aka SP, TSP
 CSP	Content Security Policy (cybersecurity: security feature in web development)
 CSPDN	Circuit-Switched Public Data Network (ITU X.81)
+CSPM	Cloud Security Posture Management (cybersecurity: monitors cloud and cloud infrastructure)
 CSR	Create Session Request
 CSRC	Centralized Signaling and Routing Control
 CSRC	Computer Security Resource Center (NIST repository, www.csrc.nist.gov)
@@ -1195,6 +1203,7 @@ CSSOM	CSS Object Model (APIs for manipulating CSS with JavaScript)
 CST	US Central Standard Time,  UTC-6 (2nd SUN in NOV to 1st SUN in MAR)
 CSU	Channel Service Unit (digital interface device, manages connection to networks)
 csv	Comma Separated Values (file extension)
+csx	C-Sharp (file extension)
 CT	Computerized Tomography (medical scan, X-Ray technology)
 CT	Cordless Telephony
 CT	Core Network and Terminals (TSG in 3GPP)
@@ -1203,6 +1212,7 @@ CTAP	Client to Authenticator Protocol (FIDO open specifications)
 CTC	Call for TeChnologies
 CTC	Cost to the Company (business term)
 CTDMA	Code Time Division Multiple Access
+CTEM	Continuous Threat Exposure Management (cybersecurity: framework for real-world attack exposure)
 CTF	Capture the Flag ((cybersecurity: competition, type of video or real-life game)
 CTF	Charging Trigger Function
 CTF	Cyber Threat Framework (cybersecurity:  US government cybersecurity framework)
@@ -1244,6 +1254,7 @@ CVV	Card Verification Value    (3-4 digits code on credit/debit cards, aka CCV,C
 CW	Continuous Wave
 CWDM	Coarse Wavelength Division Multiplexing
 CWND	Congestion Window, cwnd=cwnd+mss (TCP message parameter)
+CWPP	Cloud Workload Protection Platform (cybersecurity: protects cloud workloads at runtime)
 CWR	Congestion Window Reduced (TCP, 1-bit, notifies sender if congestion detected)
 CWSP	NIST Cybersecurity White Paper (cybersecurity: www.csrc.nist.gov/publications/cswp)
 CX	Customer Experience
@@ -1397,6 +1408,7 @@ DISM	Deployment Image Servicing and Management (Windows scan & repair tool)
 DITA	Darwin Information Typing Architecture
 DIY	"do it yourself" (slang: create, fix or build something without professional help)
 DJIA	Dow Jones Industrial Average (US stock market index)
+DKIM	DomainKeys Identified Mail (RFC-6376, email authentication protocol)
 DL	Deep Learning (AI: neural networks: ANN, CNN, RNN)
 DL	Direct Labor (directly contribute to revenue-generating activities)
 DL	Downlink or Download
@@ -1416,6 +1428,7 @@ dm	"direct message" (slang: private conversation between two users)
 DM-RS	Demodulation Reference Signal
 DMA	Direct Memory Access
 DMaaP	Data Movement as a Platform
+DMARC	Domain-based Message Authentication, Reporting and Conformance (RFC-9989, email authentication protocol)
 DMD	Digital Micro-mirror Device (chip for DLP)
 DME	Distance Measuring Equipment (aviation: ground-based navigational distance aid)
 DMG	Directional Multi-Gigabit (IEEE 802.11ad standard)
@@ -1487,6 +1500,7 @@ dpkg	Debian Package (package manager for Debian-based Linux distributions, ".deb
 DPMM	Dirichlet Process Mixture Models (AI: unsupervised ML model, clustering)
 DPO	Data Protection Officer (company position)
 DPP	Daily Peak Period (telecommunication metric)
+DPSM	Data Security Posture Management (cybersecurity: protect sensitive data stored in cloud)
 DPU	Data Processing Unit     (processor: I/O, network and storage)
 DPV	Delegated Path Validation (cybersecurity: method to offload validating certificated to trusted server, RFC-3379)
 DQDB	Distributed-Queue Dual-Bus (distributed multi-access network, IEEE 802.6)
@@ -1817,6 +1831,7 @@ ERC-1155	Multi-Token standard
 ERC-20	Token standard (ethereum.org/en/developers/docs/standards)
 ERC-721	Non-Fungible Token standard
 ERE	Extended Regular Syntax (POSIX regex used in tools like grep, sed and awk)
+Erlang	functional programming language for real-time systems (Ericsson, 1986, www.erlang.org)
 Erlang	traffic volume per hour, number of calls x duration (telecommunication metric)
 ERP	EAP Re-authentication Protocol (RFC-6696)
 ERP	Enterprise Resource Planning (business software)
@@ -2035,7 +2050,7 @@ FOMC	Federal Open Market Committee (monetary policymaking body of FED)
 FOMO	"fear of missing out" (slang: anxious feeling of missing fun, events or experiences)
 Forex	Foreign Exchange (global market where currencies are traded, aka "FX")
 format	information elements format TS 24.007 section 11.2.1.1
-FORTRAN	Formula Translation (computer language)
+FORTRAN	Formula Translation (programming language, 1957, www.fortran-lang.org)
 FOSS	Free and Open Source Software (source code: public & free, to study, modify and distribute)
 FOTA	Firmware Over the Air
 FOUO	For Official Use Only (unclassified but sensitive information) 
@@ -2394,7 +2409,6 @@ HID	Human Interface Device (ex: keyboard, mouse, joystick)
 HIDS	Host-based Intrusion Detection System (cybersecurity: security software installed on an individual device)
 HiFi	High-Fidelity (audio, high-quality of audio reproduction)
 HIG	Human Interface Guidelines (guide to designing applications for GNOME)
-high-level, general-purpose, interpreted, dynamic programming language.
 HIP	Host Identity Protocol (RFC-4423)
 HIPAA	Health Insurance Portability and Accountability Act (US medical privacy law)
 HITL	Human oversight of AI systems
@@ -2510,6 +2524,7 @@ IANA	Internet Assigned Numbers Authority (organization coordinating IP address a
 IARU	International Amateur Radio Union (www.iaru.org)
 IAS	Internet Authentication Service
 IASB	International Accounting Standards Board (develops and issues IFRS standards, , www.ifrs.org)
+IAST	Interactive Application Security Testing (cybersecurity: SAST and DAST testing, hybrid)
 IATA	International Air Transport Association (aviation standards)
 IBAN	International Bank Account Number, 34-digits (banking)
 IBCF	Interconnection Border Control Functions (IMS, TS 29.238)
@@ -2735,7 +2750,7 @@ IPV	Inactivated Poliovirus Vaccine (medical: vaccine for poliomyelitis/polio vir
 IPv4	IETF Internet Protocol version 4 ( 32-bit/ 4-byte IPaddr, DEC w/dots, RFC-791,  eg 192.168.1.1)
 IPv6	IETF Internet Protocol version 6 (128-bit/16-byte IPaddr, HEX w/dots, RFC-2473, eg 2001:db8::1)
 IPX	IP Packet eXchange (GSMA AA.80)
-ipynb	Python Jupyter Notebook file extension
+ipynb	Python Jupyter Notebook file extension (www.jupyter.org)
 IQ	Intelligence Quotient (human intelligence metric)
 IQR	Inter-Quartile Range (statistics: spread of data, including outliers)
 IR	Infra-Red radiation (wavelengths above 800 nm)
@@ -2878,7 +2893,7 @@ J1	same as T1 with slight modifications.  Used in Japan
 J2EE	Java 2 Platform, Enterprise Edition (Java specifications introduced in 1999)
 JAMA	Journal of the American Medical Association (medical journal, www.jamanetwork.com)
 jar	Java Archive (file extension)
-JAVA	OOP programming language with WORA (Oracle Corporation)
+Java	OOP programming language with WORA (Oracle Corporation, 1995, www.java.com)
 JAVAC	Java programming language Compiler
 JAX-RS	Jakarta RESTful Web Services (REST services)
 JD	English: "Doctor of Jurisprudence" or "Doctor of Law", Latin: "Juris Doctorem" (graduate degree, law)
@@ -2912,7 +2927,7 @@ JSYK	"just so you know" (slang: casual way to share information or a heads-up)
 JTACS	Japan Total Access Communications System
 JTF	Joint Task Force
 Juju	open source orchestration engine
-Julia	high-level, programming language for high-performance numerical and scientific computing
+Julia	high-level, programming language for high-performance scientific computing (2012, www.julialang.org)
 Jupyter	 open-source, web-based IDE for Python, R and Julia
 JVD	Jugular Vein Distention (medical: standard part of a physical exam, for jugular vein)
 JVET	Joint Video Exploration Team
@@ -2969,6 +2984,7 @@ KRACK	Key Reinstallation Attack (cybersecurity: attacker reinstalls encryption k
 KRI	Key Risk Indicators
 ksh	Korn Shell (CLI used in UNIX-like OS, by David Korn, 1983)
 KSI	Key Set Identifier (TS 33.102)
+KSPM	Kubernetes Security Posture Management (cybersecurity: monitoring and securing Kubernetes environments)
 KSU	Key System Unit
 KT	Knowledge Transfer (training session)
 KTS	Key Telephone System
@@ -3072,6 +3088,7 @@ LGM	Large Geospatial Model (AI: GIS based model)
 LGPL	Lesser General Public License (GNU free-software license by FSF, www.gnu.org)
 LI	Lawful Intercept (TS 33.127)
 libpcap	packet capture library for Linux, Unix and MacOS (www.tcpdump.org)
+library collection of related packages and/or modules with reusable functionality (module < package < library)
 LIDAR	Light Imaging Detection and Ranging
 LIDB	Line Information Database (billing information)
 LIDP	Laser-Induced Discharge Plasma (high-energy, ionized gas, used in EUVL)
@@ -3223,8 +3240,8 @@ Marisat	Maritime Telecommunications Satellites (1973-1981)
 MAS TRM	Multi-Asset Transaction Risk Management (financial: risk assessment for asset classes)
 MASG	Mobile Aggregation Site Gateway
 MASINT	Measurement and Signature Intelligence (from scientific observations)
-MATLAB	MATrix LABoratory (programming language developed by MathWorks)
-matplotlib	Python package for 2D plotting
+MATLAB	MATrix LABoratory programming language (MathWorks, 1985, www.mathworks.com/products/matlab.html)
+matplotlib	Python data visualization library (www.matplotlib.org)
 MAUI	.NET Multi-platform App UI (Microsoft cross-platform framework)
 Maven	Apache software project management and comprehension tool
 MB	Megabyte	memory size, 10^6	1,048,576 Bytes
@@ -3425,11 +3442,12 @@ MO	Latin: "Modus Operandi"  (common abbreviation: mode of operation)
 MO	Mobile Origination
 MO-FSM	Mobile Originated - Forward Short Message
 MO/MT	Mobile Origination/Mobile Termination
-MoA	Memorandum of Agreement (same as "MoU", formal agreement, collaboration)
+MoA	Memorandum of Agreement (agreement: terms and conditions, legally binding)
 MOB	mobility
 MOBA	Multi-player Online Battle Arena (type of video game)
 MoCA	Multimedia over Coax Alliance (standards consortium, www.mocalliance.org)
 MOCN	Multiple Operator Core Network (TS 23.251)
+module	smallest unit of reusable code, built-in functions (module < package < library)
 MoE	Mixture of Experts (AI: ML architecture that uses multiple "expert" sub-models)
 MoFRR	Multicast-only Fast Reroute (RFC-7431)
 MOHO	Mobile Originated Hand Over
@@ -3442,7 +3460,7 @@ MOS	Mean Opinion Score
 MOS	Metal-Oxide-Semiconductor (layered structure used in electronics, i.e. wafer, chip)
 MOSFET	Metal Oxide Semiconductor Field-Effect Transistor (used to switch and amplify signal)
 MOSI	Master Out, Slave In (SPI wire, carries data from master to slave)
-MoU	Memorandum of Understanding (formal agreement, collaboration)
+MoU	Memorandum of Understanding (agreement: formal agreement of collaboration)
 mov	QuickTime Movie (media file extension)
 MP	MP, MPPP, MLPPP: Multilink Point-to-Point Protocol (RFC-1990)
 mp	Planck mass   	   = 2.176434×10^8   kg (unusual “mid-range” mass)
@@ -3489,7 +3507,7 @@ MS	English: "Master of Science", Latin: "Magister Scientiarum" (graduate degree)
 MS	Mobile Station (2G GSM, 3G UMTS), mobile equipment + SIM card (TS 02.07)
 MS-DOS	MicroSoft–Disk Operating System (PC operating system)
 MSA	Mail/Message Submission Agent (MUA sends email to MSA, MSA sends emails to MTA)
-MSA	Master Service Agreement (legal contract)
+MSA	Master Service Agreement (agreement: terms and conditions in a contractual relationship)
 MSAG	Master Street Address Guide (document mapping streets and ESN)
 MSAN	Multi-service access node (MSAN)
 mSATA	mini Serial Advanced Technology Attachment (hard drive interface)
@@ -3541,7 +3559,7 @@ MT-EDT	Mobile Terminated Early Data Transmission
 MT-SMS	Mobile Terminated-Short Message Service
 MT/s	Mega-Transfers per second (one million transfers per second, used for DDR1 and DDR2, obsolete)
 MTA	Message Transfer Agent (software that transfers email between mail servers using SMTP)
-MTBF	Mean Time Between Failures (incident metric)
+MTBF	Mean Time Between Failures (incident metric: average time of operation between failures)
 MTC	Machine Type Communications (TS 22.368)
 MTCH	Multicast Traffic Channel
 MTD	Mobile Telephone system D, Denmark 1971-1987
@@ -3556,7 +3574,7 @@ MTSI	Multimedia Telephony Service for IMS
 MTSO	Mobile Telephone Switching Office
 MTTA	Mean Time to Acknowledge (incident metric)
 MTTF	Mean Time to Failure (incident metric)
-MTTR	Mean Time to Resolve or Repair/Recover/Respond (incident metric)
+MTTR	Mean Time to Resolve or Repair/Recover/Respond (incident metric: average time to restore an entity)
 MTU	Maximum Transmission Unit (TCP/IP, largest size of a network packet)
 MU	Multiple Users
 mu-MIMO	multi user Multiple Input-Multiple Output (5G technology)
@@ -3654,7 +3672,7 @@ NCR	National Cash Register (US technology company, www.ncrvoyix.com)
 NCR	Non-Conformance Report (record of anything that does not meet predefined standards)
 NCSC	National Cyber Security Center (cybersecurity: UK organization, protect digital infrastructure)
 ND	Neighbor Discovery, or Neighbor Discovery Protocol (network layer, RFC-1970, 2461, 4861)
-NDA	Non-Disclosure Agreement (legal document, confidentiality agreement)
+NDA	Non-Disclosure Agreement (agreement: legally binding contract)
 NDC	National Destination Code (ITU-T E.164)
 ndf	database's secondary data file, user-defined (file extension)
 NDIS	Network Driver Interface Specification (Windows specifications)
@@ -3900,7 +3918,7 @@ NUM	Number, numbering systems:    BIN, TER, OCT, DEC, HEX
 NUMA	Non-Uniform Memory Architecture/Access
 numeric-3	three number code
 numeronym	word, usually an abbreviation, composed partially or wholly of numerals, eg: b4, B2B, k8s, i18n
-numpy	Python package for Base N-dimensional array computing
+numpy	Python package for Base N-dimensional array computing (www.numpy.org)
 NVD	National Vulnerability Database (nvd.nist.gov)
 NVidia	"en-VID-ee-yah" (US semiconductor, GPU, AI, API, SoC, Santa Clara, California, www.NVidia.com)
 nvm	"never mind" (slang: disregard a previous message or statement)
@@ -4125,7 +4143,7 @@ OTDR	Optical Time Domain Reflectometer (device to test optical fiber)
 OTH	Optical Transport Hierarchy
 OTN	Optical Transport Network
 OTP	One-Time Password, or "OTAC" (authentication: password valid for only one transaction, RFC-2289)
-OTP	Open Telecom Platform (middleware/libraries/tools written in Erlang programming language)
+OTP	Open Telecom Platform (middleware/libraries/tools written in Erlang, www.erlang.org)
 OTT	Over the Top (audio/video/data using only IP network)
 OTX	Open Threat Exchange
 OUCH!	SANS' Institute monthly cybersecurity newsletter and podcast (www.sans.org/newsletters/ouch)
@@ -4155,6 +4173,7 @@ PAAM	Phased Antenna Array Module
 PaaS	Platform as a Service (cloud concept)
 PAC	Physical Access Control (physical security and access control)
 PAC	Political Action Committee (US, political organizations)
+package collection of related modules organized in a directory (module < package < library)
 packet	layer 3 PDU, L3 network layer
 PAD	Packet Assembly/Disassembly (ITU X.3)
 PAgP	Port Aggregation Protocol (data layer, Etherchannel, Cisco, 1990s.  see also LACP)
@@ -4165,7 +4184,7 @@ PAM	Pulse Amplitude Modulation
 PAM	RadComm Packet Analyzer
 PAN	Personal Area Network (short-range network for personal devices, covers 33 feet)
 PAN	Primary Account Number, Payment Card Number (banking: SPII data, card identifier)
-pandas	Panel Data, Python library for data analysis and manipulation
+pandas	Panel Data, Python library for data analysis and manipulation (pandas.pydata.org)
 PAP	Password Authentication Protocol (RADIUS protocol)
 PAPR	Peak to Average Power Ratio
 PAR	Preventive Action Request
@@ -4267,8 +4286,9 @@ PEG	Price/Earnings Ratio and Earnings Growth (business metric)
 PEI	Permanent Equipment Identifier (5G)
 PEMDAS	Parentheses, Exponent, Multiplication, Division, Addition, Subtraction (math, order of operations)
 PEP	Python Enhancement Proposal (peps.python.org)
+PEP 8	Python Enhancement Proposal 8 (guidelines for writing clean, readable and consistent Python code, peps.python.org/pep-0008)
 PER	Packet Error Rate
-Perl	interpreted high-level general-purpose programming language
+Perl	interpreted high-level general-purpose programming language (1987, www.perl.org)
 PES	PSTN/ISDN Emulation Subsystem (IP services to analog devices)
 PET	Poly-Ethylene Terephthalate (type of plastic)
 PET	Positron Emission Tomography (medical scan, radiation bloodstream imaging)
@@ -4305,12 +4325,12 @@ PIDS	Protocol-Based Intrusion Detection System (cybersecurity)
 PIFI	Personally Identifiable Financial Information
 Pig	Apache high level querying interface
 PII	Personally Identifiable Information (personal data: contact or location)
-PIL	Python Image Library
+PIL	Python Image Library (image processing in Python, www.pypi.org/project/pillow)
 PIM	Protocol Independent Multicast  (RFC-7761)
 PIN	Personal Identification Number (cybersecurity: numeric code used for authentication)
 ping	TCP/IP command: check connectivity, usage: "ping <name/ip addr>"
 PIOPS	EBS Provisioned IOPS (AWS high performance cloud databases service)
-pip	package manager for Python packages & modules
+pip	Python package management tool (pip.pypa.io/en/stable)
 PIPEDA	Personal Information Protection and Electronic Documents Act (Canada)
 PIR	Public Interest Registry (ISOC non-profit organization, manages .org domain, www.pir.org)
 PIREP	Pilot Report  (aviation:  report of actual weather conditions encountered during flight)
@@ -4356,6 +4376,7 @@ PNI-NPN	Public Integrated Non-Public Network
 PNP	Positive-Negative-Positive transistor layers (uses holes as carriers, turns on with negative volatage)
 PNR	Payment Notification Report (GSMA spec TD.95)
 PNT	Positioning, Navigation and Timing (GPS related)
+PO	Purchase Order (external document requesting goods or services, legally binding)
 POC	Proof Of Concept (business term)
 PoC	Push-to-talk over Cellular
 POD	Point of Delivery (business term)
@@ -4458,6 +4479,7 @@ PSD	Power Spectral Density
 PSDN	Public Switched Data Network
 PSDU	Physical Layer Service Data Unit
 PSE	Personal Service Environment
+PSF	Python Software Foundation (nonprofit devoted to Python programming language, www.python.org/psf-landing)
 PSH	PuSH (TCP flag, 1-bit, request immediate data delivery)
 PSHO	Packet Switched Handover
 psi	pressure in Pounds per Square Inch	1 psi  = 6.895 kPa	tires, hydraulics, compressed air
@@ -4468,6 +4490,7 @@ PSK	Phase Shift Keying                         (digital signal modulation techni
 PSK	Pre-Shared Key (cybersecurity: secret exchanged over secure channel for cryptography, RFC-9257)
 PSKC	Portable Symmetric Key Container (RFC-6030)
 PSL	Public Suffix List (catalog of Internet domain names, www.publicsuffix.org/list)
+PSL	Python Standard Library (built-in collection of modules and packages shipped with Python, docs.python.org/3/library)
 PSM	Propensity Score Matching (statistics: evaluation model)
 PSN	Packet Switched Network
 PSPDN	Packet-Switched Public Data Network (ITU X.323)
@@ -4518,7 +4541,8 @@ PWS	Public Warning System (TS 22.268)
 px	CSS/HTML styles:  pixel with fixed, precise font size
 PXE	Preboot eXecution Environment
 py	Python file extension
-Python	interpreted high-level general-purpose programming language
+PyPI	Python Package Index (Python software repository, www.pypi.org)
+Python	interpreted high-level general-purpose programming language (1991, www.python.org)
 PyTorch	open-source ML framework by Facebook (AI: deep learning)
 Q&A	"Question and Answer" (slang: discussion forum or setting)
 Q.850	Usage of cause and location in the DSSS1 and SS7 ISUP (ITU-T)
@@ -4551,7 +4575,7 @@ QTH	Maidenhead Locator System (geocode system for amateur radio operator)
 QUIC	Quick UDP Internet Connection (transport layer, reduces connection latency, RFC-9000)
 QWERTY	standard layout on English-language typewriters and keyboards
 QZSS	Quasi-Zenith Satellite System (Japanese GPS)
-R	high-level programming language for statistical computing and visualization
+R	high-level programming language for statistical computing and visualization (1993, www.r-project.org)
 R&D	Research and Development
 R2	R2 Score (statistics: evaluation metric, higher is better)
 r2	r^2, R-squared or coefficient of determination (statistics: evaluation metric)
@@ -4859,11 +4883,11 @@ RTT	Round-Trip Time (ping time or latency)
 RTTVAR	Round-Trip Time Variation
 RTU	Remote Telemetry Unit
 RU	Radio Unit: PHY,RF (air/antenna-RU-DU-CU-RIC-CORE), aka RRH or RRU
-Ruby	object-oriented, general-purpose programming language
+Ruby	object-oriented, general-purpose programming language (1995, www.ruby-lang.org)
 RUDP	Reliable User Datagram Protocol
 RUID	Real User ID       (POSIX UID: account that owns the process)
 RUIM	Removable User Identity Module (extends GSM SIM to CDMA)
-Rust	statically-typed, compiled programming language, for performance-critical applications 
+Rust	programming language for performance-critical applications (2012, www.rust-lang.org)
 RX	Receive (input pin, receives signal from another device)
 RXD	Receive Data         (RS-232 line)
 RZ	Return-to-Zero (encoding mechanisms)
@@ -4950,7 +4974,7 @@ SC	Subscriber Connector (fiber optic cable connector)
 SC-FDMA	Single Carrier Frequency Division Multiple Access (4G LTE-uplink)
 SCA	Software Composition Analysis (cybersecurity: automated security process to analyze software)
 SCADA	Supervisory Control and Data Acquisition (control systems for remote equipment and processes)
-Scala	general-purpose, high-level programming language
+Scala	general-purpose, high-level programming language (2004, www.scala-lang.org)
 SCAP	Security Content Automation Protocol (NIST SP 800-126)
 SCAR	Supplier Corrective Action Request
 SCAS	Security Assurance Specification (TS 33.517)
@@ -4970,9 +4994,9 @@ SCG	Secondary Cell Group (EN-DC, UP terminates at secondary node)
 SCH	Synchronization Channel (UMTS frame/channel)
 SCI	Sensitive Compartmented Information (US security clearance)
 SCID	Source Connection ID (QUIC message field)
-scikit-learn	Python package for predictive data analysis
+scikit-learn	Python package for machines learning (www.scikit-learn.org)
 SCIM	System for Cross-domain Identity Management (RFC-7644, HTTP-based protocol)
-scipy	Python package for scientific computing
+scipy	Python package for scientific computing (www.scipy.org)
 SCL	Serial Clock Line (I2C wire, provides clock signal to synchronize data transfer on SDA line)
 SCL	Successive Cancellation List
 SCLK	Serial Clock (SPI wire, generates clock pulses that synchronize data transfer)
@@ -5032,6 +5056,7 @@ SDWN	Software-Defined Wireless Network
 SDXC	Secure Digital Extended Capacity (memory card)
 SE	Spectral Efficiency (amount of data that can fit in a channel bandwidth)
 SE	Standard Error (statistics)
+seaborn	Python data visualization library built on top of Matplotlib (seaborn.pydata.org)
 SEAF	Security Anchor Functionality (TS 33.501)
 SEAL	Service Enabler Architecture Layer
 SEAL	Simple and Efficient Adaptation Layer
@@ -5153,7 +5178,7 @@ SKOS	Simple Knowledge Organization System
 SKU	Stock Keeping Unit (barcode: inventory tracking identifier)
 SL	NTN Service Link (VSAT to HAPS)
 SL	SideLink, D2D communication (TR 38.885)
-SLA	Service Level Agreement (contracts)
+SLA	Service Level Agreement (agreement: contractual arrangement)
 SLAAC	State-Less Address Auto-Configuration
 SLAM	Simultaneous Localization and Mapping (XR concept)
 SLB	Server Load Balancing
@@ -5164,7 +5189,7 @@ SLI	Service Level Indicator (SLO compliance metric)
 SLIP	Serial Line Internet Protocol (RFC-1055)
 SLM	Service Level Management (ITIL)
 SLM	Small Language Model (AI: neural network trained on text datasets, smaller then LLM, NLP model)
-SLO	Service Level Objectives (agreement within an SLA)
+SLO	Service Level Objectives (agreement: expected performance of service)
 SLP	Service Logic Program
 SLP	Single Data Link Protocol
 SLPI	Service Logic Program Instance
@@ -5253,7 +5278,7 @@ SOP	Standard Operating Procedure (business process)
 SOR	Steering of Roaming
 SORM	System for Operative Investigative Activities (Russia's surveillance system)
 SOS	Latin: "si opus sit", English: "if there is need" (Morse code distress signal)
-SOW	Statement Of Work (contract agreement)
+SOW	Statement Of Work (agreement: defines specifics tasks or prjects)
 SOX	Sarbanes-Oxley Act of 2002 (US law: prevents fraudulent accounting and financial practices)
 SP	Service Provider, aka CSP or TSP
 SP	Signaling Points (SS7 network node)
@@ -5272,7 +5297,9 @@ SPDY	"speedy", communication protocol developed by Google for HTTP
 SPE	Single-Pair Ethernet (ethernet over single twisted pair)
 SPE	Synchronous Payload Envelope
 SPF	Dijkstra's Shortest Path First algorithm (1956. finds efficient path; routing, GPS, etc.)
+SPF	Sender Policy Framework (RFC-7208, email authentication protocol)
 SPFX	Special Effects (used in entertainment industry, aka FX, SFX, VFX or CGI)
+SPHEREx	Spectro-Photometer for History of Universe, Epoch of Reionization and Ices Explorer (NASA near-infrared space telescope)
 SPI	Sensitive Personal Information
 SPI	Serial Peripheral Interface (short-distance connection protocol, wire: SCLK,MOSI,MISO,SS/CS)
 SPID	Subscriber Profile ID for RAT/Frequency Priority
@@ -5289,7 +5316,7 @@ SPR	Subscription Profile Repository
 SPS	Semi-Persistent Scheduling
 SPUCCH	Short Physical Uplink Control channel
 SPV	Special Purpose Vehicles (investing: legally distinct entity for investment)
-Spyder	Scientific Python Development Environment (IDE for Python)
+Spyder	Scientific Python Development Environment (IDE for Python, www.spyder-ide.org)
 SQL	Structured Query Language (database language)
 SQLI	Structured Query Language Injection attack (cybersecurity: type of cyber-attack)
 SQN	Sequence Number (48-bit)
@@ -5508,9 +5535,9 @@ TCaaS	Testing as a Service, or Threat/Traffic Control as a Service
 TCAP	Transaction Capabilities Application Part (ITU-T Q.771-Q.775)
 TCB	Transmission Control Block
 TCH	Traffic Channel
-Tcl	"tickle", see "Tcl/tk" (free, high-level, interpreted programming language for GUI)
+Tcl	Tool Command Language "tickle", see "Tcl/tk" (interpreted programming language, 1988, www.tcl-lang.org)
 TCL	Transaction Control Language (SQL command category)
-Tcl/tk	"tickle/tee-kay" (high-level, interpreted programming language for building GUI
+Tcl/tk	"tickle/tee-kay" (programming language for building GUI using Tcl and tk)
 TCN	Topology Change Notification
 TCO	Total Cost of Ownership = CapEx + OpEx (business metric)
 TCP	Transmission Control Protocol (transport layer, RFC-9293)
@@ -5544,7 +5571,7 @@ TDR	Threat Detection and Response
 TDRSS	Tracking and Data Relay Satellite System
 TE	Terminal Equipment
 Teams	Microsoft's web conferencing (communication and collaboration tool)
-TECO	Text Editor & Corrector (text editor and programming language)
+TECO	Text Editor & Corrector (text editor and programming language, 1962)
 TED	Technology, Entertainment, Design (conferences by Sapling Foundation, www.ted.com)
 TEI	Terminal Equipment Interface
 TEID	Tunneling Endpoint Identifier
@@ -5567,8 +5594,8 @@ TFTP	Trivial File Transfer Protocol (UDP, simple file transfer, RFC-1350, port 6
 TFW	"that feeling when" (slang: express an emotional reaction or relatable moment online)
 TGARCH	Threshold GARCH (statistics: time-varying volatility in time series)
 TGIF	"thanks God it's Friday" (slang: celebrate end of workweek, arrival of weekend)
-than	is used for comparisons (grammer)
-then	refers to time or a sequence of events (grammer)
+than	used for comparisons (English grammer)
+then	used for time or sequence of events (English grammer)
 thx	"thanks" (slang: quickly express gratitude)
 TI	Texas Instruments Incorporated (US semiconductor company, www.ti.com)
 TI	Transaction Identifier
@@ -5589,7 +5616,7 @@ TIP	Telecom Infra Project (organization for 2G/3G/4G/5G OpenRAN)
 TIP	Threat Intelligence Platform (cybersecurity: application that collects and analyzes threat intelligence)
 TIRKS	Trunks Integrated Record Keeping System (inventory and control for telephone network circuits)
 TISPAN	Telecom & Internet converged Services & Protocols for Advanced Networks (ES 282 003)
-Tk	"tee-kay", see "Tcl/tk" (free, high-level, interpreted programming language for GUI)
+Tk	"tee-kay", see "Tcl/tk" (cross-platform widget toolkit, 1991, www.tcl-lang.org)
 TKIP	Temporal Key Integrity Protocol (WPA encryption key)
 TL1	Transaction Language 1
 TL;DR	"too long;didn’t read" (slang: summarize and skip the lengthy content, also "TLDR")
@@ -5899,7 +5926,7 @@ VASP	Value Added Service Provider
 VASP	Virtual Asset Service Provider (banking: business that exchanges, transfers or issues cryptocurrencies)
 VAST	Visual, Agile, and Simple Threat (cybersecurity: threat modeling framework)
 VAX	Virtual Address eXtension
-VB	Visual Basic (object-oriented programming language by MicroSoft)
+VB	Visual Basic (object-oriented programming language by MicroSoft, 2001, learn.microsoft.com/en-us/dotnet/visual-basic)
 VBA	Visual Basic for Applications (MicroSoft Excel automation tool)
 vBNG	Virtualized Broadband Network Gateway
 VBS	Voice Broadcast Service
@@ -6116,9 +6143,11 @@ WMN	Wireless Mesh Network
 wmv	Windows Media Video (media file extension)
 WND	WiNDow (TCP flag, 16-bits, communicate size of receive window to sender)
 WNN	Wireless Network Node
+WO	Work Order (internal document outlining tasks to be completed)
 WOFDM	Wideband Orthogonal Frequency Division Multiplexing
 WOLA	Weighted Overlap and Add
-WORA	Write Once Run Anywhere (programming languages like JAVA)
+WORA	Write Once Run Anywhere   (Sun Microsystem 1995 slogan for JAVA, also "WORE")
+WORE	Write Once Run Everywhere (Sun Microsystem 1995 slogan for JAVA, also "WORA")
 WPA	Wi-Fi Protected Access, TKIP/AES (IEEE 802.11i standard, 1999)
 WPA2	Wi-Fi Protected Access, version 2, AES (IEEE 802.11i standard, 2004)
 WPA3	Wi-Fi Protected Access, version 3, AES (IEEE 802.11i standard, 2018)
